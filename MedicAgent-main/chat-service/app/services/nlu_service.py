@@ -6,6 +6,7 @@ import csv
 import os
 import re
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 from typing import TYPE_CHECKING, Any, Callable, Dict, Iterable, List, Optional, Sequence, Tuple
 
@@ -1063,10 +1064,11 @@ class NLUService:
                 normalized[norm_phrase] = service_code
         return normalized
 
-_NLU_SINGLETON: Optional[NLUService] = None
-
+@lru_cache(maxsize=1)
 def get_nlu_service() -> NLUService:
-    global _NLU_SINGLETON
-    if _NLU_SINGLETON is None:
-        _NLU_SINGLETON = NLUService()
-    return _NLU_SINGLETON
+    """P2.1 - lru_cache replaces global singleton.
+
+    Preserves directory hint cache (Codex #7) - NLUService holds caches
+    internally; one instance per process keeps them warm.
+    """
+    return NLUService()

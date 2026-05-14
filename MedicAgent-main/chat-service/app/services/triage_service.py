@@ -1,5 +1,6 @@
 from __future__ import annotations
 from dataclasses import dataclass
+from functools import lru_cache
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 from ..repositories.directory_repository import (
@@ -541,11 +542,7 @@ class TriageService:
         return result
 
 
-_TRIAGE_SINGLETON: Optional[TriageService] = None
-
-
+@lru_cache(maxsize=1)
 def get_triage_service() -> TriageService:
-    global _TRIAGE_SINGLETON
-    if _TRIAGE_SINGLETON is None:
-        _TRIAGE_SINGLETON = TriageService()
-    return _TRIAGE_SINGLETON
+    """P2.1 - lru_cache replaces global singleton."""
+    return TriageService()

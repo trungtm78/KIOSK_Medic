@@ -1,5 +1,6 @@
 import asyncio
 import json
+from functools import lru_cache
 from typing import Any, AsyncIterator, Dict, Optional, Set
 
 
@@ -47,12 +48,12 @@ class StreamService:
                 room.discard(q)
 
 
-_STREAM_SINGLETON: Optional[StreamService] = None
-
-
+@lru_cache(maxsize=1)
 def get_stream_service() -> StreamService:
-    global _STREAM_SINGLETON
-    if _STREAM_SINGLETON is None:
-        _STREAM_SINGLETON = StreamService()
-    return _STREAM_SINGLETON
+    """P2.1 - lru_cache replaces global singleton.
+
+    StreamService holds subscriber queues per-conversation - one instance
+    per process is correct (subscribers stay attached).
+    """
+    return StreamService()
 

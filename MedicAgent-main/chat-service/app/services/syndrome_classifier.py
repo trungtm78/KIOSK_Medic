@@ -4,6 +4,7 @@ import json
 import logging
 import os
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 from typing import Dict, List, Optional, Sequence
 
@@ -108,18 +109,16 @@ class SyndromeClassifier:
         return results
 
 
-_CLASSIFIER_SINGLETON: Optional[SyndromeClassifier] = None
-
-
+@lru_cache(maxsize=1)
 def get_syndrome_classifier() -> Optional[SyndromeClassifier]:
-    global _CLASSIFIER_SINGLETON
-    if _CLASSIFIER_SINGLETON is not None:
-        return _CLASSIFIER_SINGLETON
+    """P2.1 - lru_cache replaces global singleton.
+
+    Preserves negative caching (Codex #6): None on missing model file.
+    """
     try:
-        _CLASSIFIER_SINGLETON = SyndromeClassifier()
+        return SyndromeClassifier()
     except FileNotFoundError:
-        _CLASSIFIER_SINGLETON = None
-    return _CLASSIFIER_SINGLETON
+        return None
 
 
 class _HFMeanPoolingEncoder:

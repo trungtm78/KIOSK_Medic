@@ -4,6 +4,7 @@ FSM-backed Orchestrator: feeds NLU results into the Sismic-based ConversationMan
 import asyncio
 from dataclasses import dataclass
 from datetime import datetime
+from functools import lru_cache
 from pathlib import Path
 from typing import Any, Callable, Dict, List, Literal, Optional
 from uuid import uuid4
@@ -586,15 +587,11 @@ class OrchestratorService:
             )
         return {"count": len(items), "items": items}
 
-_ORCHESTRATOR_SINGLETON: Optional[OrchestratorService] = None
-
-
 def _build_default_orchestrator() -> OrchestratorService:
     return OrchestratorService()
 
 
+@lru_cache(maxsize=1)
 def get_orchestrator_service() -> OrchestratorService:
-    global _ORCHESTRATOR_SINGLETON
-    if _ORCHESTRATOR_SINGLETON is None:
-        _ORCHESTRATOR_SINGLETON = _build_default_orchestrator()
-    return _ORCHESTRATOR_SINGLETON
+    """P2.1 - lru_cache replaces global singleton."""
+    return _build_default_orchestrator()

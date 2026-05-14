@@ -4,6 +4,7 @@ import json
 import logging
 import os
 from dataclasses import dataclass
+from functools import lru_cache
 from pathlib import Path
 from typing import Dict, Optional, Sequence
 
@@ -90,18 +91,18 @@ class IntentClassifier:
         )
 
 
-_CLASSIFIER_SINGLETON: Optional[IntentClassifier] = None
-
-
+@lru_cache(maxsize=1)
 def get_intent_classifier() -> Optional[IntentClassifier]:
-    global _CLASSIFIER_SINGLETON
-    if _CLASSIFIER_SINGLETON is not None:
-        return _CLASSIFIER_SINGLETON
+    """P2.1 - lru_cache replaces global singleton.
+
+    Preserves negative caching behavior (Codex #6): if model file is missing,
+    cache None so we don't retry expensive model load on every request.
+    Tests call get_intent_classifier.cache_clear() to reset.
+    """
     try:
-        _CLASSIFIER_SINGLETON = IntentClassifier()
+        return IntentClassifier()
     except FileNotFoundError:
-        _CLASSIFIER_SINGLETON = None
-    return _CLASSIFIER_SINGLETON
+        return None
 
 
 class _HFMeanPoolingEncoder:
