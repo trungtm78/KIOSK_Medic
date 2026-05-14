@@ -1,0 +1,22 @@
+Chức năng,Mô tả,Chức năng hệ thống (functional cần implement),Cần Gateway,Cần BFF,Cần Message Brokers,Cần Admin service,Domain service
+Chào hỏi & khởi tạo hội thoại,Khởi tạo session qua touch/voice và chào người dùng,"Session init\nWake-word/Touch handler\nFSM tạo conversation\nConversation logging\nMulti-tenant session isolation",true,true,true,true,Conversation Service
+Chọn ngôn ngữ,Cho phép chọn tiếng Việt/Anh và áp dụng cho toàn bộ flow,"I18n switch\nPersist language in session\nConfigurable default language per tenant",false,true,false,true,Conversation Service
+Nhập/nói câu hỏi,Hỏi tự nhiên để bắt đầu tác vụ (ví dụ lấy số khám),"ASR text input adapter\nNLU intent/entity recognition\nSlot filling\nFallback handling",true,true,false,false,NLU Service
+Xác thực eKYC,Xác thực bằng CCCD/BHYT/Face/OTP,"OCR/Reader adapter\neKYC API integration\nRetry & timeout logic\nAudit trail per tenant\nConfigurable provider mapping",true,true,false,true,Auth/eKYC Service
+Chọn khoa/dịch vụ khám,Chọn khoa hoặc dịch vụ cần bốc số,"Catalog fetch per tenant\nValidation rules\nConfigurable department listing\nCaching",true,true,false,true,Admin Service
+Nhận số thứ tự (bốc số),Tạo ticket và hiển thị/in phiếu,"Issue ticket\nIdempotency key\nQueue persistence\nPrinting adapter\nTenant-scoped numbering policy",true,true,true,true,Queue Service
+Ước tính thời gian chờ,Hiển thị ETA dự kiến cho lượt khám,"ETA calculation engine\nHistorical stats cache\nRealtime update via message broker",true,false,true,true,Queue Service
+Chỉ đường (Wayfinding),Hiển thị/bộc lộ đường đi tới phòng khám,"POI graph lookup\nPathfinding algorithm\nTurn-by-turn navigation\nConfigurable POI data per tenant",false,true,false,true,Map Service
+Tra cứu lịch hẹn/kết quả,Hiển thị lịch hẹn/kết quả khám từ HIS,"HIS API integration\nPHI masking rules\nCaching layer\nTenant-specific endpoint config",true,true,false,true,Procedure/PHI Service
+Hỏi đáp thủ tục,Giải thích quy trình nộp viện phí/nhận thuốc...,"RAG/Knowledge base retrieval\nAnswer templating\nRule-based fallback\nConfigurable content per hospital",false,true,false,true,Procedure Service
+Thanh toán viện phí,Thanh toán QR/ví/thẻ,"Payment intent creation\nWebhook handler\nTransaction reconcile\nConfigurable payment gateways per tenant",true,true,true,true,Payment Service
+Nhận hóa đơn điện tử,Gửi/hiển thị hóa đơn sau thanh toán,"eInvoice fetch/store\nPDF render\nDelivery via SMS/Email\nConfigurable billing schema",true,true,true,true,Billing Service
+Kiểm tra trạng thái thanh toán,Tra cứu trạng thái giao dịch cũ,"Payment status polling\nWebhook upsert\nIdempotent read\nRetry queue via broker",true,true,true,false,Payment Service
+Gọi hỗ trợ nhân viên,Gọi người hỗ trợ khi cần,"Ops alert trigger\nEscalation policy\nRealtime notification\nTenant routing",false,false,true,true,Notification Service
+Tra cứu tiện ích bệnh viện,Tra vị trí nhà thuốc/căn tin/bãi xe...,"POI query per tenant\nSearch & filter\nConfigurable tags per facility",false,true,false,true,Map Service
+Hướng dẫn bằng giọng nói,Đọc to chỉ dẫn bằng TTS,"TTS adapter\nAudio queue\nFallback to text\nConfigurable voice type",false,true,false,false,NLU/TTS Adapter
+Đánh giá trải nghiệm,Đánh giá sao & bình luận nhanh,"Feedback form\nAnonymized storage\nTenant-scoped analytics config",false,true,false,true,Feedback Service
+Gửi góp ý/báo lỗi,Gửi góp ý chi tiết hoặc báo sự cố,"Issue ticketing\nAttachment upload\nTagging\nRouting to Ops dashboard",true,true,false,false,Feedback/Ops Service
+Gợi ý khoa phù hợp (AI),Đề xuất khoa dựa trên triệu chứng mô tả,"Symptom classifier\nRule/ML scoring\nExplainability stub\nConfigurable intent mapping",false,true,false,false,NLU/Recommendation
+Nhắc lịch tái khám,Hiển thị/đẩy nhắc lịch hẹn cũ,"Scheduler read\nNotification push via broker\nTenant calendar integration",false,false,true,true,Notification/Calendar Service
+Đa thiết bị (kiosk/tablet/robot),UI hoạt động trên nhiều thiết bị,"Device capability detection\nFeature flags\nLayout switch\nConfigurable per device type",false,true,false,true,Frontend/BFF

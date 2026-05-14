@@ -1,0 +1,1014 @@
+STT,	Mã hiệu,	Tên Dịch vụ,	ĐVT,	Giá Dịch vụ,	Giá BHYT 
+ 	 	KHÁM BỆNH	 	 	 
+1	DG05	Khám chức năng hô hấp	Lần	150,000	50,600
+2	DG06	Khám da liễu	Lần	150,000	50,600
+3	ND98	Khám hậu môn-trực tràng	Lần	150,000	50,600
+4	DG10	Khám mắt	Lần	150,000	50,600
+5	DG12	Khám Tiết niệu	Lần	150,000	50,600
+6	DG13	Khám nội tiết	Lần	150,000	50,600
+7	DG14	Khám phổi	Lần	150,000	50,600
+8	DG15	Khám phụ khoa	Lần	150,000	50,600
+9	DG19	Khám tai mũi họng	Lần	150,000	50,600
+10	DG20	Khám thần kinh	Lần	150,000	50,600
+11	DG21	Khám tiêu hoá - gan mật	Lần	150,000	50,600
+12	DG22	Khám tim mạch	Lần	150,000	50,600
+13	DG25	Khám viêm gan	Lần	150,000	50,600
+14	DG26	Khám xương khớp	Lần	150,000	50,600
+15	DG29	Khám lồng ngực	Lần	150,000	50,600
+16	DG46	Khám Nhi	Lần	150,000	50,600
+17	DG56	Khám sức khỏe	Lần	200,000	 
+18	DG58	Khám tư vấn tiêm ngừa	Lần	100,000	 
+19	DG61	Khám tổng quát	Lần	150,000	 
+20	DG62	Khám nội thận	Lần	150,000	50,600
+21	DG63	Khám thai	Lần	150,000	50,600
+22	DG80	Khám tổng quát (VIP)	Lần	600,000	 
+23	DGE2	Khám nội cơ xương khớp	Lần	150,000	50,600
+24	DGE4	Khám phục hồi chức năng	Lần	150,000	50,600
+ 	 	HỘI CHẨN	 	 	 
+25	DO47	Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Nội)	Lần	550,000	200,000
+26	DO35	Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Tai mũi họng)	Lần	550,000	200,000
+27	DO37	Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Phụ sản)	Lần	550,000	200,000
+28	DO40	Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Ngoại)	Lần	550,000	200,000
+29	DO42	Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Nội tiết)	Lần	550,000	200,000
+30	DN17	Hội chẩn để xác định ca bệnh khó	Lần	500,000	 
+ 	 	CT-SCAN	 	 	 
+31	ND91	Chụp CLVT hàm-mặt có tiêm thuốc cản quang (sọ + xoang) (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,950,000	663,400
+32	ND92	Chụp CLVT sọ não không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,000,000	550,100
+33	ND93	Chụp CLVT sọ não có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,240,000	663,400
+34	ND94	Chụp CT-Scan vùng cổ [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,000,000	550,100
+35	ND95	Chụp CT-Scan vùng cổ có thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,240,000	663,400
+36	ND96	Chụp CLVT hàm-mặt không tiêm thuốc cản quang (xoang) [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,000,000	550,100
+37	ND97	Chụp CLVT hàm-mặt có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,240,000	663,400
+38	ND98	Chụp CLVT tai-xương đá không tiêm thuốc [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,000,000	1,000,000
+39	ND99	Chụp CLVT tai-xương đá có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,240,000	1,240,000
+40	NDA0	Chụp cắt lớp vi tính mạch máu chi trên có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang)	Lần	2,350,000	1,732,400
+41	ND76	Chụp cắt lớp vi tính tạng khảo sát huyết động học khối u (CT perfusion) (chưa bao gồm thuốc cản quang)	Lần	2,580,000	1,732,400
+42	ND80	Chụp cắt lớp vi tính động mạch chủ ngực có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang)	Lần	2,250,000	1,732,400
+43	ND81	Chụp cắt lớp vi tính tầng trên ổ bụng có khảo sát mạch các tạng (mạc treo) (chưa bao gồm thuốc cản quang)	Lần	2,200,000	1,732,400
+44	ND83	Chụp cắt lớp vi tính động mạch phổi (chưa bao gồm thuốc cản quang)	Lần	2,100,000	1,732,400
+45	ND84	Chụp cắt lớp vi tính động mạch chủ-chậu (chưa bao gồm thuốc cản quang)	Lần	2,240,000	1,732,400
+46	ND85	Chụp cắt lớp vi tính động mạch vành, tim (chưa bao gồm thuốc cản quang)	Lần	2,450,000	1,732,400
+47	ND66	Chụp cắt lớp vi tính xương chi không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,000,000	550,100
+48	ND68	Chụp cắt lớp vi tính cột sống cổ không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,000,000	550,100
+49	ND69	Chụp cắt lớp vi tính cột sống cổ có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,240,000	663,400
+50	ND71	Chụp cắt lớp vi tính cột sống ngực có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,240,000	663,400
+51	ND72	Chụp cắt lớp vi tính cột sống thắt lưng không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy]	Lần	1,000,000	550,100
+ 	 	SIÊU ÂM	 	 	 
+52	MC72	Siêu âm Doppler tinh hoàn, mào tinh hoàn hai bên	Lần	400,000	89,300
+53	MC73	Siêu âm ổ bụng	Lần	150,000	58,600
+54	MC76	Siêu âm cơ phần mềm vùng cổ	Lần	150,000	58,600
+55	MC82	Siêu âm Doppler mạch máu ổ bụng (động mạch chủ, mạc treo tràng trên, thân tạng…)	Lần	400,000	252,300
+56	MC89	Siêu âm phần mềm	Lần	150,000	58,600
+57	MC95	Siêu âm Doppler tử cung, buồng trứng qua đường âm đạo	Lần	400,000	252,300
+58	MCA5	Siêu âm tuyến giáp	Lần	150,000	58,600
+59	MCA6	Siêu âm các tuyến nước bọt (tuyến mang tai)	Lần	150,000	58,600
+60	MCA7	Siêu âm tuyến vú hai bên	Lần	150,000	58,600
+61	MCD0	Siêu âm thai (thai, nhau thai, nước ối)	Lần	200,000	58,600
+62	MCF8	Siêu âm Doppler thai nhi (thai, nhau thai, dây rốn, động mạch tử cung) (song thai trở lên)	Lần	600,000	89,300
+ 	 	SIÊU ÂM TIM	 	 	 
+63	MD18	Siêu âm Doppler tim thai (sàng lọc)	Lần	350,000	252,300
+64	MD19	Siêu âm Doppler tim thai (song thai trở lên) (sàng lọc)	Lần	450,000	252,300
+65	MD08	Siêu âm Doppler tim	Lần	280,000	252,300
+ 	 	X-QUANG	 	 	 
+66	MAA4	Chụp X-quang bàn chân nghiêng số hóa 1 phim	Lần	100,000	73,300
+67	MAA5	Chụp X-quang bàn chân thẳng số hóa 1 phim	Lần	100,000	73,300
+68	MAA6	Chụp X-quang bàn chân thẳng-nghiêng số hóa 1 phim	Lần	130,000	73,300
+69	MAB0	Chụp X-quang bản lề chẩm-cổ (C1-C2) T-N số hóa 1 phim	Lần	100,000	73,300
+70	MAC7	Chụp X-quang Cẳng chân thẳng và nghiêng số hóa 1 phim	Lần	130,000	73,300
+71	MAD1	Chụp X-quang Cổ chân thẳng-nghiêng số hóa 1 phim	Lần	130,000	73,300
+72	MAD5	Chụp X-quang Cổ tay thẳng-nghiêng số hóa 1 phim	Lần	130,000	73,300
+73	MAD6	Chụp X-quang Cột sống cổ (cúi - ngửa) số hóa 1 phim	Lần	130,000	130,000
+74	MAE1	Chụp X-quang Cột sống ngực nghiêng số hóa 1 phim	Lần	100,000	73,300
+75	MAE4	Chụp X-quang Cột sống thắt lưng (cúi - ngửa) số hóa 1 phim	Lần	130,000	73,300
+76	MAE5	Chụp X-quang Cột sống thắt lưng T-N-Cúi số hóa 1 phim	Lần	180,000	73,300
+77	MAE9	Chụp X-quang Cột sống thắt lưng-cùng T-N-C số hóa 1 phim	Lần	230,000	73,300
+78	MAF0	Chụp X-quang Cung gò má số hóa 1 phim	Lần	100,000	73,300
+79	MAF1	Chụp X-quang Dạ dày cản quang số hóa 1 phim	Lần	280,000	124,300
+80	MAF5	Chụp X-quang đường rò cản quang số hóa 1 phim	Lần	880,000	446,800
+81	MAG0	Chụp X-quang Hố yên thẳng (Worms-Bretton) số hóa 1 phim	Lần	100,000	73,300
+82	MAG1	Chụp X-quang Hố yên thẳng-nghiêng số hóa 1 phim	Lần	130,000	73,300
+83	MAG2	Chụp X-quang Khớp cùng-chậu thẳng số hóa 1 phim	Lần	130,000	130,000
+84	MAG3	Chụp X-quang Khớp gối 1 bên (T-N -tiếp tuyến) số hóa 1 phim	Lần	220,000	73,300
+85	MAG4	Chụp X-quang Khớp gối nghiêng số hóa 1 phim	Lần	100,000	73,300
+86	MAG7	Chụp X-quang Khớp gối thẳng-nghiêng 2 bên số hóa 1 phim	Lần	270,000	73,300
+87	MAH0	Chụp X-quang Khớp háng thẳng số hóa 1 phim	Lần	100,000	73,300
+88	MAH3	Chụp X-quang Khớp khuỷu thẳng-nghiêng số hóa 1 phim	Lần	130,000	73,300
+89	MAJ3	Chụp X-quang Ngón tay thẳng số hóa 1 phim	Lần	100,000	73,300
+90	MAJ6	Chụp X-quang Ngực nghiêng số hóa 1 phim	Lần	100,000	73,300
+91	MAJ7	Chụp X-quang Ngực thẳng số hóa 1 phim	Lần	100,000	73,300
+92	MAJ9	Chụp X-quang Phổi đỉnh ưỡn (Apico) số hóa 1 phim	Lần	100,000	73,300
+93	MAL2	Chụp X-quang Thực quản-dạ dày cản quang số hóa 1 phim	Lần	380,000	124,300
+94	MAL3	Chụp X-quang Thực quản-dạ dày đối quang kép số hóa 1 phim	Lần	340,000	124,300
+95	MAQ0	Chụp X-quang khớp gối nghiêng 1 bên (tư thế đứng) số hóa 1 phim	Lần	100,000	73,300
+96	MAQ1	Chụp X-quang khớp gối thẳng 1 bên (tư thế đứng) số hóa 1 phim	Lần	100,000	73,300
+97	MAQ4	Chụp X-quang khung đại tràng có dùng thuốc cản quang tan trong nước số hóa	Lần	1,700,000	304,800
+98	MAR6	Chụp X-quang cột sống cổ nghiêng số hóa 1 phim (khảo sát tìm VA)	Lần	100,000	 
+ 	 	NỘI SOI	 	 	 
+99	MB82	Nội soi can thiệp - cắt polyp ống tiêu hóa > 1cm hoặc nhiều polyp	Lần	2,000,000	1,743,100
+100	MBB3	Nội soi thực quản - dạ dày - tá tràng có sinh thiết (ống mềm)	Lần	800,000	493,800
+101	MBB4	Nội soi trực tràng ống mềm không sinh thiết (có thuốc)	Lần	550,000	215,200
+102	MBB5	Nội soi trực tràng ống mềm không sinh thiết (không thuốc)	Lần	450,000	215,200
+103	MBH6	Nội soi đại tràng cắt polyp ≤ 1 cm gây mê (có soi chẩn đoán)	Lần	3,400,000	1,108,300
+104	MBI0	Nội soi đại tràng tiêm hoặc kẹp cầm máu gây mê (có soi chẩn đoán)	Lần	3,500,000	656,700
+105	MBI1	Nội soi đại tràng tiêm hoặc kẹp cầm máu (có soi chẩn đoán)	Lần	2,300,000	656,700
+106	MBI2	Nội soi dạ dày cắt polyp gây mê (có soi chẩn đoán)	Lần	3,500,000	1,108,300
+107	MBI4	Nội soi dạ dày tiêm hoặc kẹp cầm máu gây mê (có soi chẩn đoán)	Lần	3,500,000	798,300
+108	MBI8	Nội soi trực tràng cắt polyp (có soi chẩn đoán)	Lần	2,100,000	1,108,300
+109	MBE0	Nội soi thực quản - dạ dày - tá tràng không sinh thiết (ống mềm, gây mê)	Lần	2,300,000	276,500
+110	MBE1	Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (gây mê)	Lần	2,800,000	677,500
+111	MBF1	Nội soi đại trực tràng ống mềm gây mê (có thuốc, có sinh thiết)	Lần	3,200,000	677,500
+112	MBF2	Nội soi đại trực tràng ống mềm gây mê (không thuốc, không sinh thiết)	Lần	2,700,000	677,500
+113	MBF3	Nội soi đại trực tràng ống mềm gây mê (không thuốc, có sinh thiết)	Lần	3,100,000	677,500
+114	MBF4	Nội soi đại trực tràng toàn bộ ống mềm có sinh thiết (không thuốc)	Lần	1,100,000	468,800
+115	MBF5	Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (không thuốc)	Lần	800,000	352,100
+116	MBF7	Nội soi trực tràng ống mềm có sinh thiết (không thuốc)	Lần	700,000	323,500
+117	MBF9	Nội soi can thiệp- cắt 01 polyp ống tiêu hóa < 1cm (gây mê)	Lần	3,000,000	1,108,300
+118	MBG0	Nội soi can thiệp- cắt 01 polyp ống tiêu hóa > 1cm hoặc nhiều polyp (gây mê)	Lần	3,500,000	1,743,100
+119	MBG3	Nội soi can thiệp- gắp giun, dị vật ống tiêu hóa (gây mê)	Lần	3,200,000	1,743,100
+120	MB91	Nội soi thanh quản ống mềm lấy dị vật gây tê	Lần	2,200,000	943,600
+121	MBA1	Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết	Lần	900,000	352,100
+ 	 	SINH HÓA	 	 	 
+122	MH42	A/G	Lần	47,000	 
+123	MH45	Đo hoạt độ LDH ( Lactat dehydrogenase)	Lần	33,000	28,000
+124	MH46	Định lượng Amoniac ( NH3)	Lần	76,500	76,500
+125	MH47	Định lượng Calci ion hóa	Lần	43,000	16,800
+126	MH51	Đo hoạt độ CK-MB (Isozym MB of Creatine kinase)	Lần	48,000	39,200
+127	MH52	Định lượng IgG	Lần	65,600	65,600
+128	MH26	Định lượng Glucose sau ăn 2 giờ	Lần	25,000	22,400
+129	MH27	Streptococcus pyogenes ASO	Lần	55,000	45,500
+130	MH28	Định lượng RF (Reumatoid Factor)	Lần	54,000	39,200
+131	MH29	Định lượng IgA	Lần	65,600	65,600
+132	MH49	Định lượng IgM	Lần	65,600	65,600
+133	MH54	Định lượng Glucose (dịch)	Lần	25,000	13,400
+134	MH57	Bilirubin toàn phần (dịch)	Lần	25,000	22,400
+135	MH58	Amylase (dịch)	Lần	48,000	22,400
+136	MH60	Đo hoạt độ LDH (dịch chọc dò)	Lần	33,000	28,000
+137	MH62	Natri (dịch)	Lần	25,000	 
+138	MH63	Định lượng Glucose dịch não tủy	Lần	25,000	13,400
+139	MH64	Định lượng Protein dịch não tủy	Lần	25,000	11,200
+140	MH65	Định lượng Clo (dịch)	Lần	26,000	23,400
+141	MH67	Bilirubin liên hợp (dịch)	Lần	25,000	 
+142	MH72	Định lượng Transferin	Lần	78,000	67,300
+143	MH73	Định lượng Ure (dịch)	Lần	25,000	22,400
+144	MH74	Định lượng Creatinin (dịch)	Lần	25,000	22,400
+145	MH75	Calci (dịch)	Lần	25,000	 
+146	MH11	Định lượng Triglycerid	Lần	32,000	28,000
+147	MH13	Định lượng Bilirubin toàn phần	Lần	25,000	22,400
+148	MH17	Đo hoạt độ AST (GOT)	Lần	32,000	22,400
+149	MH21	Ion đồ (Na+, K+, Cl-, Ca)	Lần	85,000	30,200
+150	MH77	Xét nghiệm Khí máu	Lần	248,000	224,400
+151	MH78	Định lượng Cholesterol toàn phần (dịch chọc dò)	Lần	33,000	28,000
+152	MH79	Định lượng Triglycerid (dịch chọc dò)	Lần	32,000	28,000
+153	MH80	Albumin (dịch)	Lần	25,000	 
+154	MH81	Định lượng Protein (dịch)	Lần	25,000	22,400
+155	MH82	Định lượng Globulin [Máu]	Lần	44,000	22,400
+156	MH90	pH	Lần	48,000	 
+157	MHC5	Catecholamines máu (adrenaline (Epinephrine) + noradrenline (norepinephrine) + dopamine	Lần	855,000	 
+158	MHC6	Ceton (keton) (Beta-Hydroxybutyric)/ máu	Lần	57,000	 
+159	MH97	Định lượng CRP hs (C-Reactive Protein high sesitivity)	Lần	54,600	54,600
+160	MH98	Đo hoạt độ Lipase	Lần	89,000	61,700
+161	MH99	Định lượng Lactat (Acid Lactic) /máu	Lần	98,400	98,400
+162	MHA0	Lactate /dịch (Lactic acid /dịch)	Lần	60,000	 
+163	MHA8	Định lượng Beta 2 Microglobulin	Lần	129,000	78,500
+164	MHB1	Định lượng Haptoglobin	Lần	251,000	100,900
+165	MHB7	Định lượng Cystatine C	Lần	108,000	 
+166	MH96	Phản ứng CRP	Lần	55,000	22,400
+167	MH76	Kali (dịch)	Lần	25,000	 
+168	MH04	Định lượng Ure	Lần	25,000	22,400
+169	MH05	Định lượng Creatinin (máu)	Lần	25,000	22,400
+170	MH09	Định lượng HDL-C (High density lipoprotein Cholesterol)	Lần	29,000	28,000
+171	MH10	Định lượng LDL - C (Low density lipoprotein Cholesterol)	Lần	35,000	28,000
+172	MH16	Đo hoạt độ Amylase	Lần	48,000	22,400
+173	MH18	Đo hoạt độ ALT (GPT)	Lần	32,000	22,400
+174	MH19	Đo hoạt độ ALP (Alkalin Phosphatase)	Lần	40,000	22,400
+175	MH20	Đo hoạt độ GGT (Gama Glutamyl Transferase) [Máu]	Lần	32,000	20,000
+176	MH22	Natri	Lần	25,000	 
+177	MH23	Kali	Lần	25,000	 
+178	MH24	Định lượng Clo	Lần	26,000	 
+179	MH25	Định lượng Calci toàn phần	Lần	25,000	13,400
+180	MH30	Định lượng Mg [Máu]	Lần	39,000	33,600
+181	MH31	Định lượng sắt huyết thanh	Lần	39,000	33,600
+182	MHB4	Nghiệm pháp dung nạp glucose đường uống (75g glucose) 3 mẫu cho người bệnh thai nghén	Lần	300,000	166,200
+183	MHB8	Bicarbonat (HCO3-)	Lần	158,000	 
+184	MHC3	Định lượng Fructosamin trong máu	Lần	200,000	95,300
+185	MHB6	Định lượng Ethanol (cồn) (máu)	Lần	69,000	33,600
+186	MH01	Định lượng Glucose	Lần	25,000	22,400
+187	MH02	Định lượng Protein toàn phần	Lần	25,000	22,400
+188	MH03	Định lượng Albumin	Lần	25,000	22,400
+189	MH06	Định lượng Acid Uric	Lần	25,000	22,400
+190	MH08	Định lượng Cholesterol toàn phần	Lần	33,000	28,000
+191	MH15	Định lượng Bilirubin trực tiếp	Lần	25,000	22,400
+192	MH95	Điện giải đồ (Na, K, Cl)	Lần	66,000	30,200
+193	XN05	Định nhóm máu hệ ABO và Rh (D) (bằng phương pháp PHIẾN ĐÁ)	Lần	109,000	 
+ 	 	HUYẾT HỌC	 	 	 
+194	MI29	Xét nghiệm hồng cầu lưới (bằng máy đếm laser)	Lần	51,000	43,500
+195	MI35	Vi nấm nhuộm soi DNT	Lần	73,000	45,500
+196	MI42	Huyết đồ (bằng máy đếm laser)	Lần	160,000	74,600
+197	MI45	Định lượng D-Dimer	Lần	458,000	272,900
+198	MI48	Xét nghiệm hòa hợp trong phát máu (Định nhóm máu hệ ABO, Rh (D), AHG bằng phương pháp Gelcard (Crossmatch))	Lần	188,000	42,100
+199	MI49	Định nhóm máu hệ ABO thuận nghịch và Rh (D) (bằng phương pháp Gelcard)	Lần	199,000	93,300
+200	MI50	Định lượng Protein C toàn phần (Protein C Antigen)	Lần	1,538,000	248,800
+201	MI51	Định lượng Protein S toàn phần	Lần	1,549,000	248,800
+202	MI52	Định lượng Antithrombin III	Lần	562,000	148,400
+203	MI01	Tổng phân tích tế bào máu ngoại vi (bằng máy đếm laser)	Lần	85,000	49,700
+204	MI54	Định lượng Anti Xa (LMWH)	Lần	618,000	272,900
+205	MI55	Định lượng hoạt tính yếu tố V Leiden	Lần	747,000	 
+206	MI56	Điện di huyết sắc tố (định lượng)	Lần	548,000	381,000
+207	MI58	Điện di protein huyết thanh	Lần	444,000	400,300
+208	MI68	Sàng lọc kháng thể bất thường (Kỹ thuật Scange/ Gelcard trên máy tự động)	Lần	260,000	260,000
+209	MI03	Máu lắng (bằng máy tự động)	Lần	35,600	35,600
+210	MI04	Tìm ký sinh trùng sốt rét trong máu (bằng phương pháp thủ công)	Lần	100,000	39,700
+211	MI36	PT hỗn hợp (TQ hỗn hợp)	Lần	111,000	 
+212	MI37	APTT hỗn hợp (TCK hỗn hợp)	Lần	130,000	 
+ 	 	MIỄN DỊCH	 	 	 
+213	MJ57	Định lượng LH (Luteinizing Hormone)	Lần	162,000	84,100
+214	MJ63	Định lượng CA 19 - 9 (Carbohydrate Antigen 19-9)	Lần	184,000	144,200
+215	MJ64	HBc IgM miễn dịch tự động	Lần	166,000	123,400
+216	MJ65	HAV IgM miễn dịch tự động	Lần	184,000	116,400
+217	MJ66	HAV total miễn dịch tự động	Lần	161,000	110,800
+218	MJ82	Rubella virus IgG miễn dịch tự động	Lần	123,000	123,000
+219	MJA3	Định lượng CA 72 - 4 (Cancer Antigen 72- 4)	Lần	291,000	139,200
+220	MJA6	Định lượng Anti - TPO (Anti- thyroid Peroxidase antibodies)	Lần	275,000	212,300
+221	MJB0	CMV IgG miễn dịch tự động	Lần	244,000	123,400
+222	MJB1	CMV IgM miễn dịch tự động	Lần	281,000	142,500
+223	MJB2	EBV IgG miễn dịch tự động	Lần	227,000	201,800
+224	MJB3	EBV IgM miễn dịch tự động	Lần	227,000	208,800
+225	MJB7	Định lượng NSE (Neuron Specific Enolase)	Lần	297,000	200,300
+226	MJG7	Định lượng AMH (Anti- Mullerian Hormone)	Lần	799,000	 
+227	MJ51	Định lượng CA 15 - 3 (Cancer Antigen 15- 3)	Lần	206,000	156,200
+228	MJ52	Định lượng CA 125 (cancer antigen 125)	Lần	219,000	144,200
+229	MJ53	Định lượng bhCG (Beta human Chorionic Gonadotropins)	Lần	177,000	89,700
+230	MJ58	Định lượng Estradiol	Lần	126,000	 
+231	MJ59	Định lượng Progesteron	Lần	146,000	84,100
+232	MJE0	Định lượng Tg (Thyroglobulin)	Lần	269,000	183,300
+233	MJE1	Định lượng kháng thể kháng nhân (ANA) bằng máy tự động	Lần	296,000	296,000
+234	MJE8	Double test (PAPPA, Free Beta hCG (FBC))	Lần	533,000	 
+235	MJ02	HBsAg miễn dịch tự động	Lần	108,000	81,700
+236	MJ03	HBsAb định lượng	Lần	145,000	126,400
+237	MJ04	HBeAg miễn dịch tự động	Lần	144,000	104,400
+238	MJ05	HBeAb miễn dịch tự động	Lần	109,000	104,400
+239	MJ06	HBc total miễn dịch tự động	Lần	157,000	78,300
+240	MJ07	HCV Ab miễn dịch tự động	Lần	161,000	130,500
+241	MJ31	HIV Ab miễn dịch tự động	Lần	127,000	116,400
+242	MJ40	Định lượng HbA1c	Lần	188,000	105,300
+243	MJ47	Định lượng FT3 (Free Triiodothyronine)	Lần	105,000	67,300
+244	MJ55	Định lượng Testosteron	Lần	126,000	97,500
+245	MJJ7	Định lượng kháng thể kháng Cardiolipin IgM	Lần	200,000	200,000
+246	MZ09	Test hơi thở C13 phát hiện VK H.pylori	Lần	828,000	 
+ 	 	NƯỚC TIỂU	 	 	 
+247	MK15	Xét nghiệm tỷ trọng nước tiểu	Lần	17,000	 
+248	MK30	Hình dạng HC trong nước tiểu	Lần	40,000	 
+249	MK34	Cạo tìm nấm [Vi nấm soi tươi]	Lần	60,000	45,500
+250	MK74	Định lượng Catecholamin (niệu)	Lần	805,000	436,800
+251	MK36	Định lượng Protein (niệu 24h)	Lần	25,000	14,400
+252	MK45	Định lượng Creatinin /niệu 24h	Lần	25,000	16,800
+253	MK46	Ion đồ (Na+, K+, CL-, Ca) /niệu	Lần	86,000	30,200
+254	MK47	Kali /niệu	Lần	25,000	 
+255	MK48	Kali /niệu 24h	Lần	25,000	 
+256	MK51	Natri /niệu	Lần	25,000	 
+257	MK52	Natri /niệu 24h	Lần	25,000	 
+258	MK53	Điện giải niệu (Na, K, Cl) niệu	Lần	66,000	30,200
+259	MK54	Độ thanh thải Creatinine	Lần	59,000	 
+260	MK56	Định lượng Ure /niệu	Lần	24,000	16,800
+261	MK57	Định lượng Ure /niệu 24h	Lần	24,000	16,800
+262	MK01	Tổng phân tích nước tiểu (Bằng máy tự động)	Lần	38,000	28,600
+ 	 	VI SINH	 	 	 
+263	NZN1	Vi khuẩn nuôi cấy và định danh hệ thống tự động (dịch khớp)	Lần	530,000	325,200
+264	NZP2	Mycobacterium tuberculosis định danh và kháng RMP Xpert	Lần	250,000	250,000
+265	NZp3	Vi nấm soi tươi	Lần	100,000	45,500
+266	NZL0	Vi khuẩn kháng thuốc định tính	Lần	270,000	213,800
+267	NZG7	Vi khuẩn nhuộm soi (đàm)	Lần	100,000	74,200
+268	NZG8	Vi khuẩn nhuộm soi (mủ)	Lần	100,000	74,200
+269	NZH6	Vi khuẩn nhuộm soi (tinh dịch)	Lần	100,000	74,200
+270	NZE6	Vi khuẩn nuôi cấy và định danh phương pháp thông thường	Lần	300,000	261,000
+ 	 	KÝ SINH TRÙNG	 	 	 
+271	TR21	Toxocara (Giun đũa chó, mèo) Ab miễn dịch tự động [IgG]	Lần	306,000	306,000
+272	TR22	Cysticercus cellulosae (Sán lợn) Ab miễn dịch tự động [IgG]	Lần	306,000	306,000
+273	TR25	Fasciola (Sán lá gan lớn) Ab miễn dịch tự động [IgG]	Lần	200,000	194,700
+274	TR26	Strongyloides stercoralis (Giun lươn) Ab miễn dịch tự động [IgG]	Lần	306,000	306,000
+ 	 	SINH HỌC PHÂN TỬ	 	 	 
+275	MQ15	HBV genotype Real-time PCR	Lần	1,578,000	1,578,000
+276	MQ16	Mycobacterium tuberculosis Real-time PCR /đàm	Lần	509,000	391,500
+277	MQ25	HCV genotype Real-time PCR	Lần	1,578,000	1,578,000
+278	MQ31	HBV đo tải lượng Real-time PCR	Lần	900,000	701,700
+279	MQ35	HBV đo tải lượng hệ thống tự động	Lần	1,826,000	1,351,700
+280	MQ38	Chlamydia Real-time PCR hệ thống tự động	Lần	1,557,000	771,700
+281	MQ52	HSV Real-time PCR	Lần	748,000	748,000
+282	MQ53	Định lượng HCV genotype giải trình tự gene	Lần	2,638,000	2,638,000
+283	MQ40	Xét nghiệm đột biến gen EGFR [mẫu mô] (T790M)	Lần	6,049,000	5,651,100
+284	MQ48	Helicobacter pylori PCR	Lần	748,000	748,000
+285	MQ51	Xét nghiệm đột biến gen EGFR (máu) (T790M)	Lần	6,690,000	5,651,100
+286	MQ65	Toxoplasma gondii Real-TM	Lần	592,000	 
+ 	 	XÉT NGHIỆM	 	 	 
+287	TN17	Định nhóm máu tại giường (máu toàn phần, khối hồng cầu, khối bạch cầu)	Lần	60,000	24,800
+288	TN11	Xét nghiệm đường máu mao mạch tại giường	Lần	40,000	16,000
+289	TN18	Bilirubin định tính (Xét nghiệm nồng độ bilirubin qua da)	Lần	135,000	6,600
+ 	 	KHÁC	 	 	 
+290	MZ01	Soi trực tiếp tìm HC, BC, KST trong phân	Lần	78,000	41,700
+291	MZ02	Hồng cầu trong phân test nhanh	Lần	72,000	71,600
+292	MZ03	Tinh trùng đồ (dịch)	Lần	64,000	 
+293	MZ04	Soi + Nhuộm (dịch) (huyết trắng)	Lần	78,000	74,200
+ 	 	GIẢI PHẪU BỆNH	 	 	 
+294	TPO5	Nhuộm hóa mô miễn dịch cho mỗi một dấu ấn (kháng thể SYNAPTOPHYSIN)	Lần	693,000	510,400
+295	TPP1	Nhuộm hóa mô miễn dịch cho một dấu ấn (kháng thể PD-L1 (SP263))	Lần	1,984,000	510,400
+296	TPP3	Nhuộm miễn dịch huỳnh quang trực tiếp phát hiện kháng nguyên (kháng thể: fibrinogen)	Lần	463,000	463,000
+297	TPQ6	Nhuộm Giemsa trên mảnh cắt mô phát hiện HP	Lần	506,000	334,400
+298	TPQ7	Nhuộm Gomori cho sợi võng (Nhuộm Reticulin)	Lần	524,000	434,200
+299	TPZ3	Nhuộm PAS kết hợp xanh Alcian	Lần	479,000	479,000
+300	TPZ4	Nhuộm aldehyde fuchsin cho sợi chun	Lần	431,000	431,000
+301	TPZ5	Nhuộm Grocott (Nhuộm GMS)	Lần	339,000	 
+302	TP0A	Xét nghiệm sinh thiết tức thì bằng cắt lạnh	Lần	1,244,000	633,700
+303	TP0B	Nhuộm phiến đồ tế bào theo Papanicolaou (Thực hiện trên mẫu phết FNA)	Lần	374,000	374,000
+304	TP0O	Nhuộm hóa mô miễn dịch cho mỗi một dấu ấn (kháng thể MSH2)	Lần	731,000	510,400
+305	TPZ6	Nhuộm xanh alcian	Lần	464,000	464,000
+306	TPZ7	Xét nghiệm mô bệnh học thường quy cố định, chuyển, đúc, cắt, nhuộm…các bệnh phẩm sinh thiết	Lần	500,000	388,800
+ 	 	TAI MŨI HỌNG	 	 	 
+307	TZ01	Nội soi tai mũi họng	Lần	270,000	116,100
+308	TZ02	Nội soi tai	Lần	100,000	40,000
+309	TZ03	Nội soi mũi xoang	Lần	100,000	40,000
+310	TZ04	Nội soi họng	Lần	100,000	40,000
+311	TZ05	Đo thính lực đơn âm	Lần	200,000	49,500
+312	TZ06	Đo phản xạ cơ bàn đạp	Lần	100,000	34,500
+313	TZ07	Đo nhĩ lượng	Lần	100,000	34,500
+ 	 	THĂM DÒ CHỨC NĂNG	 	 	 
+314	MF20	Điện tim thường (ECG)	Lần	50,000	39,900
+315	MF22	Đo áp lực hậu môn trực tràng	Lần	220,000	220,000
+316	MF23	Đo chức năng hô hấp có thuốc	Lần	300,000	144,300
+317	MF24	Đo chức năng hô hấp không thuốc	Lần	200,000	144,300
+318	MF26	Đo Điện cơ (EMG)	Lần	680,000	135,300
+319	MF28	Đo Điện não (EEG)	Lần	400,000	75,200
+320	MF58	Holter huyết áp	Lần	500,000	215,800
+321	MF73	Theo dõi nhịp tim thai và cơn co tử cung bằng monitor sản khoa	Lần	300,000	55,000
+322	MF74	Monitor theo dõi tim thai 1 lần (60 phút)	Lần	100,000	 
+ 	 	VẬT LÝ TRỊ LIỆU	 	 	 
+323	NWA9	Vật lý trị liệu hô hấp (người lớn)	Lần	140,000	 
+324	NWB0	Vật lý trị liệu hô hấp (trẻ nhỏ)	Lần	140,000	 
+325	NWB3	Tập các vận động thô của bàn tay	Lần	100,000	 
+326	NWB4	Tập các vận động khéo léo của bàn tay	Lần	100,000	 
+327	NWB8	Tập các chức năng sinh hoạt hằng ngày (ADL)	Lần	150,000	 
+328	NWB9	Tập tri giác và nhận thức	Lần	100,000	 
+329	NWC5	Tập giao tiếp (ngôn ngữ ký hiệu, hình ảnh…)	Lần	150,000	 
+330	NWI8	Tập điều hợp vận động	Lần	80,000	 
+331	NWN2	Tập vận động cột sống	Lần	70,000	 
+332	NW04	Điều trị bằng máy kéo giãn cột sống	Lần	90,000	0
+333	NW05	Chườm lạnh	Lần	50,000	 
+334	NW06	Chườm nóng	Lần	45,000	 
+335	NW10	Điều trị bằng sóng ngắn	Lần	75,000	0
+336	NW31	Tập kéo dãn	Lần	70,000	 
+337	NW33	Kỹ thuật tập trên banh điều trị	Lần	70,000	 
+338	NWA8	Tập do cứng khớp	Lần	115,000	0
+339	NWS9	Tập đi với khung tập đi [tập đi đứng cho người bệnh thở máy]	Lần	600,000	0
+340	NWU1	Điều trị bằng siêu âm [2 vị trí]	Lần	120,000	0
+341	NWU6	Điều trị bằng các dòng điện xung	Lần	100,000	0
+ 	 	TRUYỀN MÁU	 	 	 
+342	TM87	Chi phí vận chuyển/ 01 túi máu (Chế phẩm máu) [BV Truyền máu – Huyết học] [mua máu]	Lần	17,000	0
+343	TM75	Chi phí vận chuyển/ 01 túi máu (Chế phẩm máu) (BV Truyền máu - Huyết học)	Lần	17,000	0
+344	TM72	Chi phí rửa (chưa bao gồm khối hồng cầu)	Lần	565,000	 
+ 	 	CHÍCH NGỪA	 	 	 
+345	TI72	Tiêm trong da [không bao gồm vắc xin]	Lần	65,000	 
+346	TI73	Tiêm dưới da [không bao gồm vắc xin]	Lần	65,000	 
+347	TI74	Tiêm bắp thịt [không bao gồm vắc xin]	Lần	65,000	 
+ 	 	HẬU MÔN -TRỰC TRÀNG	 	 	 
+348	F056	Nong hậu môn không gây mê	Lần	3,200,000	 
+349	F065	Phẫu thuật lấy toàn bộ trĩ vòng [gây tê]	Lần	7,600,000	2,276,400
+350	F069	Phẫu thuật cắt trĩ kinh điển có sử dụng dụng cụ hỗ trợ [gây tê]	Lần	5,500,000	2,276,400
+351	F074	Phẫu thuật áp xe hậu môn, có mở lỗ rò [gây tê]	Lần	6,400,000	2,276,400
+352	F075	Phẫu thuật Longo	Lần	5,600,000	2,507,900
+353	F076	Phẫu thuật điều trị rò hậu môn phức tạp [gây tê]	Lần	7,700,000	2,276,400
+354	F078	Phẫu thuật điều trị sa trực tràng đường bụng [không cắt ruột - gây tê]	Lần	7,900,000	 
+355	F080	Phẫu thuật khâu treo trĩ theo phương pháp Longo cải biên	Lần	5,600,000	2,507,900
+356	F084	Phẫu thuật điều trị táo bón do rối loạn co thắt cơ mu – trực tràng (Anismus)	Lần	7,600,000	 
+357	F103	Kỹ thuật can thiệp rối loạn đại tiện bằng phản hồi sinh học (Biofeedback)	Lần	400,000	352,800
+358	F123	Điện giao thoa	Lần	270,000	 
+359	F124	Phẫu thuật Cắt trĩ từ 2 búi trở lên [gây tê]	Lần	4,900,000	2,276,400
+360	F133	Phẫu thuật trĩ độ III (Gây mê)	Lần	6,700,000	2,816,900
+361	F135	Phẫu thuật cắt trĩ kinh điển có sử dụng dụng cụ hỗ trợ (Gây mê)	Lần	6,600,000	2,816,900
+362	F138	Phẫu thuật Longo (Gây mê)	Lần	6,700,000	2,507,900
+363	F148	Phẫu thuật điều trị rò hậu môn đơn giản (Gây mê)	Lần	6,600,000	2,816,900
+364	F149	Phẫu thuật tái tạo cơ vùng hậu môn kiểu overlap trong điều trị đứt cơ vùng hậu môn) (Gây mê)	Lần	8,900,000	3,116,800
+365	F159	Phẫu thuật Cắt trĩ từ 2 búi trở lên (Gây mê)	Lần	6,000,000	2,816,900
+366	F165	Nong hậu môn (gây tê)	Lần	2,000,000	 
+ 	 	LỒNG NGỰC MẠCH MÁU	 	 	 
+367	I121	Chọc hút khí màng phổi	Lần	3,000,000	162,900
+368	I122	Bơm rửa khoang màng phổi	Lần	4,300,000	248,500
+369	I123	Điều trị suy tĩnh mạch bằng Laser nội mạch	Lần	7,200,000	2,157,100
+370	I135	Cắt bỏ giãn tĩnh mạch chi dưới (hai bên)	Lần	10,900,000	3,433,300
+371	I156	Cắt phổi và màng phổi	Lần	13,100,000	9,583,300
+372	I209	Phẫu thuật điều trị máu đông màng phổi	Lần	12,900,000	7,392,200
+373	I255	Phẫu thuật nội soi xử trí tràn máu, tràn khí màng phổi	Lần	10,900,000	5,859,300
+374	I256	Phẫu thuật nội soi cắt một thùy phổi kèm nạo vét hạch	Lần	14,700,000	9,272,200
+375	I258	Chọc hút khí màng phổi (tiểu phẫu)	Lần	350,000	162,900
+376	I260	Phẫu thuật tạo thông động – tĩnh mạch để chạy thận nhân tạo	Lần	10,400,000	1,176,100
+377	I275	Dẫn lưu áp xe phổi (Gây mê)	Lần	10,000,000	628,500
+378	I283	Phẫu thuật cắt u máu nhỏ [đường kính < 10 cm] [gây tê]	Lần	7,300,000	2,436,100
+379	I304	Phẫu thuật nội soi cắt - đốt hạch giao cảm ngực [1 bên]	Lần	14,300,000	 
+380	I305	Phẫu thuật nội soi cắt - đốt hạch giao cảm ngực [2 bên]	Lần	14,400,000	 
+ 	 	MẮT	 	 	 
+381	M126	Lấy dị vật giác mạc sâu	Lần	600,000	359,500
+382	M127	Lấy dị vật giác mạc	Lần	260,000	99,400
+383	M128	Lấy dị vật kết mạc	Lần	130,000	71,500
+384	M131	Lấy calci kết mạc	Lần	280,000	40,900
+385	M217	Đo thị lực	Lần	80,000	 
+ 	 	NGOẠI THẦN KINH	 	 	 
+386	K096	Phẫu thuật nội soi giải phóng ống cổ tay	Lần	15,300,000	2,434,500
+387	K132	Phẫu thuật điều trị hội chứng ống cổ tay	Lần	12,200,000	2,698,800
+388	K141	Phẫu thuật giảm áp dây thần kinh VII	Lần	19,300,000	7,551,300
+389	K145	Phẫu thuật giải phóng chèn ép TK ngoại biên	Lần	12,400,000	2,698,800
+390	K148	Phẫu thuật gỡ dính thần kinh	Lần	13,700,000	3,011,900
+391	K182	Phẫu thuật giải ép thần kinh (ống cổ tay, Khuỷu…)	Lần	14,900,000	2,698,800
+392	K210	Phẫu thuật điều trị hội chứng ống cổ tay (tiểu phẫu)	Lần	3,500,000	2,698,800
+393	K211	Phẫu thuật nội soi giải phóng ống cổ tay (Gây mê)	Lần	16,900,000	2,434,500
+394	K214	Phẫu thuật giải phóng chèn ép TK ngoại biên [điều trị hội chứng chền ép thần kinh trụ-Gây mê]	Lần	10,500,000	2,698,800
+395	K215	Phẫu thuật giải phóng chèn ép TK ngoại biên (Gây mê)	Lần	13,300,000	2,698,800
+396	K216	Phẫu thuật gỡ dính thần kinh [gây tê]	Lần	12,500,000	2,390,200
+397	K217	Phẫu thuật nối thần kinh ngoại biên và ghép TK ngoại biên (Gây mê)	Lần	20,100,000	2,698,800
+398	K218	Phẫu thuật giải ép thần kinh (ống cổ tay, Khuỷu…) (Gây mê)	Lần	16,100,000	2,698,800
+ 	 	NIỆU THẬN	 	 	 
+399	H183	Lấy sỏi niệu quản qua nội soi (qua ngã niệu đạo)	Lần	11,300,000	1,010,000
+400	H189	Nội soi bàng quang, bơm rửa lấy máu cục tránh phẫu thuật	Lần	6,700,000	953,800
+401	H190	Nội soi niệu quản chẩn đoán	Lần	6,800,000	975,300
+402	H192	Nong niệu đạo (tiểu phẫu)	Lần	630,000	273,500
+403	H204	Nội soi cắt u niệu đạo, van niệu đạo	Lần	8,400,000	1,596,600
+404	H208	Cắt hẹp bao quy đầu (phòng mổ)	Lần	5,900,000	269,500
+405	H221	Cắt thận đơn thuần	Lần	14,000,000	4,703,100
+406	H234	Chích áp xe tầng sinh môn	Lần	3,700,000	873,000
+407	H242	Dẫn lưu viêm tấy quanh thận, áp xe thận	Lần	11,700,000	1,920,900
+408	H288	Nội soi nong niệu quản hẹp	Lần	12,200,000	950,500
+409	H305	Nội soi mở rộng niệu quản, nong rộng niệu quản	Lần	9,500,000	1,920,900
+410	H308	Sinh thiết tinh hoàn, mào tinh	Lần	5,200,000	 
+411	H311	Nội soi bàng quang sinh thiết	Lần	6,800,000	720,300
+412	H313	Nội soi bàng quang không sinh thiết (phòng mổ)	Lần	6,800,000	575,300
+413	H314	Tán sỏi ngoài cơ thể	Lần	10,600,000	2,454,000
+414	H326	Lấy sỏi niệu quản đơn thuần	Lần	9,100,000	4,569,100
+415	H327	Phẫu thuật lấy sỏi thận	Lần	13,200,000	4,569,100
+416	H330	Phẫu thuật nội soi lấy sỏi niệu quản	Lần	13,400,000	4,497,100
+417	H338	Phẫu thuật nội soi cắt chỏm nang thận sau phúc mạc	Lần	10,100,000	4,596,000
+418	H341	Phẫu thuật Tạo hình dây thắng	Lần	6,700,000	 
+419	H343	Nong da quy đầu	Lần	5,700,000	 
+420	H357	Nong da quy đầu (tiểu phẫu)	Lần	350,000	 
+421	H415	Lấy sỏi niệu quản đơn thuần [gây tê]	Lần	8,000,000	3,546,600
+422	H417	Phẫu thuật nội soi lấy sỏi niệu quản [gây tê]	Lần	12,300,000	 
+423	H418	Nội soi bàng quang tán sỏi (Gây tê)	Lần	7,300,000	1,345,000
+424	H423	Khâu da bìu (Gây mê)	Lần	8,200,000	 
+425	H426	Nong niệu đạo và đặt sonde đái (phòng mổ) (Gây mê)	Lần	5,200,000	273,500
+426	H427	Chích áp xe tầng sinh môn (Gây mê)	Lần	4,800,000	873,000
+427	H429	Mở thông bàng quang trên xương mu (Gây tê)	Lần	5,900,000	405,500
+428	H430	Nội soi niệu quản để đặt thông JJ (Gây tê)	Lần	6,800,000	950,500
+429	H464	Nội soi bàng quang cắt u [gây mê]	Lần	13,400,000	5,030,900
+430	H465	Nội soi bàng quang cắt u [gây tê]	Lần	12,000,000	3,721,800
+ 	 	NỘI SOI	 	 	 
+431	U002	Nội soi can thiệp - cắt polyp ống tiêu hóa < 1cm (phòng mổ)	Lần	4,400,000	1,108,300
+432	U003	Nội soi can thiệp - cắt polyp ống tiêu hóa > 1cm hoặc nhiều polyp (phòng mổ)	Lần	5,500,000	1,743,100
+433	U004	Nội soi can thiệp - gắp giun, dị vật ống tiêu hóa (phòng mổ)	Lần	5,600,000	1,743,100
+434	U006	Nội soi can thiệp- cắt 01 polyp ống tiêu hóa < 1cm (gây mê) (phòng mổ)	Lần	4,500,000	1,108,300
+435	U007	Nội soi can thiệp - cắt 01 polyp ống tiêu hóa > 1cm hoặc nhiều polyp (gây mê) (phòng mổ)	Lần	5,800,000	1,743,100
+436	U008	Nội soi can thiệp - gắp giun, dị vật ống tiêu hóa (gây mê) (phòng mổ)	Lần	6,000,000	1,743,100
+437	U012	Nội soi đại trực tràng ống mềm gây mê (có thuốc, có sinh thiết) (phòng mổ)	Lần	4,300,000	677,500
+438	U013	Nội soi đại trực tràng ống mềm gây mê (không thuốc, có sinh thiết) (phòng mổ)	Lần	4,200,000	677,500
+439	U015	Nội soi đại trực tràng toàn bộ ống mềm có sinh thiết (có thuốc) (phòng mổ)	Lần	3,800,000	468,800
+440	U018	Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (gây mê) (phòng mổ)	Lần	3,800,000	677,500
+441	U019	Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (không thuốc) (phòng mổ)	Lần	3,700,000	352,100
+442	U020	Nội soi thực quản - dạ dày - tá tràng có sinh thiết (ống mềm) (phòng mổ)	Lần	3,300,000	493,800
+443	U023	Nội soi thực quản - dạ dày - tá tràng ống mềm có sinh thiết (ống nghiêng) (phòng mổ)	Lần	3,300,000	493,800
+444	U024	Nội soi thực quản - dạ dày - tá tràng ống mềm có sinh thiết (ống nghiêng) gây mê (phòng mổ)	Lần	3,700,000	493,800
+445	U025	Nội soi thực quản - dạ dày - tá tràng ống mềm không sinh thiết (ống nghiêng) gây mê (phòng mổ)	Lần	2,700,000	276,500
+446	U026	Nội soi thực quản- dạ dày- tá tràng có thể kết hợp sinh thiết (ống mềm, gây mê) (phòng mổ)	Lần	3,700,000	276,500
+447	U028	Nội soi trực tràng ống mềm có sinh thiết (có thuốc) (phòng mổ)	Lần	2,600,000	323,500
+448	U029	Nội soi trực tràng ống mềm có sinh thiết (không thuốc) (phòng mổ)	Lần	2,600,000	323,500
+449	U030	Nội soi trực tràng ống mềm không sinh thiết (có thuốc) (phòng mổ)	Lần	2,400,000	215,200
+450	U033	Tiêm hoặc kẹp cầm máu qua nội soi đại tràng (phòng mổ)	Lần	4,100,000	656,700
+ 	 	NỘI THẬN	 	 	 
+451	O025	Thay băng vết thương chiều dài dưới 15cm (kiểm tra đường hầm catheter lọc màng bụng và hướng dẫn ở người bệnh lọc màng bụng ngoại trú)	Lần	150,000	64,300
+ 	 	RĂNG HÀM MẶT	 	 	 
+452	R105	Chích áp xe lợi	Lần	800,000	218,500
+453	R106	Chích tháo mủ trong áp xe nông vùng hàm mặt	Lần	1,200,000	126,700
+454	R113	Cố định tạm thời sơ cứu gãy xương hàm	Lần	2,400,000	414,400
+455	R277	Phẫu thuật điều trị khe hở môi hai bên (đơn)	Lần	8,000,000	2,988,600
+456	R279	Phẫu thuật điều trị khe hở môi một bên (đơn)	Lần	5,200,000	2,888,600
+457	R295	Sinh thiết u phần mềm và xương vùng hàm mặt (gây mê nội khí quản)	Lần	5,200,000	294,500
+458	R297	Sửa sẹo xấu, nếp nhăn nhỏ (Thẩm mỹ)	Lần	2,730,000	 
+459	R429	Cắt u nướu đường kính từ 2cm trở lên (Phòng mổ)	Lần	3,800,000	521,000
+460	R516	Khâu vết thương nông vùng hàm mặt > 5cm ( Khâu vết thương phần mềm nông dài > 5 cm ) (Phòng mổ) (Gây mê)	Lần	4,900,000	194,700
+461	R517	Khâu vết thương phần mềm nông vùng hàm mặt < 5cm (đơn giản) (Phòng mổ) (Gây mê)	Lần	4,800,000	194,700
+462	R518	Khâu vết thương phần mềm sâu vùng hàm mặt < 5cm (đơn giản) (Phòng mổ) (Gây mê)	Lần	4,600,000	289,500
+463	R519	Khâu vết thương phần mềm sâu vùng hàm mặt > 5cm (đơn giản) (Phòng mổ) (Gây mê)	Lần	4,900,000	289,500
+464	R536	Chích áp xe lợi (Phòng mổ)	Lần	3,100,000	218,500
+465	R537	Chích tháo mủ trong áp xe nông vùng hàm mặt (Phòng mổ)	Lần	3,700,000	126,700
+466	R594	Rạch áp xe trong miệng (Phòng mổ)	Lần	3,900,000	295,500
+ 	 	SẢN - PHỤ KHOA	 	 	 
+467	L097	Phẫu thuật mở bụng bóc u xơ tử cung	Lần	7,100,000	3,628,800
+468	L098	Nội soi buồng tử cung, vòi trứng thông vòi trứng	Lần	7,700,000	 
+469	L101	Cắt cụt cổ tử cung [gây mê]	Lần	5,100,000	3,019,800
+470	L104	Phẫu thuật nội soi cắt phần phụ	Lần	10,700,000	5,503,300
+471	L106	Thủ thuật xoắn polip cổ tử cung, âm đạo	Lần	800,000	436,200
+472	L107	Phẫu thuật cắt polip buồng tử cung (đường bụng, đường âm đạo) + nạo lòng tử cung	Lần	8,100,000	4,110,800
+473	L134	Lấy vòng tránh thai có dây	Lần	410,000	 
+474	L135	Lấy dụng cụ tử cung trong ổ bụng qua đường rạch nhỏ	Lần	7,500,000	3,191,500
+475	L147	Nạo thai khó	lần	3,300,000	 
+476	L188	Stress test	Lần	400,000	 
+477	L140	Nạo buồng tử cung chẩn đoán (gây tê)	Lần	800,000	 
+478	L141	Nạo buồng tử cung chẩn đoán (gây mê)	Lần	3,000,000	 
+479	L142	Phá thai bệnh lý (bệnh lý mẹ, bệnh lý thai)	Lần	1,250,000	450,000
+480	L143	Nạo phá thai bệnh lý (gây mê)	Lần	4,300,000	450,000
+481	L146	Nạo thai do mổ cũ	Lần	4,490,000	700,200
+482	L152	Cắt u thành âm đạo	Lần	4,300,000	1,716,500
+483	L154	Phẫu thuật cắt tử cung đường âm đạo	Lần	11,000,000	4,168,300
+484	L155	Phẫu thuật cắt tử cung thắt động mạch hạ vị trong cấp cứu sản khoa	Lần	12,000,000	5,142,900
+485	L157	Phẫu thuật chửa ngoài tử cung không có choáng	Lần	7,500,000	3,217,800
+486	L174	Soi cổ tử cung	Lần	340,000	68,100
+487	L177	Triệt sản nữ qua đường rạch nhỏ	Lần	5,600,000	 
+488	L185	Phẫu thuật mở bụng cắt phần phụ trái	Lần	6,720,000	3,217,800
+489	L186	Phẫu thuật mở bụng cắt phần phụ phải	Lần	6,720,000	3,217,800
+490	L229	Phẫu thuật lấy thai lần đầu [song thai-gây tê]	Lần	11,200,000	1,773,600
+491	L241	Phẫu thuật lấy thai do bệnh lý sản khoa (rau tiền đạo, rau bong non, tiền sản giật, sản giật...) (gây mê)	Lần	14,300,000	4,739,300
+492	L257	Đỡ đẻ ngôi ngược	Lần	7,600,000	1,191,900
+493	L258	Đỡ đẻ từ sinh đôi trở lên	Lần	9,900,000	1,510,300
+494	L259	Đỡ đẻ thường ngôi chỏm /BN có vết mổ cũ	Lần	7,600,000	786,700
+495	L264	Giảm đau trong đẻ bằng phương pháp gây tê ngoài màng cứng	Lần	1,500,000	 
+496	L265	Phẫu thuật cắt phanh lưỡi	Lần	600,000	344,200
+497	L278	Tiêm bắp thịt (Kích thích trưởng thành phổi thai nhi)	Lần	500,000	15,100
+498	L279	Điều trị tắc tia sữa bằng máy hút	Lần	180,000	 
+499	L281	Làm lại vết mổ thành bụng (bục, tụ máu, nhiễm khuẩn, ...) sau phẫu thuật sản phụ khoa	Lần	7,400,000	2,833,400
+500	L284	Phẫu thuật nội soi cắt u buồng trứng và phần phụ (02 bên)	Lần	12,100,000	5,503,300
+501	L291	Gây tê tủy sống liều thấp giảm đau trong đẻ	Lần	1,300,000	 
+502	L294	Tiêm bắp thịt (Điều trị nội khoa thai ngoài tử cung bằng Methotrexate)	Lần	800,000	 
+503	L295	Phá thai bằng thuốc cho tuổi thai đến hết 7 tuần (đối với người bệnh muốn theo dõi tại bệnh viện)	Lần	1,500,000	 
+504	L296	Phẫu thuật thắt động mạch hạ vị trong cấp cứu sản phụ khoa	Lần	9,200,000	5,142,900
+505	L299	Bóc nang tuyến Bartholin (Phòng mổ)	Lần	3,700,000	1,369,400
+506	L301	Nạo buồng tử cung chẩn đoán (gây tê) (Phòng mổ)	Lần	3,000,000	 
+507	L302	Nạo sót thai, nạo sót rau sau sẩy, sau đẻ (Phòng mổ)	Lần	3,600,000	376,500
+508	L304	Phá thai bệnh lý (bệnh lý mẹ, bệnh lý thai) (Phòng mổ)	Lần	4,300,000	 
+509	L305	Phá thai đến hết 7 tuần bằng phương pháp hút chân không (Phòng mổ)	Lần	3,000,000	 
+510	L306	Phẫu thuật cắt polip cổ tử cung (Phòng mổ)	Lần	4,000,000	1,535,600
+511	L307	Rạch nang tuyến Bartholin (Phòng mổ)	Lần	3,000,000	951,600
+512	L320	Đỡ đẻ từ sinh đôi trở lên/ BN có vết mổ cũ	Lần	10,600,000	1,510,300
+513	L321	Phẫu thuật lấy thai lần hai trở lên [sinh đôi trở lên - vết mổ cũ 1 lần - gây tê]	Lần	12,400,000	2,631,000
+514	L323	Phẫu thuật lấy thai lần đầu [tam thai - gây tê]	Lần	13,500,000	1,773,600
+515	L339	Phẫu thuật lấy thai do bệnh lý sản khoa [rau tiền đạo, rau bong non, tiền sản giật, sản giật...] [gây tê]	Lần	13,200,000	3,578,900
+516	L402	Đẻ thường (Đỡ đẻ thường ngôi chỏm)	Lần	6,900,000	786,700
+517	L403	Đẻ khó (sanh giúp) ( Forceps hoặc Giác hút sản khoa)	Lần	8,100,000	1,141,900
+ 	 	TAI MŨI HỌNG	 	 	 
+518	J141	Chích áp xe quanh Amidan	Lần	410,000	295,500
+519	J142	Chích áp xe thành sau họng gây tê/gây mê	Lần	274,000	274,000
+520	J143	Vá nhĩ đơn thuần	Lần	10,200,000	4,058,900
+521	J146	Bấm sinh thiết u tai	Lần	273,000	273,000
+522	J148	Bẻ cuốn mũi	Lần	820,000	165,500
+523	J151	Phẫu thuật cắt thanh quản bán phần	Lần	16,300,000	5,352,100
+524	J152	Phẫu thuật cắt Amidan gây mê	Lần	8,500,000	1,217,100
+525	J154	Cắt cuốn dưới mũi (gây mê)	Lần	8,500,000	 
+526	J156	Phẫu thuật dính thanh quản	Lần	16,200,000	 
+527	J158	Phẫu thuật lấy đường rò luân nhĩ (1 bên) (gây tê)	Lần	5,500,000	580,400
+528	J159	Phẫu thuật cắt mỏm trâm theo đường miệng	Lần	8,200,000	4,003,900
+529	J160	Phẫu thuật cắt u nang răng sinh/u nang sàn mũi	Lần	8,200,000	1,646,800
+530	J161	Phẫu thuật cắt thanh quản toàn phần	Lần	16,300,000	5,352,100
+531	J162	Cắt toàn bộ thanh quản và một phần họng có vét hạch hệ thống	Lần	27,200,000	5,352,100
+532	J163	Phẫu thuật cắt tuyến mang tai có hoặc không bảo tồn dây VII	Lần	15,600,000	4,944,000
+533	J164	Phẫu thuật cắt u lành tính tuyến dưới hàm	Lần	12,300,000	3,397,900
+534	J168	Cắt u thành bên họng	Lần	15,000,000	 
+535	J169	Cắt u thành sau họng	Lần	15,200,000	 
+536	J174	Chích mũi họng	Lần	120,000	 
+537	J175	Chích nhọt ống tai ngoài	Lần	200,000	200,000
+538	J178	Phẫu thuật tạo hình sống mũi, cánh mũi	Lần	14,300,000	2,804,100
+539	J179	Phẫu thuật chỉnh hình màn hầu	Lần	14,400,000	4,535,700
+540	J181	Phẫu thuật chỉnh hình vách ngăn	Lần	8,500,000	3,526,900
+541	J182	Phẫu thuật chỉnh hình vách ngăn + cắt xương cuống dưới	Lần	8,600,000	3,526,900
+542	J183	Phẫu thuật chỉnh hình xương con nội soi	Lần	21,800,000	 
+543	J184	Chỉnh hình xương mặt	Lần	15,200,000	 
+544	J185	Chọc hút dịch vành tai	Lần	180,000	64,300
+545	J186	Chọc rửa xoang hàm	Lần	420,000	310,500
+546	J193	Đặt Spongel	Lần	570,000	139,000
+547	J320.	Hút xoang dưới áp lực (Phương pháp Proetz )	Lần	70,000	 
+548	J195	Đặt ống thông khí hòm tai [gây tê]	Lần	13,800,000	2,976,800
+549	J196	Phẫu thuật nội soi cầm máu mũi	Lần	9,500,000	2,981,800
+550	J197	Nội soi đốt điện cuốn mũi dưới	Lần	600,000	489,900
+551	J198	Phẫu thuật nội soi thắt/ đốt động mạch bướm khẩu cái [gây tê]	Lần	8,600,000	2,033,900
+552	J199	Đốt họng hạt bằng nhiệt	Lần	400,000	89,400
+553	J200	Ghép thanh khí quản đặt stent	Lần	28,100,000	6,282,500
+554	J202	Khâu lỗ thủng bịt vách ngăn mũi	Lần	14,900,000	 
+555	J203	Phẫu thuật khâu lưỡi gà	Lần	14,400,000	 
+556	J205	Phẫu thuật tiệt căn xương chũm	Lần	15,500,000	5,537,100
+557	J206	Lấy dị vật họng miệng	Lần	130,000	43,100
+558	J209	Lấy dị vật trong mũi có gây mê	Lần	5,600,000	705,500
+559	J210	Lấy dị vật trong mũi không gây mê	Lần	410,000	213,900
+560	J211	Lấy dị vật tai (gây mê/ gây tê)	Lần	300,000	70,300
+561	J212	Phẫu thuật lấy đường rò luân nhĩ (2 bên) (gây tê)	Lần	5,500,000	580,400
+562	J214	Lấy nút biểu bì ống tai ngoài	Lần	95,000	70,300
+563	J215	Phẫu thuật lấy u mũi	Lần	10,200,000	 
+564	J216	Phẫu thuật khâu vết rách đơn giản vành tai (1 bên)	Lần	6,300,000	 
+565	J217	Phẫu thuật khâu vết rách đơn giản vành tai (2 bên)	Lần	6,600,000	 
+566	J218	Phẫu thuật mở khí quản (Gây tê/ gây mê)	Lần	5,700,000	759,800
+567	J219	Mở sào bào - thượng nhĩ	Lần	10,400,000	4,058,900
+568	J220	Phẫu thuật lấy sỏi ống Wharton tuyến dưới hàm	Lần	14,600,000	1,051,700
+569	J222	Nắn sống mũi sau chấn thương	Lần	5,500,000	2,804,100
+570	J224	Phẫu thuật nạo VA gây mê nội khí quản	Lần	8,500,000	1,658,900
+571	J226	Nạo VA	Lần	5,200,000	 
+572	J239	Cắt bỏ ung thư Amydan và nạo vét hạch cổ	Lần	16,400,000	5,980,000
+573	J242	Phẫu thuật đặt Diabolo	Lần	12,700,000	3,209,900
+574	J245	Phẫu thuật nội soi cắt u mũi xoang	Lần	17,500,000	9,611,800
+575	J246	Phẫu thuật nội soi cắt u xơ mạch vòm mũi họng	Lần	32,900,000	9,151,800
+576	J247	Phẫu thuật nội soi cắt u nhú đảo ngược vùng mũi xoang	Lần	17,900,000	6,463,600
+577	J248	Phẫu thuật nội soi mở khe giữa	Lần	11,400,000	3,180,600
+578	J257	Phẫu thuật nội soi mở khe giữa, nạo sàng, ngách trán	Lần	11,400,000	4,211,900
+579	J258	Phẫu thuật nội soi mở khe giữa, nạo sàng, ngách trán, chỉnh hình vách ngăn	Lần	11,300,000	3,526,900
+580	J259	Phẫu thuật nội soi mở khe giữa, nạo sàng, ngách trán, xoang bướm	Lần	12,000,000	4,211,900
+581	J260	Phẫu thuật nội soi mở khe giữa, nạo sàng, xoang bướm	Lần	11,400,000	4,211,900
+582	J265	Phẫu thuật nội soi mở khe giữa, nạo sàng, xoang bướm, ngách trán, chỉnh hình cuốn giữa	Lần	12,000,000	4,211,900
+583	J266	Phẫu thuật nội soi mở xoang bướm	Lần	11,400,000	4,211,900
+584	J267	Mổ dò khe mang các loại	Lần	15,200,000	 
+585	J268	Phẫu thuật tái tạo hệ thống truyền âm	Lần	16,700,000	 
+586	J271	Phẫu thuật tai xương chũm trong viêm màng não	Lần	15,500,000	5,537,100
+587	J272	Phẫu thuật tai xương chũm trong viêm tắc tĩnh mạch bên	Lần	15,500,000	5,537,100
+588	J273	Phẫu thuật treo sụn phễu	Lần	15,200,000	2,333,000
+589	J277	Vét hạch cổ bảo tồn	Lần	15,000,000	2,140,700
+590	J278	Nạo vét hạch cổ chọn lọc	Lần	15,000,000	2,140,700
+591	J280	Chích rạch áp xe nhỏ (TMH)	Lần	5,400,000	218,500
+592	J281	Nội soi mũi hoặc vòm hoặc họng có sinh thiết	Lần	524,000	524,000
+593	J282	Lấy dị vật hạ họng	Lần	460,000	43,100
+594	J283	Phẫu thuật nội soi cắt u lành tính thanh quản (papiloma, kén hơi thanh quản,…) (gây tê/gây mê)	Lần	17,000,000	4,535,700
+595	J284	Nội soi thanh quản treo cắt hạt xơ	Lần	6,500,000	321,400
+596	J286	Phẫu thuật chỉnh hình sống mũi sau chấn thương	Lần	14,800,000	2,804,100
+597	J287	Tạo hình ống tai ngoài phần xương	Lần	15,600,000	 
+598	J289	Phẫu thuật tạo hình tháp mũi bằng vạt có cuống mạch nuôi	Lần	15,800,000	3,720,600
+599	J298	Chăm sóc mũi	Lần	135,000	 
+600	J299	Chăm sóc tai	Lần	110,000	 
+601	J303	Thay meche áp xe quanh Amidan	Lần	90,000	 
+602	J304	Lấy ống thông khí màng nhĩ	Lần	200,000	0
+603	J309	Rút meche, rút merocel hốc mũi	Lần	120,000	 
+604	J310	Cắt ung thư amidan/thanh quản và nạo vét hạch cổ	Lần	18,300,000	5,980,000
+605	J311	Phẫu thuật nội soi nạo sàng trước / sau	Lần	14,300,000	9,076,600
+606	J315	Phẫu thuật nội soi mũi xoang cắt u xoang bướm	Lần	33,500,000	9,611,800
+607	J316	Phẫu thuật nội soi mũi xoang giảm áp dây thần kinh thị giác	Lần	22,600,000	 
+608	J317	Phẫu thuật nội soi mũi xoang dẫn lưu u nhầy	Lần	11,200,000	5,244,100
+609	J318	Phẫu thuật nội soi cầm máu sau phẫu thuật nội soi mũi xoang	Lần	9,100,000	1,658,900
+610	J319	Đốt cầm máu amidan	Lần	5,100,000	139,000
+611	J327	Phẫu thuật Cắt u nang cạnh cổ	Lần	7,800,000	 
+612	J328	Sinh thiết lưỡi	Lần	3,500,000	138,500
+613	J329	Phẫu thuật nội soi mở khe giữa, nạo sàng	Lần	11,400,000	3,180,600
+614	J330	Phẫu thuật vi phẫu sử dụng laser cắt dây thanh	Lần	11,300,000	4,936,000
+615	J331	Phẫu thuật khâu vết rách đơn giản vành tai (2 bên) (tiểu phẫu)	Lần	820,000	 
+616	J332	Sinh thiết lưỡi (tiểu phẫu)	Lần	740,000	138,500
+617	J333	Cấy điện cực ốc tai (Cấy ốc tai điện tử)	Lần	16,100,000	5,530,000
+618	J334	Tiêm Botulinum toxine vào điểm vận động để điều trị loạn trương lực cơ khu trú (cơ thanh quản)	Lần	1,500,000	 
+619	J335	Làm thuốc tai (Tiêm Corticoid xuyên nhĩ)	Lần	500,000	22,000
+XI	 	TẠO HÌNH	 	 	 
+620	T011	Phẫu thuật chỉnh hình mũi gồ	Lần	11,500,000	 
+621	T110	Phẫu thuật hút mỡ và bơm mỡ tự thân thẩm mỹ (Gây mê)	Lần	18,160,000	 
+622	T117	Phẫu thuật thẩm mỹ căng da mặt	Lần	16,590,000	 
+623	T118	Phẫu thuật căng da mặt toàn phần (Thẩm mỹ)	Lần	43,300,000	 
+624	T119	Phẫu thuật căng da trán (Gây tê) (Thẩm mỹ)	Lần	16,890,000	 
+625	T127	Phẫu thuật vết thương bàn tay, cắt lọc đơn thuần [gây tê]	Lần	8,800,000	2,149,000
+626	T199	Phẫu thuật tháo bỏ silicone cũ, nạo silicon lỏng	Lần	14,800,000	 
+627	T201	Nạo u mềm lây - Cắt bỏ những u nhỏ, cyst, sẹo của da, tổ chức dưới da	Lần	5,600,000	 
+628	T205	Phẫu thuật Cắt bao túi ngực co rút 1 bên (Thẩm mỹ)	Lần	15,910,000	 
+629	T206	Phẫu thuật Cắt bớt quầng vú (Gây tê) (Thẩm mỹ)	Lần	13,160,000	 
+630	T207	Phẫu thuật thẩm mỹ thu nhỏ cánh mũi	Lần	11,390,000	 
+631	T234	Phẫu thuật phục hồi, tái tạo dây thần kinh VII (đoạn ngoài sọ)	Lần	16,600,000	8,512,000
+632	T235	Phẫu thuật tạo hình mặt do liệt dây VII	Lần	20,700,000	8,512,000
+633	T236	Phẫu thuật sinh thiết chẩn đoán	Lần	5,200,000	 
+634	T237	Phẫu thuật Sửa chữa sau phẫu thuật	Lần	7,200,000	 
+635	T238	Phẫu thuật tái núm vú bằng vạt tại chỗ	Lần	6,100,000	 
+636	T242	Phẫu thuật tạo hình mũi một phần	Lần	16,200,000	 
+637	T244	Phẫu thuật tạo hình mũi toàn bộ	Lần	17,200,000	 
+638	T246	Phẫu thuật tái tạo hình tổn thương mất chất vùng mặt bằng vạt da, cân cơ, xương	Lần	19,100,000	6,258,000
+639	T247	Phãu thuật tái tạo xương gò má bằng xi măng xương	Lần	19,900,000	 
+640	T248	Phẫu thuật tái tạo vú sau ung thư bằng vạt da cơ có cuống mạch	Lần	28,500,000	 
+641	T249	Phẫu thuật tái tạo vú sau ung thư bằng vạt da cơ có sử dụng kỹ thuật vi phẫu	Lần	43,300,000	 
+642	T250	Phẫu thuật Tái tạo vú giai đoạn 2	Lần	17,200,000	 
+643	T258	Phẫu thuật tạo hình vành tai kết hợp các bộ phận xung quanh	Lần	14,300,000	5,363,900
+644	T259	Phẫu thuật tạo hình từng phần vành tai	Lần	14,700,000	5,363,900
+645	T261	Phẫu thuật tạo hình khe hở môi (phức tạp)	Lần	16,700,000	2,988,600
+646	T262	Phẫu thuật tạo hình liệt mặt do dây VII bằng kỹ thuật vi phẫu	Lần	26,100,000	 
+647	T263	Phẫu thuật tạo hình khuyết bộ phận vành tai bằng vật liệu ghép tự thân/ vật liệu ghép tổng hợp	Lần	20,600,000	2,333,000
+648	T264	Phẫu thuật tái tạo tổn khuyết da bằng vạt có cuống	Lần	18,100,000	5,363,900
+649	T265	Phẫu thuật Tạo lúm đồng tiền 1 bên (Thẩm mỹ)	Lần	9,920,000	 
+650	D074	Phẫu thuật nội soi cắt toàn bộ dạ dày	Lần	38,200,000	5,597,800
+651	D075	Phẫu thuật nội soi cắt ruột thừa	Lần	11,000,000	2,818,700
+652	D078	Cắt dây chằng, gỡ dính ruột	Lần	10,400,000	2,705,700
+653	D079	Phẫu thuật nội soi kỹ thuật Heller điều trị co thắt tâm vị	Lần	16,700,000	6,557,900
+654	D087	Cắt lọc vết thương đa ổ	Lần	6,400,000	194,700
+655	D140	Bóc nhân tuyến giáp	Lần	11,400,000	 
+656	D142	Phẫu thuật Cắt bán phần dạ dày	Lần	16,400,000	5,495,300
+657	D143	Cắt bán phần 2 thuỳ tuyến giáp trong bướu giáp đa nhân	Lần	12,800,000	4,561,600
+658	D199	Cắt thân và đuôi tuỵ	Lần	16,600,000	4,955,100
+659	D203	Phẫu thuật cắt tuyến giáp toàn phần	Lần	11,800,000	4,561,600
+660	D204	Cắt toàn bộ dạ dày	Lần	36,100,000	8,208,300
+661	D207	Cắt toàn bộ tuyến giáp kèm nạo vét hạch 2 bên trong ung thư tuyến giáp	Lần	16,200,000	6,026,400
+662	D209	Cắt túi mật	Lần	11,800,000	4,993,100
+663	D234	Phẫu thuật điều trị co thắt tâm vị	Lần	12,900,000	 
+664	D237	Phẫu thuật Điều trị phình đại tràng bẩm sinh	Lần	12,900,000	3,332,200
+665	D239	Phẫu thuật điều trị tắc ruột do dính/dây chằng có cắt nối ruột	Lần	12,800,000	4,764,100
+666	D247	Phẫu thuật thoát vị rốn và khe hở thành bụng	Lần	11,800,000	3,512,900
+667	D257	Phẫu thuật Frey điều trị sỏi tụy, viêm tụy mạn	Lần	14,400,000	4,870,100
+668	D258	Phẫu thuật Khâu lỗ rò manh tràng	Lần	10,400,000	 
+669	D259	Phẫu thuật nội soi điều trị thoát vị khe hoành	Lần	14,300,000	3,663,800
+670	D260	Phẫu thuật điều trị thoát vị khe hoành	Lần	12,900,000	3,433,300
+671	D261	Khâu lỗ thủng dạ dày tá tràng	Lần	10,600,000	3,993,400
+672	D282	Nối nang tụy với dạ dày	Lần	13,600,000	2,917,900
+673	D283	Nối nang tụy với hỗng tràng	Lần	13,600,000	2,917,900
+674	D284	Nối ngã ba đường mật hoặc ống gan phải hoặc ống gan trái với hỗng tràng	Lần	30,700,000	4,870,100
+675	D285	Nối ống mật chủ - hỗng tràng	Lần	12,600,000	4,870,100
+676	D289	Phẫu thuật nội soi cắt đại tràng phải	Lần	16,500,000	4,663,800
+677	D290	Phẫu thuật nội soi cắt đại tràng trái	Lần	16,500,000	4,663,800
+678	D292	Phẫu thuật nội soi cắt gan không điển hình	Lần	24,500,000	6,632,200
+679	D294	Phẫu thuật nội soi cắt lách	Lần	14,400,000	4,897,800
+680	D297	Phẫu thuật nội soi Cắt ruột thừa trong viêm phúc mạc ruột thừa khu trú	Lần	12,200,000	2,818,700
+681	D306	Phẫu thuật nội soi đặt tấm lưới nhân tạo trước phúc mạc đường vào qua ổ bụng (TAPP)	Lần	13,200,000	2,434,500
+682	D307	Phẫu thuật nội soi đặt tấm lưới nhân tạo đường vào hoàn toàn trước phúc mạc (TEP)	Lần	13,200,000	2,434,500
+683	D308	Phẫu thuật nội soi gỡ dính ruột	Lần	13,900,000	2,705,700
+684	D309	Phẫu thuật nội soi khâu thủng dạ dày	Lần	13,200,000	3,136,900
+685	D310	Phẫu thuật nội soi khâu thủng ruột non	Lần	13,900,000	2,917,900
+686	D312	Phẫu thuật nội soi Lấy sỏi ống mật chủ qua ống túi mật	Lần	13,200,000	3,431,900
+687	D313	Phẫu thuật nội soi mở ống mật chủ lấy sỏi + cắt túi mật	Lần	19,200,000	3,431,900
+688	D316	Phẫu thuật nội soi mở ống mật chủ lấy sỏi	Lần	13,200,000	3,431,900
+689	D330	Nối vị tràng	Lần	9,800,000	2,917,900
+690	D331	Phẫu thuật điều trị thoát vị vết mổ thành bụng	Lần	11,700,000	3,512,900
+691	D333	Phẫu thuật điều trị thoát vị bẹn bằng phương pháp Lichtenstein	Lần	8,600,000	3,512,900
+692	D334	Phẫu thuật điều trị thoát vị bẹn bằng phương pháp Bassini	Lần	8,600,000	3,512,900
+693	D335	Phẫu thuật điều trị thoát vị thành bụng khác	Lần	10,800,000	3,512,900
+694	D337	Phẫu thuật Puestow - Gillesby	Lần	12,500,000	4,955,100
+695	D339	Mở bụng thăm dò, sinh thiết	Lần	8,700,000	2,683,900
+696	D340	Nối mật - da bằng quai ruột biệt lập hoặc túi mật (Gây mê)	Lần	22,300,000	 
+697	D342	Phẫu thuật nội soi khâu hẹp lỗ thực quản + tạo hình tâm vị kiểu Dor	Lần	14,500,000	3,663,800
+698	D347	Rạch thoát mủ ổ áp xe trong ổ bụng	Lần	10,800,000	 
+699	D348	Mở bụng thăm dò, lau rửa ổ bụng, đặt dẫn lưu	Lần	10,800,000	2,683,900
+700	D386	Đẩy bã thức ăn xuống đại tràng	Lần	9,700,000	3,993,400
+701	D392	Phẫu thuật nội soi sinh thiết hạch ổ bụng	Lần	9,800,000	1,095,300
+702	D397	Phẫu thuật nội soi cắt 2/3 dạ dày	Lần	17,100,000	5,597,800
+703	D399	Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D1	Lần	21,900,000	5,597,800
+704	D400	Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D1α	Lần	21,900,000	5,597,800
+705	D401	Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D1β	Lần	21,900,000	5,597,800
+706	D402	Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D2	Lần	21,900,000	5,597,800
+707	D403	Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D3	Lần	30,800,000	5,597,800
+708	D416	Cắt túi thừa thực quản qua nội soi ngực phải	Lần	17,900,000	3,663,800
+709	D417	Cắt túi thừa thực quản qua nội soi ngực trái	Lần	17,900,000	3,663,800
+710	D422	Phẫu thuật nội soi cắt gan thùy trái	Lần	22,300,000	6,632,200
+711	D446	Phẫu thuật nội soi cắt bán phần 1 thùy tuyến giáp	Lần	14,900,000	4,561,600
+712	D447	Phẫu thuật nội soi cắt 1 thùy tuyến giáp + eo tuyến giáp	Lần	14,900,000	4,561,600
+713	D448	Phẫu thuật nội soi cắt bán phần 2 thùy tuyến giáp	Lần	15,000,000	4,561,600
+714	D449	Phẫu thuật nội soi cắt toàn bộ tuyến giáp	Lần	19,000,000	4,561,600
+715	D450	Phẫu thuật nội soi cắt tuyến cận giáp	Lần	19,000,000	4,561,600
+716	D451	Phẫu thuật nội soi cắt nhân tuyến giáp	Lần	14,900,000	4,561,600
+717	D452	Phẫu thuật nội soi cắt nhân độc tuyến giáp	Lần	14,900,000	4,561,600
+718	D453	Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong bướu giáp đa nhân	Lần	19,600,000	4,561,600
+719	D454	Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong bướu giáp đa nhân độc	Lần	19,600,000	4,561,600
+720	D455	Phẫu thuật nội soi cắt gần toàn bộ tuyến giáp trong bệnh basedow	Lần	16,100,000	4,561,600
+721	D456	Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong bệnh basedow	Lần	19,600,000	4,561,600
+722	D457	Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong ung thư tuyến giáp	Lần	19,600,000	4,561,600
+723	D458	Phẫu thuật nội soi cắt toàn bộ tuyến giáp + nạo hạch cổ 2 bên trong ung thư	Lần	19,600,000	4,561,600
+724	D459	Phẫu thuật nội soi cắt toàn bộ tuyến giáp + nạo hạch cổ 1 bên trong ung thư	Lần	19,600,000	4,561,600
+725	D495	Phẫu thuật lấy bỏ u phần mềm (bướu mỡ, bã đậu >= 10cm) (Gây tê)	Lần	7,500,000	1,208,800
+726	D496	Phẫu thuật lấy bỏ u phần mềm (bướu sợi) (Gây tê)	Lần	7,500,000	1,208,800
+727	D497	Phẫu thuật lấy bỏ u phần mềm (bướu thần kinh) (Gây tê)	Lần	7,500,000	1,208,800
+728	D498	Phẫu thuật lấy bỏ u phần mềm (bướu vôi mào chậu) (Gây tê)	Lần	7,500,000	1,208,800
+729	D499	Cắt u trực tràng ống hậu môn đường dưới (Gây mê)	Lần	14,200,000	7,639,200
+730	D500	Phẫu thuật lấy bỏ u phần mềm (mắt cá) (Gây mê)	Lần	8,500,000	1,208,800
+731	D501	Cắt bỏ thực quản có hay không kèm các tạng khác, tạo hình ngay (Gây mê)	Lần	38,900,000	8,490,300
+732	D505	Phẫu thuật thoát vị khó: đùi, bịt (Gây mê)	Lần	11,500,000	3,512,900
+733	D506	Cắt u nhái sàn miệng (Gây mê)	Lần	8,200,000	 
+734	D508	Phẫu thuật điều trị thoát vị bẹn bằng phương pháp Lichtenstein [gây tê]	Lần	7,700,000	2,816,800
+735	D510	Dẫn lưu áp xe trung thất [gây tê]	Lần	10,700,000	2,432,400
+736	D511	Lấy u phúc mạc (Gây mê)	Lần	12,500,000	5,141,100
+737	D512	Phẫu thuật điều trị thoát vị đùi (Gây mê)	Lần	9,500,000	3,512,900
+738	D515	Siêu âm can thiệp - chọc hút mủ ổ áp xe gan (Gây mê)	Lần	6,000,000	171,900
+ 	 	XƯƠNG KHỚP	 	 	 
+739	N108	Phẫu thuật tạo hình điều trị tật thừa ngón tay	Lần	11,000,000	3,226,900
+740	N120	Phẫu thuật điều trị bệnh DE QUER VAIN và ngón tay cò súng [gây mê]	Lần	8,200,000	3,923,600
+741	N125	Khâu da thì 2 (phòng mổ)	Lần	4,600,000	289,500
+742	N126	Phẫu thuật lấy dị vật phần mềm	Lần	7,900,000	 
+743	N128	Nắn, bó bột gãy xương chậu	Lần	1,500,000	659,600
+744	N138	Nẹp bột đùi cẳng bàn chân	Lần	530,000	257,000
+745	N148	Phẫu thuật nội soi cắt sụn chêm	Lần	11,900,000	3,602,500
+746	N149	Cắt u bao gân	Lần	7,100,000	2,140,700
+747	N153	Phẫu thuật lấy bỏ u xương	Lần	8,200,000	4,085,900
+748	N158	Phẫu thuật sửa trục chi (kết hợp xương bằng nẹp vis, Champon, Kim K.Wire)	Lần	11,600,000	4,102,500
+749	N160	Phẫu thuật chuyển gân điều trị bàn chân rủ do liệt vận động	Lần	11,600,000	3,320,600
+750	N162	Cố định Kirschner trong gãy đầu trên xương cánh tay	Lần	8,200,000	4,324,900
+751	N166	Cố định nẹp vít gãy thân xương cánh tay	Lần	11,400,000	4,102,500
+752	N172	Đặt nẹp vít gãy mắt cá trong, ngoài hoặc Dupuytren	Lần	7,400,000	4,102,500
+753	N175	Phẫu thuật KHX gãy trật xương sên	Lần	10,500,000	4,102,500
+754	N176	Đặt vít gãy trật xương thuyền	Lần	7,400,000	4,102,500
+755	N177	Phẫu thuật chỉnh sửa sau gãy xương Cal lệch xương, không kết hợp xương	Lần	9,600,000	4,102,500
+756	N179	Phẫu thuật điều trị ngón tay cò súng (tiểu phẫu)	Lần	550,000	 
+757	N190	Phẫu thuật ghép xương tự thân (xương lớn)	Lần	11,700,000	5,105,100
+758	N195	Kéo dài ngón tay bằng khung cố định ngoài	Lần	10,800,000	5,265,900
+759	N196	Phẫu thuật chỉnh sửa sau gãy xương Cal lệch xương, có kết hợp xương	Lần	12,100,000	4,102,500
+760	N198	Phẫu thuật Khâu lại động mạch thần kinh cân cơ [gây mê]	Lần	12,600,000	5,204,600
+761	N199	Phẫu thuật nội soi cắt lọc sụn khớp gối	Lần	11,900,000	3,602,500
+762	N200	Phẫu thuật lấy tế bào gốc từ mô mỡ bụng hoặc tủy xương	Lần	9,700,000	 
+763	N201	Phẫu thuật Nối gân duỗi (một gân)	Lần	8,500,000	3,302,900
+764	N205	Phẫu thuật điều trị đứt gân Achille [gây tê]	Lần	10,600,000	2,604,700
+765	N211	Phẫu thuật Nội soi khớp khuỷu	Lần	10,800,000	2,434,500
+766	N213	Phẫu thuật nội soi tạo hình mỏm cùng vai	Lần	18,000,000	3,602,500
+767	N236	Tháo bột	Lần	60,000	60,000
+768	N238	Phẫu thuật mở tái tạo dây chằng	Lần	9,000,000	 
+769	N239	Phẫu thuật cắt lọc mô viêm (nốt tophi)	Lần	6,500,000	 
+770	N240	Phẫu thuật thay khớp háng bán phần	Lần	11,200,000	4,102,500
+771	N242	Cắt cụt cẳng chân [trái] [gây tê]	Lần	7,400,000	3,175,400
+772	N250	Cắt đoạn khớp khuỷu (trái)	Lần	8,500,000	3,994,900
+773	N254	Phẫu thuật cắt cụt ngón tay (tính 1 ngón)	Lần	8,200,000	3,226,900
+774	N256	Nắn, bó bột trật khớp háng	Lần	1,500,000	667,000
+775	N260	Nắn, bó bột gãy 1/3 giữa thân xương cánh tay (trái)	Lần	570,000	372,700
+776	N264	Bột bothe cao chân trái	Lần	450,000	257,000
+777	N268	Nắn bó bột cẳng bàn chân (làm nẹp dưới gối) (trái)	Lần	500,000	257,000
+778	N270	Bó bột cẳng bàn tay có nắn (làm nẹp bàn tay) (trái)	Lần	348,000	348,000
+779	N272	Bột cẳng bàn tay ôm ngón 1 trái (Nắn, bó bột gãy xương cẳng tay (bột liền))	Lần	348,000	348,000
+780	N274	Bột cánh bàn tay trái	Lần	412,000	412,000
+781	N276	Bột cánh bàn tay ôm vai trái (Nắn, bó bột xương cánh tay (bột liền))	Lần	450,000	372,700
+782	N278	Bột đùi bàn chân trái (Bột đùi cẳng bàn chân có kéo nắn)	Lần	560,000	372,700
+783	N280	Bột ống chân trái	Lần	450,000	167,000
+784	N282	Bột sarmento chân trái	Lần	500,000	372,700
+785	N284	Nắn, bó bột trật khớp vai (trái)	Lần	1,640,000	342,000
+786	N290	Nắn, bó bột gãy xương gót (trái)	Lần	960,000	167,000
+787	N292	Nắn, bó vỡ xương bánh chè chân trái không có chỉ định mổ	Lần	1,060,000	167,000
+788	N294	Nẹp bột cẳng bàn chân (trái)	Lần	300,000	257,000
+789	N300	Nẹp bột cánh bàn tay ôm vai trái (Nẹp bột các loại, không nắn)	Lần	400,000	 
+790	N301	Nẹp bột cánh bàn tay ôm vai phải (Nẹp bột các loại, không nắn)	Lần	400,000	 
+791	N302	Phẫu thuật nội soi khớp gối tạo dây chằng chéo trước endo-button	Lần	12,100,000	4,594,500
+792	N303	Phẫu thuật nội soi cắt hoạt mạc viêm khớp gối	Lần	12,200,000	3,602,500
+793	N304	Phẫu thuật nội soi gỡ dính khớp gối	Lần	13,200,000	3,602,500
+794	N306	Phẫu thuật nội soi cắt lọc khâu rách chóp xoay qua nội soi khớp vai	Lần	13,200,000	3,602,500
+795	N307	Phẫu thuật nội soi điều trị mất vững khớp vai theo phương pháp Latarjet	Lần	18,100,000	3,602,500
+796	N308	Phẫu thuật nội soi điều trị mất vững khớp vai	Lần	18,100,000	3,602,500
+797	N309	Phẫu thuật nội soi điều trị viêm co rút khớp vai	Lần	13,200,000	3,602,500
+798	N310	Phẫu thuật nội soi điều trị viêm khớp vai	Lần	13,200,000	3,602,500
+799	N311	Phẫu thuật nội soi tái tạo lại dây chằng chéo trước	Lần	17,200,000	4,594,500
+800	N312	Phẫu thuật nội soi tái tạo dây chằng chéo sau	Lần	17,200,000	4,594,500
+801	N314	Phẫu thuật nội soi điều trị khớp gối bằng gân đồng loại (nội soi tái tạo dây chằng chéo trước, chéo sau, mổ mở tái tạo dây chằng bên chầy, bên mác)	Lần	18,300,000	4,594,500
+802	N315	Tái tạo dây chằng khớp gối qua nội soi	Lần	12,200,000	4,594,500
+803	N316	Phẫu thuật nội soi tái tạo dây chằng quạ đòn	Lần	18,300,000	4,594,500
+804	N325	Phẫu thuật nội soi cắt hoạt mạc viêm khớp háng	Lần	12,200,000	3,602,500
+805	N326	Phẫu thuật nội soi điều trị rách sụn viền ổ cối	Lần	12,200,000	3,602,500
+806	N347	Nắn, bó bột gãy 1/3 trên hai xương cẳng chân (trái)	Lần	1,500,000	372,700
+807	N353	Nắn, bó bột gãy 1/3 trên thân xương cánh tay (trái)	Lần	400,000	372,700
+808	N359	Nắn, bó bột gãy 1/3 trên xương đùi (trái)	Lần	1,500,000	659,600
+809	N364	Phẫu thuật kết hợp xương (KHX) gãy xương bả vai	Lần	11,900,000	4,102,500
+810	N365	Phẫu thuật KHX gãy cổ xương bả vai	Lần	11,900,000	4,102,500
+811	N366	Phẫu thuật KHX gãy xương đòn	Lần	9,000,000	4,102,500
+812	N367	Phẫu thuật KHX trật khớp cùng đòn	Lần	12,100,000	4,102,500
+813	N377	Phẫu thuật KHX gãy ròng rọc xương cánh tay	Lần	9,200,000	4,102,500
+814	N378	Phẫu thuật KHX gãy lồi cầu ngoài xương cánh tay	Lần	9,200,000	4,102,500
+815	N379	Phẫu thuật KHX gãy mỏm khuỷu	Lần	12,100,000	4,324,900
+816	N381	Phẫu thuật KHX gãy Monteggia	Lần	12,300,000	4,102,500
+817	N382	Phẫu thuật KHX gãy đài quay	Lần	9,000,000	4,102,500
+818	N383	Phẫu thuật KHX gãy đài quay phức tạp	Lần	12,300,000	4,102,500
+819	N385	Phẫu thuật KHX gãy xương quay kèm trật khớp quay trụ dưới	Lần	12,300,000	4,102,500
+820	N386	Phẫu thuật KHX gãy phức tạp khớp khuỷu	Lần	16,900,000	4,102,500
+821	N387	Phẫu thuật KHX gãy đầu dưới xương quay	Lần	12,100,000	4,102,500
+822	N388	Phẫu thuật KHX gãy trật khớp cổ tay	Lần	12,100,000	4,324,900
+823	N389	Phẫu thuật KHX gãy chỏm đốt bàn và ngón tay	Lần	12,100,000	4,102,500
+824	N397	Phẫu thuật KHX gãy ổ cối phức tạp	Lần	17,100,000	4,102,500
+825	N398	Phẫu thuật KHX gãy bán phần chỏm xương đùi	Lần	12,600,000	4,102,500
+826	N400	Phẫu thuật KHX gãy cổ xương đùi	Lần	12,600,000	4,102,500
+827	N403	Phẫu thuật KHX gãy trật cổ xương đùi	Lần	17,100,000	4,102,500
+828	N404	Phẫu thuật KHX gãy thân xương đùi	Lần	12,600,000	4,102,500
+829	N411	Phẫu thuật KHX gãy bánh chè [gây tê]	Lần	7,700,000	3,577,600
+830	N412	Phẫu thuật KHX gãy xương bánh chè phức tạp [gây tê]	Lần	10,800,000	3,577,600
+831	N413	Phẫu thuật KHX gãy mâm chày trong	Lần	10,900,000	4,102,500
+832	N434	Phẫu thuật KHX gãy hở độ II trên và liên lồi cầu xương đùi [gây tê]	Lần	10,800,000	3,577,600
+833	N435	Phẫu thuật KHX gãy hở độ III trên và liên lồi cầu xương đùi [gây tê]	Lần	15,300,000	3,577,600
+834	N436	Phẫu thuật KHX gãy hở I thân hai xương cẳng tay	Lần	11,900,000	4,102,500
+835	N442	Phẫu thuật KHX gãy hở liên lồi cầu xương cánh tay	Lần	12,300,000	4,324,900
+836	N446	Phẫu thuật KHX gãy nội khớp đầu dưới xương quay	Lần	8,500,000	4,102,500
+837	N448	Phẫu thuật kết hợp xương gãy xương sên và trật khớp	Lần	15,300,000	4,102,500
+838	N449	Phẫu thuật kết hợp xương chấn thương Lisfranc và bàn chân giữa [gây tê]	Lần	10,800,000	3,577,600
+839	N450	Phẫu thuật kết hợp xương gãy xương đốt bàn và đốt ngón chân	Lần	10,600,000	4,102,500
+840	N451	Phẫu thuật kết hợp xương trật khớp cổ chân [gây tê]	Lần	10,600,000	3,577,600
+841	N452	Phẫu thuật kết hợp xương trật khớp dưới sên [gây tê]	Lần	10,600,000	3,577,600
+842	N453	Phẫu thuật kết hợp xương gãy trật khớp cổ chân ở trẻ em [gây tê]	Lần	10,600,000	3,577,600
+843	N454	Phẫu thuật kết hợp xương gãy bong sụn tiếp đầu dưới xương cánh tay	Lần	11,600,000	4,324,900
+844	N455	Phẫu thuật kết hợp xương bằng K.Wire điều trị gãy trên lồi cầu xương cánh tay	Lần	8,700,000	4,324,900
+845	N456	Phẫu thuật kết hợp xương gãy trên lồi cầu xương cánh tay có tổn thương mạch và thần kinh	Lần	11,900,000	4,102,500
+846	N457	Phẫu thuật kết hợp xương gãy lồi cầu ngoài xương cánh tay	Lần	8,500,000	4,324,900
+847	N458	Phẫu thuật kết hợp xương gãy ròng rọc xương cánh tay	Lần	11,600,000	4,324,900
+848	N459	Phẫu thuật kết hợp xương gãy phức tạp vùng khuỷu	Lần	11,900,000	4,102,500
+849	N460	Phẫu thuật kết hợp xương gãy đài quay (Gãy cổ xương quay)	Lần	11,900,000	4,102,500
+850	N461	Phẫu thuật kết hợp xương gãy 2 xương cẳng tay	Lần	11,900,000	4,102,500
+851	N462	Phẫu thuật kết hợp xương gãy đầu dưới xương đùi	Lần	10,800,000	4,102,500
+852	N463	Phẫu thuật kết hợp xương gãy bong sụn tiếp vùng khớp gối	Lần	10,800,000	4,102,500
+853	N464	Phẫu thuật kết hợp xương gãy thân xương cẳng chân	Lần	10,800,000	4,102,500
+854	N465	Phẫu thuật kết hợp xương gãy bong sụn tiếp đầu dưới xương chày	Lần	10,800,000	4,102,500
+855	N466	Phẫu thuật kết hợp xương gãy bong sụn vùng cổ xương đùi	Lần	10,800,000	4,102,500
+856	N467	Phẫu thuật kết hợp xương gãy sụn tăng trưởng ở đầu xương	Lần	11,900,000	4,102,500
+857	N468	Phẫu thuật kết hợp xương gãy xương bệnh lý	Lần	11,900,000	4,102,500
+858	N469	Phẫu thuật Làm cứng khớp ở tư thế chức năng	Lần	11,100,000	4,002,600
+859	N470	Cắt u nang bao hoạt dịch	Lần	5,900,000	1,456,700
+860	N471	Chọc dịch khớp	Lần	4,500,000	129,600
+861	N472	Tiêm gân gấp ngón tay	Lần	260,000	104,400
+862	N473	Tiêm hội chứng đường hầm cổ tay	Lần	260,000	104,400
+863	N527	Phẫu thuật nội soi cắt lọc sụn khớp gối (Gây mê)	Lần	13,000,000	3,602,500
+864	N528	Phẫu thuật điều trị đứt gân Achille (Gây mê)	Lần	12,100,000	3,302,900
+865	N529	Phẫu thuật vi phẫu nối các mạch máu, thần kinh trong nối lại chi dưới bị cắt rời (Gây tê)	Lần	19,000,000	7,094,200
+866	N530	Phẫu thuật nội soi khớp cổ chân (Gây tê)	Lần	12,000,000	3,602,500
+867	N532	Phẫu thuật sửa mỏm cụt chi (Gây mê)	Lần	8,600,000	3,226,900
+868	N533	Tháo khớp háng (Gây mê)	Lần	11,600,000	3,994,900
+869	N534	Rút đinh/tháo phương tiện kết hợp xương (phòng mổ) (Gây mê)	Lần	7,900,000	1,857,900
+870	N535	Phẫu thuật mở tái tạo dây chằng (Gây mê)	Lần	10,100,000	 
+871	N536	Phẫu thuật cắt lọc mô viêm (nốt tophi) (Gây mê)	Lần	7,600,000	 
+872	N563	Phẫu thuật nội soi cắt hoạt mạc viêm khớp hang (Gây mê)	Lần	13,200,000	3,602,500
+873	N564	Phẫu thuật nội soi điều trị rách sụn viền ổ cối (Gây mê)	Lần	13,200,000	3,602,500
+874	N565	Phẫu thuật tái tạo dây chằng vòng (Gây mê)	Lần	10,800,000	 
+875	N566	Phẫu thuật KHX gãy xương đòn (Gây tê)	Lần	7,800,000	4,102,500
+876	N567	Phẫu thuật KHX gãy cánh chậu (Gây tê)	Lần	10,900,000	4,102,500
+877	N568	Phẫu thuật KHX trật khớp cùng chậu (Gây tê)	Lần	10,900,000	4,102,500
+878	N569	Phẫu thuật KHX toác khớp mu [trật khớp] [gây tê]	Lần	10,900,000	3,577,600
+879	N570	Phẫu thuật KHX gãy khung chậu – trật khớp mu (Gây tê)	Lần	10,900,000	4,102,500
+880	N571	Phẫu thuật KHX gãy ổ cối đơn thuần (Gây tê)	Lần	10,700,000	4,102,500
+881	N572	Phẫu thuật KHX gãy ổ cối phức tạp (Gây tê)	Lần	15,400,000	4,102,500
+882	N573	Phẫu thuật KHX gãy bán phần chỏm xương đùi (Gây tê)	Lần	10,900,000	4,102,500
+883	N574	Phẫu thuật KHX gãy phức tạp chỏm xương đùi – trật háng (Gây tê)	Lần	15,400,000	4,102,500
+884	N575	Phẫu thuật KHX gãy cổ xương đùi (Gây tê)	Lần	10,900,000	4,102,500
+885	N576	Phẫu thuật KHX gãy cổ mấu chuyển xương đùi (Gây tê)	Lần	10,900,000	4,102,500
+886	N577	Phẫu thuật KHX gãy liên mấu chuyển xương đùi (Gây tê)	Lần	10,900,000	4,102,500
+887	N578	Phẫu thuật KHX gãy trật cổ xương đùi (Gây tê)	Lần	15,400,000	4,102,500
+888	N579	Phẫu thuật KHX gãy thân xương đùi (Gây tê)	Lần	10,900,000	4,102,500
+889	N580	Phẫu thuật KHX gãy trên lồi cầu xương đùi (Gây tê)	Lần	10,900,000	4,102,500
+890	N581	Phẫu thuật KHX gãy lồi cầu ngoài xương đùi (Gây tê)	Lần	10,900,000	4,102,500
+891	N593	Phẫu thuật KHX gãy thân 2 xương cẳng chân (Gây mê)	Lần	12,300,000	4,102,500
+892	N594	Phẫu thuật KHX gãy xương mác đơn thuần (Gây mê)	Lần	12,300,000	4,102,500
+893	N595	Phẫu thuật KHX gãy đầu dưới xương chày (Pilon) (Gây mê)	Lần	16,900,000	4,102,500
+894	N596	Phẫu thuật KHX gãy 2 mắt cá cổ chân (Gây mê)	Lần	12,300,000	4,102,500
+895	N597	Phẫu thuật KHX gãy mắt cá trong (Gây mê)	Lần	12,100,000	4,102,500
+896	N598	Phẫu thuật KHX gãy mắt cá ngoài (Gây mê)	Lần	12,100,000	4,102,500
+897	N610	Phẫu thuật KHX gãy hở I thân hai xương cẳng tay (Gây tê)	Lần	11,100,000	4,102,500
+898	N616	Phẫu thuật KHX gãy hở liên lồi cầu xương cánh tay [gây tê]	Lần	11,100,000	3,577,600
+899	N634	Phẫu thuật kết hợp xương gãy 2 xương cẳng tay (Gây tê)	Lần	11,100,000	4,102,500
+900	N635	Phẫu thuật kết hợp xương gãy đầu dưới xương đùi (Gây mê)	Lần	12,300,000	4,102,500
+901	N636	Phẫu thuật kết hợp xương gãy bong sụn tiếp vùng khớp gối (Gây mê)	Lần	12,300,000	4,102,500
+902	N637	Phẫu thuật kết hợp xương gãy thân xương cẳng chân (Gây mê)	Lần	12,300,000	4,102,500
+903	N638	Phẫu thuật kết hợp xương gãy bong sụn tiếp đầu dưới xương chày (Gây mê)	Lần	12,300,000	4,102,500
+904	N639	Phẫu thuật kết hợp xương gãy bong sụn vùng cổ xương đùi (Gây mê)	Lần	12,300,000	4,102,500
+905	N640	Phẫu thuật kết hợp xương gãy sụn tăng trưởng ở đầu xương (Gây tê)	Lần	11,100,000	4,102,500
+906	N641	Phẫu thuật kết hợp xương gãy xương bệnh lý (Gây tê)	Lần	11,100,000	4,102,500
+907	N642	Phẫu thuật điều trị bệnh DE QUER VAIN (phòng mổ) (Gây mê)	Lần	8,100,000	 
+908	N645	Phẫu thuật Nội soi khớp khuỷu (Gây tê)	Lần	10,000,000	2,434,500
+909	N647	Sinh thiết xương ( Sinh thiết hạch, u) (Gây mê)	Lần	6,700,000	 
+910	N648	Chọc dịch khớp (Gây mê)	Lần	5,700,000	129,600
+911	N650	Phẫu thuật Sửa sẹo [gây tê]	Lần	6,900,000	2,389,900
+912	N651	Phẫu thuật Sửa sẹo (Gây mê)	Lần	8,100,000	3,683,600
+913	N652	Tiêm khớp vai (Tiêm nong khớp vai)	Lần	500,000	104,400
+914	N653	Phẫu thuật nội soi điều trị tổn thương phức hợp sụn sợi tam giác (gây tê)	Lần	11,800,000	4,343,300
+ 	 	KHÁC	 	 	 
+915	Z038	Phẫu thuật điều trị áp xe hậu môn phức tạp [gây tê]	Lần	7,600,000	2,276,400
+916	Z087	Chích rạch nhọt, Apxe nhỏ dẫn lưu	Lần	550,000	218,500
+917	Z088	Rút máu để điều trị	Lần	450,000	 
+918	Z089	Thông tiểu	Lần	220,000	101,800
+919	Z114	Kỹ thuật giảm đau bằng thuốc tê-morphinic qua khoang ngoài màng cứng thắt lưng qua bơm tiêm điện	Lần	1,700,000	 
+920	Z120	Gọt chai chân (gọt nốt chai) trên người bệnh đái tháo đường	Lần	400,000	292,300
+921	Z123	Phong bế cơ	Lần	350,000	 
+922	Z125	Rửa dạ dày cấp cứu	Lần	220,000	152,000
+923	Z127	Rút ống dẫn lưu	Lần	150,000	 
+924	Z130	Thay ống dẫn lưu (đặt ống dẫn lưu mới)	Lần	370,000	 
+925	Z131	Thủ thuật chọc hút tủy làm tủy đồ (bao gồm kim chọc tủy nhiều lần)	Lần	600,000	549,900
+926	Z133	Thụt tháo phân	Lần	110,000	92,400
+927	Z170	Hút ổ viêm/ áp xe phần mềm	Lần	2,010,000	126,700
+928	Z173	Rửa dạ dày	Lần	200,000	 
+929	Z174	Chọc hút tế bào phần mềm bằng kim nhỏ (1 chỗ)	Lần	150,000	126,700
+930	Z177	Đặt catheter tĩnh mạch trung tâm nhiều nòng (2 nòng)	Lần	1,550,000	1,158,500
+931	Z178	Đặt catheter tĩnh mạch trung tâm nhiều nòng (3 nòng)	Lần	1,690,000	1,158,500
+932	Z181	Thay băng vết thương chiều dài ≤ 15cm - người bệnh nội trú (có thấm dịch, máu trong các tổn thương lóc da. hở da. diện tích trên 6 cm2, chân ống dẫn lưu chảy dịch nhiều)	Lần	110,000	64,300
+933	Z182	Thay băng vết thương chiều dài trên 15cm đến 30 cm-người bệnh nội trú(vết mổ rò mật,rò tiêu hóa,rò nước tiểu;phẫu thuật mổ lấy thai;sau phẫu thuật nhiếm khuẩn;sau một phẫu thuật có 2 đường mổ trở lên)	Lần	150,000	89,500
+934	Z185	Chọc hút/dẫn lưu dịch màng phổi [Đặt ống dẫn lưu khoang MP]	Lần	1,600,000	153,700
+935	Z187	Đặt ống thông dạ dày (ống thông ngắn ngày)	Lần	180,000	101,800
+936	Z188	Đặt ống thông dạ dày (ống thông dài ngày)	Lần	350,000	101,800
+937	Z200	Thay băng, cắt chỉ vết khâu da chiều dài từ 30 đến 50 cm (nội trú)	Lần	220,000	121,400
+ 	 	NGÀY GIƯỜNG ĐIỀU TRỊ	 	 	 
+I	 	PHÒNG 2 GIƯỜNG	 	 	 
+938	EAAR	Phòng 2 giường- Giường Nội khoa loại 2 Hạng I	Ngày	     1,900,000	        273,800
+939	EAAR	Phòng 2 giường- Giường Ngoại khoa loại 4 Hạng I	Ngày	     1,900,000	        286,700
+940	EAAR	Phòng 2 giường- Giường Ngoại khoa loại 3 Hạng I 	Ngày	     1,900,000	        320,700
+941	EAAR	Phòng 2 giường- Giường Ngoại khoa loại 2 Hạng I 	Ngày	     1,900,000	        364,400
+942	EAAR	Phòng 2 giường- Giường Ngoại khoa loại 1 Hạng I 	Ngày	     1,900,000	        400,400
+II	 	PHÒNG 4 GIƯỜNG	 	 	 
+943	EAAS	Phòng 4 giường- Giường Nội khoa loại 2 Hạng I 	Ngày	1,500,000	        273,800
+944	EAAS	Phòng 4 giường- Giường Ngoại khoa loại 4 Hạng I 	Ngày	1,500,000	        286,700
+945	EAAS	Phòng 4 giường- Giường Ngoại khoa loại 3 Hạng I	Ngày	1,500,000	        320,700
+946	EAAS	Phòng 4 giường- Giường Ngoại khoa loại 2 Hạng I 	Ngày	1,500,000	        364,400
+947	EAAS	Phòng 4 giường- Giường Ngoại khoa loại 1 Hạng I 	Ngày	1,500,000	        400,400
+ 	 	KHOA PHỤ SẢN (CHU SINH 4B)	 	 	 
+948	DFJS	Giường Khoa Phụ sản- Giường Nội khoa loại 2 Hạng I - Khoa Phụ - Sản	Ngày	     1,200,000	        273,800
+949	DFJS	Giường Khoa Phụ sản- Giường Ngoại khoa loại 4 Hạng I - Khoa Phụ sản	Ngày	     1,200,000	        286,700
+950	DFJS	Giường Khoa Phụ sản- Giường Ngoại khoa loại 3 Hạng I - Khoa Phụ - Sản	Ngày	     1,200,000	        320,700
+951	DFJS	Giường Khoa Phụ sản- Giường Ngoại khoa loại 2 Hạng I - Khoa Phụ - Sản	Ngày	     1,200,000	        364,400
+952	DFJS	Giường Khoa Phụ sản- Giường Ngoại khoa loại 1 Hạng I - Khoa Phụ - Sản	Ngày	     1,200,000	        400,400
+ 	 	DỊCH VỤ Y TẾ KHÁC	 	 	 
+I	 	CHĂM SÓC Y TẾ	 	 	 
+953	DN40	Chiếu đèn điều trị vàng da sơ sinh	Giờ	28,000	 
+954	DO23	Oxy I (< 2 lít/ phút) [giờ đầu tiên] [gói 1] [Sử dụng bình CCO]	Giờ	104,000	 
+955	DN98	Oxy I (<2 l/p) (giờ tiếp theo) (gói 1)	Giờ	4,000	 
+956	DN99	Oxy II (2-3 l/p) (giờ tiếp theo) (gói 1)	Giờ	5,000	 
+957	DO09	Oxy II (2-3 l/p) (giờ tiếp theo) (gói 2)	Giờ	5,000	 
+958	DO11	Oxy III (3-5 lít/ phút) (giờ tiếp theo) (gói 2)	Giờ	5,500	 
+959	DO03	Oxy IV (5-7 l/p) (giờ tiếp theo) (gói 1)	Giờ	10,000	 
+960	DO05	Oxy V (>7 l/p) (giờ tiếp theo) (gói 1)	Giờ	15,000	 
+961	DH96	Trong TPHCM - Cước xe cấp cứu (Huyện Cần Giờ)	Chuyến	1,300,000	 
+962	DH95	Trong TPHCM - Cước xe cấp cứu (Huyện Củ Chi)	Chuyến	1,150,000	 
+963	DH90	Trong TPHCM - Cước xe cấp cứu (Quận 1-3-4-6-8-11)	Chuyến	400,000	 
+964	DH91	Trong TPHCM - Cước xe cấp cứu (Quận 2-7-12-Bình Chánh)	Chuyến	650,000	 
+965	DH89	Trong TPHCM - Cước xe cấp cứu (Quận 5; Quận 10)	Chuyến	300,000	 
+966	DH94	Trong TPHCM - Cước xe cấp cứu (Quận 9; Hóc Môn; Nhà Bè; Thủ Đức)	Chuyến	720,000	 
+967	DH93	Trong TPHCM - Cước xe cấp cứu (Quận Bình Tân; Bình Thạnh; Gò Vấp)	Chuyến	550,000	 
+968	DH92	Trong TPHCM - Cước xe cấp cứu (Quận Tân Bình; Tân Phú; Phú Nhuận)	Chuyến	500,000	 
+969	DH99	Ngoài TPHCM - Cước xe cấp cứu có bác sĩ đi kèm (Quãng đường dưới 73 km)	Chuyến	2,900,000	 
+970	DHA0	Ngoài TPHCM - Cước xe cấp cứu có bác sĩ đi kèm (Quãng đường từ 73 km trở lên)	Km	40,000	 
+971	DH98	Ngoài TPHCM - Cước xe cấp cứu không có bác sĩ	Km	22,000	 
+972	DH97	Phụ thu phí bác sĩ đi kèm (Trong TPHCM)	Chuyến	1,000,000	 

@@ -1,0 +1,600 @@
+<!-- Test command -->
+<!-- python -m http.server 8001 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>PhoWhisper Demo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 2rem;
+        }
+
+        .log-layout {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        .log-pane {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .log-pane h3 {
+            margin: 0 0 0.5rem 0;
+        }
+
+        .log-box {
+            white-space: pre-wrap;
+            border: 1px solid #ccc;
+            padding: 1rem;
+            height: 200px;
+            overflow-y: auto;
+        }
+
+        .kiosk-line {
+            text-align: right;
+            color: #d35400;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>PhoWhisper Web Mic</h1>
+    <label>
+        Server URL:
+        <input id="ws-url" size="40" placeholder="wss://27.74.243.55:7443/v1/stt/ws/transcribe">
+    </label>
+    <br><br>
+    <button id="start-btn">Start</button>
+    <button id="stop-btn" disabled>Stop</button>
+    <div id="status"></div>
+
+    <div class="log-layout">
+        <div class="log-pane">
+            <h3>Transcript</h3>
+            <div id="log" class="log-box"></div>
+        </div>
+        <div class="log-pane">
+            <h3>Service Response</h3>
+            <div id="log1" class="log-box"></div>
+        </div>
+    </div>
+
+    <script type="module">
+        const startBtn = document.getElementById("start-btn");
+        const stopBtn = document.getElementById("stop-btn");
+        const statusEl = document.getElementById("status");
+        const logEl = document.getElementById("log");
+        const responseEl = document.getElementById("log1");
+        const wsUrlInput = document.getElementById("ws-url");
+
+        const detectDefaultWsUrl = () => {
+
+            return "wss://27.74.243.55:7443/v1/stt/ws/transcribe";
+
+        };
+
+        if (!wsUrlInput.value) {
+            wsUrlInput.value = detectDefaultWsUrl();
+        }
+
+        let ws;
+        let mediaStream;
+        let audioContext;
+        let processor;
+        let accumulatedText = "";
+        let awaitingFinal = false;
+        let cleaningUp = false;
+        let segmentActive = false;
+        let emaEnergy = 0;
+        let consecutiveSpeechFrames = 0;
+        let consecutiveSilenceFrames = 0;
+        let preSpeechBuffers = [];
+        let conversationStarted = false;
+        let conversationId = null;
+        console.log("Initial conversationStarted =", conversationStarted);
+
+        const SAMPLE_RATE = 16000;
+        const PROCESSOR_BUFFER_SIZE = 1024;
+        const FRAME_DURATION_MS = (PROCESSOR_BUFFER_SIZE / SAMPLE_RATE) * 1000; // ≈64ms
+        const MIN_SPEECH_MS = 200;
+        const MIN_SILENCE_MS = 900;
+        const MAX_PRE_ROLL_MS = 320;
+        const SPEECH_ENERGY_THRESHOLD = 0.03;
+        const EMA_ALPHA = 0.1;
+
+        const MIN_SPEECH_FRAMES = Math.ceil(MIN_SPEECH_MS / FRAME_DURATION_MS);
+        const SILENCE_FRAMES_TO_END = Math.ceil(MIN_SILENCE_MS / FRAME_DURATION_MS);
+        const MAX_PRE_ROLL_FRAMES = Math.max(1, Math.ceil(MAX_PRE_ROLL_MS / FRAME_DURATION_MS));
+
+        const stripVietnameseDiacritics = (text) => {
+            return text
+                .normalize("NFD")
+                .replace(/[\u0300-\u036f]/g, "")
+                .replace(/đ/g, "d")
+                .replace(/Đ/g, "D");
+        };
+
+        const handleChunk = (chunk) => {
+            chunk.split(/\r?\n/).forEach((line) => {
+                if (line.startsWith("data:")) {
+                    const payload = JSON.parse(line.slice(5).trim());
+                    console.log("Chunk:", chunk);
+                    // dùng payload.slot, payload.state, payload.required… tùy nhu cầu
+                    // responseEl.textContent += "BOT:"+ payload.prompt + "\n";
+                    if (payload.prompt) {
+                        appendLogLine("Kiosk: " + payload.prompt, "kiosk-line");
+                    }
+                    if (payload.state) {
+                        responseEl.textContent +="State: "+ payload.state+ "\n";
+                    }
+                    if (payload.options) {
+                        responseEl.textContent +="Options: "+
+                            payload.options.map((item)=>item.name)+ "\n";
+                    }
+                    if (payload.ticket){
+                        appendLogLine("Kiosk: STT của bạn là: " + payload.ticket.ticket.registration_id, "kiosk-line");
+                    }
+
+                }
+            });
+        };
+
+        const sanitizeForService = (text) => {
+            return stripVietnameseDiacritics(text).replace(/[.,;:!?]/g, "");
+        };
+
+        const appendLogLine = (text, className) => {
+            const line = document.createElement("div");
+            if (className) {
+                line.className = className;
+            }
+            line.textContent = text;
+            logEl.appendChild(line);
+            logEl.scrollTop = logEl.scrollHeight;
+        };
+
+        const log = (msg) => {
+            console.log(msg);
+            appendLogLine(msg);
+        };
+
+        const streamServiceResponse = async () => {
+            const decoder = new TextDecoder();
+            if (!responseEl) {
+                throw new Error("Response placeholder not found");
+            }
+            if (conversationId == null) {
+                conversationId = crypto.randomUUID();
+                console.log("Starting new conversation with ID", conversationId);
+            }
+            console.log("Existing conversation ID", conversationId);
+            console.log("Streaming to service with conversation ID", conversationId);
+            const streamUrl = new URL(`http://27.74.243.55:7080/v1/chat/${conversationId}/stream`);
+
+            responseEl.textContent = "";
+
+            const response = await fetch(streamUrl, {
+                method: "GET",
+                headers: {
+                    Accept: "application/json"
+                }
+            });
+
+            console.log("Service response status:", response.status);
+
+            if (!response.ok || !response.body) {
+                throw new Error(`Streaming failed with status ${response.status}`);
+            }
+
+            const reader = response.body.getReader();
+            try {
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) {
+                        break;
+                    }
+                    const chunk = decoder.decode(value, { stream: true });
+                    // responseEl.textContent += chunk;
+                    handleChunk(chunk);
+                    responseEl.scrollTop = responseEl.scrollHeight;
+                }
+                const remaining = decoder.decode();
+                if (remaining) {
+                    responseEl.textContent += remaining;
+                    responseEl.scrollTop = responseEl.scrollHeight;
+                }
+            } finally {
+                reader.releaseLock();
+            }
+
+            return conversationId;
+        };
+
+        const sendmessage_to_service = async (message) => {
+            if (!conversationId) {
+                console.warn("sendmessage_to_service skipped: missing conversation ID");
+                return;
+            }
+
+            const sanitized = sanitizeForService(message).trim();
+            if (!sanitized) {
+                console.warn("sendmessage_to_service skipped: empty message after sanitization");
+                return;
+            }
+
+            try {
+                const response = await fetch(`http://27.74.243.55:7080/v1/chat/${conversationId}/`, {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json",
+                        Accept: "application/json",
+                        conversation_id: conversationId,
+                        "X-Tenant-Id": "1",
+                        "Idempotency-Key": "test"
+                    },
+                    body: JSON.stringify({
+                        role: "system",
+                        content: sanitized,
+                        attachments: [{}],
+                        stream: true,
+                        options: {}
+                    })
+                });
+
+                if (!response.ok) {
+                    throw new Error(`sendmessage_to_service failed with status ${response.status}`);
+                }
+
+                const replyText = await response.text();
+                if (replyText) {
+                    console.log("sendmessage_to_service response:", replyText);
+                } else {
+                    console.log("sendmessage_to_service completed with empty response body");
+                }
+            } catch (error) {
+                console.error("sendmessage_to_service error:", error);
+                responseEl.textContent += "\n[Send message error: " + error.message + "]";
+            }
+        };
+
+        const floatTo16BitPCM = (buffer) => {
+            const clipped = buffer.map((sample) => Math.max(-1, Math.min(1, sample)));
+            const pcm = new Int16Array(clipped.length);
+            for (let i = 0; i < clipped.length; ++i) {
+                pcm[i] = clipped[i] < 0 ? clipped[i] * 0x8000 : clipped[i] * 0x7fff;
+            }
+            return pcm;
+        };
+
+        const downsampleBuffer = (buffer, inSampleRate, outSampleRate) => {
+            if (outSampleRate === inSampleRate) {
+                return buffer;
+            }
+            const ratio = inSampleRate / outSampleRate;
+            const newLen = Math.round(buffer.length / ratio);
+            const result = new Float32Array(newLen);
+            let offsetResult = 0;
+            let offsetBuffer = 0;
+            while (offsetResult < result.length) {
+                const nextOffsetBuffer = Math.round((offsetResult + 1) * ratio);
+                let accum = 0;
+                let count = 0;
+                for (let i = offsetBuffer; i < nextOffsetBuffer && i < buffer.length; i++) {
+                    accum += buffer[i];
+                    count++;
+                }
+                result[offsetResult] = accum / count;
+                offsetResult++;
+                offsetBuffer = nextOffsetBuffer;
+            }
+            return result;
+        };
+
+        const computeRms = (buffer) => {
+            if (!buffer.length) {
+                return 0;
+            }
+            let sumSquares = 0;
+            for (let i = 0; i < buffer.length; i++) {
+                const sample = buffer[i];
+                sumSquares += sample * sample;
+            }
+            return Math.sqrt(sumSquares / buffer.length);
+        };
+
+        const releaseAudioResources = () => {
+            if (processor) {
+                processor.disconnect();
+                processor.onaudioprocess = null;
+                processor = null;
+            }
+            if (audioContext) {
+                audioContext.close();
+                audioContext = null;
+            }
+            if (mediaStream) {
+                mediaStream.getTracks().forEach((track) => track.stop());
+                mediaStream = null;
+            }
+            awaitingFinal = false;
+            segmentActive = false;
+            emaEnergy = 0;
+            consecutiveSpeechFrames = 0;
+            consecutiveSilenceFrames = 0;
+            preSpeechBuffers = [];
+        };
+
+        const requestMicrophone = () => {
+            if (navigator.mediaDevices?.getUserMedia) {
+                return navigator.mediaDevices.getUserMedia({ audio: true });
+            }
+
+            const legacyGetUserMedia =
+                navigator.getUserMedia ||
+                navigator.webkitGetUserMedia ||
+                navigator.mozGetUserMedia ||
+                navigator.msGetUserMedia;
+
+            if (legacyGetUserMedia) {
+                return new Promise((resolve, reject) => {
+                    legacyGetUserMedia.call(
+                        navigator,
+                        { audio: true },
+                        resolve,
+                        reject,
+                    );
+                });
+            }
+
+            throw new Error(
+                "Trình duyệt không hỗ trợ truy cập micro. Hãy dùng Chrome/Edge mới nhất và truy cập qua HTTPS.",
+            );
+        };
+
+        const sendAudioChunk = (pcm16) => {
+            if (!ws || ws.readyState !== WebSocket.OPEN) {
+                return;
+            }
+            const chunk = btoa(String.fromCharCode(...new Uint8Array(pcm16.buffer)));
+            ws.send(JSON.stringify({ event: "audio", chunk }));
+            console.debug("Sent audio chunk bytes", pcm16.byteLength);
+        };
+
+        const pushPreSpeechBuffer = (pcm16) => {
+            preSpeechBuffers.push(pcm16);
+            if (preSpeechBuffers.length > MAX_PRE_ROLL_FRAMES) {
+                preSpeechBuffers.shift();
+            }
+        };
+
+        const beginSegment = () => {
+            segmentActive = true;
+            consecutiveSpeechFrames = 0;
+            consecutiveSilenceFrames = 0;
+            statusEl.textContent = "Capturing…";
+            // Send buffered frames (include onset)
+            preSpeechBuffers.forEach((buf) => sendAudioChunk(buf));
+            preSpeechBuffers = [];
+        };
+
+        const concludeSegment = () => {
+            if (!ws || ws.readyState !== WebSocket.OPEN || awaitingFinal) {
+                return;
+            }
+            if (segmentActive) {
+                segmentActive = false;
+                consecutiveSpeechFrames = 0;
+                consecutiveSilenceFrames = 0;
+            }
+            preSpeechBuffers = [];
+            ws.send(JSON.stringify({ event: "end" }));
+            awaitingFinal = true;
+            statusEl.textContent = "Processing sentence…";
+            console.debug("Sent end event");
+        };
+
+        const startStreaming = async () => {
+            console.log("Start streaming requested");
+            accumulatedText = "";
+            logEl.innerHTML = "";
+            awaitingFinal = false;
+            cleaningUp = false;
+            segmentActive = false;
+            emaEnergy = 0;
+            consecutiveSpeechFrames = 0;
+            consecutiveSilenceFrames = 0;
+            preSpeechBuffers = [];
+            // conversationStarted = false;
+            conversationId = null;
+            try {
+                mediaStream = await requestMicrophone();
+                console.log("Microphone stream acquired");
+            } catch (err) {
+                statusEl.textContent = err?.message || "Microphone access denied.";
+                console.error(err);
+                return;
+            }
+
+            statusEl.textContent = "Connecting...";
+            console.log("Opening WebSocket to", wsUrlInput.value);
+            ws = new WebSocket(wsUrlInput.value);
+            ws.binaryType = "arraybuffer";
+
+            ws.onopen = () => {
+                statusEl.textContent = "Connected. Streaming...";
+                console.log("WebSocket connected, sending config");
+                ws.send(JSON.stringify({ event: "config", sample_rate: 16000, language: "vi" }));
+            };
+
+            ws.onmessage = async (event) => {
+                console.debug("WebSocket message", event.data);
+                const msg = JSON.parse(event.data);
+                if (msg.event === "ready") {
+                    statusEl.textContent = `Ready (${msg.device}, ${msg.compute_type})`;
+                    console.log("Server ready", msg);
+                } else if (msg.event === "config_ack") {
+                    statusEl.textContent = "Streaming audio…";
+                    console.log("Config acknowledged", msg);
+                }
+                // else if (msg.event === "partial") {
+                //     log(`Partial: ${msg.text}`);
+                // } 
+                else if (msg.event === "final") {
+                    accumulatedText = msg.text;
+                    log(`Final: ${accumulatedText}`);
+                    awaitingFinal = false;
+                    statusEl.textContent = "Ready";
+                    const sanitizedText = sanitizeForService(accumulatedText).trim();
+
+                    if (sanitizedText.toLowerCase().includes("xin chao") && !conversationStarted) {
+                        console.log("Trigger phrase detected, streaming to service");
+                        try {
+                            conversationStarted = true;
+                            const activeId = await streamServiceResponse();
+
+                            console.log("Conversation started with ID", activeId);
+                        } catch (error) {
+                            console.error("Streaming error:", error);
+                            responseEl.textContent += "\n[Streaming error: " + error.message + "]";
+                            conversationId = null;
+                            conversationStarted = false;
+                            console.log("Resetting conversation state due to error");
+                        }
+                    }
+                    console.log("conversationStarted =", conversationStarted);
+                    if (conversationStarted) {
+                        console.log("Sending message to service:", msg.text);
+                        await sendmessage_to_service(msg.text);
+                    }
+
+                } else if (msg.event === "error") {
+                    log(`Error: ${msg.detail}`);
+                } else if (msg.event === "processing") {
+                    statusEl.textContent = "Processing...";
+                } else if (msg.event === "reset_ack") {
+                    console.log("Session reset acknowledged.");
+                } else if (msg.event === "pong") {
+                    console.debug("Received pong");
+                } else {
+                    console.debug("Unhandled event", msg);
+                }
+            };
+
+            ws.onerror = (event) => {
+                console.error("WebSocket error", event);
+            };
+
+            ws.onclose = (event) => {
+                console.log("WebSocket closed", event.code, event.reason || "");
+                cleanup();
+            };
+
+            audioContext = new (window.AudioContext || window.webkitAudioContext)();
+            const source = audioContext.createMediaStreamSource(mediaStream);
+            processor = audioContext.createScriptProcessor(PROCESSOR_BUFFER_SIZE, 1, 1);
+
+            processor.onaudioprocess = (event) => {
+                const inputBuffer = event.inputBuffer.getChannelData(0);
+                const downsampled = downsampleBuffer(inputBuffer, audioContext.sampleRate, SAMPLE_RATE);
+                const pcm16 = floatTo16BitPCM(downsampled);
+                if (!ws || ws.readyState !== WebSocket.OPEN) {
+                    return;
+                }
+                if (awaitingFinal) {
+                    pushPreSpeechBuffer(pcm16);
+                    return;
+                }
+
+                const rms = computeRms(downsampled);
+                emaEnergy = emaEnergy ? EMA_ALPHA * rms + (1 - EMA_ALPHA) * emaEnergy : rms;
+                const isSpeech = emaEnergy > SPEECH_ENERGY_THRESHOLD;
+                // console.debug(
+                //     "Frame energy",
+                //     rms.toFixed(4),
+                //     "ema",
+                //     emaEnergy.toFixed(4),
+                //     "speech?",
+                //     isSpeech,
+                // );
+
+
+                if (segmentActive) {
+                    sendAudioChunk(pcm16);
+                    if (isSpeech) {
+                        consecutiveSilenceFrames = 0;
+                    } else {
+                        consecutiveSilenceFrames += 1;
+                        if (consecutiveSilenceFrames >= SILENCE_FRAMES_TO_END) {
+                            concludeSegment();
+                        }
+                    }
+                } else {
+                    pushPreSpeechBuffer(pcm16);
+                    if (isSpeech) {
+                        consecutiveSpeechFrames += 1;
+                        if (consecutiveSpeechFrames >= MIN_SPEECH_FRAMES) {
+                            beginSegment();
+                        }
+                    } else if (consecutiveSpeechFrames > 0) {
+                        consecutiveSpeechFrames = Math.max(0, consecutiveSpeechFrames - 1);
+                    }
+                }
+            };
+
+            source.connect(processor);
+            processor.connect(audioContext.destination);
+
+            startBtn.disabled = true;
+            stopBtn.disabled = false;
+        };
+
+        const stopStreaming = () => {
+            console.log("Stopping stream");
+            if (ws && ws.readyState === WebSocket.OPEN && !awaitingFinal) {
+                if (segmentActive || preSpeechBuffers.length) {
+                    concludeSegment();
+                } else {
+                    ws.send(JSON.stringify({ event: "reset" }));
+                    console.debug("Sent reset event");
+                }
+            }
+            releaseAudioResources();
+            stopBtn.disabled = true;
+        };
+
+        const cleanup = () => {
+            if (cleaningUp) {
+                return;
+            }
+            cleaningUp = true;
+            console.log("Cleaning up resources");
+            releaseAudioResources();
+            ws = null;
+            awaitingFinal = false;
+            // conversationStarted = false;
+            conversationId = null;
+            startBtn.disabled = false;
+            stopBtn.disabled = true;
+            statusEl.textContent = "Disconnected.";
+            setTimeout(() => {
+                if (!ws) {
+                    statusEl.textContent = "";
+                }
+            }, 1500);
+            cleaningUp = false;
+        };
+
+        startBtn.addEventListener("click", startStreaming);
+        stopBtn.addEventListener("click", stopStreaming);
+    </script>
+</body>
+
+</html>

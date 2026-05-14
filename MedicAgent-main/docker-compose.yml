@@ -1,0 +1,284 @@
+# docker-compose.yml
+# Docker Compose configuration for PanRobot Service and vLLM Engine
+
+services:
+#   main-service:
+#     image: panrobot-service:latest
+#     container_name: main-service
+#     build:
+#       context: ./robotmed-service
+#     ports:
+#       - "8080:8080"
+#     environment:
+#       - ENV=production
+#     volumes:
+#       - ./data:/app/data
+#     restart: unless-stopped
+
+  # medicagent-llm:
+  #   build:
+  #     context: ./llm-agent
+  #   image: medicagent-llm:latest
+  #   container_name: medicagent-llm
+  #   # For Docker Compose with NVIDIA Container Toolkit
+  #   # Uncomment the next line if your Docker/Compose supports it
+  #   gpus: all
+  #   ports:
+  #     - "8011:8000"  # Expose OpenAI-compatible API externally on 8001
+  #   environment:
+  #     - MODEL_ID=Menlo/Jan-nano-128k
+  #     - MAX_MODEL_LEN=32768
+  #     - GPU_MEMORY_UTILIZATION=0.6
+  #     - MAX_NUM_SEQS=8
+  #     - HF_HOME=/root/.cache/huggingface
+  #     - DOWNLOAD_DIR=/models
+  #   volumes:
+  #     # Optional: cache/preload models to speed up cold starts
+  #     - ~/.cache/huggingface:/root/.cache/huggingface
+  #     - ./models:/models
+  #   deploy:
+  #     resources:
+  #       reservations:
+  #         devices:
+  #           - capabilities: ["gpu"]
+  #   restart: unless-stopped
+
+  medicagent-ollama:
+    image: ollama/ollama:0.12.11
+    container_name: medicagent-ollama
+    ports:
+      - "8084:11434"        # API Ollama
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+      - OLLAMA_KEEP_ALIVE=24h  # giữ model nóng mặc định 24h
+    volumes:
+      - ollama:/root/.ollama   # cache/tải model
+    # Bật GPU nếu có NVIDIA Container Toolkit
+    gpus: all
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: ["gpu"]
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS http://127.0.0.1:11434/api/tags >/dev/null || exit 1"]
+      interval: 5s
+      timeout: 2s
+      retries: 20
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "5"
+    restart: unless-stopped
+
+  medicagent-gateway:
+    image: kong:3.6
+    container_name: medicagent-gateway
+    restart: unless-stopped
+    profiles: ["gateway"]
+    environment:
+      KONG_DATABASE: "off"
+      KONG_DECLARATIVE_CONFIG: "/kong/declarative/kong.yaml"
+      KONG_LOG_LEVEL: "info"
+      KONG_PROXY_LISTEN: "0.0.0.0:7443 ssl, 0.0.0.0:7080"
+      # Bind Admin API to container loopback only; do not publish ports to host
+      # KONG_ADMIN_LISTEN: "127.0.0.1:8001, 127.0.0.1:8444 ssl, 127.0.0.1:7080"
+      KONG_NGINX_WORKER_PROCESSES: "auto"
+      KONG_SSL_CERT: "/etc/kong/certs/selfsigned.crt"
+      KONG_SSL_CERT_KEY: "/etc/kong/certs/selfsigned.key"
+    ports:
+      - "7443:7443"
+      - "7080:7080"
+    volumes:
+      - ./gateway/kong:/kong/declarative:ro
+      - ./gateway/logs:/usr/local/kong/logs
+      - ./gateway/certs:/etc/kong/certs:ro
+    depends_on:
+      - medicagent-chat-service
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "5"
+
+  # bff:
+  #   build:
+  #     context: ./backend-for-frontend
+  #     dockerfile: dockerfile
+  #   image: bff:latest
+  #   container_name: bff
+  #   environment:
+  #     - CHAT_SERVICE_BASE_URL=http://medicagent-chat-service:8000
+  #     - REQUEST_TIMEOUT_SECONDS=30
+  #   ports:
+  #     - "8081:8081"
+  #   restart: unless-stopped
+  #   depends_on:
+  #     - medicagent-chat-service
+
+
+  medicagent-core-service:
+    build:
+      context: ./core-service
+      dockerfile: dockerfile
+    image: medicagent-core-service:latest
+    container_name: medicagent-core-service
+    ports:
+      - "8083:8080"
+      # - "6333:6333"
+    environment:
+      - DB_USER=${DB_USER:-medicagent}
+      - DB_PASSWORD=${DB_PASSWORD:-medicagent_password}
+      - DB_HOST=medicagent-db
+      - DB_PORT=3306
+      - DIRECTORY_DB_NAME=${DIRECTORY_DB_NAME:-medicagent-directory-db}
+      - QUEUE_DB_NAME=${QUEUE_DB_NAME:-medicagent-queue-db}
+      - QDRANT_ENABLED=${QDRANT_ENABLED:-true}
+      - QDRANT_HOST=127.0.0.1
+      - QDRANT_PORT=6333
+      - INFO_LOOKUP_LEXICAL_WEIGHT=${INFO_LOOKUP_LEXICAL_WEIGHT:-0.1}
+      - INFO_LOOKUP_SEMANTIC_WEIGHT=${INFO_LOOKUP_SEMANTIC_WEIGHT:-0.7}
+    volumes:
+      - ./core-service/data/indexes:/app/data/indexes
+    restart: unless-stopped
+    depends_on:
+      - medicagent-db
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "5"
+
+  medicagent-admin-service:
+    build:
+      context: ./admin-service
+      dockerfile: dockerfile
+    image: admin-service:latest
+    container_name: admin-service
+    ports:
+      - "8090:8090"
+    environment:
+      - ENV=production
+      - ADMIN_DB_URL=mysql+pymysql://${MYSQL_USER:-medicagent}:${MYSQL_PASSWORD:-medicagent_password}@medicagent-db:3306/${ADMIN_DB_NAME:-medicagent-admin-db}
+    # volumes:
+    #   - ./admin-service/app:/app/app
+    restart: unless-stopped
+    depends_on:
+      - medicagent-db
+
+  medicagent-chat-service:
+    build:
+      context: ./chat-service
+      dockerfile: dockerfile
+    image: medicagent-chat-service:latest
+    container_name: medicagent-chat-service
+    env_file:
+      - .env
+    ports:
+      - "8082:8000"
+    environment:
+      - ENV=production
+      - MYSQL_USER=${MYSQL_USER:-medicagent}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD:-medicagent_password}
+      - CHAT_DB_URL=mysql+pymysql://${MYSQL_USER:-medicagent}:${MYSQL_PASSWORD:-medicagent_password}@medicagent-db:3306/${MYSQL_DATABASE:-medicagent-db}
+      - INTENT_MODEL_DIR=/app/models/intent_classifier
+      - LLM_API_BASE=http://medicagent-llm:8000/v1
+      - LLM_MODEL=Jan-nano-128k
+    volumes:
+      - ./chat-service/models/intent_classifier:/app/models/intent_classifier:ro
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "5"
+
+  medicagent-sttphowhisper-service:
+    build:
+      context: ./sttphowhisper-service
+      dockerfile: Dockerfile
+    image: medicagent-sttphowhisper-service:latest
+    container_name: medicagent-sttphowhisper-service
+    ports:
+      - "7081:8000"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: ["gpu"]
+    environment:
+      - WHISPER_MODEL=mad1999/pho-whisper-medium-ct2
+      - WHISPER_DEVICE=cuda
+      - WHISPER_COMPUTE_TYPE=float16
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "5"
+
+  medicagent-stt-zipformer-service:
+    build:
+      context: ./stt-zipformer
+      dockerfile: Dockerfile
+    image: medicagent-stt-zipformer-service:latest
+    container_name: medicagent-stt-zipformer-service
+    runtime: nvidia
+    ports:
+      - "7082:8000"
+    environment:
+      - ZIPFORMER_PROVIDER=${ZIPFORMER_PROVIDER:-cuda}
+      - ZIPFORMER_NUM_THREADS=${ZIPFORMER_NUM_THREADS:-2}
+      - ZIPFORMER_DECODING_METHOD=${ZIPFORMER_DECODING_METHOD:-greedy_search}
+      - HF_HOME=/app/cache/huggingface
+      - NVIDIA_VISIBLE_DEVICES=${ZIPFORMER_VISIBLE_DEVICES:-all}
+      - CUDA_VISIBLE_DEVICES=${ZIPFORMER_VISIBLE_DEVICES:-all}
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    volumes:
+      - ./model_cache/zipformer:/app/cache
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities:
+                - gpu
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "5"
+
+  medicagent-db:
+    image: mysql:8.0
+    container_name: medicagent-db
+    ports:
+      - "3307:3306"
+    environment:
+      - MYSQL_ROOT_PASSWORD=${MYSQL_ROOT_PASSWORD:-medicagent_rootpassword}
+      - MYSQL_DATABASE=${MYSQL_DATABASE:-medicagent-db}
+      - MYSQL_USER=${MYSQL_USER:-medicagent}
+      - MYSQL_PASSWORD=${MYSQL_PASSWORD:-medicagent_password}
+      - MYSQL_ROOT_HOST=%
+    volumes:
+      - /home/thuantruong/01_MedicAgent/var/mysql2:/var/lib/mysql
+      - ./data/mysql-init:/docker-entrypoint-initdb.d:ro
+      # - /home/thuantruong/01_MedicAgent/src/MedicAgent/data/dump:/opt/db-dump
+    command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: unless-stopped
+    logging:
+      driver: json-file
+      options:
+        max-size: 10m
+        max-file: "5"
+
+volumes:
+  ollama:

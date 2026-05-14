@@ -1,0 +1,199 @@
+openapi: 3.0.3
+info:
+  title: Kiosk API – Common Components
+  version: 1.0.0
+paths: {}  # Chỉ chứa components dùng chung
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+    mTLS:
+      type: mutualTLS
+
+  headers:
+    XRateLimitLimit:
+      schema: { type: integer }
+      description: Limit trong cửa sổ hiện tại
+    XRateLimitRemaining:
+      schema: { type: integer }
+      description: Số request còn lại
+    XRateLimitReset:
+      schema: { type: integer }
+      description: Epoch giây reset
+
+  parameters:
+    IdempotencyKey:
+      name: Idempotency-Key
+      in: header
+      required: true
+      schema: { type: string }
+      description: Bắt buộc cho POST tạo tài nguyên
+    IdempotencyKeyOptional:
+      name: Idempotency-Key
+      in: header
+      required: false
+      schema: { type: string }
+      description: Khuyến nghị; bắt buộc nếu confirm dẫn đến tạo tài nguyên
+    XRequestId:
+      name: X-Request-Id
+      in: header
+      required: false
+      schema: { type: string }
+      description: Correlation ID cho tracing
+    Page:
+      name: page
+      in: query
+      required: false
+      schema: { type: integer, minimum: 1, default: 1 }
+    PageSize:
+      name: page_size
+      in: query
+      required: false
+      schema: { type: integer, minimum: 1, maximum: 200, default: 20 }
+
+  schemas:
+    Meta:
+      type: object
+      properties:
+        api_version: { type: string, example: "1.0.0" }
+        locales: { type: array, items: { type: string }, example: ["vi-VN","en-US"] }
+        features:
+          type: object
+          additionalProperties: { type: boolean }
+
+    Error:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code: { type: string, example: "RESOURCE_NOT_FOUND" }
+            message: { type: string }
+            details:
+              type: object
+              additionalProperties: true
+
+    IssueTicketReq:
+      type: object
+      required: [clinic_id]
+      properties:
+        patient_id: { type: string, nullable: true }
+        clinic_id: { type: string }
+        visit_reason: { type: string, nullable: true }
+        channel:
+          type: string
+          enum: [kiosk, mobile, web, kiosk-voice]
+          default: kiosk
+        metadata:
+          type: object
+          additionalProperties: true
+
+    Ticket:
+      type: object
+      properties:
+        ticket_id: { type: string }
+        queue_number: { type: string, example: "A045" }
+        status:
+          type: string
+          enum: [pending, called, serving, done, cancelled]
+        estimated_wait_minutes: { type: integer, example: 18 }
+        clinic_id: { type: string }
+        issued_at: { type: string, format: date-time }
+
+    QueueOverview:
+      type: object
+      properties:
+        clinic_id: { type: string }
+        waiting: { type: integer }
+        avg_wait_minutes: { type: integer }
+        serving: { type: string, example: "A041" }
+
+    ClinicList:
+      type: object
+      properties:
+        items:
+          type: array
+          items:
+            type: object
+            properties:
+              clinic_id: { type: string }
+              label: { type: string }
+
+    # Chat schemas (dùng bởi chat.yaml)
+    CreateChatSessionReq:
+      type: object
+      required: [channel, device_id, locale]
+      properties:
+        channel:
+          type: string
+          enum: [kiosk]
+        device_id: { type: string }
+        locale: { type: string, example: "vi-VN" }
+
+    CreateChatSessionRes:
+      type: object
+      properties:
+        session_id: { type: string }
+        expires_in: { type: integer, example: 900 }
+
+    ChatMessageReq:
+      type: object
+      required: [text]
+      properties:
+        text: { type: string }
+        metadata:
+          type: object
+          additionalProperties: true
+
+    AskBack:
+      type: object
+      properties:
+        type: { type: string, enum: [ask_back] }
+        intent: { type: string, example: "issue_ticket" }
+        executed: { type: boolean, example: false }
+        prompt: { type: string, example: "Bạn muốn bốc số khoa nào?" }
+        missing_slots:
+          type: array
+          items: { type: string }
+        options:
+          type: array
+          items:
+            type: object
+            properties:
+              value: { type: string }
+              label: { type: string }
+        nlu:
+          type: object
+          properties:
+            confidence: { type: number, format: float }
+            slots:
+              type: object
+              additionalProperties: true
+
+    ChatResult:
+      type: object
+      properties:
+        type: { type: string, enum: [result] }
+        intent: { type: string, example: "issue_ticket" }
+        executed: { type: boolean, example: true }
+        ticket: { $ref: '#/components/schemas/Ticket' }
+        nlu:
+          type: object
+          properties:
+            confidence: { type: number, format: float }
+            slots:
+              type: object
+              additionalProperties: true
+
+    ChatConfirmReq:
+      type: object
+      required: [intent, slots]
+      properties:
+        intent: { type: string, example: "issue_ticket" }
+        slots:
+          type: object
+          additionalProperties: true
+        confirm_text: { type: string, nullable: true }

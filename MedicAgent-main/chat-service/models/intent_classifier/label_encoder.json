@@ -1,0 +1,19 @@
+{
+  "classes": [
+    "confirm_no",
+    "confirm_yes",
+    "conversation_end_reset",
+    "fallback_unrecognized",
+    "greeting_farewell",
+    "handover_human",
+    "hospital_workflow",
+    "info_lookup_generic",
+    "insurance_policy",
+    "issue_ticket",
+    "kiosk_navigation",
+    "service_price_lookup",
+    "smalltalk",
+    "triage_request",
+    "wait_time_query"
+  ]
+}

@@ -1,0 +1,16 @@
+fastapi==0.115.0
+uvicorn==0.30.6
+pydantic==2.9.2
+cachetools==5.3.3
+sismic==1.6.10
+SQLAlchemy==2.0.44
+pymysql==1.1.0
+cryptography
+requests==2.32.3
+numpy==1.26.4
+torch==2.1.2
+transformers==4.36.2
+sentence-transformers==2.6.1
+sentencepiece==0.1.99
+scikit-learn==1.5.2
+joblib==1.4.2

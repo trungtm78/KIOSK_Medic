@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Admin Service</title>
+    <style>
+      body { font-family: system-ui, Arial, sans-serif; margin: 2rem; }
+      table { border-collapse: collapse; width: 100%; }
+      th, td { border: 1px solid #ddd; padding: 8px; }
+      th { background: #f5f5f5; text-align: left; }
+      a { text-decoration: none; color: #0b6; }
+    </style>
+  </head>
+  <body>
+    <h1>Tenants</h1>
+    <table>
+      <tr><th>ID</th><th>Code</th><th>Name</th><th>Plan</th><th>Status</th></tr>
+      {% for t in tenants %}
+      <tr>
+        <td>{{ t.id }}</td>
+        <td><a href="/tenants/{{ t.id }}">{{ t.code }}</a></td>
+        <td>{{ t.name }}</td>
+        <td>{{ t.plan }}</td>
+        <td>{{ t.status }}</td>
+      </tr>
+      {% endfor %}
+    </table>
+  </body>
+  </html>
+

@@ -1,0 +1,184 @@
+openapi: 3.0.3
+info:
+  title: Kiosk Gateway API – Queues (Touch)
+  version: 1.0.0
+servers:
+  - url: https://api.example.com
+tags:
+  - name: Queues (Touch)
+paths:
+  /v1/health:
+    get:
+      tags: [Queues (Touch)]
+      summary: Health check
+      responses: { '200': { description: OK } }
+
+  /v1/meta:
+    get:
+      tags: [Queues (Touch)]
+      summary: Metadata phiên bản và feature flags
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                $ref: './common.yaml#/components/schemas/Meta'
+
+  /v1/queues/tickets:
+    post:
+      tags: [Queues (Touch)]
+      summary: Issue a new queue ticket (bốc số)
+      security: [ { bearerAuth: [] } ]
+      parameters:
+        - $ref: './common.yaml#/components/parameters/IdempotencyKey'
+        - $ref: './common.yaml#/components/parameters/XRequestId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: './common.yaml#/components/schemas/IssueTicketReq' }
+      responses:
+        '201':
+          description: Created
+          headers:
+            X-RateLimit-Limit: { $ref: './common.yaml#/components/headers/XRateLimitLimit' }
+            X-RateLimit-Remaining: { $ref: './common.yaml#/components/headers/XRateLimitRemaining' }
+            X-RateLimit-Reset: { $ref: './common.yaml#/components/headers/XRateLimitReset' }
+          content:
+            application/json:
+              schema: { $ref: './common.yaml#/components/schemas/Ticket' }
+        '400': { $ref: '#/components/responses/BadRequest' }
+        '401': { $ref: '#/components/responses/Unauthorized' }
+        '409': { $ref: '#/components/responses/Conflict' }
+        '422': { $ref: '#/components/responses/Unprocessable' }
+        '429': { $ref: '#/components/responses/TooManyRequests' }
+        '502': { $ref: '#/components/responses/UpstreamError' }
+        '504': { $ref: '#/components/responses/GatewayTimeout' }
+
+  /v1/queues/tickets/{ticket_id}:
+    get:
+      tags: [Queues (Touch)]
+      summary: Lấy trạng thái ticket
+      security: [ { bearerAuth: [] } ]
+      parameters:
+        - name: ticket_id
+          in: path
+          required: true
+          schema: { type: string }
+        - $ref: './common.yaml#/components/parameters/XRequestId'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: './common.yaml#/components/schemas/Ticket' }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /v1/queues/tickets/{ticket_id}:cancel:
+    post:
+      tags: [Queues (Touch)]
+      summary: Hủy ticket
+      security: [ { bearerAuth: [] } ]
+      parameters:
+        - name: ticket_id
+          in: path
+          required: true
+          schema: { type: string }
+        - $ref: './common.yaml#/components/parameters/XRequestId'
+      responses:
+        '200':
+          description: Cancelled
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  ticket_id: { type: string }
+                  status: { type: string, enum: [cancelled] }
+        '404': { $ref: '#/components/responses/NotFound' }
+
+  /v1/queues:
+    get:
+      tags: [Queues (Touch)]
+      summary: Tổng quan hàng đợi theo khoa
+      security: [ { bearerAuth: [] } ]
+      parameters:
+        - name: clinic_id
+          in: query
+          required: false
+          schema: { type: string }
+        - $ref: './common.yaml#/components/parameters/Page'
+        - $ref: './common.yaml#/components/parameters/PageSize'
+        - $ref: './common.yaml#/components/parameters/XRequestId'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: './common.yaml#/components/schemas/QueueOverview' }
+
+  /v1/queues/clinics:
+    get:
+      tags: [Queues (Touch)]
+      summary: Danh mục khoa/điểm phục vụ
+      security: [ { bearerAuth: [] } ]
+      parameters:
+        - $ref: './common.yaml#/components/parameters/XRequestId'
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema: { $ref: './common.yaml#/components/schemas/ClinicList' }
+
+components:
+  securitySchemes:
+    bearerAuth:
+      $ref: './common.yaml#/components/securitySchemes/bearerAuth'
+
+  responses:
+    BadRequest:
+      description: Bad request
+      content:
+        application/json:
+          schema: { $ref: './common.yaml#/components/schemas/Error' }
+    Unauthorized:
+      description: Unauthorized
+      content:
+        application/json:
+          schema: { $ref: './common.yaml#/components/schemas/Error' }
+    NotFound:
+      description: Not found
+      content:
+        application/json:
+          schema: { $ref: './common.yaml#/components/schemas/Error' }
+    Conflict:
+      description: Conflict
+      content:
+        application/json:
+          schema: { $ref: './common.yaml#/components/schemas/Error' }
+    Unprocessable:
+      description: Unprocessable Entity
+      content:
+        application/json:
+          schema: { $ref: './common.yaml#/components/schemas/Error' }
+    TooManyRequests:
+      description: Rate limited
+      headers:
+        X-RateLimit-Limit: { $ref: './common.yaml#/components/headers/XRateLimitLimit' }
+        X-RateLimit-Remaining: { $ref: './common.yaml#/components/headers/XRateLimitRemaining' }
+        X-RateLimit-Reset: { $ref: './common.yaml#/components/headers/XRateLimitReset' }
+      content:
+        application/json:
+          schema: { $ref: './common.yaml#/components/schemas/Error' }
+    UpstreamError:
+      description: Upstream error
+      content:
+        application/json:
+          schema: { $ref: './common.yaml#/components/schemas/Error' }
+    GatewayTimeout:
+      description: Gateway timeout
+      content:
+        application/json:
+          schema: { $ref: './common.yaml#/components/schemas/Error' }

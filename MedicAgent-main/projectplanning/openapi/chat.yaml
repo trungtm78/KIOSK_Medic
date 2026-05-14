@@ -1,0 +1,98 @@
+openapi: 3.0.3
+info:
+  title: Kiosk Gateway API – Chat (Text)
+  version: 1.0.0
+servers:
+  - url: https://api.example.com
+tags:
+  - name: Chat (Text)
+paths:
+  /v1/chat/sessions:
+    post:
+      tags: [Chat (Text)]
+      summary: Tạo phiên hội thoại text
+      security: [ { bearerAuth: [] } ]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: './common.yaml#/components/schemas/CreateChatSessionReq' }
+      responses:
+        '201':
+          description: Created
+          content:
+            application/json:
+              schema: { $ref: './common.yaml#/components/schemas/CreateChatSessionRes' }
+
+  /v1/chat/sessions/{session_id}:
+    delete:
+      tags: [Chat (Text)]
+      summary: Kết thúc phiên hội thoại
+      security: [ { bearerAuth: [] } ]
+      parameters:
+        - name: session_id
+          in: path
+          required: true
+          schema: { type: string }
+      responses: { '204': { description: No Content } }
+
+  /v1/chat/sessions/{session_id}/messages:
+    post:
+      tags: [Chat (Text)]
+      summary: Gửi tin nhắn text (user → server)
+      security: [ { bearerAuth: [] } ]
+      parameters:
+        - name: session_id
+          in: path
+          required: true
+          schema: { type: string }
+        - $ref: './common.yaml#/components/parameters/IdempotencyKeyOptional'
+        - $ref: './common.yaml#/components/parameters/XRequestId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: './common.yaml#/components/schemas/ChatMessageReq' }
+      responses:
+        '200':
+          description: Ask-back hoặc Result
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: './common.yaml#/components/schemas/AskBack'
+                  - $ref: './common.yaml#/components/schemas/ChatResult'
+        '404':
+          description: Session not found
+          content:
+            application/json:
+              schema: { $ref: './common.yaml#/components/schemas/Error' }
+
+  /v1/chat/sessions/{session_id}/confirm:
+    post:
+      tags: [Chat (Text)]
+      summary: Xác nhận/điền slot rồi thực thi
+      security: [ { bearerAuth: [] } ]
+      parameters:
+        - name: session_id
+          in: path
+          required: true
+          schema: { type: string }
+        - $ref: './common.yaml#/components/parameters/IdempotencyKeyOptional'
+        - $ref: './common.yaml#/components/parameters/XRequestId'
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: './common.yaml#/components/schemas/ChatConfirmReq' }
+      responses:
+        '200':
+          description: Result
+          content:
+            application/json:
+              schema: { $ref: './common.yaml#/components/schemas/ChatResult' }
+
+components:
+  securitySchemes:
+    bearerAuth:
+      $ref: './common.yaml#/components/securitySchemes/bearerAuth'

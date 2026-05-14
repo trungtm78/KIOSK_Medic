@@ -1,0 +1,271 @@
+{
+  "metadata": {
+    "doc_id": "hospital_1_workflows_v1",
+    "title": "Quy trình khám tại bệnh viện 115",
+    "issued_date": "2024-09-01",
+    "version": "1.0"
+  },
+  "chapters": [
+    {
+      "id": "chapter_bhyt",
+      "label": "Khám BHYT",
+      "title": "Quy trình khám bệnh sử dụng BHYT",
+      "articles": [
+        {
+          "id": "workflow_bhyt",
+          "label": "BHYT",
+          "title": "Quy trình khám bảo hiểm y tế",
+          "workflow_type": "bhyt",
+          "keywords": [
+            "khám bhyt",
+            "bảo hiểm y tế",
+            "quy trình bảo hiểm",
+            "tem bhyt"
+          ],
+          "qas": [
+            "Quy trình khám BHYT",
+            "Khám BHYT cần thực hiện những bước nào?"
+          ],
+          "paragraphs": [
+            {
+              "text": "Quy trình khám BHYT: lấy số thứ tự, điều dưỡng đo sinh hiệu, bác sĩ khám, đóng phí cận lâm sàng, xét nghiệm, bác sĩ khám lại hoặc nhập viện, kê toa, thanh toán và nhận thuốc.",
+              "qas": ["Các bước khám BHYT"]
+            }
+          ],
+          "flowchart": {
+            "id": "bhyt_flow",
+            "title": "Quy trình khám BHYT",
+            "description": "",
+            "image_url": "https://27.74.243.55:7443/knowledge-assets/hospital_1/quytrinh1.jpg",
+            "steps": [
+              {
+                "id": "bhyt_layso",
+                "title": "Lấy số thứ tự khám",
+                "description": "Quét CCCD/thẻ BHYT tại kiosk để nhận số.",
+                "documents": ["CCCD/CMND", "Thẻ BHYT"]
+              },
+              {
+                "id": "bhyt_do_sinh_hieu",
+                "title": "Điều dưỡng đo mạch, huyết áp",
+                "description": "Điều dưỡng đo sinh hiệu và cập nhật thông tin."
+              },
+              {
+                "id": "bhyt_bs_kham",
+                "title": "Bác sĩ khám",
+                "description": "Khám lâm sàng, chỉ định cận lâm sàng hoặc nhập viện."
+              },
+              {
+                "id": "bhyt_dong_phi",
+                "title": "Đóng phí chênh lệch",
+                "description": "Thanh toán phần chênh lệch cận lâm sàng ngoài BHYT.",
+                "documents": ["Phiếu chỉ định", "Thẻ BHYT"]
+              },
+              {
+                "id": "bhyt_cls",
+                "title": "Xét nghiệm/siêu âm/X-Quang",
+                "description": "Thực hiện cận lâm sàng, trả kết quả về bác sĩ.",
+                "note": "Giữ phiếu thu, kết quả xét nghiệm."
+              },
+              {
+                "id": "bhyt_kham_lai",
+                "title": "Nhập viện / bác sĩ khám lại",
+                "description": "Bác sĩ đọc kết quả, quyết định nhập viện hoặc tiếp tục ngoại trú."
+              },
+              {
+                "id": "bhyt_ke_toa",
+                "title": "Kê toa thuốc",
+                "description": "Bác sĩ kê toa và dặn dò chăm sóc."
+              },
+              {
+                "id": "bhyt_thanh_toan",
+                "title": "Thanh toán chi phí khám",
+                "description": "Quyết toán phần đồng chi trả còn lại."
+              },
+              {
+                "id": "bhyt_nhan_thuoc",
+                "title": "Nhận thuốc",
+                "description": "Đến nhà thuốc nhận thuốc theo toa.",
+                "documents": ["Toa thuốc", "Biên lai"]
+              }
+            ],
+            "edges": [
+              ["bhyt_layso", "bhyt_do_sinh_hieu"],
+              ["bhyt_do_sinh_hieu", "bhyt_bs_kham"],
+              ["bhyt_bs_kham", "bhyt_dong_phi"],
+              ["bhyt_dong_phi", "bhyt_cls"],
+              ["bhyt_cls", "bhyt_kham_lai"],
+              ["bhyt_kham_lai", "bhyt_ke_toa"],
+              ["bhyt_ke_toa", "bhyt_thanh_toan"],
+              ["bhyt_thanh_toan", "bhyt_nhan_thuoc"]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_service",
+      "label": "Khám dịch vụ",
+      "title": "Quy trình khám dịch vụ tại bệnh viện",
+      "articles": [
+        {
+          "id": "workflow_service",
+          "label": "Dịch vụ",
+          "title": "Quy trình khám dịch vụ / VIP",
+          "workflow_type": "service",
+          "keywords": [
+            "khám dịch vụ",
+            "dịch vụ vip",
+            "không bhyt",
+            "tự chi trả"
+          ],
+          "qas": [
+            "Khám dịch vụ gồm những bước nào?",
+            "Quy trình khám VIP có cần kiểm tra bảo hiểm không?"
+          ],
+          "paragraphs": [
+            {
+              "text": "Quy trình khám dịch vụ: lấy số ưu tiên, điều dưỡng đo sinh hiệu, bác sĩ khám, đóng phí cận lâm sàng, xét nghiệm, bác sĩ khám lại, kê toa, thanh toán thực tế và mua thuốc.",
+              "qas": ["Quy trình khám dịch vụ gồm những bước nào?"]
+            }
+          ],
+          "flowchart": {
+            "id": "service_flow",
+            "title": "Quy trình khám dịch vụ",
+            "description": "",
+            "image_url": "https://27.74.243.55:7443/knowledge-assets/hospital_1/quytrinh2.jpg",
+            "steps": [
+              {
+                "id": "sv_layso",
+                "title": "Lấy số thứ tự",
+                "description": "Đăng ký dịch vụ tại quầy/kiosk, chọn gói hoặc cấp độ VIP.",
+                "documents": ["CCCD/CMND"]
+              },
+              {
+                "id": "sv_do_sinh_hieu",
+                "title": "Điều dưỡng đo mạch, huyết áp",
+                "description": "Điều dưỡng đo sinh hiệu và ghi nhận tình trạng ban đầu."
+              },
+              {
+                "id": "sv_bs_kham",
+                "title": "Bác sĩ khám",
+                "description": "Khám lâm sàng, chỉ định cận lâm sàng nếu cần."
+              },
+              {
+                "id": "sv_dongphi_cls",
+                "title": "Đóng phí cận lâm sàng",
+                "description": "Thanh toán chi phí xét nghiệm, siêu âm, CT, MRI…",
+                "documents": ["Phiếu chỉ định", "Hóa đơn"]
+              },
+              {
+                "id": "sv_thuc_hien_cls",
+                "title": "Xét nghiệm/siêu âm/X-Quang",
+                "description": "Thực hiện nhanh dịch vụ theo chỉ định, trả kết quả trực tiếp cho bác sĩ."
+              },
+              {
+                "id": "sv_kham_lai",
+                "title": "Bác sĩ khám lại",
+                "description": "Đọc kết quả, quyết định nhập viện hoặc hoàn tất khám."
+              },
+              {
+                "id": "sv_ke_toa",
+                "title": "Kê toa thuốc",
+                "description": "Bác sĩ kê toa, dặn dò và hẹn tái khám."
+              },
+              {
+                "id": "sv_thanh_toan",
+                "title": "Thanh toán chi phí khám",
+                "description": "Đối chiếu chi phí thực tế, hoàn hoặc bù phần chênh lệch.",
+                "documents": ["Biên lai"]
+              },
+              {
+                "id": "sv_mua_thuoc",
+                "title": "Mua/nhận thuốc",
+                "description": "Đến nhà thuốc dịch vụ nhận thuốc theo toa hoặc mua thêm sản phẩm hỗ trợ.",
+                "documents": ["Toa thuốc", "Biên lai"]
+              }
+            ],
+            "edges": [
+              ["sv_layso", "sv_do_sinh_hieu"],
+              ["sv_do_sinh_hieu", "sv_bs_kham"],
+              ["sv_bs_kham", "sv_dongphi_cls"],
+              ["sv_dongphi_cls", "sv_thuc_hien_cls"],
+              ["sv_thuc_hien_cls", "sv_kham_lai"],
+              ["sv_kham_lai", "sv_ke_toa"],
+              ["sv_ke_toa", "sv_thanh_toan"],
+              ["sv_thanh_toan", "sv_mua_thuoc"]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_inpatient",
+      "label": "Thủ tục nội trú",
+      "title": "Quy trình nhập viện và xuất viện",
+      "articles": [
+        {
+          "id": "workflow_admission",
+          "label": "Nhập viện",
+          "title": "Thủ tục nhập viện",
+          "workflow_type": "admission",
+          "keywords": [
+            "nhập viện",
+            "vào viện",
+            "thủ tục nội trú",
+            "làm hồ sơ nhập viện"
+          ],
+          "qas": [
+            "Thủ tục nhập viện gồm những bước nào?",
+            "Cần chuẩn bị gì khi làm hồ sơ nội trú?"
+          ],
+          "paragraphs": [
+            {
+              "text": "Khi bác sĩ chỉ định điều trị nội trú, người bệnh cần mang theo giấy tờ tùy thân, thẻ BHYT (nếu có), giấy chuyển tuyến hợp lệ. Đến quầy tiếp nhận nội trú để mở hồ sơ, nộp tạm ứng viện phí, nhận phòng bệnh và được hướng dẫn các quy định nội trú.",
+              "qas": ["Cần giấy tờ gì để nhập viện?"]
+            },
+            {
+              "text": "Quy trình nhập viện: bác sĩ ra y lệnh nhập viện, đến quầy tiếp nhận nội trú làm hồ sơ, đóng tạm ứng, nhận gói vật dụng (nếu có), được điều dưỡng bàn giao phòng và phổ biến quy định chăm sóc.",
+              "qas": ["Quy trình nhập viện như thế nào?"]
+            }
+          ],
+          "flowchart": {
+            "id": "admission_flow",
+            "title": "Quy trình nhập viện",
+            "description": "",
+            "steps": [
+              {
+                "id": "adm_chidinh",
+                "title": "Bác sĩ chỉ định nhập viện",
+                "description": "Bác sĩ đánh giá và ra y lệnh điều trị nội trú.",
+                "documents": ["Phiếu chỉ định nhập viện"]
+              },
+              {
+                "id": "adm_ho_so",
+                "title": "Mở hồ sơ nội trú",
+                "description": "Đến quầy tiếp nhận, cung cấp CCCD/CMND, thẻ BHYT, giấy chuyển tuyến.",
+                "documents": ["CCCD/CMND", "Thẻ BHYT", "Giấy chuyển tuyến"]
+              },
+              {
+                "id": "adm_tam_ung",
+                "title": "Đóng tạm ứng viện phí",
+                "description": "Thanh toán khoản tạm ứng theo hướng dẫn của thu ngân.",
+                "documents": ["Phiếu tạm ứng"]
+              },
+              {
+                "id": "adm_ban_giao",
+                "title": "Điều dưỡng bàn giao phòng",
+                "description": "Nhận phòng bệnh, vật dụng cá nhân và được phổ biến nội quy.",
+                "note": "Giữ biên lai và thẻ tạm trú nếu có."
+              }
+            ],
+            "edges": [
+              ["adm_chidinh", "adm_ho_so"],
+              ["adm_ho_so", "adm_tam_ung"],
+              ["adm_tam_ung", "adm_ban_giao"]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

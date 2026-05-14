@@ -1,0 +1,195 @@
+openapi: 3.1.0
+info:
+  title: Chat Orchestrator API
+  version: 1.0.0
+servers:
+  - url: https://api.example.com
+paths:
+  /v1/chat/{conversation_id}:
+    # put:
+    #   summary: Upsert conversation (client-provided ID)
+    #   description: Tạo mới hoặc tái sử dụng conversation theo conversation_id do client gửi.
+    #   parameters:
+    #     - in: path
+    #       name: conversation_id
+    #       required: true
+    #       schema: { type: string }
+    #     - in: header
+    #       name: X-Tenant-Id
+    #       required: true
+    #       schema: { type: string }
+    #     - in: header
+    #       name: Idempotency-Key
+    #       required: true
+    #       schema: { type: string, format: uuid }
+    #   requestBody:
+    #     content:
+    #       application/json:
+    #         schema:
+    #           $ref: '#/components/schemas/UpsertConversation'
+    #   responses:
+    #     '201':
+    #       description: Created
+    #       content: { application/json: { schema: { $ref: '#/components/schemas/Conversation' } } }
+    #     '200':
+    #       description: Reused existing conversation
+    #       content: { application/json: { schema: { $ref: '#/components/schemas/Conversation' } } }
+    post:
+      summary: Send a message (and upsert if needed)
+      description: Gửi message người dùng; nếu conversation chưa tồn tại thì server tự tạo.
+      parameters:
+        - in: path
+          name: conversation_id
+          required: true
+          schema: { type: string }
+        - in: header
+          name: X-Tenant-Id
+          required: true
+          schema: { type: string }
+        - in: header
+          name: Idempotency-Key
+          required: true
+          schema: { type: string, format: uuid }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema: { $ref: '#/components/schemas/SendMessage' }
+      responses:
+        '202':
+          description: Accepted
+          content:
+            application/json:
+              schema: { $ref: '#/components/schemas/SendAck' }
+    # get:
+    #   summary: Get conversation snapshot
+    #   description: Lấy trạng thái nhanh: FSM state, slots, last messages (phục vụ resume UI).
+    #   parameters:
+    #     - in: path
+    #       name: conversation_id
+    #       required: true
+    #       schema: { type: string }
+    #     - in: query
+    #       name: messages_limit
+    #       schema: { type: integer, minimum: 0, maximum: 100, default: 0 }
+    #   responses:
+    #     '200':
+    #       description: OK
+    #       content: { application/json: { schema: { $ref: '#/components/schemas/ConversationSnapshot' } } }
+    # patch:
+    #   summary: Update conversation (close, locale, metadata)
+    #   parameters:
+    #     - in: path
+    #       name: conversation_id
+    #       required: true
+    #       schema: { type: string }
+    #   requestBody:
+    #     content:
+    #       application/json:
+    #         schema: { $ref: '#/components/schemas/ConversationPatch' }
+    #   responses:
+    #     '200':
+    #       description: Updated
+    #       content: { application/json: { schema: { $ref: '#/components/schemas/Conversation' } } }
+
+  /v1/chat/{conversation_id}/stream:
+    get:
+      summary: SSE stream for conversation
+      description: Stream token-by-token và sự kiện (message.delta, message.completed, state.updated…).
+      parameters:
+        - in: path
+          name: conversation_id
+          required: true
+          schema: { type: string }
+        - in: query
+          name: cursor
+          description: Message ID bắt đầu theo dõi từ đó (tùy chọn).
+          schema: { type: string }
+      responses:
+        '200':
+          description: text/event-stream
+          content:
+            text/event-stream:
+              schema:
+                type: string
+                example: |
+                  event: message.delta
+                  data: {"message_id":"msg_1","delta":"Xin "}
+                  
+                  event: message.completed
+                  data: {"message_id":"msg_1","content":"Xin chào"}
+
+components:
+  schemas:
+    # UpsertConversation:
+    #   type: object
+    #   properties:
+    #     user_ref: { type: string, description: "user/device id" }
+    #     channel: { type: string, example: "kiosk" }
+    #     locale: { type: string, example: "vi-VN" }
+    #     metadata:
+    #       type: object
+    #       additionalProperties: true
+    # Conversation:
+    #   type: object
+    #   properties:
+    #     conversation_id: { type: string }
+    #     session_id: { type: string, description: "internal ID" }
+    #     status: { type: string, enum: [active, closed], default: active }
+    #     created_at: { type: string, format: date-time }
+    #     updated_at: { type: string, format: date-time }
+    SendMessage:
+      type: object
+      required: [role, content]
+      properties:
+        role: { type: string, enum: [user, system] }
+        content: { type: string }
+        attachments:
+          type: array
+          items:
+            type: object
+            properties: { id: { type: string } }
+        stream: { type: boolean, default: true }
+        options:
+          type: object
+          additionalProperties: true
+    SendAck:
+      type: object
+      properties:
+        conversation_id: { type: string }
+        session_id: { type: string }
+        message_id: { type: string }
+        stream_url: { type: string }
+    # ConversationSnapshot:
+    #   type: object
+    #   properties:
+    #     conversation: { $ref: '#/components/schemas/Conversation' }
+    #     state:
+    #       type: object
+    #       properties:
+    #         fsm_state: { type: string }
+    #         slots:
+    #           type: object
+    #           additionalProperties:
+    #             type: object
+    #             properties:
+    #               value: {}
+    #               confidence: { type: number }
+    #               required: { type: boolean }
+    #     messages:
+    #       type: array
+    #       items:
+    #         type: object
+    #         properties:
+    #           message_id: { type: string }
+    #           role: { type: string }
+    #           content: { type: string }
+    #           created_at: { type: string, format: date-time }
+    # ConversationPatch:
+    #   type: object
+    #   properties:
+    #     status: { type: string, enum: [active, closed] }
+    #     locale: { type: string }
+    #     metadata:
+    #       type: object
+    #       additionalProperties: true

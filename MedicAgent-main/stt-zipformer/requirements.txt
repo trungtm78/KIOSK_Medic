@@ -1,0 +1,8 @@
+fastapi>=0.110.0,<1.0.0
+huggingface_hub>=0.22.2
+numpy>=1.24.0,<2.0
+python-multipart>=0.0.9
+sherpa-onnx @ https://huggingface.co/csukuangfj/sherpa-onnx-wheels/resolve/main/cuda/1.12.15/sherpa_onnx-1.12.15+cuda-cp310-cp310-linux_x86_64.whl
+soundfile>=0.12.1
+uvicorn[standard]>=0.23.0,<0.32.0
+onnxruntime-gpu==1.17.1

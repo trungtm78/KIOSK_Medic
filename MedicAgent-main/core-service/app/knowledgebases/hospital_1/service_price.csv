@@ -1,0 +1,1768 @@
+hospital_id,service_code,service_name,unit,category_name,payer_type,price,currency,effective_from,effective_to,notes,status
+1,DG05,Khám chức năng hô hấp,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG05,Khám chức năng hô hấp,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG06,Khám da liễu,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG06,Khám da liễu,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,ND98,Khám hậu môn-trực tràng,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,ND98,Khám hậu môn-trực tràng,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG10,Khám mắt,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG10,Khám mắt,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG12,Khám Tiết niệu,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG12,Khám Tiết niệu,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG13,Khám nội tiết,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG13,Khám nội tiết,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG14,Khám phổi,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG14,Khám phổi,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG15,Khám phụ khoa,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG15,Khám phụ khoa,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG19,Khám tai mũi họng,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG19,Khám tai mũi họng,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG20,Khám thần kinh,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG20,Khám thần kinh,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG21,Khám tiêu hoá - gan mật,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG21,Khám tiêu hoá - gan mật,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG22,Khám tim mạch,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG22,Khám tim mạch,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG25,Khám viêm gan,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG25,Khám viêm gan,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG26,Khám xương khớp,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG26,Khám xương khớp,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG29,Khám lồng ngực,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG29,Khám lồng ngực,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG46,Khám Nhi,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG46,Khám Nhi,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG56,Khám sức khỏe,Lần,KHÁM BỆNH,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,DG58,Khám tư vấn tiêm ngừa,Lần,KHÁM BỆNH,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,DG61,Khám tổng quát,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG62,Khám nội thận,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG62,Khám nội thận,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG63,Khám thai,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DG63,Khám thai,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DG80,Khám tổng quát (VIP),Lần,KHÁM BỆNH,TU_CHI_TRA,600000,VND,2024-01-01,,,1
+1,DGE2,Khám nội cơ xương khớp,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DGE2,Khám nội cơ xương khớp,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DGE4,Khám phục hồi chức năng,Lần,KHÁM BỆNH,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,DGE4,Khám phục hồi chức năng,Lần,KHÁM BỆNH,BHYT,50600,VND,2024-01-01,,,1
+1,DO47,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Nội)",Lần,HỘI CHẨN,TU_CHI_TRA,550000,VND,2024-01-01,,,1
+1,DO47,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Nội)",Lần,HỘI CHẨN,BHYT,200000,VND,2024-01-01,,,1
+1,DO35,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Tai mũi họng)",Lần,HỘI CHẨN,TU_CHI_TRA,550000,VND,2024-01-01,,,1
+1,DO35,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Tai mũi họng)",Lần,HỘI CHẨN,BHYT,200000,VND,2024-01-01,,,1
+1,DO37,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Phụ sản)",Lần,HỘI CHẨN,TU_CHI_TRA,550000,VND,2024-01-01,,,1
+1,DO37,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Phụ sản)",Lần,HỘI CHẨN,BHYT,200000,VND,2024-01-01,,,1
+1,DO40,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Ngoại)",Lần,HỘI CHẨN,TU_CHI_TRA,550000,VND,2024-01-01,,,1
+1,DO40,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Ngoại)",Lần,HỘI CHẨN,BHYT,200000,VND,2024-01-01,,,1
+1,DO42,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Nội tiết)",Lần,HỘI CHẨN,TU_CHI_TRA,550000,VND,2024-01-01,,,1
+1,DO42,"Hội chẩn ngoại viện (Hội chẩn ca bệnh khó, bệnh nặng, bệnh hiếm chuyên ngành Nội tiết)",Lần,HỘI CHẨN,BHYT,200000,VND,2024-01-01,,,1
+1,DN17,Hội chẩn để xác định ca bệnh khó,Lần,HỘI CHẨN,TU_CHI_TRA,500000,VND,2024-01-01,,,1
+1,ND91,Chụp CLVT hàm-mặt có tiêm thuốc cản quang (sọ + xoang) (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1950000,VND,2024-01-01,,,1
+1,ND91,Chụp CLVT hàm-mặt có tiêm thuốc cản quang (sọ + xoang) (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,663400,VND,2024-01-01,,,1
+1,ND92,Chụp CLVT sọ não không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1000000,VND,2024-01-01,,,1
+1,ND92,Chụp CLVT sọ não không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,550100,VND,2024-01-01,,,1
+1,ND93,Chụp CLVT sọ não có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1240000,VND,2024-01-01,,,1
+1,ND93,Chụp CLVT sọ não có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,663400,VND,2024-01-01,,,1
+1,ND94,Chụp CT-Scan vùng cổ [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1000000,VND,2024-01-01,,,1
+1,ND94,Chụp CT-Scan vùng cổ [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,550100,VND,2024-01-01,,,1
+1,ND95,Chụp CT-Scan vùng cổ có thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1240000,VND,2024-01-01,,,1
+1,ND95,Chụp CT-Scan vùng cổ có thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,663400,VND,2024-01-01,,,1
+1,ND96,Chụp CLVT hàm-mặt không tiêm thuốc cản quang (xoang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1000000,VND,2024-01-01,,,1
+1,ND96,Chụp CLVT hàm-mặt không tiêm thuốc cản quang (xoang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,550100,VND,2024-01-01,,,1
+1,ND97,Chụp CLVT hàm-mặt có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1240000,VND,2024-01-01,,,1
+1,ND97,Chụp CLVT hàm-mặt có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,663400,VND,2024-01-01,,,1
+1,ND98,Chụp CLVT tai-xương đá không tiêm thuốc [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1000000,VND,2024-01-01,,,1
+1,ND98,Chụp CLVT tai-xương đá không tiêm thuốc [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,1000000,VND,2024-01-01,,,1
+1,ND99,Chụp CLVT tai-xương đá có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1240000,VND,2024-01-01,,,1
+1,ND99,Chụp CLVT tai-xương đá có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,1240000,VND,2024-01-01,,,1
+1,NDA0,Chụp cắt lớp vi tính mạch máu chi trên có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,TU_CHI_TRA,2350000,VND,2024-01-01,,,1
+1,NDA0,Chụp cắt lớp vi tính mạch máu chi trên có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,BHYT,1732400,VND,2024-01-01,,,1
+1,ND76,Chụp cắt lớp vi tính tạng khảo sát huyết động học khối u (CT perfusion) (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,TU_CHI_TRA,2580000,VND,2024-01-01,,,1
+1,ND76,Chụp cắt lớp vi tính tạng khảo sát huyết động học khối u (CT perfusion) (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,BHYT,1732400,VND,2024-01-01,,,1
+1,ND80,Chụp cắt lớp vi tính động mạch chủ ngực có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,TU_CHI_TRA,2250000,VND,2024-01-01,,,1
+1,ND80,Chụp cắt lớp vi tính động mạch chủ ngực có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,BHYT,1732400,VND,2024-01-01,,,1
+1,ND81,Chụp cắt lớp vi tính tầng trên ổ bụng có khảo sát mạch các tạng (mạc treo) (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,TU_CHI_TRA,2200000,VND,2024-01-01,,,1
+1,ND81,Chụp cắt lớp vi tính tầng trên ổ bụng có khảo sát mạch các tạng (mạc treo) (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,BHYT,1732400,VND,2024-01-01,,,1
+1,ND83,Chụp cắt lớp vi tính động mạch phổi (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,TU_CHI_TRA,2100000,VND,2024-01-01,,,1
+1,ND83,Chụp cắt lớp vi tính động mạch phổi (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,BHYT,1732400,VND,2024-01-01,,,1
+1,ND84,Chụp cắt lớp vi tính động mạch chủ-chậu (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,TU_CHI_TRA,2240000,VND,2024-01-01,,,1
+1,ND84,Chụp cắt lớp vi tính động mạch chủ-chậu (chưa bao gồm thuốc cản quang),Lần,CT-SCAN,BHYT,1732400,VND,2024-01-01,,,1
+1,ND85,"Chụp cắt lớp vi tính động mạch vành, tim (chưa bao gồm thuốc cản quang)",Lần,CT-SCAN,TU_CHI_TRA,2450000,VND,2024-01-01,,,1
+1,ND85,"Chụp cắt lớp vi tính động mạch vành, tim (chưa bao gồm thuốc cản quang)",Lần,CT-SCAN,BHYT,1732400,VND,2024-01-01,,,1
+1,ND66,Chụp cắt lớp vi tính xương chi không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1000000,VND,2024-01-01,,,1
+1,ND66,Chụp cắt lớp vi tính xương chi không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,550100,VND,2024-01-01,,,1
+1,ND68,Chụp cắt lớp vi tính cột sống cổ không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1000000,VND,2024-01-01,,,1
+1,ND68,Chụp cắt lớp vi tính cột sống cổ không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,550100,VND,2024-01-01,,,1
+1,ND69,Chụp cắt lớp vi tính cột sống cổ có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1240000,VND,2024-01-01,,,1
+1,ND69,Chụp cắt lớp vi tính cột sống cổ có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,663400,VND,2024-01-01,,,1
+1,ND71,Chụp cắt lớp vi tính cột sống ngực có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1240000,VND,2024-01-01,,,1
+1,ND71,Chụp cắt lớp vi tính cột sống ngực có tiêm thuốc cản quang (chưa bao gồm thuốc cản quang) [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,663400,VND,2024-01-01,,,1
+1,ND72,Chụp cắt lớp vi tính cột sống thắt lưng không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,TU_CHI_TRA,1000000,VND,2024-01-01,,,1
+1,ND72,Chụp cắt lớp vi tính cột sống thắt lưng không tiêm thuốc cản quang [BHYT thanh toán theo đơn giá 1-32 dãy],Lần,CT-SCAN,BHYT,550100,VND,2024-01-01,,,1
+1,MC72,"Siêu âm Doppler tinh hoàn, mào tinh hoàn hai bên",Lần,SIÊU ÂM,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,MC72,"Siêu âm Doppler tinh hoàn, mào tinh hoàn hai bên",Lần,SIÊU ÂM,BHYT,89300,VND,2024-01-01,,,1
+1,MC73,Siêu âm ổ bụng,Lần,SIÊU ÂM,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,MC73,Siêu âm ổ bụng,Lần,SIÊU ÂM,BHYT,58600,VND,2024-01-01,,,1
+1,MC76,Siêu âm cơ phần mềm vùng cổ,Lần,SIÊU ÂM,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,MC76,Siêu âm cơ phần mềm vùng cổ,Lần,SIÊU ÂM,BHYT,58600,VND,2024-01-01,,,1
+1,MC82,"Siêu âm Doppler mạch máu ổ bụng (động mạch chủ, mạc treo tràng trên, thân tạng…)",Lần,SIÊU ÂM,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,MC82,"Siêu âm Doppler mạch máu ổ bụng (động mạch chủ, mạc treo tràng trên, thân tạng…)",Lần,SIÊU ÂM,BHYT,252300,VND,2024-01-01,,,1
+1,MC89,Siêu âm phần mềm,Lần,SIÊU ÂM,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,MC89,Siêu âm phần mềm,Lần,SIÊU ÂM,BHYT,58600,VND,2024-01-01,,,1
+1,MC95,"Siêu âm Doppler tử cung, buồng trứng qua đường âm đạo",Lần,SIÊU ÂM,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,MC95,"Siêu âm Doppler tử cung, buồng trứng qua đường âm đạo",Lần,SIÊU ÂM,BHYT,252300,VND,2024-01-01,,,1
+1,MCA5,Siêu âm tuyến giáp,Lần,SIÊU ÂM,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,MCA5,Siêu âm tuyến giáp,Lần,SIÊU ÂM,BHYT,58600,VND,2024-01-01,,,1
+1,MCA6,Siêu âm các tuyến nước bọt (tuyến mang tai),Lần,SIÊU ÂM,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,MCA6,Siêu âm các tuyến nước bọt (tuyến mang tai),Lần,SIÊU ÂM,BHYT,58600,VND,2024-01-01,,,1
+1,MCA7,Siêu âm tuyến vú hai bên,Lần,SIÊU ÂM,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,MCA7,Siêu âm tuyến vú hai bên,Lần,SIÊU ÂM,BHYT,58600,VND,2024-01-01,,,1
+1,MCD0,"Siêu âm thai (thai, nhau thai, nước ối)",Lần,SIÊU ÂM,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,MCD0,"Siêu âm thai (thai, nhau thai, nước ối)",Lần,SIÊU ÂM,BHYT,58600,VND,2024-01-01,,,1
+1,MCF8,"Siêu âm Doppler thai nhi (thai, nhau thai, dây rốn, động mạch tử cung) (song thai trở lên)",Lần,SIÊU ÂM,TU_CHI_TRA,600000,VND,2024-01-01,,,1
+1,MCF8,"Siêu âm Doppler thai nhi (thai, nhau thai, dây rốn, động mạch tử cung) (song thai trở lên)",Lần,SIÊU ÂM,BHYT,89300,VND,2024-01-01,,,1
+1,MD18,Siêu âm Doppler tim thai (sàng lọc),Lần,SIÊU ÂM TIM,TU_CHI_TRA,350000,VND,2024-01-01,,,1
+1,MD18,Siêu âm Doppler tim thai (sàng lọc),Lần,SIÊU ÂM TIM,BHYT,252300,VND,2024-01-01,,,1
+1,MD19,Siêu âm Doppler tim thai (song thai trở lên) (sàng lọc),Lần,SIÊU ÂM TIM,TU_CHI_TRA,450000,VND,2024-01-01,,,1
+1,MD19,Siêu âm Doppler tim thai (song thai trở lên) (sàng lọc),Lần,SIÊU ÂM TIM,BHYT,252300,VND,2024-01-01,,,1
+1,MD08,Siêu âm Doppler tim,Lần,SIÊU ÂM TIM,TU_CHI_TRA,280000,VND,2024-01-01,,,1
+1,MD08,Siêu âm Doppler tim,Lần,SIÊU ÂM TIM,BHYT,252300,VND,2024-01-01,,,1
+1,MAA4,Chụp X-quang bàn chân nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAA4,Chụp X-quang bàn chân nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAA5,Chụp X-quang bàn chân thẳng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAA5,Chụp X-quang bàn chân thẳng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAA6,Chụp X-quang bàn chân thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MAA6,Chụp X-quang bàn chân thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAB0,Chụp X-quang bản lề chẩm-cổ (C1-C2) T-N số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAB0,Chụp X-quang bản lề chẩm-cổ (C1-C2) T-N số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAC7,Chụp X-quang Cẳng chân thẳng và nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MAC7,Chụp X-quang Cẳng chân thẳng và nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAD1,Chụp X-quang Cổ chân thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MAD1,Chụp X-quang Cổ chân thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAD5,Chụp X-quang Cổ tay thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MAD5,Chụp X-quang Cổ tay thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAD6,Chụp X-quang Cột sống cổ (cúi - ngửa) số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MAD6,Chụp X-quang Cột sống cổ (cúi - ngửa) số hóa 1 phim,Lần,X-QUANG,BHYT,130000,VND,2024-01-01,,,1
+1,MAE1,Chụp X-quang Cột sống ngực nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAE1,Chụp X-quang Cột sống ngực nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAE4,Chụp X-quang Cột sống thắt lưng (cúi - ngửa) số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MAE4,Chụp X-quang Cột sống thắt lưng (cúi - ngửa) số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAE5,Chụp X-quang Cột sống thắt lưng T-N-Cúi số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,180000,VND,2024-01-01,,,1
+1,MAE5,Chụp X-quang Cột sống thắt lưng T-N-Cúi số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAE9,Chụp X-quang Cột sống thắt lưng-cùng T-N-C số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,230000,VND,2024-01-01,,,1
+1,MAE9,Chụp X-quang Cột sống thắt lưng-cùng T-N-C số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAF0,Chụp X-quang Cung gò má số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAF0,Chụp X-quang Cung gò má số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAF1,Chụp X-quang Dạ dày cản quang số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,280000,VND,2024-01-01,,,1
+1,MAF1,Chụp X-quang Dạ dày cản quang số hóa 1 phim,Lần,X-QUANG,BHYT,124300,VND,2024-01-01,,,1
+1,MAF5,Chụp X-quang đường rò cản quang số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,880000,VND,2024-01-01,,,1
+1,MAF5,Chụp X-quang đường rò cản quang số hóa 1 phim,Lần,X-QUANG,BHYT,446800,VND,2024-01-01,,,1
+1,MAG0,Chụp X-quang Hố yên thẳng (Worms-Bretton) số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAG0,Chụp X-quang Hố yên thẳng (Worms-Bretton) số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAG1,Chụp X-quang Hố yên thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MAG1,Chụp X-quang Hố yên thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAG2,Chụp X-quang Khớp cùng-chậu thẳng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MAG2,Chụp X-quang Khớp cùng-chậu thẳng số hóa 1 phim,Lần,X-QUANG,BHYT,130000,VND,2024-01-01,,,1
+1,MAG3,Chụp X-quang Khớp gối 1 bên (T-N -tiếp tuyến) số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,220000,VND,2024-01-01,,,1
+1,MAG3,Chụp X-quang Khớp gối 1 bên (T-N -tiếp tuyến) số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAG4,Chụp X-quang Khớp gối nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAG4,Chụp X-quang Khớp gối nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAG7,Chụp X-quang Khớp gối thẳng-nghiêng 2 bên số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,270000,VND,2024-01-01,,,1
+1,MAG7,Chụp X-quang Khớp gối thẳng-nghiêng 2 bên số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAH0,Chụp X-quang Khớp háng thẳng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAH0,Chụp X-quang Khớp háng thẳng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAH3,Chụp X-quang Khớp khuỷu thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MAH3,Chụp X-quang Khớp khuỷu thẳng-nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAJ3,Chụp X-quang Ngón tay thẳng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAJ3,Chụp X-quang Ngón tay thẳng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAJ6,Chụp X-quang Ngực nghiêng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAJ6,Chụp X-quang Ngực nghiêng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAJ7,Chụp X-quang Ngực thẳng số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAJ7,Chụp X-quang Ngực thẳng số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAJ9,Chụp X-quang Phổi đỉnh ưỡn (Apico) số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAJ9,Chụp X-quang Phổi đỉnh ưỡn (Apico) số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAL2,Chụp X-quang Thực quản-dạ dày cản quang số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,380000,VND,2024-01-01,,,1
+1,MAL2,Chụp X-quang Thực quản-dạ dày cản quang số hóa 1 phim,Lần,X-QUANG,BHYT,124300,VND,2024-01-01,,,1
+1,MAL3,Chụp X-quang Thực quản-dạ dày đối quang kép số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,340000,VND,2024-01-01,,,1
+1,MAL3,Chụp X-quang Thực quản-dạ dày đối quang kép số hóa 1 phim,Lần,X-QUANG,BHYT,124300,VND,2024-01-01,,,1
+1,MAQ0,Chụp X-quang khớp gối nghiêng 1 bên (tư thế đứng) số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAQ0,Chụp X-quang khớp gối nghiêng 1 bên (tư thế đứng) số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAQ1,Chụp X-quang khớp gối thẳng 1 bên (tư thế đứng) số hóa 1 phim,Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MAQ1,Chụp X-quang khớp gối thẳng 1 bên (tư thế đứng) số hóa 1 phim,Lần,X-QUANG,BHYT,73300,VND,2024-01-01,,,1
+1,MAQ4,Chụp X-quang khung đại tràng có dùng thuốc cản quang tan trong nước số hóa,Lần,X-QUANG,TU_CHI_TRA,1700000,VND,2024-01-01,,,1
+1,MAQ4,Chụp X-quang khung đại tràng có dùng thuốc cản quang tan trong nước số hóa,Lần,X-QUANG,BHYT,304800,VND,2024-01-01,,,1
+1,MAR6,Chụp X-quang cột sống cổ nghiêng số hóa 1 phim (khảo sát tìm VA),Lần,X-QUANG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MB82,Nội soi can thiệp - cắt polyp ống tiêu hóa > 1cm hoặc nhiều polyp,Lần,NỘI SOI,TU_CHI_TRA,2000000,VND,2024-01-01,,,1
+1,MB82,Nội soi can thiệp - cắt polyp ống tiêu hóa > 1cm hoặc nhiều polyp,Lần,NỘI SOI,BHYT,1743100,VND,2024-01-01,,,1
+1,MBB3,Nội soi thực quản - dạ dày - tá tràng có sinh thiết (ống mềm),Lần,NỘI SOI,TU_CHI_TRA,800000,VND,2024-01-01,,,1
+1,MBB3,Nội soi thực quản - dạ dày - tá tràng có sinh thiết (ống mềm),Lần,NỘI SOI,BHYT,493800,VND,2024-01-01,,,1
+1,MBB4,Nội soi trực tràng ống mềm không sinh thiết (có thuốc),Lần,NỘI SOI,TU_CHI_TRA,550000,VND,2024-01-01,,,1
+1,MBB4,Nội soi trực tràng ống mềm không sinh thiết (có thuốc),Lần,NỘI SOI,BHYT,215200,VND,2024-01-01,,,1
+1,MBB5,Nội soi trực tràng ống mềm không sinh thiết (không thuốc),Lần,NỘI SOI,TU_CHI_TRA,450000,VND,2024-01-01,,,1
+1,MBB5,Nội soi trực tràng ống mềm không sinh thiết (không thuốc),Lần,NỘI SOI,BHYT,215200,VND,2024-01-01,,,1
+1,MBH6,Nội soi đại tràng cắt polyp ≤ 1 cm gây mê (có soi chẩn đoán),Lần,NỘI SOI,TU_CHI_TRA,3400000,VND,2024-01-01,,,1
+1,MBH6,Nội soi đại tràng cắt polyp ≤ 1 cm gây mê (có soi chẩn đoán),Lần,NỘI SOI,BHYT,1108300,VND,2024-01-01,,,1
+1,MBI0,Nội soi đại tràng tiêm hoặc kẹp cầm máu gây mê (có soi chẩn đoán),Lần,NỘI SOI,TU_CHI_TRA,3500000,VND,2024-01-01,,,1
+1,MBI0,Nội soi đại tràng tiêm hoặc kẹp cầm máu gây mê (có soi chẩn đoán),Lần,NỘI SOI,BHYT,656700,VND,2024-01-01,,,1
+1,MBI1,Nội soi đại tràng tiêm hoặc kẹp cầm máu (có soi chẩn đoán),Lần,NỘI SOI,TU_CHI_TRA,2300000,VND,2024-01-01,,,1
+1,MBI1,Nội soi đại tràng tiêm hoặc kẹp cầm máu (có soi chẩn đoán),Lần,NỘI SOI,BHYT,656700,VND,2024-01-01,,,1
+1,MBI2,Nội soi dạ dày cắt polyp gây mê (có soi chẩn đoán),Lần,NỘI SOI,TU_CHI_TRA,3500000,VND,2024-01-01,,,1
+1,MBI2,Nội soi dạ dày cắt polyp gây mê (có soi chẩn đoán),Lần,NỘI SOI,BHYT,1108300,VND,2024-01-01,,,1
+1,MBI4,Nội soi dạ dày tiêm hoặc kẹp cầm máu gây mê (có soi chẩn đoán),Lần,NỘI SOI,TU_CHI_TRA,3500000,VND,2024-01-01,,,1
+1,MBI4,Nội soi dạ dày tiêm hoặc kẹp cầm máu gây mê (có soi chẩn đoán),Lần,NỘI SOI,BHYT,798300,VND,2024-01-01,,,1
+1,MBI8,Nội soi trực tràng cắt polyp (có soi chẩn đoán),Lần,NỘI SOI,TU_CHI_TRA,2100000,VND,2024-01-01,,,1
+1,MBI8,Nội soi trực tràng cắt polyp (có soi chẩn đoán),Lần,NỘI SOI,BHYT,1108300,VND,2024-01-01,,,1
+1,MBE0,"Nội soi thực quản - dạ dày - tá tràng không sinh thiết (ống mềm, gây mê)",Lần,NỘI SOI,TU_CHI_TRA,2300000,VND,2024-01-01,,,1
+1,MBE0,"Nội soi thực quản - dạ dày - tá tràng không sinh thiết (ống mềm, gây mê)",Lần,NỘI SOI,BHYT,276500,VND,2024-01-01,,,1
+1,MBE1,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (gây mê),Lần,NỘI SOI,TU_CHI_TRA,2800000,VND,2024-01-01,,,1
+1,MBE1,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (gây mê),Lần,NỘI SOI,BHYT,677500,VND,2024-01-01,,,1
+1,MBF1,"Nội soi đại trực tràng ống mềm gây mê (có thuốc, có sinh thiết)",Lần,NỘI SOI,TU_CHI_TRA,3200000,VND,2024-01-01,,,1
+1,MBF1,"Nội soi đại trực tràng ống mềm gây mê (có thuốc, có sinh thiết)",Lần,NỘI SOI,BHYT,677500,VND,2024-01-01,,,1
+1,MBF2,"Nội soi đại trực tràng ống mềm gây mê (không thuốc, không sinh thiết)",Lần,NỘI SOI,TU_CHI_TRA,2700000,VND,2024-01-01,,,1
+1,MBF2,"Nội soi đại trực tràng ống mềm gây mê (không thuốc, không sinh thiết)",Lần,NỘI SOI,BHYT,677500,VND,2024-01-01,,,1
+1,MBF3,"Nội soi đại trực tràng ống mềm gây mê (không thuốc, có sinh thiết)",Lần,NỘI SOI,TU_CHI_TRA,3100000,VND,2024-01-01,,,1
+1,MBF3,"Nội soi đại trực tràng ống mềm gây mê (không thuốc, có sinh thiết)",Lần,NỘI SOI,BHYT,677500,VND,2024-01-01,,,1
+1,MBF4,Nội soi đại trực tràng toàn bộ ống mềm có sinh thiết (không thuốc),Lần,NỘI SOI,TU_CHI_TRA,1100000,VND,2024-01-01,,,1
+1,MBF4,Nội soi đại trực tràng toàn bộ ống mềm có sinh thiết (không thuốc),Lần,NỘI SOI,BHYT,468800,VND,2024-01-01,,,1
+1,MBF5,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (không thuốc),Lần,NỘI SOI,TU_CHI_TRA,800000,VND,2024-01-01,,,1
+1,MBF5,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (không thuốc),Lần,NỘI SOI,BHYT,352100,VND,2024-01-01,,,1
+1,MBF7,Nội soi trực tràng ống mềm có sinh thiết (không thuốc),Lần,NỘI SOI,TU_CHI_TRA,700000,VND,2024-01-01,,,1
+1,MBF7,Nội soi trực tràng ống mềm có sinh thiết (không thuốc),Lần,NỘI SOI,BHYT,323500,VND,2024-01-01,,,1
+1,MBF9,Nội soi can thiệp- cắt 01 polyp ống tiêu hóa < 1cm (gây mê),Lần,NỘI SOI,TU_CHI_TRA,3000000,VND,2024-01-01,,,1
+1,MBF9,Nội soi can thiệp- cắt 01 polyp ống tiêu hóa < 1cm (gây mê),Lần,NỘI SOI,BHYT,1108300,VND,2024-01-01,,,1
+1,MBG0,Nội soi can thiệp- cắt 01 polyp ống tiêu hóa > 1cm hoặc nhiều polyp (gây mê),Lần,NỘI SOI,TU_CHI_TRA,3500000,VND,2024-01-01,,,1
+1,MBG0,Nội soi can thiệp- cắt 01 polyp ống tiêu hóa > 1cm hoặc nhiều polyp (gây mê),Lần,NỘI SOI,BHYT,1743100,VND,2024-01-01,,,1
+1,MBG3,"Nội soi can thiệp- gắp giun, dị vật ống tiêu hóa (gây mê)",Lần,NỘI SOI,TU_CHI_TRA,3200000,VND,2024-01-01,,,1
+1,MBG3,"Nội soi can thiệp- gắp giun, dị vật ống tiêu hóa (gây mê)",Lần,NỘI SOI,BHYT,1743100,VND,2024-01-01,,,1
+1,MB91,Nội soi thanh quản ống mềm lấy dị vật gây tê,Lần,NỘI SOI,TU_CHI_TRA,2200000,VND,2024-01-01,,,1
+1,MB91,Nội soi thanh quản ống mềm lấy dị vật gây tê,Lần,NỘI SOI,BHYT,943600,VND,2024-01-01,,,1
+1,MBA1,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết,Lần,NỘI SOI,TU_CHI_TRA,900000,VND,2024-01-01,,,1
+1,MBA1,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết,Lần,NỘI SOI,BHYT,352100,VND,2024-01-01,,,1
+1,MH42,A/G,Lần,SINH HÓA,TU_CHI_TRA,47000,VND,2024-01-01,,,1
+1,MH45,Đo hoạt độ LDH ( Lactat dehydrogenase),Lần,SINH HÓA,TU_CHI_TRA,33000,VND,2024-01-01,,,1
+1,MH45,Đo hoạt độ LDH ( Lactat dehydrogenase),Lần,SINH HÓA,BHYT,28000,VND,2024-01-01,,,1
+1,MH46,Định lượng Amoniac ( NH3),Lần,SINH HÓA,TU_CHI_TRA,76500,VND,2024-01-01,,,1
+1,MH46,Định lượng Amoniac ( NH3),Lần,SINH HÓA,BHYT,76500,VND,2024-01-01,,,1
+1,MH47,Định lượng Calci ion hóa,Lần,SINH HÓA,TU_CHI_TRA,43000,VND,2024-01-01,,,1
+1,MH47,Định lượng Calci ion hóa,Lần,SINH HÓA,BHYT,16800,VND,2024-01-01,,,1
+1,MH51,Đo hoạt độ CK-MB (Isozym MB of Creatine kinase),Lần,SINH HÓA,TU_CHI_TRA,48000,VND,2024-01-01,,,1
+1,MH51,Đo hoạt độ CK-MB (Isozym MB of Creatine kinase),Lần,SINH HÓA,BHYT,39200,VND,2024-01-01,,,1
+1,MH52,Định lượng IgG,Lần,SINH HÓA,TU_CHI_TRA,65600,VND,2024-01-01,,,1
+1,MH52,Định lượng IgG,Lần,SINH HÓA,BHYT,65600,VND,2024-01-01,,,1
+1,MH26,Định lượng Glucose sau ăn 2 giờ,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH26,Định lượng Glucose sau ăn 2 giờ,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH27,Streptococcus pyogenes ASO,Lần,SINH HÓA,TU_CHI_TRA,55000,VND,2024-01-01,,,1
+1,MH27,Streptococcus pyogenes ASO,Lần,SINH HÓA,BHYT,45500,VND,2024-01-01,,,1
+1,MH28,Định lượng RF (Reumatoid Factor),Lần,SINH HÓA,TU_CHI_TRA,54000,VND,2024-01-01,,,1
+1,MH28,Định lượng RF (Reumatoid Factor),Lần,SINH HÓA,BHYT,39200,VND,2024-01-01,,,1
+1,MH29,Định lượng IgA,Lần,SINH HÓA,TU_CHI_TRA,65600,VND,2024-01-01,,,1
+1,MH29,Định lượng IgA,Lần,SINH HÓA,BHYT,65600,VND,2024-01-01,,,1
+1,MH49,Định lượng IgM,Lần,SINH HÓA,TU_CHI_TRA,65600,VND,2024-01-01,,,1
+1,MH49,Định lượng IgM,Lần,SINH HÓA,BHYT,65600,VND,2024-01-01,,,1
+1,MH54,Định lượng Glucose (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH54,Định lượng Glucose (dịch),Lần,SINH HÓA,BHYT,13400,VND,2024-01-01,,,1
+1,MH57,Bilirubin toàn phần (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH57,Bilirubin toàn phần (dịch),Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH58,Amylase (dịch),Lần,SINH HÓA,TU_CHI_TRA,48000,VND,2024-01-01,,,1
+1,MH58,Amylase (dịch),Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH60,Đo hoạt độ LDH (dịch chọc dò),Lần,SINH HÓA,TU_CHI_TRA,33000,VND,2024-01-01,,,1
+1,MH60,Đo hoạt độ LDH (dịch chọc dò),Lần,SINH HÓA,BHYT,28000,VND,2024-01-01,,,1
+1,MH62,Natri (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH63,Định lượng Glucose dịch não tủy,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH63,Định lượng Glucose dịch não tủy,Lần,SINH HÓA,BHYT,13400,VND,2024-01-01,,,1
+1,MH64,Định lượng Protein dịch não tủy,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH64,Định lượng Protein dịch não tủy,Lần,SINH HÓA,BHYT,11200,VND,2024-01-01,,,1
+1,MH65,Định lượng Clo (dịch),Lần,SINH HÓA,TU_CHI_TRA,26000,VND,2024-01-01,,,1
+1,MH65,Định lượng Clo (dịch),Lần,SINH HÓA,BHYT,23400,VND,2024-01-01,,,1
+1,MH67,Bilirubin liên hợp (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH72,Định lượng Transferin,Lần,SINH HÓA,TU_CHI_TRA,78000,VND,2024-01-01,,,1
+1,MH72,Định lượng Transferin,Lần,SINH HÓA,BHYT,67300,VND,2024-01-01,,,1
+1,MH73,Định lượng Ure (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH73,Định lượng Ure (dịch),Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH74,Định lượng Creatinin (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH74,Định lượng Creatinin (dịch),Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH75,Calci (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH11,Định lượng Triglycerid,Lần,SINH HÓA,TU_CHI_TRA,32000,VND,2024-01-01,,,1
+1,MH11,Định lượng Triglycerid,Lần,SINH HÓA,BHYT,28000,VND,2024-01-01,,,1
+1,MH13,Định lượng Bilirubin toàn phần,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH13,Định lượng Bilirubin toàn phần,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH17,Đo hoạt độ AST (GOT),Lần,SINH HÓA,TU_CHI_TRA,32000,VND,2024-01-01,,,1
+1,MH17,Đo hoạt độ AST (GOT),Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH21,"Ion đồ (Na+, K+, Cl-, Ca)",Lần,SINH HÓA,TU_CHI_TRA,85000,VND,2024-01-01,,,1
+1,MH21,"Ion đồ (Na+, K+, Cl-, Ca)",Lần,SINH HÓA,BHYT,30200,VND,2024-01-01,,,1
+1,MH77,Xét nghiệm Khí máu,Lần,SINH HÓA,TU_CHI_TRA,248000,VND,2024-01-01,,,1
+1,MH77,Xét nghiệm Khí máu,Lần,SINH HÓA,BHYT,224400,VND,2024-01-01,,,1
+1,MH78,Định lượng Cholesterol toàn phần (dịch chọc dò),Lần,SINH HÓA,TU_CHI_TRA,33000,VND,2024-01-01,,,1
+1,MH78,Định lượng Cholesterol toàn phần (dịch chọc dò),Lần,SINH HÓA,BHYT,28000,VND,2024-01-01,,,1
+1,MH79,Định lượng Triglycerid (dịch chọc dò),Lần,SINH HÓA,TU_CHI_TRA,32000,VND,2024-01-01,,,1
+1,MH79,Định lượng Triglycerid (dịch chọc dò),Lần,SINH HÓA,BHYT,28000,VND,2024-01-01,,,1
+1,MH80,Albumin (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH81,Định lượng Protein (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH81,Định lượng Protein (dịch),Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH82,Định lượng Globulin [Máu],Lần,SINH HÓA,TU_CHI_TRA,44000,VND,2024-01-01,,,1
+1,MH82,Định lượng Globulin [Máu],Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH90,pH,Lần,SINH HÓA,TU_CHI_TRA,48000,VND,2024-01-01,,,1
+1,MHC5,Catecholamines máu (adrenaline (Epinephrine) + noradrenline (norepinephrine) + dopamine,Lần,SINH HÓA,TU_CHI_TRA,855000,VND,2024-01-01,,,1
+1,MHC6,Ceton (keton) (Beta-Hydroxybutyric)/ máu,Lần,SINH HÓA,TU_CHI_TRA,57000,VND,2024-01-01,,,1
+1,MH97,Định lượng CRP hs (C-Reactive Protein high sesitivity),Lần,SINH HÓA,TU_CHI_TRA,54600,VND,2024-01-01,,,1
+1,MH97,Định lượng CRP hs (C-Reactive Protein high sesitivity),Lần,SINH HÓA,BHYT,54600,VND,2024-01-01,,,1
+1,MH98,Đo hoạt độ Lipase,Lần,SINH HÓA,TU_CHI_TRA,89000,VND,2024-01-01,,,1
+1,MH98,Đo hoạt độ Lipase,Lần,SINH HÓA,BHYT,61700,VND,2024-01-01,,,1
+1,MH99,Định lượng Lactat (Acid Lactic) /máu,Lần,SINH HÓA,TU_CHI_TRA,98400,VND,2024-01-01,,,1
+1,MH99,Định lượng Lactat (Acid Lactic) /máu,Lần,SINH HÓA,BHYT,98400,VND,2024-01-01,,,1
+1,MHA0,Lactate /dịch (Lactic acid /dịch),Lần,SINH HÓA,TU_CHI_TRA,60000,VND,2024-01-01,,,1
+1,MHA8,Định lượng Beta 2 Microglobulin,Lần,SINH HÓA,TU_CHI_TRA,129000,VND,2024-01-01,,,1
+1,MHA8,Định lượng Beta 2 Microglobulin,Lần,SINH HÓA,BHYT,78500,VND,2024-01-01,,,1
+1,MHB1,Định lượng Haptoglobin,Lần,SINH HÓA,TU_CHI_TRA,251000,VND,2024-01-01,,,1
+1,MHB1,Định lượng Haptoglobin,Lần,SINH HÓA,BHYT,100900,VND,2024-01-01,,,1
+1,MHB7,Định lượng Cystatine C,Lần,SINH HÓA,TU_CHI_TRA,108000,VND,2024-01-01,,,1
+1,MH96,Phản ứng CRP,Lần,SINH HÓA,TU_CHI_TRA,55000,VND,2024-01-01,,,1
+1,MH96,Phản ứng CRP,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH76,Kali (dịch),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH04,Định lượng Ure,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH04,Định lượng Ure,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH05,Định lượng Creatinin (máu),Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH05,Định lượng Creatinin (máu),Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH09,Định lượng HDL-C (High density lipoprotein Cholesterol),Lần,SINH HÓA,TU_CHI_TRA,29000,VND,2024-01-01,,,1
+1,MH09,Định lượng HDL-C (High density lipoprotein Cholesterol),Lần,SINH HÓA,BHYT,28000,VND,2024-01-01,,,1
+1,MH10,Định lượng LDL - C (Low density lipoprotein Cholesterol),Lần,SINH HÓA,TU_CHI_TRA,35000,VND,2024-01-01,,,1
+1,MH10,Định lượng LDL - C (Low density lipoprotein Cholesterol),Lần,SINH HÓA,BHYT,28000,VND,2024-01-01,,,1
+1,MH16,Đo hoạt độ Amylase,Lần,SINH HÓA,TU_CHI_TRA,48000,VND,2024-01-01,,,1
+1,MH16,Đo hoạt độ Amylase,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH18,Đo hoạt độ ALT (GPT),Lần,SINH HÓA,TU_CHI_TRA,32000,VND,2024-01-01,,,1
+1,MH18,Đo hoạt độ ALT (GPT),Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH19,Đo hoạt độ ALP (Alkalin Phosphatase),Lần,SINH HÓA,TU_CHI_TRA,40000,VND,2024-01-01,,,1
+1,MH19,Đo hoạt độ ALP (Alkalin Phosphatase),Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH20,Đo hoạt độ GGT (Gama Glutamyl Transferase) [Máu],Lần,SINH HÓA,TU_CHI_TRA,32000,VND,2024-01-01,,,1
+1,MH20,Đo hoạt độ GGT (Gama Glutamyl Transferase) [Máu],Lần,SINH HÓA,BHYT,20000,VND,2024-01-01,,,1
+1,MH22,Natri,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH23,Kali,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH24,Định lượng Clo,Lần,SINH HÓA,TU_CHI_TRA,26000,VND,2024-01-01,,,1
+1,MH25,Định lượng Calci toàn phần,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH25,Định lượng Calci toàn phần,Lần,SINH HÓA,BHYT,13400,VND,2024-01-01,,,1
+1,MH30,Định lượng Mg [Máu],Lần,SINH HÓA,TU_CHI_TRA,39000,VND,2024-01-01,,,1
+1,MH30,Định lượng Mg [Máu],Lần,SINH HÓA,BHYT,33600,VND,2024-01-01,,,1
+1,MH31,Định lượng sắt huyết thanh,Lần,SINH HÓA,TU_CHI_TRA,39000,VND,2024-01-01,,,1
+1,MH31,Định lượng sắt huyết thanh,Lần,SINH HÓA,BHYT,33600,VND,2024-01-01,,,1
+1,MHB4,Nghiệm pháp dung nạp glucose đường uống (75g glucose) 3 mẫu cho người bệnh thai nghén,Lần,SINH HÓA,TU_CHI_TRA,300000,VND,2024-01-01,,,1
+1,MHB4,Nghiệm pháp dung nạp glucose đường uống (75g glucose) 3 mẫu cho người bệnh thai nghén,Lần,SINH HÓA,BHYT,166200,VND,2024-01-01,,,1
+1,MHB8,Bicarbonat (HCO3-),Lần,SINH HÓA,TU_CHI_TRA,158000,VND,2024-01-01,,,1
+1,MHC3,Định lượng Fructosamin trong máu,Lần,SINH HÓA,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,MHC3,Định lượng Fructosamin trong máu,Lần,SINH HÓA,BHYT,95300,VND,2024-01-01,,,1
+1,MHB6,Định lượng Ethanol (cồn) (máu),Lần,SINH HÓA,TU_CHI_TRA,69000,VND,2024-01-01,,,1
+1,MHB6,Định lượng Ethanol (cồn) (máu),Lần,SINH HÓA,BHYT,33600,VND,2024-01-01,,,1
+1,MH01,Định lượng Glucose,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH01,Định lượng Glucose,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH02,Định lượng Protein toàn phần,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH02,Định lượng Protein toàn phần,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH03,Định lượng Albumin,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH03,Định lượng Albumin,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH06,Định lượng Acid Uric,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH06,Định lượng Acid Uric,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH08,Định lượng Cholesterol toàn phần,Lần,SINH HÓA,TU_CHI_TRA,33000,VND,2024-01-01,,,1
+1,MH08,Định lượng Cholesterol toàn phần,Lần,SINH HÓA,BHYT,28000,VND,2024-01-01,,,1
+1,MH15,Định lượng Bilirubin trực tiếp,Lần,SINH HÓA,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MH15,Định lượng Bilirubin trực tiếp,Lần,SINH HÓA,BHYT,22400,VND,2024-01-01,,,1
+1,MH95,"Điện giải đồ (Na, K, Cl)",Lần,SINH HÓA,TU_CHI_TRA,66000,VND,2024-01-01,,,1
+1,MH95,"Điện giải đồ (Na, K, Cl)",Lần,SINH HÓA,BHYT,30200,VND,2024-01-01,,,1
+1,XN05,Định nhóm máu hệ ABO và Rh (D) (bằng phương pháp PHIẾN ĐÁ),Lần,SINH HÓA,TU_CHI_TRA,109000,VND,2024-01-01,,,1
+1,MI29,Xét nghiệm hồng cầu lưới (bằng máy đếm laser),Lần,HUYẾT HỌC,TU_CHI_TRA,51000,VND,2024-01-01,,,1
+1,MI29,Xét nghiệm hồng cầu lưới (bằng máy đếm laser),Lần,HUYẾT HỌC,BHYT,43500,VND,2024-01-01,,,1
+1,MI35,Vi nấm nhuộm soi DNT,Lần,HUYẾT HỌC,TU_CHI_TRA,73000,VND,2024-01-01,,,1
+1,MI35,Vi nấm nhuộm soi DNT,Lần,HUYẾT HỌC,BHYT,45500,VND,2024-01-01,,,1
+1,MI42,Huyết đồ (bằng máy đếm laser),Lần,HUYẾT HỌC,TU_CHI_TRA,160000,VND,2024-01-01,,,1
+1,MI42,Huyết đồ (bằng máy đếm laser),Lần,HUYẾT HỌC,BHYT,74600,VND,2024-01-01,,,1
+1,MI45,Định lượng D-Dimer,Lần,HUYẾT HỌC,TU_CHI_TRA,458000,VND,2024-01-01,,,1
+1,MI45,Định lượng D-Dimer,Lần,HUYẾT HỌC,BHYT,272900,VND,2024-01-01,,,1
+1,MI48,"Xét nghiệm hòa hợp trong phát máu (Định nhóm máu hệ ABO, Rh (D), AHG bằng phương pháp Gelcard (Crossmatch))",Lần,HUYẾT HỌC,TU_CHI_TRA,188000,VND,2024-01-01,,,1
+1,MI48,"Xét nghiệm hòa hợp trong phát máu (Định nhóm máu hệ ABO, Rh (D), AHG bằng phương pháp Gelcard (Crossmatch))",Lần,HUYẾT HỌC,BHYT,42100,VND,2024-01-01,,,1
+1,MI49,Định nhóm máu hệ ABO thuận nghịch và Rh (D) (bằng phương pháp Gelcard),Lần,HUYẾT HỌC,TU_CHI_TRA,199000,VND,2024-01-01,,,1
+1,MI49,Định nhóm máu hệ ABO thuận nghịch và Rh (D) (bằng phương pháp Gelcard),Lần,HUYẾT HỌC,BHYT,93300,VND,2024-01-01,,,1
+1,MI50,Định lượng Protein C toàn phần (Protein C Antigen),Lần,HUYẾT HỌC,TU_CHI_TRA,1538000,VND,2024-01-01,,,1
+1,MI50,Định lượng Protein C toàn phần (Protein C Antigen),Lần,HUYẾT HỌC,BHYT,248800,VND,2024-01-01,,,1
+1,MI51,Định lượng Protein S toàn phần,Lần,HUYẾT HỌC,TU_CHI_TRA,1549000,VND,2024-01-01,,,1
+1,MI51,Định lượng Protein S toàn phần,Lần,HUYẾT HỌC,BHYT,248800,VND,2024-01-01,,,1
+1,MI52,Định lượng Antithrombin III,Lần,HUYẾT HỌC,TU_CHI_TRA,562000,VND,2024-01-01,,,1
+1,MI52,Định lượng Antithrombin III,Lần,HUYẾT HỌC,BHYT,148400,VND,2024-01-01,,,1
+1,MI01,Tổng phân tích tế bào máu ngoại vi (bằng máy đếm laser),Lần,HUYẾT HỌC,TU_CHI_TRA,85000,VND,2024-01-01,,,1
+1,MI01,Tổng phân tích tế bào máu ngoại vi (bằng máy đếm laser),Lần,HUYẾT HỌC,BHYT,49700,VND,2024-01-01,,,1
+1,MI54,Định lượng Anti Xa (LMWH),Lần,HUYẾT HỌC,TU_CHI_TRA,618000,VND,2024-01-01,,,1
+1,MI54,Định lượng Anti Xa (LMWH),Lần,HUYẾT HỌC,BHYT,272900,VND,2024-01-01,,,1
+1,MI55,Định lượng hoạt tính yếu tố V Leiden,Lần,HUYẾT HỌC,TU_CHI_TRA,747000,VND,2024-01-01,,,1
+1,MI56,Điện di huyết sắc tố (định lượng),Lần,HUYẾT HỌC,TU_CHI_TRA,548000,VND,2024-01-01,,,1
+1,MI56,Điện di huyết sắc tố (định lượng),Lần,HUYẾT HỌC,BHYT,381000,VND,2024-01-01,,,1
+1,MI58,Điện di protein huyết thanh,Lần,HUYẾT HỌC,TU_CHI_TRA,444000,VND,2024-01-01,,,1
+1,MI58,Điện di protein huyết thanh,Lần,HUYẾT HỌC,BHYT,400300,VND,2024-01-01,,,1
+1,MI68,Sàng lọc kháng thể bất thường (Kỹ thuật Scange/ Gelcard trên máy tự động),Lần,HUYẾT HỌC,TU_CHI_TRA,260000,VND,2024-01-01,,,1
+1,MI68,Sàng lọc kháng thể bất thường (Kỹ thuật Scange/ Gelcard trên máy tự động),Lần,HUYẾT HỌC,BHYT,260000,VND,2024-01-01,,,1
+1,MI03,Máu lắng (bằng máy tự động),Lần,HUYẾT HỌC,TU_CHI_TRA,35600,VND,2024-01-01,,,1
+1,MI03,Máu lắng (bằng máy tự động),Lần,HUYẾT HỌC,BHYT,35600,VND,2024-01-01,,,1
+1,MI04,Tìm ký sinh trùng sốt rét trong máu (bằng phương pháp thủ công),Lần,HUYẾT HỌC,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,MI04,Tìm ký sinh trùng sốt rét trong máu (bằng phương pháp thủ công),Lần,HUYẾT HỌC,BHYT,39700,VND,2024-01-01,,,1
+1,MI36,PT hỗn hợp (TQ hỗn hợp),Lần,HUYẾT HỌC,TU_CHI_TRA,111000,VND,2024-01-01,,,1
+1,MI37,APTT hỗn hợp (TCK hỗn hợp),Lần,HUYẾT HỌC,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,MJ57,Định lượng LH (Luteinizing Hormone),Lần,MIỄN DỊCH,TU_CHI_TRA,162000,VND,2024-01-01,,,1
+1,MJ57,Định lượng LH (Luteinizing Hormone),Lần,MIỄN DỊCH,BHYT,84100,VND,2024-01-01,,,1
+1,MJ63,Định lượng CA 19 - 9 (Carbohydrate Antigen 19-9),Lần,MIỄN DỊCH,TU_CHI_TRA,184000,VND,2024-01-01,,,1
+1,MJ63,Định lượng CA 19 - 9 (Carbohydrate Antigen 19-9),Lần,MIỄN DỊCH,BHYT,144200,VND,2024-01-01,,,1
+1,MJ64,HBc IgM miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,166000,VND,2024-01-01,,,1
+1,MJ64,HBc IgM miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,123400,VND,2024-01-01,,,1
+1,MJ65,HAV IgM miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,184000,VND,2024-01-01,,,1
+1,MJ65,HAV IgM miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,116400,VND,2024-01-01,,,1
+1,MJ66,HAV total miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,161000,VND,2024-01-01,,,1
+1,MJ66,HAV total miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,110800,VND,2024-01-01,,,1
+1,MJ82,Rubella virus IgG miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,123000,VND,2024-01-01,,,1
+1,MJ82,Rubella virus IgG miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,123000,VND,2024-01-01,,,1
+1,MJA3,Định lượng CA 72 - 4 (Cancer Antigen 72- 4),Lần,MIỄN DỊCH,TU_CHI_TRA,291000,VND,2024-01-01,,,1
+1,MJA3,Định lượng CA 72 - 4 (Cancer Antigen 72- 4),Lần,MIỄN DỊCH,BHYT,139200,VND,2024-01-01,,,1
+1,MJA6,Định lượng Anti - TPO (Anti- thyroid Peroxidase antibodies),Lần,MIỄN DỊCH,TU_CHI_TRA,275000,VND,2024-01-01,,,1
+1,MJA6,Định lượng Anti - TPO (Anti- thyroid Peroxidase antibodies),Lần,MIỄN DỊCH,BHYT,212300,VND,2024-01-01,,,1
+1,MJB0,CMV IgG miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,244000,VND,2024-01-01,,,1
+1,MJB0,CMV IgG miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,123400,VND,2024-01-01,,,1
+1,MJB1,CMV IgM miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,281000,VND,2024-01-01,,,1
+1,MJB1,CMV IgM miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,142500,VND,2024-01-01,,,1
+1,MJB2,EBV IgG miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,227000,VND,2024-01-01,,,1
+1,MJB2,EBV IgG miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,201800,VND,2024-01-01,,,1
+1,MJB3,EBV IgM miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,227000,VND,2024-01-01,,,1
+1,MJB3,EBV IgM miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,208800,VND,2024-01-01,,,1
+1,MJB7,Định lượng NSE (Neuron Specific Enolase),Lần,MIỄN DỊCH,TU_CHI_TRA,297000,VND,2024-01-01,,,1
+1,MJB7,Định lượng NSE (Neuron Specific Enolase),Lần,MIỄN DỊCH,BHYT,200300,VND,2024-01-01,,,1
+1,MJG7,Định lượng AMH (Anti- Mullerian Hormone),Lần,MIỄN DỊCH,TU_CHI_TRA,799000,VND,2024-01-01,,,1
+1,MJ51,Định lượng CA 15 - 3 (Cancer Antigen 15- 3),Lần,MIỄN DỊCH,TU_CHI_TRA,206000,VND,2024-01-01,,,1
+1,MJ51,Định lượng CA 15 - 3 (Cancer Antigen 15- 3),Lần,MIỄN DỊCH,BHYT,156200,VND,2024-01-01,,,1
+1,MJ52,Định lượng CA 125 (cancer antigen 125),Lần,MIỄN DỊCH,TU_CHI_TRA,219000,VND,2024-01-01,,,1
+1,MJ52,Định lượng CA 125 (cancer antigen 125),Lần,MIỄN DỊCH,BHYT,144200,VND,2024-01-01,,,1
+1,MJ53,Định lượng bhCG (Beta human Chorionic Gonadotropins),Lần,MIỄN DỊCH,TU_CHI_TRA,177000,VND,2024-01-01,,,1
+1,MJ53,Định lượng bhCG (Beta human Chorionic Gonadotropins),Lần,MIỄN DỊCH,BHYT,89700,VND,2024-01-01,,,1
+1,MJ58,Định lượng Estradiol,Lần,MIỄN DỊCH,TU_CHI_TRA,126000,VND,2024-01-01,,,1
+1,MJ59,Định lượng Progesteron,Lần,MIỄN DỊCH,TU_CHI_TRA,146000,VND,2024-01-01,,,1
+1,MJ59,Định lượng Progesteron,Lần,MIỄN DỊCH,BHYT,84100,VND,2024-01-01,,,1
+1,MJE0,Định lượng Tg (Thyroglobulin),Lần,MIỄN DỊCH,TU_CHI_TRA,269000,VND,2024-01-01,,,1
+1,MJE0,Định lượng Tg (Thyroglobulin),Lần,MIỄN DỊCH,BHYT,183300,VND,2024-01-01,,,1
+1,MJE1,Định lượng kháng thể kháng nhân (ANA) bằng máy tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,296000,VND,2024-01-01,,,1
+1,MJE1,Định lượng kháng thể kháng nhân (ANA) bằng máy tự động,Lần,MIỄN DỊCH,BHYT,296000,VND,2024-01-01,,,1
+1,MJE8,"Double test (PAPPA, Free Beta hCG (FBC))",Lần,MIỄN DỊCH,TU_CHI_TRA,533000,VND,2024-01-01,,,1
+1,MJ02,HBsAg miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,108000,VND,2024-01-01,,,1
+1,MJ02,HBsAg miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,81700,VND,2024-01-01,,,1
+1,MJ03,HBsAb định lượng,Lần,MIỄN DỊCH,TU_CHI_TRA,145000,VND,2024-01-01,,,1
+1,MJ03,HBsAb định lượng,Lần,MIỄN DỊCH,BHYT,126400,VND,2024-01-01,,,1
+1,MJ04,HBeAg miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,144000,VND,2024-01-01,,,1
+1,MJ04,HBeAg miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,104400,VND,2024-01-01,,,1
+1,MJ05,HBeAb miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,109000,VND,2024-01-01,,,1
+1,MJ05,HBeAb miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,104400,VND,2024-01-01,,,1
+1,MJ06,HBc total miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,157000,VND,2024-01-01,,,1
+1,MJ06,HBc total miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,78300,VND,2024-01-01,,,1
+1,MJ07,HCV Ab miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,161000,VND,2024-01-01,,,1
+1,MJ07,HCV Ab miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,130500,VND,2024-01-01,,,1
+1,MJ31,HIV Ab miễn dịch tự động,Lần,MIỄN DỊCH,TU_CHI_TRA,127000,VND,2024-01-01,,,1
+1,MJ31,HIV Ab miễn dịch tự động,Lần,MIỄN DỊCH,BHYT,116400,VND,2024-01-01,,,1
+1,MJ40,Định lượng HbA1c,Lần,MIỄN DỊCH,TU_CHI_TRA,188000,VND,2024-01-01,,,1
+1,MJ40,Định lượng HbA1c,Lần,MIỄN DỊCH,BHYT,105300,VND,2024-01-01,,,1
+1,MJ47,Định lượng FT3 (Free Triiodothyronine),Lần,MIỄN DỊCH,TU_CHI_TRA,105000,VND,2024-01-01,,,1
+1,MJ47,Định lượng FT3 (Free Triiodothyronine),Lần,MIỄN DỊCH,BHYT,67300,VND,2024-01-01,,,1
+1,MJ55,Định lượng Testosteron,Lần,MIỄN DỊCH,TU_CHI_TRA,126000,VND,2024-01-01,,,1
+1,MJ55,Định lượng Testosteron,Lần,MIỄN DỊCH,BHYT,97500,VND,2024-01-01,,,1
+1,MJJ7,Định lượng kháng thể kháng Cardiolipin IgM,Lần,MIỄN DỊCH,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,MJJ7,Định lượng kháng thể kháng Cardiolipin IgM,Lần,MIỄN DỊCH,BHYT,200000,VND,2024-01-01,,,1
+1,MZ09,Test hơi thở C13 phát hiện VK H.pylori,Lần,MIỄN DỊCH,TU_CHI_TRA,828000,VND,2024-01-01,,,1
+1,MK15,Xét nghiệm tỷ trọng nước tiểu,Lần,NƯỚC TIỂU,TU_CHI_TRA,17000,VND,2024-01-01,,,1
+1,MK30,Hình dạng HC trong nước tiểu,Lần,NƯỚC TIỂU,TU_CHI_TRA,40000,VND,2024-01-01,,,1
+1,MK34,Cạo tìm nấm [Vi nấm soi tươi],Lần,NƯỚC TIỂU,TU_CHI_TRA,60000,VND,2024-01-01,,,1
+1,MK34,Cạo tìm nấm [Vi nấm soi tươi],Lần,NƯỚC TIỂU,BHYT,45500,VND,2024-01-01,,,1
+1,MK74,Định lượng Catecholamin (niệu),Lần,NƯỚC TIỂU,TU_CHI_TRA,805000,VND,2024-01-01,,,1
+1,MK74,Định lượng Catecholamin (niệu),Lần,NƯỚC TIỂU,BHYT,436800,VND,2024-01-01,,,1
+1,MK36,Định lượng Protein (niệu 24h),Lần,NƯỚC TIỂU,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MK36,Định lượng Protein (niệu 24h),Lần,NƯỚC TIỂU,BHYT,14400,VND,2024-01-01,,,1
+1,MK45,Định lượng Creatinin /niệu 24h,Lần,NƯỚC TIỂU,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MK45,Định lượng Creatinin /niệu 24h,Lần,NƯỚC TIỂU,BHYT,16800,VND,2024-01-01,,,1
+1,MK46,"Ion đồ (Na+, K+, CL-, Ca) /niệu",Lần,NƯỚC TIỂU,TU_CHI_TRA,86000,VND,2024-01-01,,,1
+1,MK46,"Ion đồ (Na+, K+, CL-, Ca) /niệu",Lần,NƯỚC TIỂU,BHYT,30200,VND,2024-01-01,,,1
+1,MK47,Kali /niệu,Lần,NƯỚC TIỂU,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MK48,Kali /niệu 24h,Lần,NƯỚC TIỂU,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MK51,Natri /niệu,Lần,NƯỚC TIỂU,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MK52,Natri /niệu 24h,Lần,NƯỚC TIỂU,TU_CHI_TRA,25000,VND,2024-01-01,,,1
+1,MK53,"Điện giải niệu (Na, K, Cl) niệu",Lần,NƯỚC TIỂU,TU_CHI_TRA,66000,VND,2024-01-01,,,1
+1,MK53,"Điện giải niệu (Na, K, Cl) niệu",Lần,NƯỚC TIỂU,BHYT,30200,VND,2024-01-01,,,1
+1,MK54,Độ thanh thải Creatinine,Lần,NƯỚC TIỂU,TU_CHI_TRA,59000,VND,2024-01-01,,,1
+1,MK56,Định lượng Ure /niệu,Lần,NƯỚC TIỂU,TU_CHI_TRA,24000,VND,2024-01-01,,,1
+1,MK56,Định lượng Ure /niệu,Lần,NƯỚC TIỂU,BHYT,16800,VND,2024-01-01,,,1
+1,MK57,Định lượng Ure /niệu 24h,Lần,NƯỚC TIỂU,TU_CHI_TRA,24000,VND,2024-01-01,,,1
+1,MK57,Định lượng Ure /niệu 24h,Lần,NƯỚC TIỂU,BHYT,16800,VND,2024-01-01,,,1
+1,MK01,Tổng phân tích nước tiểu (Bằng máy tự động),Lần,NƯỚC TIỂU,TU_CHI_TRA,38000,VND,2024-01-01,,,1
+1,MK01,Tổng phân tích nước tiểu (Bằng máy tự động),Lần,NƯỚC TIỂU,BHYT,28600,VND,2024-01-01,,,1
+1,NZN1,Vi khuẩn nuôi cấy và định danh hệ thống tự động (dịch khớp),Lần,VI SINH,TU_CHI_TRA,530000,VND,2024-01-01,,,1
+1,NZN1,Vi khuẩn nuôi cấy và định danh hệ thống tự động (dịch khớp),Lần,VI SINH,BHYT,325200,VND,2024-01-01,,,1
+1,NZP2,Mycobacterium tuberculosis định danh và kháng RMP Xpert,Lần,VI SINH,TU_CHI_TRA,250000,VND,2024-01-01,,,1
+1,NZP2,Mycobacterium tuberculosis định danh và kháng RMP Xpert,Lần,VI SINH,BHYT,250000,VND,2024-01-01,,,1
+1,NZp3,Vi nấm soi tươi,Lần,VI SINH,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,NZp3,Vi nấm soi tươi,Lần,VI SINH,BHYT,45500,VND,2024-01-01,,,1
+1,NZL0,Vi khuẩn kháng thuốc định tính,Lần,VI SINH,TU_CHI_TRA,270000,VND,2024-01-01,,,1
+1,NZL0,Vi khuẩn kháng thuốc định tính,Lần,VI SINH,BHYT,213800,VND,2024-01-01,,,1
+1,NZG7,Vi khuẩn nhuộm soi (đàm),Lần,VI SINH,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,NZG7,Vi khuẩn nhuộm soi (đàm),Lần,VI SINH,BHYT,74200,VND,2024-01-01,,,1
+1,NZG8,Vi khuẩn nhuộm soi (mủ),Lần,VI SINH,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,NZG8,Vi khuẩn nhuộm soi (mủ),Lần,VI SINH,BHYT,74200,VND,2024-01-01,,,1
+1,NZH6,Vi khuẩn nhuộm soi (tinh dịch),Lần,VI SINH,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,NZH6,Vi khuẩn nhuộm soi (tinh dịch),Lần,VI SINH,BHYT,74200,VND,2024-01-01,,,1
+1,NZE6,Vi khuẩn nuôi cấy và định danh phương pháp thông thường,Lần,VI SINH,TU_CHI_TRA,300000,VND,2024-01-01,,,1
+1,NZE6,Vi khuẩn nuôi cấy và định danh phương pháp thông thường,Lần,VI SINH,BHYT,261000,VND,2024-01-01,,,1
+1,TR21,"Toxocara (Giun đũa chó, mèo) Ab miễn dịch tự động [IgG]",Lần,KÝ SINH TRÙNG,TU_CHI_TRA,306000,VND,2024-01-01,,,1
+1,TR21,"Toxocara (Giun đũa chó, mèo) Ab miễn dịch tự động [IgG]",Lần,KÝ SINH TRÙNG,BHYT,306000,VND,2024-01-01,,,1
+1,TR22,Cysticercus cellulosae (Sán lợn) Ab miễn dịch tự động [IgG],Lần,KÝ SINH TRÙNG,TU_CHI_TRA,306000,VND,2024-01-01,,,1
+1,TR22,Cysticercus cellulosae (Sán lợn) Ab miễn dịch tự động [IgG],Lần,KÝ SINH TRÙNG,BHYT,306000,VND,2024-01-01,,,1
+1,TR25,Fasciola (Sán lá gan lớn) Ab miễn dịch tự động [IgG],Lần,KÝ SINH TRÙNG,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,TR25,Fasciola (Sán lá gan lớn) Ab miễn dịch tự động [IgG],Lần,KÝ SINH TRÙNG,BHYT,194700,VND,2024-01-01,,,1
+1,TR26,Strongyloides stercoralis (Giun lươn) Ab miễn dịch tự động [IgG],Lần,KÝ SINH TRÙNG,TU_CHI_TRA,306000,VND,2024-01-01,,,1
+1,TR26,Strongyloides stercoralis (Giun lươn) Ab miễn dịch tự động [IgG],Lần,KÝ SINH TRÙNG,BHYT,306000,VND,2024-01-01,,,1
+1,MQ15,HBV genotype Real-time PCR,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,1578000,VND,2024-01-01,,,1
+1,MQ15,HBV genotype Real-time PCR,Lần,SINH HỌC PHÂN TỬ,BHYT,1578000,VND,2024-01-01,,,1
+1,MQ16,Mycobacterium tuberculosis Real-time PCR /đàm,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,509000,VND,2024-01-01,,,1
+1,MQ16,Mycobacterium tuberculosis Real-time PCR /đàm,Lần,SINH HỌC PHÂN TỬ,BHYT,391500,VND,2024-01-01,,,1
+1,MQ25,HCV genotype Real-time PCR,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,1578000,VND,2024-01-01,,,1
+1,MQ25,HCV genotype Real-time PCR,Lần,SINH HỌC PHÂN TỬ,BHYT,1578000,VND,2024-01-01,,,1
+1,MQ31,HBV đo tải lượng Real-time PCR,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,900000,VND,2024-01-01,,,1
+1,MQ31,HBV đo tải lượng Real-time PCR,Lần,SINH HỌC PHÂN TỬ,BHYT,701700,VND,2024-01-01,,,1
+1,MQ35,HBV đo tải lượng hệ thống tự động,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,1826000,VND,2024-01-01,,,1
+1,MQ35,HBV đo tải lượng hệ thống tự động,Lần,SINH HỌC PHÂN TỬ,BHYT,1351700,VND,2024-01-01,,,1
+1,MQ38,Chlamydia Real-time PCR hệ thống tự động,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,1557000,VND,2024-01-01,,,1
+1,MQ38,Chlamydia Real-time PCR hệ thống tự động,Lần,SINH HỌC PHÂN TỬ,BHYT,771700,VND,2024-01-01,,,1
+1,MQ52,HSV Real-time PCR,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,748000,VND,2024-01-01,,,1
+1,MQ52,HSV Real-time PCR,Lần,SINH HỌC PHÂN TỬ,BHYT,748000,VND,2024-01-01,,,1
+1,MQ53,Định lượng HCV genotype giải trình tự gene,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,2638000,VND,2024-01-01,,,1
+1,MQ53,Định lượng HCV genotype giải trình tự gene,Lần,SINH HỌC PHÂN TỬ,BHYT,2638000,VND,2024-01-01,,,1
+1,MQ40,Xét nghiệm đột biến gen EGFR [mẫu mô] (T790M),Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,6049000,VND,2024-01-01,,,1
+1,MQ40,Xét nghiệm đột biến gen EGFR [mẫu mô] (T790M),Lần,SINH HỌC PHÂN TỬ,BHYT,5651100,VND,2024-01-01,,,1
+1,MQ48,Helicobacter pylori PCR,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,748000,VND,2024-01-01,,,1
+1,MQ48,Helicobacter pylori PCR,Lần,SINH HỌC PHÂN TỬ,BHYT,748000,VND,2024-01-01,,,1
+1,MQ51,Xét nghiệm đột biến gen EGFR (máu) (T790M),Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,6690000,VND,2024-01-01,,,1
+1,MQ51,Xét nghiệm đột biến gen EGFR (máu) (T790M),Lần,SINH HỌC PHÂN TỬ,BHYT,5651100,VND,2024-01-01,,,1
+1,MQ65,Toxoplasma gondii Real-TM,Lần,SINH HỌC PHÂN TỬ,TU_CHI_TRA,592000,VND,2024-01-01,,,1
+1,TN17,"Định nhóm máu tại giường (máu toàn phần, khối hồng cầu, khối bạch cầu)",Lần,XÉT NGHIỆM,TU_CHI_TRA,60000,VND,2024-01-01,,,1
+1,TN17,"Định nhóm máu tại giường (máu toàn phần, khối hồng cầu, khối bạch cầu)",Lần,XÉT NGHIỆM,BHYT,24800,VND,2024-01-01,,,1
+1,TN11,Xét nghiệm đường máu mao mạch tại giường,Lần,XÉT NGHIỆM,TU_CHI_TRA,40000,VND,2024-01-01,,,1
+1,TN11,Xét nghiệm đường máu mao mạch tại giường,Lần,XÉT NGHIỆM,BHYT,16000,VND,2024-01-01,,,1
+1,TN18,Bilirubin định tính (Xét nghiệm nồng độ bilirubin qua da),Lần,XÉT NGHIỆM,TU_CHI_TRA,135000,VND,2024-01-01,,,1
+1,TN18,Bilirubin định tính (Xét nghiệm nồng độ bilirubin qua da),Lần,XÉT NGHIỆM,BHYT,6600,VND,2024-01-01,,,1
+1,MZ01,"Soi trực tiếp tìm HC, BC, KST trong phân",Lần,KHÁC,TU_CHI_TRA,78000,VND,2024-01-01,,,1
+1,MZ01,"Soi trực tiếp tìm HC, BC, KST trong phân",Lần,KHÁC,BHYT,41700,VND,2024-01-01,,,1
+1,MZ02,Hồng cầu trong phân test nhanh,Lần,KHÁC,TU_CHI_TRA,72000,VND,2024-01-01,,,1
+1,MZ02,Hồng cầu trong phân test nhanh,Lần,KHÁC,BHYT,71600,VND,2024-01-01,,,1
+1,MZ03,Tinh trùng đồ (dịch),Lần,KHÁC,TU_CHI_TRA,64000,VND,2024-01-01,,,1
+1,MZ04,Soi + Nhuộm (dịch) (huyết trắng),Lần,KHÁC,TU_CHI_TRA,78000,VND,2024-01-01,,,1
+1,MZ04,Soi + Nhuộm (dịch) (huyết trắng),Lần,KHÁC,BHYT,74200,VND,2024-01-01,,,1
+1,TPO5,Nhuộm hóa mô miễn dịch cho mỗi một dấu ấn (kháng thể SYNAPTOPHYSIN),Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,693000,VND,2024-01-01,,,1
+1,TPO5,Nhuộm hóa mô miễn dịch cho mỗi một dấu ấn (kháng thể SYNAPTOPHYSIN),Lần,GIẢI PHẪU BỆNH,BHYT,510400,VND,2024-01-01,,,1
+1,TPP1,Nhuộm hóa mô miễn dịch cho một dấu ấn (kháng thể PD-L1 (SP263)),Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,1984000,VND,2024-01-01,,,1
+1,TPP1,Nhuộm hóa mô miễn dịch cho một dấu ấn (kháng thể PD-L1 (SP263)),Lần,GIẢI PHẪU BỆNH,BHYT,510400,VND,2024-01-01,,,1
+1,TPP3,Nhuộm miễn dịch huỳnh quang trực tiếp phát hiện kháng nguyên (kháng thể: fibrinogen),Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,463000,VND,2024-01-01,,,1
+1,TPP3,Nhuộm miễn dịch huỳnh quang trực tiếp phát hiện kháng nguyên (kháng thể: fibrinogen),Lần,GIẢI PHẪU BỆNH,BHYT,463000,VND,2024-01-01,,,1
+1,TPQ6,Nhuộm Giemsa trên mảnh cắt mô phát hiện HP,Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,506000,VND,2024-01-01,,,1
+1,TPQ6,Nhuộm Giemsa trên mảnh cắt mô phát hiện HP,Lần,GIẢI PHẪU BỆNH,BHYT,334400,VND,2024-01-01,,,1
+1,TPQ7,Nhuộm Gomori cho sợi võng (Nhuộm Reticulin),Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,524000,VND,2024-01-01,,,1
+1,TPQ7,Nhuộm Gomori cho sợi võng (Nhuộm Reticulin),Lần,GIẢI PHẪU BỆNH,BHYT,434200,VND,2024-01-01,,,1
+1,TPZ3,Nhuộm PAS kết hợp xanh Alcian,Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,479000,VND,2024-01-01,,,1
+1,TPZ3,Nhuộm PAS kết hợp xanh Alcian,Lần,GIẢI PHẪU BỆNH,BHYT,479000,VND,2024-01-01,,,1
+1,TPZ4,Nhuộm aldehyde fuchsin cho sợi chun,Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,431000,VND,2024-01-01,,,1
+1,TPZ4,Nhuộm aldehyde fuchsin cho sợi chun,Lần,GIẢI PHẪU BỆNH,BHYT,431000,VND,2024-01-01,,,1
+1,TPZ5,Nhuộm Grocott (Nhuộm GMS),Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,339000,VND,2024-01-01,,,1
+1,TP0A,Xét nghiệm sinh thiết tức thì bằng cắt lạnh,Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,1244000,VND,2024-01-01,,,1
+1,TP0A,Xét nghiệm sinh thiết tức thì bằng cắt lạnh,Lần,GIẢI PHẪU BỆNH,BHYT,633700,VND,2024-01-01,,,1
+1,TP0B,Nhuộm phiến đồ tế bào theo Papanicolaou (Thực hiện trên mẫu phết FNA),Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,374000,VND,2024-01-01,,,1
+1,TP0B,Nhuộm phiến đồ tế bào theo Papanicolaou (Thực hiện trên mẫu phết FNA),Lần,GIẢI PHẪU BỆNH,BHYT,374000,VND,2024-01-01,,,1
+1,TP0O,Nhuộm hóa mô miễn dịch cho mỗi một dấu ấn (kháng thể MSH2),Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,731000,VND,2024-01-01,,,1
+1,TP0O,Nhuộm hóa mô miễn dịch cho mỗi một dấu ấn (kháng thể MSH2),Lần,GIẢI PHẪU BỆNH,BHYT,510400,VND,2024-01-01,,,1
+1,TPZ6,Nhuộm xanh alcian,Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,464000,VND,2024-01-01,,,1
+1,TPZ6,Nhuộm xanh alcian,Lần,GIẢI PHẪU BỆNH,BHYT,464000,VND,2024-01-01,,,1
+1,TPZ7,"Xét nghiệm mô bệnh học thường quy cố định, chuyển, đúc, cắt, nhuộm…các bệnh phẩm sinh thiết",Lần,GIẢI PHẪU BỆNH,TU_CHI_TRA,500000,VND,2024-01-01,,,1
+1,TPZ7,"Xét nghiệm mô bệnh học thường quy cố định, chuyển, đúc, cắt, nhuộm…các bệnh phẩm sinh thiết",Lần,GIẢI PHẪU BỆNH,BHYT,388800,VND,2024-01-01,,,1
+1,TZ01,Nội soi tai mũi họng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,270000,VND,2024-01-01,,,1
+1,TZ01,Nội soi tai mũi họng,Lần,TAI MŨI HỌNG,BHYT,116100,VND,2024-01-01,,,1
+1,TZ02,Nội soi tai,Lần,TAI MŨI HỌNG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,TZ02,Nội soi tai,Lần,TAI MŨI HỌNG,BHYT,40000,VND,2024-01-01,,,1
+1,TZ03,Nội soi mũi xoang,Lần,TAI MŨI HỌNG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,TZ03,Nội soi mũi xoang,Lần,TAI MŨI HỌNG,BHYT,40000,VND,2024-01-01,,,1
+1,TZ04,Nội soi họng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,TZ04,Nội soi họng,Lần,TAI MŨI HỌNG,BHYT,40000,VND,2024-01-01,,,1
+1,TZ05,Đo thính lực đơn âm,Lần,TAI MŨI HỌNG,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,TZ05,Đo thính lực đơn âm,Lần,TAI MŨI HỌNG,BHYT,49500,VND,2024-01-01,,,1
+1,TZ06,Đo phản xạ cơ bàn đạp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,TZ06,Đo phản xạ cơ bàn đạp,Lần,TAI MŨI HỌNG,BHYT,34500,VND,2024-01-01,,,1
+1,TZ07,Đo nhĩ lượng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,TZ07,Đo nhĩ lượng,Lần,TAI MŨI HỌNG,BHYT,34500,VND,2024-01-01,,,1
+1,MF20,Điện tim thường (ECG),Lần,THĂM DÒ CHỨC NĂNG,TU_CHI_TRA,50000,VND,2024-01-01,,,1
+1,MF20,Điện tim thường (ECG),Lần,THĂM DÒ CHỨC NĂNG,BHYT,39900,VND,2024-01-01,,,1
+1,MF22,Đo áp lực hậu môn trực tràng,Lần,THĂM DÒ CHỨC NĂNG,TU_CHI_TRA,220000,VND,2024-01-01,,,1
+1,MF22,Đo áp lực hậu môn trực tràng,Lần,THĂM DÒ CHỨC NĂNG,BHYT,220000,VND,2024-01-01,,,1
+1,MF23,Đo chức năng hô hấp có thuốc,Lần,THĂM DÒ CHỨC NĂNG,TU_CHI_TRA,300000,VND,2024-01-01,,,1
+1,MF23,Đo chức năng hô hấp có thuốc,Lần,THĂM DÒ CHỨC NĂNG,BHYT,144300,VND,2024-01-01,,,1
+1,MF24,Đo chức năng hô hấp không thuốc,Lần,THĂM DÒ CHỨC NĂNG,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,MF24,Đo chức năng hô hấp không thuốc,Lần,THĂM DÒ CHỨC NĂNG,BHYT,144300,VND,2024-01-01,,,1
+1,MF26,Đo Điện cơ (EMG),Lần,THĂM DÒ CHỨC NĂNG,TU_CHI_TRA,680000,VND,2024-01-01,,,1
+1,MF26,Đo Điện cơ (EMG),Lần,THĂM DÒ CHỨC NĂNG,BHYT,135300,VND,2024-01-01,,,1
+1,MF28,Đo Điện não (EEG),Lần,THĂM DÒ CHỨC NĂNG,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,MF28,Đo Điện não (EEG),Lần,THĂM DÒ CHỨC NĂNG,BHYT,75200,VND,2024-01-01,,,1
+1,MF58,Holter huyết áp,Lần,THĂM DÒ CHỨC NĂNG,TU_CHI_TRA,500000,VND,2024-01-01,,,1
+1,MF58,Holter huyết áp,Lần,THĂM DÒ CHỨC NĂNG,BHYT,215800,VND,2024-01-01,,,1
+1,MF73,Theo dõi nhịp tim thai và cơn co tử cung bằng monitor sản khoa,Lần,THĂM DÒ CHỨC NĂNG,TU_CHI_TRA,300000,VND,2024-01-01,,,1
+1,MF73,Theo dõi nhịp tim thai và cơn co tử cung bằng monitor sản khoa,Lần,THĂM DÒ CHỨC NĂNG,BHYT,55000,VND,2024-01-01,,,1
+1,MF74,Monitor theo dõi tim thai 1 lần (60 phút),Lần,THĂM DÒ CHỨC NĂNG,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,NWA9,Vật lý trị liệu hô hấp (người lớn),Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,140000,VND,2024-01-01,,,1
+1,NWB0,Vật lý trị liệu hô hấp (trẻ nhỏ),Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,140000,VND,2024-01-01,,,1
+1,NWB3,Tập các vận động thô của bàn tay,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,NWB4,Tập các vận động khéo léo của bàn tay,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,NWB8,Tập các chức năng sinh hoạt hằng ngày (ADL),Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,NWB9,Tập tri giác và nhận thức,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,NWC5,"Tập giao tiếp (ngôn ngữ ký hiệu, hình ảnh…)",Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,NWI8,Tập điều hợp vận động,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,80000,VND,2024-01-01,,,1
+1,NWN2,Tập vận động cột sống,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,70000,VND,2024-01-01,,,1
+1,NW04,Điều trị bằng máy kéo giãn cột sống,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,90000,VND,2024-01-01,,,1
+1,NW04,Điều trị bằng máy kéo giãn cột sống,Lần,VẬT LÝ TRỊ LIỆU,BHYT,0,VND,2024-01-01,,,1
+1,NW05,Chườm lạnh,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,50000,VND,2024-01-01,,,1
+1,NW06,Chườm nóng,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,45000,VND,2024-01-01,,,1
+1,NW10,Điều trị bằng sóng ngắn,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,75000,VND,2024-01-01,,,1
+1,NW10,Điều trị bằng sóng ngắn,Lần,VẬT LÝ TRỊ LIỆU,BHYT,0,VND,2024-01-01,,,1
+1,NW31,Tập kéo dãn,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,70000,VND,2024-01-01,,,1
+1,NW33,Kỹ thuật tập trên banh điều trị,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,70000,VND,2024-01-01,,,1
+1,NWA8,Tập do cứng khớp,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,115000,VND,2024-01-01,,,1
+1,NWA8,Tập do cứng khớp,Lần,VẬT LÝ TRỊ LIỆU,BHYT,0,VND,2024-01-01,,,1
+1,NWS9,Tập đi với khung tập đi [tập đi đứng cho người bệnh thở máy],Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,600000,VND,2024-01-01,,,1
+1,NWS9,Tập đi với khung tập đi [tập đi đứng cho người bệnh thở máy],Lần,VẬT LÝ TRỊ LIỆU,BHYT,0,VND,2024-01-01,,,1
+1,NWU1,Điều trị bằng siêu âm [2 vị trí],Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,120000,VND,2024-01-01,,,1
+1,NWU1,Điều trị bằng siêu âm [2 vị trí],Lần,VẬT LÝ TRỊ LIỆU,BHYT,0,VND,2024-01-01,,,1
+1,NWU6,Điều trị bằng các dòng điện xung,Lần,VẬT LÝ TRỊ LIỆU,TU_CHI_TRA,100000,VND,2024-01-01,,,1
+1,NWU6,Điều trị bằng các dòng điện xung,Lần,VẬT LÝ TRỊ LIỆU,BHYT,0,VND,2024-01-01,,,1
+1,TM87,Chi phí vận chuyển/ 01 túi máu (Chế phẩm máu) [BV Truyền máu – Huyết học] [mua máu],Lần,TRUYỀN MÁU,TU_CHI_TRA,17000,VND,2024-01-01,,,1
+1,TM87,Chi phí vận chuyển/ 01 túi máu (Chế phẩm máu) [BV Truyền máu – Huyết học] [mua máu],Lần,TRUYỀN MÁU,BHYT,0,VND,2024-01-01,,,1
+1,TM75,Chi phí vận chuyển/ 01 túi máu (Chế phẩm máu) (BV Truyền máu - Huyết học),Lần,TRUYỀN MÁU,TU_CHI_TRA,17000,VND,2024-01-01,,,1
+1,TM75,Chi phí vận chuyển/ 01 túi máu (Chế phẩm máu) (BV Truyền máu - Huyết học),Lần,TRUYỀN MÁU,BHYT,0,VND,2024-01-01,,,1
+1,TM72,Chi phí rửa (chưa bao gồm khối hồng cầu),Lần,TRUYỀN MÁU,TU_CHI_TRA,565000,VND,2024-01-01,,,1
+1,TI72,Tiêm trong da [không bao gồm vắc xin],Lần,CHÍCH NGỪA,TU_CHI_TRA,65000,VND,2024-01-01,,,1
+1,TI73,Tiêm dưới da [không bao gồm vắc xin],Lần,CHÍCH NGỪA,TU_CHI_TRA,65000,VND,2024-01-01,,,1
+1,TI74,Tiêm bắp thịt [không bao gồm vắc xin],Lần,CHÍCH NGỪA,TU_CHI_TRA,65000,VND,2024-01-01,,,1
+1,F056,Nong hậu môn không gây mê,Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,3200000,VND,2024-01-01,,,1
+1,F065,Phẫu thuật lấy toàn bộ trĩ vòng [gây tê],Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,7600000,VND,2024-01-01,,,1
+1,F065,Phẫu thuật lấy toàn bộ trĩ vòng [gây tê],Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2276400,VND,2024-01-01,,,1
+1,F069,Phẫu thuật cắt trĩ kinh điển có sử dụng dụng cụ hỗ trợ [gây tê],Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,5500000,VND,2024-01-01,,,1
+1,F069,Phẫu thuật cắt trĩ kinh điển có sử dụng dụng cụ hỗ trợ [gây tê],Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2276400,VND,2024-01-01,,,1
+1,F074,"Phẫu thuật áp xe hậu môn, có mở lỗ rò [gây tê]",Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,6400000,VND,2024-01-01,,,1
+1,F074,"Phẫu thuật áp xe hậu môn, có mở lỗ rò [gây tê]",Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2276400,VND,2024-01-01,,,1
+1,F075,Phẫu thuật Longo,Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,5600000,VND,2024-01-01,,,1
+1,F075,Phẫu thuật Longo,Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2507900,VND,2024-01-01,,,1
+1,F076,Phẫu thuật điều trị rò hậu môn phức tạp [gây tê],Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,7700000,VND,2024-01-01,,,1
+1,F076,Phẫu thuật điều trị rò hậu môn phức tạp [gây tê],Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2276400,VND,2024-01-01,,,1
+1,F078,Phẫu thuật điều trị sa trực tràng đường bụng [không cắt ruột - gây tê],Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,7900000,VND,2024-01-01,,,1
+1,F080,Phẫu thuật khâu treo trĩ theo phương pháp Longo cải biên,Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,5600000,VND,2024-01-01,,,1
+1,F080,Phẫu thuật khâu treo trĩ theo phương pháp Longo cải biên,Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2507900,VND,2024-01-01,,,1
+1,F084,Phẫu thuật điều trị táo bón do rối loạn co thắt cơ mu – trực tràng (Anismus),Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,7600000,VND,2024-01-01,,,1
+1,F103,Kỹ thuật can thiệp rối loạn đại tiện bằng phản hồi sinh học (Biofeedback),Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,F103,Kỹ thuật can thiệp rối loạn đại tiện bằng phản hồi sinh học (Biofeedback),Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,352800,VND,2024-01-01,,,1
+1,F123,Điện giao thoa,Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,270000,VND,2024-01-01,,,1
+1,F124,Phẫu thuật Cắt trĩ từ 2 búi trở lên [gây tê],Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,4900000,VND,2024-01-01,,,1
+1,F124,Phẫu thuật Cắt trĩ từ 2 búi trở lên [gây tê],Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2276400,VND,2024-01-01,,,1
+1,F133,Phẫu thuật trĩ độ III (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,6700000,VND,2024-01-01,,,1
+1,F133,Phẫu thuật trĩ độ III (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2816900,VND,2024-01-01,,,1
+1,F135,Phẫu thuật cắt trĩ kinh điển có sử dụng dụng cụ hỗ trợ (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,6600000,VND,2024-01-01,,,1
+1,F135,Phẫu thuật cắt trĩ kinh điển có sử dụng dụng cụ hỗ trợ (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2816900,VND,2024-01-01,,,1
+1,F138,Phẫu thuật Longo (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,6700000,VND,2024-01-01,,,1
+1,F138,Phẫu thuật Longo (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2507900,VND,2024-01-01,,,1
+1,F148,Phẫu thuật điều trị rò hậu môn đơn giản (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,6600000,VND,2024-01-01,,,1
+1,F148,Phẫu thuật điều trị rò hậu môn đơn giản (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2816900,VND,2024-01-01,,,1
+1,F149,Phẫu thuật tái tạo cơ vùng hậu môn kiểu overlap trong điều trị đứt cơ vùng hậu môn) (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,8900000,VND,2024-01-01,,,1
+1,F149,Phẫu thuật tái tạo cơ vùng hậu môn kiểu overlap trong điều trị đứt cơ vùng hậu môn) (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,3116800,VND,2024-01-01,,,1
+1,F159,Phẫu thuật Cắt trĩ từ 2 búi trở lên (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,6000000,VND,2024-01-01,,,1
+1,F159,Phẫu thuật Cắt trĩ từ 2 búi trở lên (Gây mê),Lần,HẬU MÔN -TRỰC TRÀNG,BHYT,2816900,VND,2024-01-01,,,1
+1,F165,Nong hậu môn (gây tê),Lần,HẬU MÔN -TRỰC TRÀNG,TU_CHI_TRA,2000000,VND,2024-01-01,,,1
+1,I121,Chọc hút khí màng phổi,Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,3000000,VND,2024-01-01,,,1
+1,I121,Chọc hút khí màng phổi,Lần,LỒNG NGỰC MẠCH MÁU,BHYT,162900,VND,2024-01-01,,,1
+1,I122,Bơm rửa khoang màng phổi,Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,4300000,VND,2024-01-01,,,1
+1,I122,Bơm rửa khoang màng phổi,Lần,LỒNG NGỰC MẠCH MÁU,BHYT,248500,VND,2024-01-01,,,1
+1,I123,Điều trị suy tĩnh mạch bằng Laser nội mạch,Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,7200000,VND,2024-01-01,,,1
+1,I123,Điều trị suy tĩnh mạch bằng Laser nội mạch,Lần,LỒNG NGỰC MẠCH MÁU,BHYT,2157100,VND,2024-01-01,,,1
+1,I135,Cắt bỏ giãn tĩnh mạch chi dưới (hai bên),Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,I135,Cắt bỏ giãn tĩnh mạch chi dưới (hai bên),Lần,LỒNG NGỰC MẠCH MÁU,BHYT,3433300,VND,2024-01-01,,,1
+1,I156,Cắt phổi và màng phổi,Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,13100000,VND,2024-01-01,,,1
+1,I156,Cắt phổi và màng phổi,Lần,LỒNG NGỰC MẠCH MÁU,BHYT,9583300,VND,2024-01-01,,,1
+1,I209,Phẫu thuật điều trị máu đông màng phổi,Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,12900000,VND,2024-01-01,,,1
+1,I209,Phẫu thuật điều trị máu đông màng phổi,Lần,LỒNG NGỰC MẠCH MÁU,BHYT,7392200,VND,2024-01-01,,,1
+1,I255,"Phẫu thuật nội soi xử trí tràn máu, tràn khí màng phổi",Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,I255,"Phẫu thuật nội soi xử trí tràn máu, tràn khí màng phổi",Lần,LỒNG NGỰC MẠCH MÁU,BHYT,5859300,VND,2024-01-01,,,1
+1,I256,Phẫu thuật nội soi cắt một thùy phổi kèm nạo vét hạch,Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,14700000,VND,2024-01-01,,,1
+1,I256,Phẫu thuật nội soi cắt một thùy phổi kèm nạo vét hạch,Lần,LỒNG NGỰC MẠCH MÁU,BHYT,9272200,VND,2024-01-01,,,1
+1,I258,Chọc hút khí màng phổi (tiểu phẫu),Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,350000,VND,2024-01-01,,,1
+1,I258,Chọc hút khí màng phổi (tiểu phẫu),Lần,LỒNG NGỰC MẠCH MÁU,BHYT,162900,VND,2024-01-01,,,1
+1,I260,Phẫu thuật tạo thông động – tĩnh mạch để chạy thận nhân tạo,Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,10400000,VND,2024-01-01,,,1
+1,I260,Phẫu thuật tạo thông động – tĩnh mạch để chạy thận nhân tạo,Lần,LỒNG NGỰC MẠCH MÁU,BHYT,1176100,VND,2024-01-01,,,1
+1,I275,Dẫn lưu áp xe phổi (Gây mê),Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,10000000,VND,2024-01-01,,,1
+1,I275,Dẫn lưu áp xe phổi (Gây mê),Lần,LỒNG NGỰC MẠCH MÁU,BHYT,628500,VND,2024-01-01,,,1
+1,I283,Phẫu thuật cắt u máu nhỏ [đường kính < 10 cm] [gây tê],Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,7300000,VND,2024-01-01,,,1
+1,I283,Phẫu thuật cắt u máu nhỏ [đường kính < 10 cm] [gây tê],Lần,LỒNG NGỰC MẠCH MÁU,BHYT,2436100,VND,2024-01-01,,,1
+1,I304,Phẫu thuật nội soi cắt - đốt hạch giao cảm ngực [1 bên],Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,14300000,VND,2024-01-01,,,1
+1,I305,Phẫu thuật nội soi cắt - đốt hạch giao cảm ngực [2 bên],Lần,LỒNG NGỰC MẠCH MÁU,TU_CHI_TRA,14400000,VND,2024-01-01,,,1
+1,M126,Lấy dị vật giác mạc sâu,Lần,MẮT,TU_CHI_TRA,600000,VND,2024-01-01,,,1
+1,M126,Lấy dị vật giác mạc sâu,Lần,MẮT,BHYT,359500,VND,2024-01-01,,,1
+1,M127,Lấy dị vật giác mạc,Lần,MẮT,TU_CHI_TRA,260000,VND,2024-01-01,,,1
+1,M127,Lấy dị vật giác mạc,Lần,MẮT,BHYT,99400,VND,2024-01-01,,,1
+1,M128,Lấy dị vật kết mạc,Lần,MẮT,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,M128,Lấy dị vật kết mạc,Lần,MẮT,BHYT,71500,VND,2024-01-01,,,1
+1,M131,Lấy calci kết mạc,Lần,MẮT,TU_CHI_TRA,280000,VND,2024-01-01,,,1
+1,M131,Lấy calci kết mạc,Lần,MẮT,BHYT,40900,VND,2024-01-01,,,1
+1,M217,Đo thị lực,Lần,MẮT,TU_CHI_TRA,80000,VND,2024-01-01,,,1
+1,K096,Phẫu thuật nội soi giải phóng ống cổ tay,Lần,NGOẠI THẦN KINH,TU_CHI_TRA,15300000,VND,2024-01-01,,,1
+1,K096,Phẫu thuật nội soi giải phóng ống cổ tay,Lần,NGOẠI THẦN KINH,BHYT,2434500,VND,2024-01-01,,,1
+1,K132,Phẫu thuật điều trị hội chứng ống cổ tay,Lần,NGOẠI THẦN KINH,TU_CHI_TRA,12200000,VND,2024-01-01,,,1
+1,K132,Phẫu thuật điều trị hội chứng ống cổ tay,Lần,NGOẠI THẦN KINH,BHYT,2698800,VND,2024-01-01,,,1
+1,K141,Phẫu thuật giảm áp dây thần kinh VII,Lần,NGOẠI THẦN KINH,TU_CHI_TRA,19300000,VND,2024-01-01,,,1
+1,K141,Phẫu thuật giảm áp dây thần kinh VII,Lần,NGOẠI THẦN KINH,BHYT,7551300,VND,2024-01-01,,,1
+1,K145,Phẫu thuật giải phóng chèn ép TK ngoại biên,Lần,NGOẠI THẦN KINH,TU_CHI_TRA,12400000,VND,2024-01-01,,,1
+1,K145,Phẫu thuật giải phóng chèn ép TK ngoại biên,Lần,NGOẠI THẦN KINH,BHYT,2698800,VND,2024-01-01,,,1
+1,K148,Phẫu thuật gỡ dính thần kinh,Lần,NGOẠI THẦN KINH,TU_CHI_TRA,13700000,VND,2024-01-01,,,1
+1,K148,Phẫu thuật gỡ dính thần kinh,Lần,NGOẠI THẦN KINH,BHYT,3011900,VND,2024-01-01,,,1
+1,K182,"Phẫu thuật giải ép thần kinh (ống cổ tay, Khuỷu…)",Lần,NGOẠI THẦN KINH,TU_CHI_TRA,14900000,VND,2024-01-01,,,1
+1,K182,"Phẫu thuật giải ép thần kinh (ống cổ tay, Khuỷu…)",Lần,NGOẠI THẦN KINH,BHYT,2698800,VND,2024-01-01,,,1
+1,K210,Phẫu thuật điều trị hội chứng ống cổ tay (tiểu phẫu),Lần,NGOẠI THẦN KINH,TU_CHI_TRA,3500000,VND,2024-01-01,,,1
+1,K210,Phẫu thuật điều trị hội chứng ống cổ tay (tiểu phẫu),Lần,NGOẠI THẦN KINH,BHYT,2698800,VND,2024-01-01,,,1
+1,K211,Phẫu thuật nội soi giải phóng ống cổ tay (Gây mê),Lần,NGOẠI THẦN KINH,TU_CHI_TRA,16900000,VND,2024-01-01,,,1
+1,K211,Phẫu thuật nội soi giải phóng ống cổ tay (Gây mê),Lần,NGOẠI THẦN KINH,BHYT,2434500,VND,2024-01-01,,,1
+1,K214,Phẫu thuật giải phóng chèn ép TK ngoại biên [điều trị hội chứng chền ép thần kinh trụ-Gây mê],Lần,NGOẠI THẦN KINH,TU_CHI_TRA,10500000,VND,2024-01-01,,,1
+1,K214,Phẫu thuật giải phóng chèn ép TK ngoại biên [điều trị hội chứng chền ép thần kinh trụ-Gây mê],Lần,NGOẠI THẦN KINH,BHYT,2698800,VND,2024-01-01,,,1
+1,K215,Phẫu thuật giải phóng chèn ép TK ngoại biên (Gây mê),Lần,NGOẠI THẦN KINH,TU_CHI_TRA,13300000,VND,2024-01-01,,,1
+1,K215,Phẫu thuật giải phóng chèn ép TK ngoại biên (Gây mê),Lần,NGOẠI THẦN KINH,BHYT,2698800,VND,2024-01-01,,,1
+1,K216,Phẫu thuật gỡ dính thần kinh [gây tê],Lần,NGOẠI THẦN KINH,TU_CHI_TRA,12500000,VND,2024-01-01,,,1
+1,K216,Phẫu thuật gỡ dính thần kinh [gây tê],Lần,NGOẠI THẦN KINH,BHYT,2390200,VND,2024-01-01,,,1
+1,K217,Phẫu thuật nối thần kinh ngoại biên và ghép TK ngoại biên (Gây mê),Lần,NGOẠI THẦN KINH,TU_CHI_TRA,20100000,VND,2024-01-01,,,1
+1,K217,Phẫu thuật nối thần kinh ngoại biên và ghép TK ngoại biên (Gây mê),Lần,NGOẠI THẦN KINH,BHYT,2698800,VND,2024-01-01,,,1
+1,K218,"Phẫu thuật giải ép thần kinh (ống cổ tay, Khuỷu…) (Gây mê)",Lần,NGOẠI THẦN KINH,TU_CHI_TRA,16100000,VND,2024-01-01,,,1
+1,K218,"Phẫu thuật giải ép thần kinh (ống cổ tay, Khuỷu…) (Gây mê)",Lần,NGOẠI THẦN KINH,BHYT,2698800,VND,2024-01-01,,,1
+1,H183,Lấy sỏi niệu quản qua nội soi (qua ngã niệu đạo),Lần,NIỆU THẬN,TU_CHI_TRA,11300000,VND,2024-01-01,,,1
+1,H183,Lấy sỏi niệu quản qua nội soi (qua ngã niệu đạo),Lần,NIỆU THẬN,BHYT,1010000,VND,2024-01-01,,,1
+1,H189,"Nội soi bàng quang, bơm rửa lấy máu cục tránh phẫu thuật",Lần,NIỆU THẬN,TU_CHI_TRA,6700000,VND,2024-01-01,,,1
+1,H189,"Nội soi bàng quang, bơm rửa lấy máu cục tránh phẫu thuật",Lần,NIỆU THẬN,BHYT,953800,VND,2024-01-01,,,1
+1,H190,Nội soi niệu quản chẩn đoán,Lần,NIỆU THẬN,TU_CHI_TRA,6800000,VND,2024-01-01,,,1
+1,H190,Nội soi niệu quản chẩn đoán,Lần,NIỆU THẬN,BHYT,975300,VND,2024-01-01,,,1
+1,H192,Nong niệu đạo (tiểu phẫu),Lần,NIỆU THẬN,TU_CHI_TRA,630000,VND,2024-01-01,,,1
+1,H192,Nong niệu đạo (tiểu phẫu),Lần,NIỆU THẬN,BHYT,273500,VND,2024-01-01,,,1
+1,H204,"Nội soi cắt u niệu đạo, van niệu đạo",Lần,NIỆU THẬN,TU_CHI_TRA,8400000,VND,2024-01-01,,,1
+1,H204,"Nội soi cắt u niệu đạo, van niệu đạo",Lần,NIỆU THẬN,BHYT,1596600,VND,2024-01-01,,,1
+1,H208,Cắt hẹp bao quy đầu (phòng mổ),Lần,NIỆU THẬN,TU_CHI_TRA,5900000,VND,2024-01-01,,,1
+1,H208,Cắt hẹp bao quy đầu (phòng mổ),Lần,NIỆU THẬN,BHYT,269500,VND,2024-01-01,,,1
+1,H221,Cắt thận đơn thuần,Lần,NIỆU THẬN,TU_CHI_TRA,14000000,VND,2024-01-01,,,1
+1,H221,Cắt thận đơn thuần,Lần,NIỆU THẬN,BHYT,4703100,VND,2024-01-01,,,1
+1,H234,Chích áp xe tầng sinh môn,Lần,NIỆU THẬN,TU_CHI_TRA,3700000,VND,2024-01-01,,,1
+1,H234,Chích áp xe tầng sinh môn,Lần,NIỆU THẬN,BHYT,873000,VND,2024-01-01,,,1
+1,H242,"Dẫn lưu viêm tấy quanh thận, áp xe thận",Lần,NIỆU THẬN,TU_CHI_TRA,11700000,VND,2024-01-01,,,1
+1,H242,"Dẫn lưu viêm tấy quanh thận, áp xe thận",Lần,NIỆU THẬN,BHYT,1920900,VND,2024-01-01,,,1
+1,H288,Nội soi nong niệu quản hẹp,Lần,NIỆU THẬN,TU_CHI_TRA,12200000,VND,2024-01-01,,,1
+1,H288,Nội soi nong niệu quản hẹp,Lần,NIỆU THẬN,BHYT,950500,VND,2024-01-01,,,1
+1,H305,"Nội soi mở rộng niệu quản, nong rộng niệu quản",Lần,NIỆU THẬN,TU_CHI_TRA,9500000,VND,2024-01-01,,,1
+1,H305,"Nội soi mở rộng niệu quản, nong rộng niệu quản",Lần,NIỆU THẬN,BHYT,1920900,VND,2024-01-01,,,1
+1,H308,"Sinh thiết tinh hoàn, mào tinh",Lần,NIỆU THẬN,TU_CHI_TRA,5200000,VND,2024-01-01,,,1
+1,H311,Nội soi bàng quang sinh thiết,Lần,NIỆU THẬN,TU_CHI_TRA,6800000,VND,2024-01-01,,,1
+1,H311,Nội soi bàng quang sinh thiết,Lần,NIỆU THẬN,BHYT,720300,VND,2024-01-01,,,1
+1,H313,Nội soi bàng quang không sinh thiết (phòng mổ),Lần,NIỆU THẬN,TU_CHI_TRA,6800000,VND,2024-01-01,,,1
+1,H313,Nội soi bàng quang không sinh thiết (phòng mổ),Lần,NIỆU THẬN,BHYT,575300,VND,2024-01-01,,,1
+1,H314,Tán sỏi ngoài cơ thể,Lần,NIỆU THẬN,TU_CHI_TRA,10600000,VND,2024-01-01,,,1
+1,H314,Tán sỏi ngoài cơ thể,Lần,NIỆU THẬN,BHYT,2454000,VND,2024-01-01,,,1
+1,H326,Lấy sỏi niệu quản đơn thuần,Lần,NIỆU THẬN,TU_CHI_TRA,9100000,VND,2024-01-01,,,1
+1,H326,Lấy sỏi niệu quản đơn thuần,Lần,NIỆU THẬN,BHYT,4569100,VND,2024-01-01,,,1
+1,H327,Phẫu thuật lấy sỏi thận,Lần,NIỆU THẬN,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,H327,Phẫu thuật lấy sỏi thận,Lần,NIỆU THẬN,BHYT,4569100,VND,2024-01-01,,,1
+1,H330,Phẫu thuật nội soi lấy sỏi niệu quản,Lần,NIỆU THẬN,TU_CHI_TRA,13400000,VND,2024-01-01,,,1
+1,H330,Phẫu thuật nội soi lấy sỏi niệu quản,Lần,NIỆU THẬN,BHYT,4497100,VND,2024-01-01,,,1
+1,H338,Phẫu thuật nội soi cắt chỏm nang thận sau phúc mạc,Lần,NIỆU THẬN,TU_CHI_TRA,10100000,VND,2024-01-01,,,1
+1,H338,Phẫu thuật nội soi cắt chỏm nang thận sau phúc mạc,Lần,NIỆU THẬN,BHYT,4596000,VND,2024-01-01,,,1
+1,H341,Phẫu thuật Tạo hình dây thắng,Lần,NIỆU THẬN,TU_CHI_TRA,6700000,VND,2024-01-01,,,1
+1,H343,Nong da quy đầu,Lần,NIỆU THẬN,TU_CHI_TRA,5700000,VND,2024-01-01,,,1
+1,H357,Nong da quy đầu (tiểu phẫu),Lần,NIỆU THẬN,TU_CHI_TRA,350000,VND,2024-01-01,,,1
+1,H415,Lấy sỏi niệu quản đơn thuần [gây tê],Lần,NIỆU THẬN,TU_CHI_TRA,8000000,VND,2024-01-01,,,1
+1,H415,Lấy sỏi niệu quản đơn thuần [gây tê],Lần,NIỆU THẬN,BHYT,3546600,VND,2024-01-01,,,1
+1,H417,Phẫu thuật nội soi lấy sỏi niệu quản [gây tê],Lần,NIỆU THẬN,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,H418,Nội soi bàng quang tán sỏi (Gây tê),Lần,NIỆU THẬN,TU_CHI_TRA,7300000,VND,2024-01-01,,,1
+1,H418,Nội soi bàng quang tán sỏi (Gây tê),Lần,NIỆU THẬN,BHYT,1345000,VND,2024-01-01,,,1
+1,H423,Khâu da bìu (Gây mê),Lần,NIỆU THẬN,TU_CHI_TRA,8200000,VND,2024-01-01,,,1
+1,H426,Nong niệu đạo và đặt sonde đái (phòng mổ) (Gây mê),Lần,NIỆU THẬN,TU_CHI_TRA,5200000,VND,2024-01-01,,,1
+1,H426,Nong niệu đạo và đặt sonde đái (phòng mổ) (Gây mê),Lần,NIỆU THẬN,BHYT,273500,VND,2024-01-01,,,1
+1,H427,Chích áp xe tầng sinh môn (Gây mê),Lần,NIỆU THẬN,TU_CHI_TRA,4800000,VND,2024-01-01,,,1
+1,H427,Chích áp xe tầng sinh môn (Gây mê),Lần,NIỆU THẬN,BHYT,873000,VND,2024-01-01,,,1
+1,H429,Mở thông bàng quang trên xương mu (Gây tê),Lần,NIỆU THẬN,TU_CHI_TRA,5900000,VND,2024-01-01,,,1
+1,H429,Mở thông bàng quang trên xương mu (Gây tê),Lần,NIỆU THẬN,BHYT,405500,VND,2024-01-01,,,1
+1,H430,Nội soi niệu quản để đặt thông JJ (Gây tê),Lần,NIỆU THẬN,TU_CHI_TRA,6800000,VND,2024-01-01,,,1
+1,H430,Nội soi niệu quản để đặt thông JJ (Gây tê),Lần,NIỆU THẬN,BHYT,950500,VND,2024-01-01,,,1
+1,H464,Nội soi bàng quang cắt u [gây mê],Lần,NIỆU THẬN,TU_CHI_TRA,13400000,VND,2024-01-01,,,1
+1,H464,Nội soi bàng quang cắt u [gây mê],Lần,NIỆU THẬN,BHYT,5030900,VND,2024-01-01,,,1
+1,H465,Nội soi bàng quang cắt u [gây tê],Lần,NIỆU THẬN,TU_CHI_TRA,12000000,VND,2024-01-01,,,1
+1,H465,Nội soi bàng quang cắt u [gây tê],Lần,NIỆU THẬN,BHYT,3721800,VND,2024-01-01,,,1
+1,U002,Nội soi can thiệp - cắt polyp ống tiêu hóa < 1cm (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,4400000,VND,2024-01-01,,,1
+1,U002,Nội soi can thiệp - cắt polyp ống tiêu hóa < 1cm (phòng mổ),Lần,NỘI SOI,BHYT,1108300,VND,2024-01-01,,,1
+1,U003,Nội soi can thiệp - cắt polyp ống tiêu hóa > 1cm hoặc nhiều polyp (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,5500000,VND,2024-01-01,,,1
+1,U003,Nội soi can thiệp - cắt polyp ống tiêu hóa > 1cm hoặc nhiều polyp (phòng mổ),Lần,NỘI SOI,BHYT,1743100,VND,2024-01-01,,,1
+1,U004,"Nội soi can thiệp - gắp giun, dị vật ống tiêu hóa (phòng mổ)",Lần,NỘI SOI,TU_CHI_TRA,5600000,VND,2024-01-01,,,1
+1,U004,"Nội soi can thiệp - gắp giun, dị vật ống tiêu hóa (phòng mổ)",Lần,NỘI SOI,BHYT,1743100,VND,2024-01-01,,,1
+1,U006,Nội soi can thiệp- cắt 01 polyp ống tiêu hóa < 1cm (gây mê) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,4500000,VND,2024-01-01,,,1
+1,U006,Nội soi can thiệp- cắt 01 polyp ống tiêu hóa < 1cm (gây mê) (phòng mổ),Lần,NỘI SOI,BHYT,1108300,VND,2024-01-01,,,1
+1,U007,Nội soi can thiệp - cắt 01 polyp ống tiêu hóa > 1cm hoặc nhiều polyp (gây mê) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,5800000,VND,2024-01-01,,,1
+1,U007,Nội soi can thiệp - cắt 01 polyp ống tiêu hóa > 1cm hoặc nhiều polyp (gây mê) (phòng mổ),Lần,NỘI SOI,BHYT,1743100,VND,2024-01-01,,,1
+1,U008,"Nội soi can thiệp - gắp giun, dị vật ống tiêu hóa (gây mê) (phòng mổ)",Lần,NỘI SOI,TU_CHI_TRA,6000000,VND,2024-01-01,,,1
+1,U008,"Nội soi can thiệp - gắp giun, dị vật ống tiêu hóa (gây mê) (phòng mổ)",Lần,NỘI SOI,BHYT,1743100,VND,2024-01-01,,,1
+1,U012,"Nội soi đại trực tràng ống mềm gây mê (có thuốc, có sinh thiết) (phòng mổ)",Lần,NỘI SOI,TU_CHI_TRA,4300000,VND,2024-01-01,,,1
+1,U012,"Nội soi đại trực tràng ống mềm gây mê (có thuốc, có sinh thiết) (phòng mổ)",Lần,NỘI SOI,BHYT,677500,VND,2024-01-01,,,1
+1,U013,"Nội soi đại trực tràng ống mềm gây mê (không thuốc, có sinh thiết) (phòng mổ)",Lần,NỘI SOI,TU_CHI_TRA,4200000,VND,2024-01-01,,,1
+1,U013,"Nội soi đại trực tràng ống mềm gây mê (không thuốc, có sinh thiết) (phòng mổ)",Lần,NỘI SOI,BHYT,677500,VND,2024-01-01,,,1
+1,U015,Nội soi đại trực tràng toàn bộ ống mềm có sinh thiết (có thuốc) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,3800000,VND,2024-01-01,,,1
+1,U015,Nội soi đại trực tràng toàn bộ ống mềm có sinh thiết (có thuốc) (phòng mổ),Lần,NỘI SOI,BHYT,468800,VND,2024-01-01,,,1
+1,U018,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (gây mê) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,3800000,VND,2024-01-01,,,1
+1,U018,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (gây mê) (phòng mổ),Lần,NỘI SOI,BHYT,677500,VND,2024-01-01,,,1
+1,U019,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (không thuốc) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,3700000,VND,2024-01-01,,,1
+1,U019,Nội soi đại trực tràng toàn bộ ống mềm không sinh thiết (không thuốc) (phòng mổ),Lần,NỘI SOI,BHYT,352100,VND,2024-01-01,,,1
+1,U020,Nội soi thực quản - dạ dày - tá tràng có sinh thiết (ống mềm) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,3300000,VND,2024-01-01,,,1
+1,U020,Nội soi thực quản - dạ dày - tá tràng có sinh thiết (ống mềm) (phòng mổ),Lần,NỘI SOI,BHYT,493800,VND,2024-01-01,,,1
+1,U023,Nội soi thực quản - dạ dày - tá tràng ống mềm có sinh thiết (ống nghiêng) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,3300000,VND,2024-01-01,,,1
+1,U023,Nội soi thực quản - dạ dày - tá tràng ống mềm có sinh thiết (ống nghiêng) (phòng mổ),Lần,NỘI SOI,BHYT,493800,VND,2024-01-01,,,1
+1,U024,Nội soi thực quản - dạ dày - tá tràng ống mềm có sinh thiết (ống nghiêng) gây mê (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,3700000,VND,2024-01-01,,,1
+1,U024,Nội soi thực quản - dạ dày - tá tràng ống mềm có sinh thiết (ống nghiêng) gây mê (phòng mổ),Lần,NỘI SOI,BHYT,493800,VND,2024-01-01,,,1
+1,U025,Nội soi thực quản - dạ dày - tá tràng ống mềm không sinh thiết (ống nghiêng) gây mê (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,2700000,VND,2024-01-01,,,1
+1,U025,Nội soi thực quản - dạ dày - tá tràng ống mềm không sinh thiết (ống nghiêng) gây mê (phòng mổ),Lần,NỘI SOI,BHYT,276500,VND,2024-01-01,,,1
+1,U026,"Nội soi thực quản- dạ dày- tá tràng có thể kết hợp sinh thiết (ống mềm, gây mê) (phòng mổ)",Lần,NỘI SOI,TU_CHI_TRA,3700000,VND,2024-01-01,,,1
+1,U026,"Nội soi thực quản- dạ dày- tá tràng có thể kết hợp sinh thiết (ống mềm, gây mê) (phòng mổ)",Lần,NỘI SOI,BHYT,276500,VND,2024-01-01,,,1
+1,U028,Nội soi trực tràng ống mềm có sinh thiết (có thuốc) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,2600000,VND,2024-01-01,,,1
+1,U028,Nội soi trực tràng ống mềm có sinh thiết (có thuốc) (phòng mổ),Lần,NỘI SOI,BHYT,323500,VND,2024-01-01,,,1
+1,U029,Nội soi trực tràng ống mềm có sinh thiết (không thuốc) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,2600000,VND,2024-01-01,,,1
+1,U029,Nội soi trực tràng ống mềm có sinh thiết (không thuốc) (phòng mổ),Lần,NỘI SOI,BHYT,323500,VND,2024-01-01,,,1
+1,U030,Nội soi trực tràng ống mềm không sinh thiết (có thuốc) (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,2400000,VND,2024-01-01,,,1
+1,U030,Nội soi trực tràng ống mềm không sinh thiết (có thuốc) (phòng mổ),Lần,NỘI SOI,BHYT,215200,VND,2024-01-01,,,1
+1,U033,Tiêm hoặc kẹp cầm máu qua nội soi đại tràng (phòng mổ),Lần,NỘI SOI,TU_CHI_TRA,4100000,VND,2024-01-01,,,1
+1,U033,Tiêm hoặc kẹp cầm máu qua nội soi đại tràng (phòng mổ),Lần,NỘI SOI,BHYT,656700,VND,2024-01-01,,,1
+1,O025,Thay băng vết thương chiều dài dưới 15cm (kiểm tra đường hầm catheter lọc màng bụng và hướng dẫn ở người bệnh lọc màng bụng ngoại trú),Lần,NỘI THẬN,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,O025,Thay băng vết thương chiều dài dưới 15cm (kiểm tra đường hầm catheter lọc màng bụng và hướng dẫn ở người bệnh lọc màng bụng ngoại trú),Lần,NỘI THẬN,BHYT,64300,VND,2024-01-01,,,1
+1,R105,Chích áp xe lợi,Lần,RĂNG HÀM MẶT,TU_CHI_TRA,800000,VND,2024-01-01,,,1
+1,R105,Chích áp xe lợi,Lần,RĂNG HÀM MẶT,BHYT,218500,VND,2024-01-01,,,1
+1,R106,Chích tháo mủ trong áp xe nông vùng hàm mặt,Lần,RĂNG HÀM MẶT,TU_CHI_TRA,1200000,VND,2024-01-01,,,1
+1,R106,Chích tháo mủ trong áp xe nông vùng hàm mặt,Lần,RĂNG HÀM MẶT,BHYT,126700,VND,2024-01-01,,,1
+1,R113,Cố định tạm thời sơ cứu gãy xương hàm,Lần,RĂNG HÀM MẶT,TU_CHI_TRA,2400000,VND,2024-01-01,,,1
+1,R113,Cố định tạm thời sơ cứu gãy xương hàm,Lần,RĂNG HÀM MẶT,BHYT,414400,VND,2024-01-01,,,1
+1,R277,Phẫu thuật điều trị khe hở môi hai bên (đơn),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,8000000,VND,2024-01-01,,,1
+1,R277,Phẫu thuật điều trị khe hở môi hai bên (đơn),Lần,RĂNG HÀM MẶT,BHYT,2988600,VND,2024-01-01,,,1
+1,R279,Phẫu thuật điều trị khe hở môi một bên (đơn),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,5200000,VND,2024-01-01,,,1
+1,R279,Phẫu thuật điều trị khe hở môi một bên (đơn),Lần,RĂNG HÀM MẶT,BHYT,2888600,VND,2024-01-01,,,1
+1,R295,Sinh thiết u phần mềm và xương vùng hàm mặt (gây mê nội khí quản),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,5200000,VND,2024-01-01,,,1
+1,R295,Sinh thiết u phần mềm và xương vùng hàm mặt (gây mê nội khí quản),Lần,RĂNG HÀM MẶT,BHYT,294500,VND,2024-01-01,,,1
+1,R297,"Sửa sẹo xấu, nếp nhăn nhỏ (Thẩm mỹ)",Lần,RĂNG HÀM MẶT,TU_CHI_TRA,2730000,VND,2024-01-01,,,1
+1,R429,Cắt u nướu đường kính từ 2cm trở lên (Phòng mổ),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,3800000,VND,2024-01-01,,,1
+1,R429,Cắt u nướu đường kính từ 2cm trở lên (Phòng mổ),Lần,RĂNG HÀM MẶT,BHYT,521000,VND,2024-01-01,,,1
+1,R516,Khâu vết thương nông vùng hàm mặt > 5cm ( Khâu vết thương phần mềm nông dài > 5 cm ) (Phòng mổ) (Gây mê),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,4900000,VND,2024-01-01,,,1
+1,R516,Khâu vết thương nông vùng hàm mặt > 5cm ( Khâu vết thương phần mềm nông dài > 5 cm ) (Phòng mổ) (Gây mê),Lần,RĂNG HÀM MẶT,BHYT,194700,VND,2024-01-01,,,1
+1,R517,Khâu vết thương phần mềm nông vùng hàm mặt < 5cm (đơn giản) (Phòng mổ) (Gây mê),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,4800000,VND,2024-01-01,,,1
+1,R517,Khâu vết thương phần mềm nông vùng hàm mặt < 5cm (đơn giản) (Phòng mổ) (Gây mê),Lần,RĂNG HÀM MẶT,BHYT,194700,VND,2024-01-01,,,1
+1,R518,Khâu vết thương phần mềm sâu vùng hàm mặt < 5cm (đơn giản) (Phòng mổ) (Gây mê),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,4600000,VND,2024-01-01,,,1
+1,R518,Khâu vết thương phần mềm sâu vùng hàm mặt < 5cm (đơn giản) (Phòng mổ) (Gây mê),Lần,RĂNG HÀM MẶT,BHYT,289500,VND,2024-01-01,,,1
+1,R519,Khâu vết thương phần mềm sâu vùng hàm mặt > 5cm (đơn giản) (Phòng mổ) (Gây mê),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,4900000,VND,2024-01-01,,,1
+1,R519,Khâu vết thương phần mềm sâu vùng hàm mặt > 5cm (đơn giản) (Phòng mổ) (Gây mê),Lần,RĂNG HÀM MẶT,BHYT,289500,VND,2024-01-01,,,1
+1,R536,Chích áp xe lợi (Phòng mổ),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,3100000,VND,2024-01-01,,,1
+1,R536,Chích áp xe lợi (Phòng mổ),Lần,RĂNG HÀM MẶT,BHYT,218500,VND,2024-01-01,,,1
+1,R537,Chích tháo mủ trong áp xe nông vùng hàm mặt (Phòng mổ),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,3700000,VND,2024-01-01,,,1
+1,R537,Chích tháo mủ trong áp xe nông vùng hàm mặt (Phòng mổ),Lần,RĂNG HÀM MẶT,BHYT,126700,VND,2024-01-01,,,1
+1,R594,Rạch áp xe trong miệng (Phòng mổ),Lần,RĂNG HÀM MẶT,TU_CHI_TRA,3900000,VND,2024-01-01,,,1
+1,R594,Rạch áp xe trong miệng (Phòng mổ),Lần,RĂNG HÀM MẶT,BHYT,295500,VND,2024-01-01,,,1
+1,L097,Phẫu thuật mở bụng bóc u xơ tử cung,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,7100000,VND,2024-01-01,,,1
+1,L097,Phẫu thuật mở bụng bóc u xơ tử cung,Lần,SẢN - PHỤ KHOA,BHYT,3628800,VND,2024-01-01,,,1
+1,L098,"Nội soi buồng tử cung, vòi trứng thông vòi trứng",Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,7700000,VND,2024-01-01,,,1
+1,L101,Cắt cụt cổ tử cung [gây mê],Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,5100000,VND,2024-01-01,,,1
+1,L101,Cắt cụt cổ tử cung [gây mê],Lần,SẢN - PHỤ KHOA,BHYT,3019800,VND,2024-01-01,,,1
+1,L104,Phẫu thuật nội soi cắt phần phụ,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,10700000,VND,2024-01-01,,,1
+1,L104,Phẫu thuật nội soi cắt phần phụ,Lần,SẢN - PHỤ KHOA,BHYT,5503300,VND,2024-01-01,,,1
+1,L106,"Thủ thuật xoắn polip cổ tử cung, âm đạo",Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,800000,VND,2024-01-01,,,1
+1,L106,"Thủ thuật xoắn polip cổ tử cung, âm đạo",Lần,SẢN - PHỤ KHOA,BHYT,436200,VND,2024-01-01,,,1
+1,L107,"Phẫu thuật cắt polip buồng tử cung (đường bụng, đường âm đạo) + nạo lòng tử cung",Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,8100000,VND,2024-01-01,,,1
+1,L107,"Phẫu thuật cắt polip buồng tử cung (đường bụng, đường âm đạo) + nạo lòng tử cung",Lần,SẢN - PHỤ KHOA,BHYT,4110800,VND,2024-01-01,,,1
+1,L134,Lấy vòng tránh thai có dây,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,410000,VND,2024-01-01,,,1
+1,L135,Lấy dụng cụ tử cung trong ổ bụng qua đường rạch nhỏ,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,7500000,VND,2024-01-01,,,1
+1,L135,Lấy dụng cụ tử cung trong ổ bụng qua đường rạch nhỏ,Lần,SẢN - PHỤ KHOA,BHYT,3191500,VND,2024-01-01,,,1
+1,L147,Nạo thai khó,lần,SẢN - PHỤ KHOA,TU_CHI_TRA,3300000,VND,2024-01-01,,,1
+1,L188,Stress test,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,L140,Nạo buồng tử cung chẩn đoán (gây tê),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,800000,VND,2024-01-01,,,1
+1,L141,Nạo buồng tử cung chẩn đoán (gây mê),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,3000000,VND,2024-01-01,,,1
+1,L142,"Phá thai bệnh lý (bệnh lý mẹ, bệnh lý thai)",Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,1250000,VND,2024-01-01,,,1
+1,L142,"Phá thai bệnh lý (bệnh lý mẹ, bệnh lý thai)",Lần,SẢN - PHỤ KHOA,BHYT,450000,VND,2024-01-01,,,1
+1,L143,Nạo phá thai bệnh lý (gây mê),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,4300000,VND,2024-01-01,,,1
+1,L143,Nạo phá thai bệnh lý (gây mê),Lần,SẢN - PHỤ KHOA,BHYT,450000,VND,2024-01-01,,,1
+1,L146,Nạo thai do mổ cũ,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,4490000,VND,2024-01-01,,,1
+1,L146,Nạo thai do mổ cũ,Lần,SẢN - PHỤ KHOA,BHYT,700200,VND,2024-01-01,,,1
+1,L152,Cắt u thành âm đạo,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,4300000,VND,2024-01-01,,,1
+1,L152,Cắt u thành âm đạo,Lần,SẢN - PHỤ KHOA,BHYT,1716500,VND,2024-01-01,,,1
+1,L154,Phẫu thuật cắt tử cung đường âm đạo,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,11000000,VND,2024-01-01,,,1
+1,L154,Phẫu thuật cắt tử cung đường âm đạo,Lần,SẢN - PHỤ KHOA,BHYT,4168300,VND,2024-01-01,,,1
+1,L155,Phẫu thuật cắt tử cung thắt động mạch hạ vị trong cấp cứu sản khoa,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,12000000,VND,2024-01-01,,,1
+1,L155,Phẫu thuật cắt tử cung thắt động mạch hạ vị trong cấp cứu sản khoa,Lần,SẢN - PHỤ KHOA,BHYT,5142900,VND,2024-01-01,,,1
+1,L157,Phẫu thuật chửa ngoài tử cung không có choáng,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,7500000,VND,2024-01-01,,,1
+1,L157,Phẫu thuật chửa ngoài tử cung không có choáng,Lần,SẢN - PHỤ KHOA,BHYT,3217800,VND,2024-01-01,,,1
+1,L174,Soi cổ tử cung,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,340000,VND,2024-01-01,,,1
+1,L174,Soi cổ tử cung,Lần,SẢN - PHỤ KHOA,BHYT,68100,VND,2024-01-01,,,1
+1,L177,Triệt sản nữ qua đường rạch nhỏ,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,5600000,VND,2024-01-01,,,1
+1,L185,Phẫu thuật mở bụng cắt phần phụ trái,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,6720000,VND,2024-01-01,,,1
+1,L185,Phẫu thuật mở bụng cắt phần phụ trái,Lần,SẢN - PHỤ KHOA,BHYT,3217800,VND,2024-01-01,,,1
+1,L186,Phẫu thuật mở bụng cắt phần phụ phải,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,6720000,VND,2024-01-01,,,1
+1,L186,Phẫu thuật mở bụng cắt phần phụ phải,Lần,SẢN - PHỤ KHOA,BHYT,3217800,VND,2024-01-01,,,1
+1,L229,Phẫu thuật lấy thai lần đầu [song thai-gây tê],Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,11200000,VND,2024-01-01,,,1
+1,L229,Phẫu thuật lấy thai lần đầu [song thai-gây tê],Lần,SẢN - PHỤ KHOA,BHYT,1773600,VND,2024-01-01,,,1
+1,L241,"Phẫu thuật lấy thai do bệnh lý sản khoa (rau tiền đạo, rau bong non, tiền sản giật, sản giật...) (gây mê)",Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,14300000,VND,2024-01-01,,,1
+1,L241,"Phẫu thuật lấy thai do bệnh lý sản khoa (rau tiền đạo, rau bong non, tiền sản giật, sản giật...) (gây mê)",Lần,SẢN - PHỤ KHOA,BHYT,4739300,VND,2024-01-01,,,1
+1,L257,Đỡ đẻ ngôi ngược,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,7600000,VND,2024-01-01,,,1
+1,L257,Đỡ đẻ ngôi ngược,Lần,SẢN - PHỤ KHOA,BHYT,1191900,VND,2024-01-01,,,1
+1,L258,Đỡ đẻ từ sinh đôi trở lên,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,9900000,VND,2024-01-01,,,1
+1,L258,Đỡ đẻ từ sinh đôi trở lên,Lần,SẢN - PHỤ KHOA,BHYT,1510300,VND,2024-01-01,,,1
+1,L259,Đỡ đẻ thường ngôi chỏm /BN có vết mổ cũ,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,7600000,VND,2024-01-01,,,1
+1,L259,Đỡ đẻ thường ngôi chỏm /BN có vết mổ cũ,Lần,SẢN - PHỤ KHOA,BHYT,786700,VND,2024-01-01,,,1
+1,L264,Giảm đau trong đẻ bằng phương pháp gây tê ngoài màng cứng,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,L265,Phẫu thuật cắt phanh lưỡi,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,600000,VND,2024-01-01,,,1
+1,L265,Phẫu thuật cắt phanh lưỡi,Lần,SẢN - PHỤ KHOA,BHYT,344200,VND,2024-01-01,,,1
+1,L278,Tiêm bắp thịt (Kích thích trưởng thành phổi thai nhi),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,500000,VND,2024-01-01,,,1
+1,L278,Tiêm bắp thịt (Kích thích trưởng thành phổi thai nhi),Lần,SẢN - PHỤ KHOA,BHYT,15100,VND,2024-01-01,,,1
+1,L279,Điều trị tắc tia sữa bằng máy hút,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,180000,VND,2024-01-01,,,1
+1,L281,"Làm lại vết mổ thành bụng (bục, tụ máu, nhiễm khuẩn, ...) sau phẫu thuật sản phụ khoa",Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,7400000,VND,2024-01-01,,,1
+1,L281,"Làm lại vết mổ thành bụng (bục, tụ máu, nhiễm khuẩn, ...) sau phẫu thuật sản phụ khoa",Lần,SẢN - PHỤ KHOA,BHYT,2833400,VND,2024-01-01,,,1
+1,L284,Phẫu thuật nội soi cắt u buồng trứng và phần phụ (02 bên),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,L284,Phẫu thuật nội soi cắt u buồng trứng và phần phụ (02 bên),Lần,SẢN - PHỤ KHOA,BHYT,5503300,VND,2024-01-01,,,1
+1,L291,Gây tê tủy sống liều thấp giảm đau trong đẻ,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,1300000,VND,2024-01-01,,,1
+1,L294,Tiêm bắp thịt (Điều trị nội khoa thai ngoài tử cung bằng Methotrexate),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,800000,VND,2024-01-01,,,1
+1,L295,Phá thai bằng thuốc cho tuổi thai đến hết 7 tuần (đối với người bệnh muốn theo dõi tại bệnh viện),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,L296,Phẫu thuật thắt động mạch hạ vị trong cấp cứu sản phụ khoa,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,9200000,VND,2024-01-01,,,1
+1,L296,Phẫu thuật thắt động mạch hạ vị trong cấp cứu sản phụ khoa,Lần,SẢN - PHỤ KHOA,BHYT,5142900,VND,2024-01-01,,,1
+1,L299,Bóc nang tuyến Bartholin (Phòng mổ),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,3700000,VND,2024-01-01,,,1
+1,L299,Bóc nang tuyến Bartholin (Phòng mổ),Lần,SẢN - PHỤ KHOA,BHYT,1369400,VND,2024-01-01,,,1
+1,L301,Nạo buồng tử cung chẩn đoán (gây tê) (Phòng mổ),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,3000000,VND,2024-01-01,,,1
+1,L302,"Nạo sót thai, nạo sót rau sau sẩy, sau đẻ (Phòng mổ)",Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,3600000,VND,2024-01-01,,,1
+1,L302,"Nạo sót thai, nạo sót rau sau sẩy, sau đẻ (Phòng mổ)",Lần,SẢN - PHỤ KHOA,BHYT,376500,VND,2024-01-01,,,1
+1,L304,"Phá thai bệnh lý (bệnh lý mẹ, bệnh lý thai) (Phòng mổ)",Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,4300000,VND,2024-01-01,,,1
+1,L305,Phá thai đến hết 7 tuần bằng phương pháp hút chân không (Phòng mổ),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,3000000,VND,2024-01-01,,,1
+1,L306,Phẫu thuật cắt polip cổ tử cung (Phòng mổ),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,4000000,VND,2024-01-01,,,1
+1,L306,Phẫu thuật cắt polip cổ tử cung (Phòng mổ),Lần,SẢN - PHỤ KHOA,BHYT,1535600,VND,2024-01-01,,,1
+1,L307,Rạch nang tuyến Bartholin (Phòng mổ),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,3000000,VND,2024-01-01,,,1
+1,L307,Rạch nang tuyến Bartholin (Phòng mổ),Lần,SẢN - PHỤ KHOA,BHYT,951600,VND,2024-01-01,,,1
+1,L320,Đỡ đẻ từ sinh đôi trở lên/ BN có vết mổ cũ,Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,10600000,VND,2024-01-01,,,1
+1,L320,Đỡ đẻ từ sinh đôi trở lên/ BN có vết mổ cũ,Lần,SẢN - PHỤ KHOA,BHYT,1510300,VND,2024-01-01,,,1
+1,L321,Phẫu thuật lấy thai lần hai trở lên [sinh đôi trở lên - vết mổ cũ 1 lần - gây tê],Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,12400000,VND,2024-01-01,,,1
+1,L321,Phẫu thuật lấy thai lần hai trở lên [sinh đôi trở lên - vết mổ cũ 1 lần - gây tê],Lần,SẢN - PHỤ KHOA,BHYT,2631000,VND,2024-01-01,,,1
+1,L323,Phẫu thuật lấy thai lần đầu [tam thai - gây tê],Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,13500000,VND,2024-01-01,,,1
+1,L323,Phẫu thuật lấy thai lần đầu [tam thai - gây tê],Lần,SẢN - PHỤ KHOA,BHYT,1773600,VND,2024-01-01,,,1
+1,L339,"Phẫu thuật lấy thai do bệnh lý sản khoa [rau tiền đạo, rau bong non, tiền sản giật, sản giật...] [gây tê]",Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,L339,"Phẫu thuật lấy thai do bệnh lý sản khoa [rau tiền đạo, rau bong non, tiền sản giật, sản giật...] [gây tê]",Lần,SẢN - PHỤ KHOA,BHYT,3578900,VND,2024-01-01,,,1
+1,L402,Đẻ thường (Đỡ đẻ thường ngôi chỏm),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,6900000,VND,2024-01-01,,,1
+1,L402,Đẻ thường (Đỡ đẻ thường ngôi chỏm),Lần,SẢN - PHỤ KHOA,BHYT,786700,VND,2024-01-01,,,1
+1,L403,Đẻ khó (sanh giúp) ( Forceps hoặc Giác hút sản khoa),Lần,SẢN - PHỤ KHOA,TU_CHI_TRA,8100000,VND,2024-01-01,,,1
+1,L403,Đẻ khó (sanh giúp) ( Forceps hoặc Giác hút sản khoa),Lần,SẢN - PHỤ KHOA,BHYT,1141900,VND,2024-01-01,,,1
+1,J141,Chích áp xe quanh Amidan,Lần,TAI MŨI HỌNG,TU_CHI_TRA,410000,VND,2024-01-01,,,1
+1,J141,Chích áp xe quanh Amidan,Lần,TAI MŨI HỌNG,BHYT,295500,VND,2024-01-01,,,1
+1,J142,Chích áp xe thành sau họng gây tê/gây mê,Lần,TAI MŨI HỌNG,TU_CHI_TRA,274000,VND,2024-01-01,,,1
+1,J142,Chích áp xe thành sau họng gây tê/gây mê,Lần,TAI MŨI HỌNG,BHYT,274000,VND,2024-01-01,,,1
+1,J143,Vá nhĩ đơn thuần,Lần,TAI MŨI HỌNG,TU_CHI_TRA,10200000,VND,2024-01-01,,,1
+1,J143,Vá nhĩ đơn thuần,Lần,TAI MŨI HỌNG,BHYT,4058900,VND,2024-01-01,,,1
+1,J146,Bấm sinh thiết u tai,Lần,TAI MŨI HỌNG,TU_CHI_TRA,273000,VND,2024-01-01,,,1
+1,J146,Bấm sinh thiết u tai,Lần,TAI MŨI HỌNG,BHYT,273000,VND,2024-01-01,,,1
+1,J148,Bẻ cuốn mũi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,820000,VND,2024-01-01,,,1
+1,J148,Bẻ cuốn mũi,Lần,TAI MŨI HỌNG,BHYT,165500,VND,2024-01-01,,,1
+1,J151,Phẫu thuật cắt thanh quản bán phần,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16300000,VND,2024-01-01,,,1
+1,J151,Phẫu thuật cắt thanh quản bán phần,Lần,TAI MŨI HỌNG,BHYT,5352100,VND,2024-01-01,,,1
+1,J152,Phẫu thuật cắt Amidan gây mê,Lần,TAI MŨI HỌNG,TU_CHI_TRA,8500000,VND,2024-01-01,,,1
+1,J152,Phẫu thuật cắt Amidan gây mê,Lần,TAI MŨI HỌNG,BHYT,1217100,VND,2024-01-01,,,1
+1,J154,Cắt cuốn dưới mũi (gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,8500000,VND,2024-01-01,,,1
+1,J156,Phẫu thuật dính thanh quản,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16200000,VND,2024-01-01,,,1
+1,J158,Phẫu thuật lấy đường rò luân nhĩ (1 bên) (gây tê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,5500000,VND,2024-01-01,,,1
+1,J158,Phẫu thuật lấy đường rò luân nhĩ (1 bên) (gây tê),Lần,TAI MŨI HỌNG,BHYT,580400,VND,2024-01-01,,,1
+1,J159,Phẫu thuật cắt mỏm trâm theo đường miệng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,8200000,VND,2024-01-01,,,1
+1,J159,Phẫu thuật cắt mỏm trâm theo đường miệng,Lần,TAI MŨI HỌNG,BHYT,4003900,VND,2024-01-01,,,1
+1,J160,Phẫu thuật cắt u nang răng sinh/u nang sàn mũi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,8200000,VND,2024-01-01,,,1
+1,J160,Phẫu thuật cắt u nang răng sinh/u nang sàn mũi,Lần,TAI MŨI HỌNG,BHYT,1646800,VND,2024-01-01,,,1
+1,J161,Phẫu thuật cắt thanh quản toàn phần,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16300000,VND,2024-01-01,,,1
+1,J161,Phẫu thuật cắt thanh quản toàn phần,Lần,TAI MŨI HỌNG,BHYT,5352100,VND,2024-01-01,,,1
+1,J162,Cắt toàn bộ thanh quản và một phần họng có vét hạch hệ thống,Lần,TAI MŨI HỌNG,TU_CHI_TRA,27200000,VND,2024-01-01,,,1
+1,J162,Cắt toàn bộ thanh quản và một phần họng có vét hạch hệ thống,Lần,TAI MŨI HỌNG,BHYT,5352100,VND,2024-01-01,,,1
+1,J163,Phẫu thuật cắt tuyến mang tai có hoặc không bảo tồn dây VII,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15600000,VND,2024-01-01,,,1
+1,J163,Phẫu thuật cắt tuyến mang tai có hoặc không bảo tồn dây VII,Lần,TAI MŨI HỌNG,BHYT,4944000,VND,2024-01-01,,,1
+1,J164,Phẫu thuật cắt u lành tính tuyến dưới hàm,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,J164,Phẫu thuật cắt u lành tính tuyến dưới hàm,Lần,TAI MŨI HỌNG,BHYT,3397900,VND,2024-01-01,,,1
+1,J168,Cắt u thành bên họng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15000000,VND,2024-01-01,,,1
+1,J169,Cắt u thành sau họng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15200000,VND,2024-01-01,,,1
+1,J174,Chích mũi họng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,120000,VND,2024-01-01,,,1
+1,J175,Chích nhọt ống tai ngoài,Lần,TAI MŨI HỌNG,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,J175,Chích nhọt ống tai ngoài,Lần,TAI MŨI HỌNG,BHYT,200000,VND,2024-01-01,,,1
+1,J178,"Phẫu thuật tạo hình sống mũi, cánh mũi",Lần,TAI MŨI HỌNG,TU_CHI_TRA,14300000,VND,2024-01-01,,,1
+1,J178,"Phẫu thuật tạo hình sống mũi, cánh mũi",Lần,TAI MŨI HỌNG,BHYT,2804100,VND,2024-01-01,,,1
+1,J179,Phẫu thuật chỉnh hình màn hầu,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14400000,VND,2024-01-01,,,1
+1,J179,Phẫu thuật chỉnh hình màn hầu,Lần,TAI MŨI HỌNG,BHYT,4535700,VND,2024-01-01,,,1
+1,J181,Phẫu thuật chỉnh hình vách ngăn,Lần,TAI MŨI HỌNG,TU_CHI_TRA,8500000,VND,2024-01-01,,,1
+1,J181,Phẫu thuật chỉnh hình vách ngăn,Lần,TAI MŨI HỌNG,BHYT,3526900,VND,2024-01-01,,,1
+1,J182,Phẫu thuật chỉnh hình vách ngăn + cắt xương cuống dưới,Lần,TAI MŨI HỌNG,TU_CHI_TRA,8600000,VND,2024-01-01,,,1
+1,J182,Phẫu thuật chỉnh hình vách ngăn + cắt xương cuống dưới,Lần,TAI MŨI HỌNG,BHYT,3526900,VND,2024-01-01,,,1
+1,J183,Phẫu thuật chỉnh hình xương con nội soi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,21800000,VND,2024-01-01,,,1
+1,J184,Chỉnh hình xương mặt,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15200000,VND,2024-01-01,,,1
+1,J185,Chọc hút dịch vành tai,Lần,TAI MŨI HỌNG,TU_CHI_TRA,180000,VND,2024-01-01,,,1
+1,J185,Chọc hút dịch vành tai,Lần,TAI MŨI HỌNG,BHYT,64300,VND,2024-01-01,,,1
+1,J186,Chọc rửa xoang hàm,Lần,TAI MŨI HỌNG,TU_CHI_TRA,420000,VND,2024-01-01,,,1
+1,J186,Chọc rửa xoang hàm,Lần,TAI MŨI HỌNG,BHYT,310500,VND,2024-01-01,,,1
+1,J193,Đặt Spongel,Lần,TAI MŨI HỌNG,TU_CHI_TRA,570000,VND,2024-01-01,,,1
+1,J193,Đặt Spongel,Lần,TAI MŨI HỌNG,BHYT,139000,VND,2024-01-01,,,1
+1,J320.,Hút xoang dưới áp lực (Phương pháp Proetz ),Lần,TAI MŨI HỌNG,TU_CHI_TRA,70000,VND,2024-01-01,,,1
+1,J195,Đặt ống thông khí hòm tai [gây tê],Lần,TAI MŨI HỌNG,TU_CHI_TRA,13800000,VND,2024-01-01,,,1
+1,J195,Đặt ống thông khí hòm tai [gây tê],Lần,TAI MŨI HỌNG,BHYT,2976800,VND,2024-01-01,,,1
+1,J196,Phẫu thuật nội soi cầm máu mũi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,9500000,VND,2024-01-01,,,1
+1,J196,Phẫu thuật nội soi cầm máu mũi,Lần,TAI MŨI HỌNG,BHYT,2981800,VND,2024-01-01,,,1
+1,J197,Nội soi đốt điện cuốn mũi dưới,Lần,TAI MŨI HỌNG,TU_CHI_TRA,600000,VND,2024-01-01,,,1
+1,J197,Nội soi đốt điện cuốn mũi dưới,Lần,TAI MŨI HỌNG,BHYT,489900,VND,2024-01-01,,,1
+1,J198,Phẫu thuật nội soi thắt/ đốt động mạch bướm khẩu cái [gây tê],Lần,TAI MŨI HỌNG,TU_CHI_TRA,8600000,VND,2024-01-01,,,1
+1,J198,Phẫu thuật nội soi thắt/ đốt động mạch bướm khẩu cái [gây tê],Lần,TAI MŨI HỌNG,BHYT,2033900,VND,2024-01-01,,,1
+1,J199,Đốt họng hạt bằng nhiệt,Lần,TAI MŨI HỌNG,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,J199,Đốt họng hạt bằng nhiệt,Lần,TAI MŨI HỌNG,BHYT,89400,VND,2024-01-01,,,1
+1,J200,Ghép thanh khí quản đặt stent,Lần,TAI MŨI HỌNG,TU_CHI_TRA,28100000,VND,2024-01-01,,,1
+1,J200,Ghép thanh khí quản đặt stent,Lần,TAI MŨI HỌNG,BHYT,6282500,VND,2024-01-01,,,1
+1,J202,Khâu lỗ thủng bịt vách ngăn mũi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14900000,VND,2024-01-01,,,1
+1,J203,Phẫu thuật khâu lưỡi gà,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14400000,VND,2024-01-01,,,1
+1,J205,Phẫu thuật tiệt căn xương chũm,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15500000,VND,2024-01-01,,,1
+1,J205,Phẫu thuật tiệt căn xương chũm,Lần,TAI MŨI HỌNG,BHYT,5537100,VND,2024-01-01,,,1
+1,J206,Lấy dị vật họng miệng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,130000,VND,2024-01-01,,,1
+1,J206,Lấy dị vật họng miệng,Lần,TAI MŨI HỌNG,BHYT,43100,VND,2024-01-01,,,1
+1,J209,Lấy dị vật trong mũi có gây mê,Lần,TAI MŨI HỌNG,TU_CHI_TRA,5600000,VND,2024-01-01,,,1
+1,J209,Lấy dị vật trong mũi có gây mê,Lần,TAI MŨI HỌNG,BHYT,705500,VND,2024-01-01,,,1
+1,J210,Lấy dị vật trong mũi không gây mê,Lần,TAI MŨI HỌNG,TU_CHI_TRA,410000,VND,2024-01-01,,,1
+1,J210,Lấy dị vật trong mũi không gây mê,Lần,TAI MŨI HỌNG,BHYT,213900,VND,2024-01-01,,,1
+1,J211,Lấy dị vật tai (gây mê/ gây tê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,300000,VND,2024-01-01,,,1
+1,J211,Lấy dị vật tai (gây mê/ gây tê),Lần,TAI MŨI HỌNG,BHYT,70300,VND,2024-01-01,,,1
+1,J212,Phẫu thuật lấy đường rò luân nhĩ (2 bên) (gây tê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,5500000,VND,2024-01-01,,,1
+1,J212,Phẫu thuật lấy đường rò luân nhĩ (2 bên) (gây tê),Lần,TAI MŨI HỌNG,BHYT,580400,VND,2024-01-01,,,1
+1,J214,Lấy nút biểu bì ống tai ngoài,Lần,TAI MŨI HỌNG,TU_CHI_TRA,95000,VND,2024-01-01,,,1
+1,J214,Lấy nút biểu bì ống tai ngoài,Lần,TAI MŨI HỌNG,BHYT,70300,VND,2024-01-01,,,1
+1,J215,Phẫu thuật lấy u mũi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,10200000,VND,2024-01-01,,,1
+1,J216,Phẫu thuật khâu vết rách đơn giản vành tai (1 bên),Lần,TAI MŨI HỌNG,TU_CHI_TRA,6300000,VND,2024-01-01,,,1
+1,J217,Phẫu thuật khâu vết rách đơn giản vành tai (2 bên),Lần,TAI MŨI HỌNG,TU_CHI_TRA,6600000,VND,2024-01-01,,,1
+1,J218,Phẫu thuật mở khí quản (Gây tê/ gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,5700000,VND,2024-01-01,,,1
+1,J218,Phẫu thuật mở khí quản (Gây tê/ gây mê),Lần,TAI MŨI HỌNG,BHYT,759800,VND,2024-01-01,,,1
+1,J219,Mở sào bào - thượng nhĩ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,10400000,VND,2024-01-01,,,1
+1,J219,Mở sào bào - thượng nhĩ,Lần,TAI MŨI HỌNG,BHYT,4058900,VND,2024-01-01,,,1
+1,J220,Phẫu thuật lấy sỏi ống Wharton tuyến dưới hàm,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14600000,VND,2024-01-01,,,1
+1,J220,Phẫu thuật lấy sỏi ống Wharton tuyến dưới hàm,Lần,TAI MŨI HỌNG,BHYT,1051700,VND,2024-01-01,,,1
+1,J222,Nắn sống mũi sau chấn thương,Lần,TAI MŨI HỌNG,TU_CHI_TRA,5500000,VND,2024-01-01,,,1
+1,J222,Nắn sống mũi sau chấn thương,Lần,TAI MŨI HỌNG,BHYT,2804100,VND,2024-01-01,,,1
+1,J224,Phẫu thuật nạo VA gây mê nội khí quản,Lần,TAI MŨI HỌNG,TU_CHI_TRA,8500000,VND,2024-01-01,,,1
+1,J224,Phẫu thuật nạo VA gây mê nội khí quản,Lần,TAI MŨI HỌNG,BHYT,1658900,VND,2024-01-01,,,1
+1,J226,Nạo VA,Lần,TAI MŨI HỌNG,TU_CHI_TRA,5200000,VND,2024-01-01,,,1
+1,J239,Cắt bỏ ung thư Amydan và nạo vét hạch cổ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16400000,VND,2024-01-01,,,1
+1,J239,Cắt bỏ ung thư Amydan và nạo vét hạch cổ,Lần,TAI MŨI HỌNG,BHYT,5980000,VND,2024-01-01,,,1
+1,J242,Phẫu thuật đặt Diabolo,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12700000,VND,2024-01-01,,,1
+1,J242,Phẫu thuật đặt Diabolo,Lần,TAI MŨI HỌNG,BHYT,3209900,VND,2024-01-01,,,1
+1,J245,Phẫu thuật nội soi cắt u mũi xoang,Lần,TAI MŨI HỌNG,TU_CHI_TRA,17500000,VND,2024-01-01,,,1
+1,J245,Phẫu thuật nội soi cắt u mũi xoang,Lần,TAI MŨI HỌNG,BHYT,9611800,VND,2024-01-01,,,1
+1,J246,Phẫu thuật nội soi cắt u xơ mạch vòm mũi họng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,32900000,VND,2024-01-01,,,1
+1,J246,Phẫu thuật nội soi cắt u xơ mạch vòm mũi họng,Lần,TAI MŨI HỌNG,BHYT,9151800,VND,2024-01-01,,,1
+1,J247,Phẫu thuật nội soi cắt u nhú đảo ngược vùng mũi xoang,Lần,TAI MŨI HỌNG,TU_CHI_TRA,17900000,VND,2024-01-01,,,1
+1,J247,Phẫu thuật nội soi cắt u nhú đảo ngược vùng mũi xoang,Lần,TAI MŨI HỌNG,BHYT,6463600,VND,2024-01-01,,,1
+1,J248,Phẫu thuật nội soi mở khe giữa,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11400000,VND,2024-01-01,,,1
+1,J248,Phẫu thuật nội soi mở khe giữa,Lần,TAI MŨI HỌNG,BHYT,3180600,VND,2024-01-01,,,1
+1,J257,"Phẫu thuật nội soi mở khe giữa, nạo sàng, ngách trán",Lần,TAI MŨI HỌNG,TU_CHI_TRA,11400000,VND,2024-01-01,,,1
+1,J257,"Phẫu thuật nội soi mở khe giữa, nạo sàng, ngách trán",Lần,TAI MŨI HỌNG,BHYT,4211900,VND,2024-01-01,,,1
+1,J258,"Phẫu thuật nội soi mở khe giữa, nạo sàng, ngách trán, chỉnh hình vách ngăn",Lần,TAI MŨI HỌNG,TU_CHI_TRA,11300000,VND,2024-01-01,,,1
+1,J258,"Phẫu thuật nội soi mở khe giữa, nạo sàng, ngách trán, chỉnh hình vách ngăn",Lần,TAI MŨI HỌNG,BHYT,3526900,VND,2024-01-01,,,1
+1,J259,"Phẫu thuật nội soi mở khe giữa, nạo sàng, ngách trán, xoang bướm",Lần,TAI MŨI HỌNG,TU_CHI_TRA,12000000,VND,2024-01-01,,,1
+1,J259,"Phẫu thuật nội soi mở khe giữa, nạo sàng, ngách trán, xoang bướm",Lần,TAI MŨI HỌNG,BHYT,4211900,VND,2024-01-01,,,1
+1,J260,"Phẫu thuật nội soi mở khe giữa, nạo sàng, xoang bướm",Lần,TAI MŨI HỌNG,TU_CHI_TRA,11400000,VND,2024-01-01,,,1
+1,J260,"Phẫu thuật nội soi mở khe giữa, nạo sàng, xoang bướm",Lần,TAI MŨI HỌNG,BHYT,4211900,VND,2024-01-01,,,1
+1,J265,"Phẫu thuật nội soi mở khe giữa, nạo sàng, xoang bướm, ngách trán, chỉnh hình cuốn giữa",Lần,TAI MŨI HỌNG,TU_CHI_TRA,12000000,VND,2024-01-01,,,1
+1,J265,"Phẫu thuật nội soi mở khe giữa, nạo sàng, xoang bướm, ngách trán, chỉnh hình cuốn giữa",Lần,TAI MŨI HỌNG,BHYT,4211900,VND,2024-01-01,,,1
+1,J266,Phẫu thuật nội soi mở xoang bướm,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11400000,VND,2024-01-01,,,1
+1,J266,Phẫu thuật nội soi mở xoang bướm,Lần,TAI MŨI HỌNG,BHYT,4211900,VND,2024-01-01,,,1
+1,J267,Mổ dò khe mang các loại,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15200000,VND,2024-01-01,,,1
+1,J268,Phẫu thuật tái tạo hệ thống truyền âm,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16700000,VND,2024-01-01,,,1
+1,J271,Phẫu thuật tai xương chũm trong viêm màng não,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15500000,VND,2024-01-01,,,1
+1,J271,Phẫu thuật tai xương chũm trong viêm màng não,Lần,TAI MŨI HỌNG,BHYT,5537100,VND,2024-01-01,,,1
+1,J272,Phẫu thuật tai xương chũm trong viêm tắc tĩnh mạch bên,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15500000,VND,2024-01-01,,,1
+1,J272,Phẫu thuật tai xương chũm trong viêm tắc tĩnh mạch bên,Lần,TAI MŨI HỌNG,BHYT,5537100,VND,2024-01-01,,,1
+1,J273,Phẫu thuật treo sụn phễu,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15200000,VND,2024-01-01,,,1
+1,J273,Phẫu thuật treo sụn phễu,Lần,TAI MŨI HỌNG,BHYT,2333000,VND,2024-01-01,,,1
+1,J277,Vét hạch cổ bảo tồn,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15000000,VND,2024-01-01,,,1
+1,J277,Vét hạch cổ bảo tồn,Lần,TAI MŨI HỌNG,BHYT,2140700,VND,2024-01-01,,,1
+1,J278,Nạo vét hạch cổ chọn lọc,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15000000,VND,2024-01-01,,,1
+1,J278,Nạo vét hạch cổ chọn lọc,Lần,TAI MŨI HỌNG,BHYT,2140700,VND,2024-01-01,,,1
+1,J280,Chích rạch áp xe nhỏ (TMH),Lần,TAI MŨI HỌNG,TU_CHI_TRA,5400000,VND,2024-01-01,,,1
+1,J280,Chích rạch áp xe nhỏ (TMH),Lần,TAI MŨI HỌNG,BHYT,218500,VND,2024-01-01,,,1
+1,J281,Nội soi mũi hoặc vòm hoặc họng có sinh thiết,Lần,TAI MŨI HỌNG,TU_CHI_TRA,524000,VND,2024-01-01,,,1
+1,J281,Nội soi mũi hoặc vòm hoặc họng có sinh thiết,Lần,TAI MŨI HỌNG,BHYT,524000,VND,2024-01-01,,,1
+1,J282,Lấy dị vật hạ họng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,460000,VND,2024-01-01,,,1
+1,J282,Lấy dị vật hạ họng,Lần,TAI MŨI HỌNG,BHYT,43100,VND,2024-01-01,,,1
+1,J283,"Phẫu thuật nội soi cắt u lành tính thanh quản (papiloma, kén hơi thanh quản,…) (gây tê/gây mê)",Lần,TAI MŨI HỌNG,TU_CHI_TRA,17000000,VND,2024-01-01,,,1
+1,J283,"Phẫu thuật nội soi cắt u lành tính thanh quản (papiloma, kén hơi thanh quản,…) (gây tê/gây mê)",Lần,TAI MŨI HỌNG,BHYT,4535700,VND,2024-01-01,,,1
+1,J284,Nội soi thanh quản treo cắt hạt xơ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,6500000,VND,2024-01-01,,,1
+1,J284,Nội soi thanh quản treo cắt hạt xơ,Lần,TAI MŨI HỌNG,BHYT,321400,VND,2024-01-01,,,1
+1,J286,Phẫu thuật chỉnh hình sống mũi sau chấn thương,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14800000,VND,2024-01-01,,,1
+1,J286,Phẫu thuật chỉnh hình sống mũi sau chấn thương,Lần,TAI MŨI HỌNG,BHYT,2804100,VND,2024-01-01,,,1
+1,J287,Tạo hình ống tai ngoài phần xương,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15600000,VND,2024-01-01,,,1
+1,J289,Phẫu thuật tạo hình tháp mũi bằng vạt có cuống mạch nuôi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15800000,VND,2024-01-01,,,1
+1,J289,Phẫu thuật tạo hình tháp mũi bằng vạt có cuống mạch nuôi,Lần,TAI MŨI HỌNG,BHYT,3720600,VND,2024-01-01,,,1
+1,J298,Chăm sóc mũi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,135000,VND,2024-01-01,,,1
+1,J299,Chăm sóc tai,Lần,TAI MŨI HỌNG,TU_CHI_TRA,110000,VND,2024-01-01,,,1
+1,J303,Thay meche áp xe quanh Amidan,Lần,TAI MŨI HỌNG,TU_CHI_TRA,90000,VND,2024-01-01,,,1
+1,J304,Lấy ống thông khí màng nhĩ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,J304,Lấy ống thông khí màng nhĩ,Lần,TAI MŨI HỌNG,BHYT,0,VND,2024-01-01,,,1
+1,J309,"Rút meche, rút merocel hốc mũi",Lần,TAI MŨI HỌNG,TU_CHI_TRA,120000,VND,2024-01-01,,,1
+1,J310,Cắt ung thư amidan/thanh quản và nạo vét hạch cổ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,18300000,VND,2024-01-01,,,1
+1,J310,Cắt ung thư amidan/thanh quản và nạo vét hạch cổ,Lần,TAI MŨI HỌNG,BHYT,5980000,VND,2024-01-01,,,1
+1,J311,Phẫu thuật nội soi nạo sàng trước / sau,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14300000,VND,2024-01-01,,,1
+1,J311,Phẫu thuật nội soi nạo sàng trước / sau,Lần,TAI MŨI HỌNG,BHYT,9076600,VND,2024-01-01,,,1
+1,J315,Phẫu thuật nội soi mũi xoang cắt u xoang bướm,Lần,TAI MŨI HỌNG,TU_CHI_TRA,33500000,VND,2024-01-01,,,1
+1,J315,Phẫu thuật nội soi mũi xoang cắt u xoang bướm,Lần,TAI MŨI HỌNG,BHYT,9611800,VND,2024-01-01,,,1
+1,J316,Phẫu thuật nội soi mũi xoang giảm áp dây thần kinh thị giác,Lần,TAI MŨI HỌNG,TU_CHI_TRA,22600000,VND,2024-01-01,,,1
+1,J317,Phẫu thuật nội soi mũi xoang dẫn lưu u nhầy,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11200000,VND,2024-01-01,,,1
+1,J317,Phẫu thuật nội soi mũi xoang dẫn lưu u nhầy,Lần,TAI MŨI HỌNG,BHYT,5244100,VND,2024-01-01,,,1
+1,J318,Phẫu thuật nội soi cầm máu sau phẫu thuật nội soi mũi xoang,Lần,TAI MŨI HỌNG,TU_CHI_TRA,9100000,VND,2024-01-01,,,1
+1,J318,Phẫu thuật nội soi cầm máu sau phẫu thuật nội soi mũi xoang,Lần,TAI MŨI HỌNG,BHYT,1658900,VND,2024-01-01,,,1
+1,J319,Đốt cầm máu amidan,Lần,TAI MŨI HỌNG,TU_CHI_TRA,5100000,VND,2024-01-01,,,1
+1,J319,Đốt cầm máu amidan,Lần,TAI MŨI HỌNG,BHYT,139000,VND,2024-01-01,,,1
+1,J327,Phẫu thuật Cắt u nang cạnh cổ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,7800000,VND,2024-01-01,,,1
+1,J328,Sinh thiết lưỡi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,3500000,VND,2024-01-01,,,1
+1,J328,Sinh thiết lưỡi,Lần,TAI MŨI HỌNG,BHYT,138500,VND,2024-01-01,,,1
+1,J329,"Phẫu thuật nội soi mở khe giữa, nạo sàng",Lần,TAI MŨI HỌNG,TU_CHI_TRA,11400000,VND,2024-01-01,,,1
+1,J329,"Phẫu thuật nội soi mở khe giữa, nạo sàng",Lần,TAI MŨI HỌNG,BHYT,3180600,VND,2024-01-01,,,1
+1,J330,Phẫu thuật vi phẫu sử dụng laser cắt dây thanh,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11300000,VND,2024-01-01,,,1
+1,J330,Phẫu thuật vi phẫu sử dụng laser cắt dây thanh,Lần,TAI MŨI HỌNG,BHYT,4936000,VND,2024-01-01,,,1
+1,J331,Phẫu thuật khâu vết rách đơn giản vành tai (2 bên) (tiểu phẫu),Lần,TAI MŨI HỌNG,TU_CHI_TRA,820000,VND,2024-01-01,,,1
+1,J332,Sinh thiết lưỡi (tiểu phẫu),Lần,TAI MŨI HỌNG,TU_CHI_TRA,740000,VND,2024-01-01,,,1
+1,J332,Sinh thiết lưỡi (tiểu phẫu),Lần,TAI MŨI HỌNG,BHYT,138500,VND,2024-01-01,,,1
+1,J333,Cấy điện cực ốc tai (Cấy ốc tai điện tử),Lần,TAI MŨI HỌNG,TU_CHI_TRA,16100000,VND,2024-01-01,,,1
+1,J333,Cấy điện cực ốc tai (Cấy ốc tai điện tử),Lần,TAI MŨI HỌNG,BHYT,5530000,VND,2024-01-01,,,1
+1,J334,Tiêm Botulinum toxine vào điểm vận động để điều trị loạn trương lực cơ khu trú (cơ thanh quản),Lần,TAI MŨI HỌNG,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,J335,Làm thuốc tai (Tiêm Corticoid xuyên nhĩ),Lần,TAI MŨI HỌNG,TU_CHI_TRA,500000,VND,2024-01-01,,,1
+1,J335,Làm thuốc tai (Tiêm Corticoid xuyên nhĩ),Lần,TAI MŨI HỌNG,BHYT,22000,VND,2024-01-01,,,1
+1,T011,Phẫu thuật chỉnh hình mũi gồ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11500000,VND,2024-01-01,,,1
+1,T110,Phẫu thuật hút mỡ và bơm mỡ tự thân thẩm mỹ (Gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,18160000,VND,2024-01-01,,,1
+1,T117,Phẫu thuật thẩm mỹ căng da mặt,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16590000,VND,2024-01-01,,,1
+1,T118,Phẫu thuật căng da mặt toàn phần (Thẩm mỹ),Lần,TAI MŨI HỌNG,TU_CHI_TRA,43300000,VND,2024-01-01,,,1
+1,T119,Phẫu thuật căng da trán (Gây tê) (Thẩm mỹ),Lần,TAI MŨI HỌNG,TU_CHI_TRA,16890000,VND,2024-01-01,,,1
+1,T127,"Phẫu thuật vết thương bàn tay, cắt lọc đơn thuần [gây tê]",Lần,TAI MŨI HỌNG,TU_CHI_TRA,8800000,VND,2024-01-01,,,1
+1,T127,"Phẫu thuật vết thương bàn tay, cắt lọc đơn thuần [gây tê]",Lần,TAI MŨI HỌNG,BHYT,2149000,VND,2024-01-01,,,1
+1,T199,"Phẫu thuật tháo bỏ silicone cũ, nạo silicon lỏng",Lần,TAI MŨI HỌNG,TU_CHI_TRA,14800000,VND,2024-01-01,,,1
+1,T201,"Nạo u mềm lây - Cắt bỏ những u nhỏ, cyst, sẹo của da, tổ chức dưới da",Lần,TAI MŨI HỌNG,TU_CHI_TRA,5600000,VND,2024-01-01,,,1
+1,T205,Phẫu thuật Cắt bao túi ngực co rút 1 bên (Thẩm mỹ),Lần,TAI MŨI HỌNG,TU_CHI_TRA,15910000,VND,2024-01-01,,,1
+1,T206,Phẫu thuật Cắt bớt quầng vú (Gây tê) (Thẩm mỹ),Lần,TAI MŨI HỌNG,TU_CHI_TRA,13160000,VND,2024-01-01,,,1
+1,T207,Phẫu thuật thẩm mỹ thu nhỏ cánh mũi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11390000,VND,2024-01-01,,,1
+1,T234,"Phẫu thuật phục hồi, tái tạo dây thần kinh VII (đoạn ngoài sọ)",Lần,TAI MŨI HỌNG,TU_CHI_TRA,16600000,VND,2024-01-01,,,1
+1,T234,"Phẫu thuật phục hồi, tái tạo dây thần kinh VII (đoạn ngoài sọ)",Lần,TAI MŨI HỌNG,BHYT,8512000,VND,2024-01-01,,,1
+1,T235,Phẫu thuật tạo hình mặt do liệt dây VII,Lần,TAI MŨI HỌNG,TU_CHI_TRA,20700000,VND,2024-01-01,,,1
+1,T235,Phẫu thuật tạo hình mặt do liệt dây VII,Lần,TAI MŨI HỌNG,BHYT,8512000,VND,2024-01-01,,,1
+1,T236,Phẫu thuật sinh thiết chẩn đoán,Lần,TAI MŨI HỌNG,TU_CHI_TRA,5200000,VND,2024-01-01,,,1
+1,T237,Phẫu thuật Sửa chữa sau phẫu thuật,Lần,TAI MŨI HỌNG,TU_CHI_TRA,7200000,VND,2024-01-01,,,1
+1,T238,Phẫu thuật tái núm vú bằng vạt tại chỗ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,6100000,VND,2024-01-01,,,1
+1,T242,Phẫu thuật tạo hình mũi một phần,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16200000,VND,2024-01-01,,,1
+1,T244,Phẫu thuật tạo hình mũi toàn bộ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,17200000,VND,2024-01-01,,,1
+1,T246,"Phẫu thuật tái tạo hình tổn thương mất chất vùng mặt bằng vạt da, cân cơ, xương",Lần,TAI MŨI HỌNG,TU_CHI_TRA,19100000,VND,2024-01-01,,,1
+1,T246,"Phẫu thuật tái tạo hình tổn thương mất chất vùng mặt bằng vạt da, cân cơ, xương",Lần,TAI MŨI HỌNG,BHYT,6258000,VND,2024-01-01,,,1
+1,T247,Phãu thuật tái tạo xương gò má bằng xi măng xương,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19900000,VND,2024-01-01,,,1
+1,T248,Phẫu thuật tái tạo vú sau ung thư bằng vạt da cơ có cuống mạch,Lần,TAI MŨI HỌNG,TU_CHI_TRA,28500000,VND,2024-01-01,,,1
+1,T249,Phẫu thuật tái tạo vú sau ung thư bằng vạt da cơ có sử dụng kỹ thuật vi phẫu,Lần,TAI MŨI HỌNG,TU_CHI_TRA,43300000,VND,2024-01-01,,,1
+1,T250,Phẫu thuật Tái tạo vú giai đoạn 2,Lần,TAI MŨI HỌNG,TU_CHI_TRA,17200000,VND,2024-01-01,,,1
+1,T258,Phẫu thuật tạo hình vành tai kết hợp các bộ phận xung quanh,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14300000,VND,2024-01-01,,,1
+1,T258,Phẫu thuật tạo hình vành tai kết hợp các bộ phận xung quanh,Lần,TAI MŨI HỌNG,BHYT,5363900,VND,2024-01-01,,,1
+1,T259,Phẫu thuật tạo hình từng phần vành tai,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14700000,VND,2024-01-01,,,1
+1,T259,Phẫu thuật tạo hình từng phần vành tai,Lần,TAI MŨI HỌNG,BHYT,5363900,VND,2024-01-01,,,1
+1,T261,Phẫu thuật tạo hình khe hở môi (phức tạp),Lần,TAI MŨI HỌNG,TU_CHI_TRA,16700000,VND,2024-01-01,,,1
+1,T261,Phẫu thuật tạo hình khe hở môi (phức tạp),Lần,TAI MŨI HỌNG,BHYT,2988600,VND,2024-01-01,,,1
+1,T262,Phẫu thuật tạo hình liệt mặt do dây VII bằng kỹ thuật vi phẫu,Lần,TAI MŨI HỌNG,TU_CHI_TRA,26100000,VND,2024-01-01,,,1
+1,T263,Phẫu thuật tạo hình khuyết bộ phận vành tai bằng vật liệu ghép tự thân/ vật liệu ghép tổng hợp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,20600000,VND,2024-01-01,,,1
+1,T263,Phẫu thuật tạo hình khuyết bộ phận vành tai bằng vật liệu ghép tự thân/ vật liệu ghép tổng hợp,Lần,TAI MŨI HỌNG,BHYT,2333000,VND,2024-01-01,,,1
+1,T264,Phẫu thuật tái tạo tổn khuyết da bằng vạt có cuống,Lần,TAI MŨI HỌNG,TU_CHI_TRA,18100000,VND,2024-01-01,,,1
+1,T264,Phẫu thuật tái tạo tổn khuyết da bằng vạt có cuống,Lần,TAI MŨI HỌNG,BHYT,5363900,VND,2024-01-01,,,1
+1,T265,Phẫu thuật Tạo lúm đồng tiền 1 bên (Thẩm mỹ),Lần,TAI MŨI HỌNG,TU_CHI_TRA,9920000,VND,2024-01-01,,,1
+1,D074,Phẫu thuật nội soi cắt toàn bộ dạ dày,Lần,TAI MŨI HỌNG,TU_CHI_TRA,38200000,VND,2024-01-01,,,1
+1,D074,Phẫu thuật nội soi cắt toàn bộ dạ dày,Lần,TAI MŨI HỌNG,BHYT,5597800,VND,2024-01-01,,,1
+1,D075,Phẫu thuật nội soi cắt ruột thừa,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11000000,VND,2024-01-01,,,1
+1,D075,Phẫu thuật nội soi cắt ruột thừa,Lần,TAI MŨI HỌNG,BHYT,2818700,VND,2024-01-01,,,1
+1,D078,"Cắt dây chằng, gỡ dính ruột",Lần,TAI MŨI HỌNG,TU_CHI_TRA,10400000,VND,2024-01-01,,,1
+1,D078,"Cắt dây chằng, gỡ dính ruột",Lần,TAI MŨI HỌNG,BHYT,2705700,VND,2024-01-01,,,1
+1,D079,Phẫu thuật nội soi kỹ thuật Heller điều trị co thắt tâm vị,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16700000,VND,2024-01-01,,,1
+1,D079,Phẫu thuật nội soi kỹ thuật Heller điều trị co thắt tâm vị,Lần,TAI MŨI HỌNG,BHYT,6557900,VND,2024-01-01,,,1
+1,D087,Cắt lọc vết thương đa ổ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,6400000,VND,2024-01-01,,,1
+1,D087,Cắt lọc vết thương đa ổ,Lần,TAI MŨI HỌNG,BHYT,194700,VND,2024-01-01,,,1
+1,D140,Bóc nhân tuyến giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11400000,VND,2024-01-01,,,1
+1,D142,Phẫu thuật Cắt bán phần dạ dày,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16400000,VND,2024-01-01,,,1
+1,D142,Phẫu thuật Cắt bán phần dạ dày,Lần,TAI MŨI HỌNG,BHYT,5495300,VND,2024-01-01,,,1
+1,D143,Cắt bán phần 2 thuỳ tuyến giáp trong bướu giáp đa nhân,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12800000,VND,2024-01-01,,,1
+1,D143,Cắt bán phần 2 thuỳ tuyến giáp trong bướu giáp đa nhân,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D199,Cắt thân và đuôi tuỵ,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16600000,VND,2024-01-01,,,1
+1,D199,Cắt thân và đuôi tuỵ,Lần,TAI MŨI HỌNG,BHYT,4955100,VND,2024-01-01,,,1
+1,D203,Phẫu thuật cắt tuyến giáp toàn phần,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11800000,VND,2024-01-01,,,1
+1,D203,Phẫu thuật cắt tuyến giáp toàn phần,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D204,Cắt toàn bộ dạ dày,Lần,TAI MŨI HỌNG,TU_CHI_TRA,36100000,VND,2024-01-01,,,1
+1,D204,Cắt toàn bộ dạ dày,Lần,TAI MŨI HỌNG,BHYT,8208300,VND,2024-01-01,,,1
+1,D207,Cắt toàn bộ tuyến giáp kèm nạo vét hạch 2 bên trong ung thư tuyến giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16200000,VND,2024-01-01,,,1
+1,D207,Cắt toàn bộ tuyến giáp kèm nạo vét hạch 2 bên trong ung thư tuyến giáp,Lần,TAI MŨI HỌNG,BHYT,6026400,VND,2024-01-01,,,1
+1,D209,Cắt túi mật,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11800000,VND,2024-01-01,,,1
+1,D209,Cắt túi mật,Lần,TAI MŨI HỌNG,BHYT,4993100,VND,2024-01-01,,,1
+1,D234,Phẫu thuật điều trị co thắt tâm vị,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12900000,VND,2024-01-01,,,1
+1,D237,Phẫu thuật Điều trị phình đại tràng bẩm sinh,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12900000,VND,2024-01-01,,,1
+1,D237,Phẫu thuật Điều trị phình đại tràng bẩm sinh,Lần,TAI MŨI HỌNG,BHYT,3332200,VND,2024-01-01,,,1
+1,D239,Phẫu thuật điều trị tắc ruột do dính/dây chằng có cắt nối ruột,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12800000,VND,2024-01-01,,,1
+1,D239,Phẫu thuật điều trị tắc ruột do dính/dây chằng có cắt nối ruột,Lần,TAI MŨI HỌNG,BHYT,4764100,VND,2024-01-01,,,1
+1,D247,Phẫu thuật thoát vị rốn và khe hở thành bụng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11800000,VND,2024-01-01,,,1
+1,D247,Phẫu thuật thoát vị rốn và khe hở thành bụng,Lần,TAI MŨI HỌNG,BHYT,3512900,VND,2024-01-01,,,1
+1,D257,"Phẫu thuật Frey điều trị sỏi tụy, viêm tụy mạn",Lần,TAI MŨI HỌNG,TU_CHI_TRA,14400000,VND,2024-01-01,,,1
+1,D257,"Phẫu thuật Frey điều trị sỏi tụy, viêm tụy mạn",Lần,TAI MŨI HỌNG,BHYT,4870100,VND,2024-01-01,,,1
+1,D258,Phẫu thuật Khâu lỗ rò manh tràng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,10400000,VND,2024-01-01,,,1
+1,D259,Phẫu thuật nội soi điều trị thoát vị khe hoành,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14300000,VND,2024-01-01,,,1
+1,D259,Phẫu thuật nội soi điều trị thoát vị khe hoành,Lần,TAI MŨI HỌNG,BHYT,3663800,VND,2024-01-01,,,1
+1,D260,Phẫu thuật điều trị thoát vị khe hoành,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12900000,VND,2024-01-01,,,1
+1,D260,Phẫu thuật điều trị thoát vị khe hoành,Lần,TAI MŨI HỌNG,BHYT,3433300,VND,2024-01-01,,,1
+1,D261,Khâu lỗ thủng dạ dày tá tràng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,10600000,VND,2024-01-01,,,1
+1,D261,Khâu lỗ thủng dạ dày tá tràng,Lần,TAI MŨI HỌNG,BHYT,3993400,VND,2024-01-01,,,1
+1,D282,Nối nang tụy với dạ dày,Lần,TAI MŨI HỌNG,TU_CHI_TRA,13600000,VND,2024-01-01,,,1
+1,D282,Nối nang tụy với dạ dày,Lần,TAI MŨI HỌNG,BHYT,2917900,VND,2024-01-01,,,1
+1,D283,Nối nang tụy với hỗng tràng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,13600000,VND,2024-01-01,,,1
+1,D283,Nối nang tụy với hỗng tràng,Lần,TAI MŨI HỌNG,BHYT,2917900,VND,2024-01-01,,,1
+1,D284,Nối ngã ba đường mật hoặc ống gan phải hoặc ống gan trái với hỗng tràng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,30700000,VND,2024-01-01,,,1
+1,D284,Nối ngã ba đường mật hoặc ống gan phải hoặc ống gan trái với hỗng tràng,Lần,TAI MŨI HỌNG,BHYT,4870100,VND,2024-01-01,,,1
+1,D285,Nối ống mật chủ - hỗng tràng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12600000,VND,2024-01-01,,,1
+1,D285,Nối ống mật chủ - hỗng tràng,Lần,TAI MŨI HỌNG,BHYT,4870100,VND,2024-01-01,,,1
+1,D289,Phẫu thuật nội soi cắt đại tràng phải,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16500000,VND,2024-01-01,,,1
+1,D289,Phẫu thuật nội soi cắt đại tràng phải,Lần,TAI MŨI HỌNG,BHYT,4663800,VND,2024-01-01,,,1
+1,D290,Phẫu thuật nội soi cắt đại tràng trái,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16500000,VND,2024-01-01,,,1
+1,D290,Phẫu thuật nội soi cắt đại tràng trái,Lần,TAI MŨI HỌNG,BHYT,4663800,VND,2024-01-01,,,1
+1,D292,Phẫu thuật nội soi cắt gan không điển hình,Lần,TAI MŨI HỌNG,TU_CHI_TRA,24500000,VND,2024-01-01,,,1
+1,D292,Phẫu thuật nội soi cắt gan không điển hình,Lần,TAI MŨI HỌNG,BHYT,6632200,VND,2024-01-01,,,1
+1,D294,Phẫu thuật nội soi cắt lách,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14400000,VND,2024-01-01,,,1
+1,D294,Phẫu thuật nội soi cắt lách,Lần,TAI MŨI HỌNG,BHYT,4897800,VND,2024-01-01,,,1
+1,D297,Phẫu thuật nội soi Cắt ruột thừa trong viêm phúc mạc ruột thừa khu trú,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12200000,VND,2024-01-01,,,1
+1,D297,Phẫu thuật nội soi Cắt ruột thừa trong viêm phúc mạc ruột thừa khu trú,Lần,TAI MŨI HỌNG,BHYT,2818700,VND,2024-01-01,,,1
+1,D306,Phẫu thuật nội soi đặt tấm lưới nhân tạo trước phúc mạc đường vào qua ổ bụng (TAPP),Lần,TAI MŨI HỌNG,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,D306,Phẫu thuật nội soi đặt tấm lưới nhân tạo trước phúc mạc đường vào qua ổ bụng (TAPP),Lần,TAI MŨI HỌNG,BHYT,2434500,VND,2024-01-01,,,1
+1,D307,Phẫu thuật nội soi đặt tấm lưới nhân tạo đường vào hoàn toàn trước phúc mạc (TEP),Lần,TAI MŨI HỌNG,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,D307,Phẫu thuật nội soi đặt tấm lưới nhân tạo đường vào hoàn toàn trước phúc mạc (TEP),Lần,TAI MŨI HỌNG,BHYT,2434500,VND,2024-01-01,,,1
+1,D308,Phẫu thuật nội soi gỡ dính ruột,Lần,TAI MŨI HỌNG,TU_CHI_TRA,13900000,VND,2024-01-01,,,1
+1,D308,Phẫu thuật nội soi gỡ dính ruột,Lần,TAI MŨI HỌNG,BHYT,2705700,VND,2024-01-01,,,1
+1,D309,Phẫu thuật nội soi khâu thủng dạ dày,Lần,TAI MŨI HỌNG,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,D309,Phẫu thuật nội soi khâu thủng dạ dày,Lần,TAI MŨI HỌNG,BHYT,3136900,VND,2024-01-01,,,1
+1,D310,Phẫu thuật nội soi khâu thủng ruột non,Lần,TAI MŨI HỌNG,TU_CHI_TRA,13900000,VND,2024-01-01,,,1
+1,D310,Phẫu thuật nội soi khâu thủng ruột non,Lần,TAI MŨI HỌNG,BHYT,2917900,VND,2024-01-01,,,1
+1,D312,Phẫu thuật nội soi Lấy sỏi ống mật chủ qua ống túi mật,Lần,TAI MŨI HỌNG,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,D312,Phẫu thuật nội soi Lấy sỏi ống mật chủ qua ống túi mật,Lần,TAI MŨI HỌNG,BHYT,3431900,VND,2024-01-01,,,1
+1,D313,Phẫu thuật nội soi mở ống mật chủ lấy sỏi + cắt túi mật,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19200000,VND,2024-01-01,,,1
+1,D313,Phẫu thuật nội soi mở ống mật chủ lấy sỏi + cắt túi mật,Lần,TAI MŨI HỌNG,BHYT,3431900,VND,2024-01-01,,,1
+1,D316,Phẫu thuật nội soi mở ống mật chủ lấy sỏi,Lần,TAI MŨI HỌNG,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,D316,Phẫu thuật nội soi mở ống mật chủ lấy sỏi,Lần,TAI MŨI HỌNG,BHYT,3431900,VND,2024-01-01,,,1
+1,D330,Nối vị tràng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,9800000,VND,2024-01-01,,,1
+1,D330,Nối vị tràng,Lần,TAI MŨI HỌNG,BHYT,2917900,VND,2024-01-01,,,1
+1,D331,Phẫu thuật điều trị thoát vị vết mổ thành bụng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,11700000,VND,2024-01-01,,,1
+1,D331,Phẫu thuật điều trị thoát vị vết mổ thành bụng,Lần,TAI MŨI HỌNG,BHYT,3512900,VND,2024-01-01,,,1
+1,D333,Phẫu thuật điều trị thoát vị bẹn bằng phương pháp Lichtenstein,Lần,TAI MŨI HỌNG,TU_CHI_TRA,8600000,VND,2024-01-01,,,1
+1,D333,Phẫu thuật điều trị thoát vị bẹn bằng phương pháp Lichtenstein,Lần,TAI MŨI HỌNG,BHYT,3512900,VND,2024-01-01,,,1
+1,D334,Phẫu thuật điều trị thoát vị bẹn bằng phương pháp Bassini,Lần,TAI MŨI HỌNG,TU_CHI_TRA,8600000,VND,2024-01-01,,,1
+1,D334,Phẫu thuật điều trị thoát vị bẹn bằng phương pháp Bassini,Lần,TAI MŨI HỌNG,BHYT,3512900,VND,2024-01-01,,,1
+1,D335,Phẫu thuật điều trị thoát vị thành bụng khác,Lần,TAI MŨI HỌNG,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,D335,Phẫu thuật điều trị thoát vị thành bụng khác,Lần,TAI MŨI HỌNG,BHYT,3512900,VND,2024-01-01,,,1
+1,D337,Phẫu thuật Puestow - Gillesby,Lần,TAI MŨI HỌNG,TU_CHI_TRA,12500000,VND,2024-01-01,,,1
+1,D337,Phẫu thuật Puestow - Gillesby,Lần,TAI MŨI HỌNG,BHYT,4955100,VND,2024-01-01,,,1
+1,D339,"Mở bụng thăm dò, sinh thiết",Lần,TAI MŨI HỌNG,TU_CHI_TRA,8700000,VND,2024-01-01,,,1
+1,D339,"Mở bụng thăm dò, sinh thiết",Lần,TAI MŨI HỌNG,BHYT,2683900,VND,2024-01-01,,,1
+1,D340,Nối mật - da bằng quai ruột biệt lập hoặc túi mật (Gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,22300000,VND,2024-01-01,,,1
+1,D342,Phẫu thuật nội soi khâu hẹp lỗ thực quản + tạo hình tâm vị kiểu Dor,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14500000,VND,2024-01-01,,,1
+1,D342,Phẫu thuật nội soi khâu hẹp lỗ thực quản + tạo hình tâm vị kiểu Dor,Lần,TAI MŨI HỌNG,BHYT,3663800,VND,2024-01-01,,,1
+1,D347,Rạch thoát mủ ổ áp xe trong ổ bụng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,D348,"Mở bụng thăm dò, lau rửa ổ bụng, đặt dẫn lưu",Lần,TAI MŨI HỌNG,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,D348,"Mở bụng thăm dò, lau rửa ổ bụng, đặt dẫn lưu",Lần,TAI MŨI HỌNG,BHYT,2683900,VND,2024-01-01,,,1
+1,D386,Đẩy bã thức ăn xuống đại tràng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,9700000,VND,2024-01-01,,,1
+1,D386,Đẩy bã thức ăn xuống đại tràng,Lần,TAI MŨI HỌNG,BHYT,3993400,VND,2024-01-01,,,1
+1,D392,Phẫu thuật nội soi sinh thiết hạch ổ bụng,Lần,TAI MŨI HỌNG,TU_CHI_TRA,9800000,VND,2024-01-01,,,1
+1,D392,Phẫu thuật nội soi sinh thiết hạch ổ bụng,Lần,TAI MŨI HỌNG,BHYT,1095300,VND,2024-01-01,,,1
+1,D397,Phẫu thuật nội soi cắt 2/3 dạ dày,Lần,TAI MŨI HỌNG,TU_CHI_TRA,17100000,VND,2024-01-01,,,1
+1,D397,Phẫu thuật nội soi cắt 2/3 dạ dày,Lần,TAI MŨI HỌNG,BHYT,5597800,VND,2024-01-01,,,1
+1,D399,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D1,Lần,TAI MŨI HỌNG,TU_CHI_TRA,21900000,VND,2024-01-01,,,1
+1,D399,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D1,Lần,TAI MŨI HỌNG,BHYT,5597800,VND,2024-01-01,,,1
+1,D400,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D1α,Lần,TAI MŨI HỌNG,TU_CHI_TRA,21900000,VND,2024-01-01,,,1
+1,D400,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D1α,Lần,TAI MŨI HỌNG,BHYT,5597800,VND,2024-01-01,,,1
+1,D401,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D1β,Lần,TAI MŨI HỌNG,TU_CHI_TRA,21900000,VND,2024-01-01,,,1
+1,D401,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D1β,Lần,TAI MŨI HỌNG,BHYT,5597800,VND,2024-01-01,,,1
+1,D402,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D2,Lần,TAI MŨI HỌNG,TU_CHI_TRA,21900000,VND,2024-01-01,,,1
+1,D402,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D2,Lần,TAI MŨI HỌNG,BHYT,5597800,VND,2024-01-01,,,1
+1,D403,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D3,Lần,TAI MŨI HỌNG,TU_CHI_TRA,30800000,VND,2024-01-01,,,1
+1,D403,Phẫu thuật nội soi cắt bán phần dưới dạ dày + nạo hạch D3,Lần,TAI MŨI HỌNG,BHYT,5597800,VND,2024-01-01,,,1
+1,D416,Cắt túi thừa thực quản qua nội soi ngực phải,Lần,TAI MŨI HỌNG,TU_CHI_TRA,17900000,VND,2024-01-01,,,1
+1,D416,Cắt túi thừa thực quản qua nội soi ngực phải,Lần,TAI MŨI HỌNG,BHYT,3663800,VND,2024-01-01,,,1
+1,D417,Cắt túi thừa thực quản qua nội soi ngực trái,Lần,TAI MŨI HỌNG,TU_CHI_TRA,17900000,VND,2024-01-01,,,1
+1,D417,Cắt túi thừa thực quản qua nội soi ngực trái,Lần,TAI MŨI HỌNG,BHYT,3663800,VND,2024-01-01,,,1
+1,D422,Phẫu thuật nội soi cắt gan thùy trái,Lần,TAI MŨI HỌNG,TU_CHI_TRA,22300000,VND,2024-01-01,,,1
+1,D422,Phẫu thuật nội soi cắt gan thùy trái,Lần,TAI MŨI HỌNG,BHYT,6632200,VND,2024-01-01,,,1
+1,D446,Phẫu thuật nội soi cắt bán phần 1 thùy tuyến giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14900000,VND,2024-01-01,,,1
+1,D446,Phẫu thuật nội soi cắt bán phần 1 thùy tuyến giáp,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D447,Phẫu thuật nội soi cắt 1 thùy tuyến giáp + eo tuyến giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14900000,VND,2024-01-01,,,1
+1,D447,Phẫu thuật nội soi cắt 1 thùy tuyến giáp + eo tuyến giáp,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D448,Phẫu thuật nội soi cắt bán phần 2 thùy tuyến giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,15000000,VND,2024-01-01,,,1
+1,D448,Phẫu thuật nội soi cắt bán phần 2 thùy tuyến giáp,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D449,Phẫu thuật nội soi cắt toàn bộ tuyến giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19000000,VND,2024-01-01,,,1
+1,D449,Phẫu thuật nội soi cắt toàn bộ tuyến giáp,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D450,Phẫu thuật nội soi cắt tuyến cận giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19000000,VND,2024-01-01,,,1
+1,D450,Phẫu thuật nội soi cắt tuyến cận giáp,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D451,Phẫu thuật nội soi cắt nhân tuyến giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14900000,VND,2024-01-01,,,1
+1,D451,Phẫu thuật nội soi cắt nhân tuyến giáp,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D452,Phẫu thuật nội soi cắt nhân độc tuyến giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,14900000,VND,2024-01-01,,,1
+1,D452,Phẫu thuật nội soi cắt nhân độc tuyến giáp,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D453,Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong bướu giáp đa nhân,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19600000,VND,2024-01-01,,,1
+1,D453,Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong bướu giáp đa nhân,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D454,Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong bướu giáp đa nhân độc,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19600000,VND,2024-01-01,,,1
+1,D454,Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong bướu giáp đa nhân độc,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D455,Phẫu thuật nội soi cắt gần toàn bộ tuyến giáp trong bệnh basedow,Lần,TAI MŨI HỌNG,TU_CHI_TRA,16100000,VND,2024-01-01,,,1
+1,D455,Phẫu thuật nội soi cắt gần toàn bộ tuyến giáp trong bệnh basedow,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D456,Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong bệnh basedow,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19600000,VND,2024-01-01,,,1
+1,D456,Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong bệnh basedow,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D457,Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong ung thư tuyến giáp,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19600000,VND,2024-01-01,,,1
+1,D457,Phẫu thuật nội soi cắt toàn bộ tuyến giáp trong ung thư tuyến giáp,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D458,Phẫu thuật nội soi cắt toàn bộ tuyến giáp + nạo hạch cổ 2 bên trong ung thư,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19600000,VND,2024-01-01,,,1
+1,D458,Phẫu thuật nội soi cắt toàn bộ tuyến giáp + nạo hạch cổ 2 bên trong ung thư,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D459,Phẫu thuật nội soi cắt toàn bộ tuyến giáp + nạo hạch cổ 1 bên trong ung thư,Lần,TAI MŨI HỌNG,TU_CHI_TRA,19600000,VND,2024-01-01,,,1
+1,D459,Phẫu thuật nội soi cắt toàn bộ tuyến giáp + nạo hạch cổ 1 bên trong ung thư,Lần,TAI MŨI HỌNG,BHYT,4561600,VND,2024-01-01,,,1
+1,D495,"Phẫu thuật lấy bỏ u phần mềm (bướu mỡ, bã đậu >= 10cm) (Gây tê)",Lần,TAI MŨI HỌNG,TU_CHI_TRA,7500000,VND,2024-01-01,,,1
+1,D495,"Phẫu thuật lấy bỏ u phần mềm (bướu mỡ, bã đậu >= 10cm) (Gây tê)",Lần,TAI MŨI HỌNG,BHYT,1208800,VND,2024-01-01,,,1
+1,D496,Phẫu thuật lấy bỏ u phần mềm (bướu sợi) (Gây tê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,7500000,VND,2024-01-01,,,1
+1,D496,Phẫu thuật lấy bỏ u phần mềm (bướu sợi) (Gây tê),Lần,TAI MŨI HỌNG,BHYT,1208800,VND,2024-01-01,,,1
+1,D497,Phẫu thuật lấy bỏ u phần mềm (bướu thần kinh) (Gây tê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,7500000,VND,2024-01-01,,,1
+1,D497,Phẫu thuật lấy bỏ u phần mềm (bướu thần kinh) (Gây tê),Lần,TAI MŨI HỌNG,BHYT,1208800,VND,2024-01-01,,,1
+1,D498,Phẫu thuật lấy bỏ u phần mềm (bướu vôi mào chậu) (Gây tê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,7500000,VND,2024-01-01,,,1
+1,D498,Phẫu thuật lấy bỏ u phần mềm (bướu vôi mào chậu) (Gây tê),Lần,TAI MŨI HỌNG,BHYT,1208800,VND,2024-01-01,,,1
+1,D499,Cắt u trực tràng ống hậu môn đường dưới (Gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,14200000,VND,2024-01-01,,,1
+1,D499,Cắt u trực tràng ống hậu môn đường dưới (Gây mê),Lần,TAI MŨI HỌNG,BHYT,7639200,VND,2024-01-01,,,1
+1,D500,Phẫu thuật lấy bỏ u phần mềm (mắt cá) (Gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,8500000,VND,2024-01-01,,,1
+1,D500,Phẫu thuật lấy bỏ u phần mềm (mắt cá) (Gây mê),Lần,TAI MŨI HỌNG,BHYT,1208800,VND,2024-01-01,,,1
+1,D501,"Cắt bỏ thực quản có hay không kèm các tạng khác, tạo hình ngay (Gây mê)",Lần,TAI MŨI HỌNG,TU_CHI_TRA,38900000,VND,2024-01-01,,,1
+1,D501,"Cắt bỏ thực quản có hay không kèm các tạng khác, tạo hình ngay (Gây mê)",Lần,TAI MŨI HỌNG,BHYT,8490300,VND,2024-01-01,,,1
+1,D505,"Phẫu thuật thoát vị khó: đùi, bịt (Gây mê)",Lần,TAI MŨI HỌNG,TU_CHI_TRA,11500000,VND,2024-01-01,,,1
+1,D505,"Phẫu thuật thoát vị khó: đùi, bịt (Gây mê)",Lần,TAI MŨI HỌNG,BHYT,3512900,VND,2024-01-01,,,1
+1,D506,Cắt u nhái sàn miệng (Gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,8200000,VND,2024-01-01,,,1
+1,D508,Phẫu thuật điều trị thoát vị bẹn bằng phương pháp Lichtenstein [gây tê],Lần,TAI MŨI HỌNG,TU_CHI_TRA,7700000,VND,2024-01-01,,,1
+1,D508,Phẫu thuật điều trị thoát vị bẹn bằng phương pháp Lichtenstein [gây tê],Lần,TAI MŨI HỌNG,BHYT,2816800,VND,2024-01-01,,,1
+1,D510,Dẫn lưu áp xe trung thất [gây tê],Lần,TAI MŨI HỌNG,TU_CHI_TRA,10700000,VND,2024-01-01,,,1
+1,D510,Dẫn lưu áp xe trung thất [gây tê],Lần,TAI MŨI HỌNG,BHYT,2432400,VND,2024-01-01,,,1
+1,D511,Lấy u phúc mạc (Gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,12500000,VND,2024-01-01,,,1
+1,D511,Lấy u phúc mạc (Gây mê),Lần,TAI MŨI HỌNG,BHYT,5141100,VND,2024-01-01,,,1
+1,D512,Phẫu thuật điều trị thoát vị đùi (Gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,9500000,VND,2024-01-01,,,1
+1,D512,Phẫu thuật điều trị thoát vị đùi (Gây mê),Lần,TAI MŨI HỌNG,BHYT,3512900,VND,2024-01-01,,,1
+1,D515,Siêu âm can thiệp - chọc hút mủ ổ áp xe gan (Gây mê),Lần,TAI MŨI HỌNG,TU_CHI_TRA,6000000,VND,2024-01-01,,,1
+1,D515,Siêu âm can thiệp - chọc hút mủ ổ áp xe gan (Gây mê),Lần,TAI MŨI HỌNG,BHYT,171900,VND,2024-01-01,,,1
+1,N108,Phẫu thuật tạo hình điều trị tật thừa ngón tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11000000,VND,2024-01-01,,,1
+1,N108,Phẫu thuật tạo hình điều trị tật thừa ngón tay,Lần,XƯƠNG KHỚP,BHYT,3226900,VND,2024-01-01,,,1
+1,N120,Phẫu thuật điều trị bệnh DE QUER VAIN và ngón tay cò súng [gây mê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,8200000,VND,2024-01-01,,,1
+1,N120,Phẫu thuật điều trị bệnh DE QUER VAIN và ngón tay cò súng [gây mê],Lần,XƯƠNG KHỚP,BHYT,3923600,VND,2024-01-01,,,1
+1,N125,Khâu da thì 2 (phòng mổ),Lần,XƯƠNG KHỚP,TU_CHI_TRA,4600000,VND,2024-01-01,,,1
+1,N125,Khâu da thì 2 (phòng mổ),Lần,XƯƠNG KHỚP,BHYT,289500,VND,2024-01-01,,,1
+1,N126,Phẫu thuật lấy dị vật phần mềm,Lần,XƯƠNG KHỚP,TU_CHI_TRA,7900000,VND,2024-01-01,,,1
+1,N128,"Nắn, bó bột gãy xương chậu",Lần,XƯƠNG KHỚP,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,N128,"Nắn, bó bột gãy xương chậu",Lần,XƯƠNG KHỚP,BHYT,659600,VND,2024-01-01,,,1
+1,N138,Nẹp bột đùi cẳng bàn chân,Lần,XƯƠNG KHỚP,TU_CHI_TRA,530000,VND,2024-01-01,,,1
+1,N138,Nẹp bột đùi cẳng bàn chân,Lần,XƯƠNG KHỚP,BHYT,257000,VND,2024-01-01,,,1
+1,N148,Phẫu thuật nội soi cắt sụn chêm,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N148,Phẫu thuật nội soi cắt sụn chêm,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N149,Cắt u bao gân,Lần,XƯƠNG KHỚP,TU_CHI_TRA,7100000,VND,2024-01-01,,,1
+1,N149,Cắt u bao gân,Lần,XƯƠNG KHỚP,BHYT,2140700,VND,2024-01-01,,,1
+1,N153,Phẫu thuật lấy bỏ u xương,Lần,XƯƠNG KHỚP,TU_CHI_TRA,8200000,VND,2024-01-01,,,1
+1,N153,Phẫu thuật lấy bỏ u xương,Lần,XƯƠNG KHỚP,BHYT,4085900,VND,2024-01-01,,,1
+1,N158,"Phẫu thuật sửa trục chi (kết hợp xương bằng nẹp vis, Champon, Kim K.Wire)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,11600000,VND,2024-01-01,,,1
+1,N158,"Phẫu thuật sửa trục chi (kết hợp xương bằng nẹp vis, Champon, Kim K.Wire)",Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N160,Phẫu thuật chuyển gân điều trị bàn chân rủ do liệt vận động,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11600000,VND,2024-01-01,,,1
+1,N160,Phẫu thuật chuyển gân điều trị bàn chân rủ do liệt vận động,Lần,XƯƠNG KHỚP,BHYT,3320600,VND,2024-01-01,,,1
+1,N162,Cố định Kirschner trong gãy đầu trên xương cánh tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,8200000,VND,2024-01-01,,,1
+1,N162,Cố định Kirschner trong gãy đầu trên xương cánh tay,Lần,XƯƠNG KHỚP,BHYT,4324900,VND,2024-01-01,,,1
+1,N166,Cố định nẹp vít gãy thân xương cánh tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11400000,VND,2024-01-01,,,1
+1,N166,Cố định nẹp vít gãy thân xương cánh tay,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N172,"Đặt nẹp vít gãy mắt cá trong, ngoài hoặc Dupuytren",Lần,XƯƠNG KHỚP,TU_CHI_TRA,7400000,VND,2024-01-01,,,1
+1,N172,"Đặt nẹp vít gãy mắt cá trong, ngoài hoặc Dupuytren",Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N175,Phẫu thuật KHX gãy trật xương sên,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10500000,VND,2024-01-01,,,1
+1,N175,Phẫu thuật KHX gãy trật xương sên,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N176,Đặt vít gãy trật xương thuyền,Lần,XƯƠNG KHỚP,TU_CHI_TRA,7400000,VND,2024-01-01,,,1
+1,N176,Đặt vít gãy trật xương thuyền,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N177,"Phẫu thuật chỉnh sửa sau gãy xương Cal lệch xương, không kết hợp xương",Lần,XƯƠNG KHỚP,TU_CHI_TRA,9600000,VND,2024-01-01,,,1
+1,N177,"Phẫu thuật chỉnh sửa sau gãy xương Cal lệch xương, không kết hợp xương",Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N179,Phẫu thuật điều trị ngón tay cò súng (tiểu phẫu),Lần,XƯƠNG KHỚP,TU_CHI_TRA,550000,VND,2024-01-01,,,1
+1,N190,Phẫu thuật ghép xương tự thân (xương lớn),Lần,XƯƠNG KHỚP,TU_CHI_TRA,11700000,VND,2024-01-01,,,1
+1,N190,Phẫu thuật ghép xương tự thân (xương lớn),Lần,XƯƠNG KHỚP,BHYT,5105100,VND,2024-01-01,,,1
+1,N195,Kéo dài ngón tay bằng khung cố định ngoài,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N195,Kéo dài ngón tay bằng khung cố định ngoài,Lần,XƯƠNG KHỚP,BHYT,5265900,VND,2024-01-01,,,1
+1,N196,"Phẫu thuật chỉnh sửa sau gãy xương Cal lệch xương, có kết hợp xương",Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N196,"Phẫu thuật chỉnh sửa sau gãy xương Cal lệch xương, có kết hợp xương",Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N198,Phẫu thuật Khâu lại động mạch thần kinh cân cơ [gây mê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,12600000,VND,2024-01-01,,,1
+1,N198,Phẫu thuật Khâu lại động mạch thần kinh cân cơ [gây mê],Lần,XƯƠNG KHỚP,BHYT,5204600,VND,2024-01-01,,,1
+1,N199,Phẫu thuật nội soi cắt lọc sụn khớp gối,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N199,Phẫu thuật nội soi cắt lọc sụn khớp gối,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N200,Phẫu thuật lấy tế bào gốc từ mô mỡ bụng hoặc tủy xương,Lần,XƯƠNG KHỚP,TU_CHI_TRA,9700000,VND,2024-01-01,,,1
+1,N201,Phẫu thuật Nối gân duỗi (một gân),Lần,XƯƠNG KHỚP,TU_CHI_TRA,8500000,VND,2024-01-01,,,1
+1,N201,Phẫu thuật Nối gân duỗi (một gân),Lần,XƯƠNG KHỚP,BHYT,3302900,VND,2024-01-01,,,1
+1,N205,Phẫu thuật điều trị đứt gân Achille [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,10600000,VND,2024-01-01,,,1
+1,N205,Phẫu thuật điều trị đứt gân Achille [gây tê],Lần,XƯƠNG KHỚP,BHYT,2604700,VND,2024-01-01,,,1
+1,N211,Phẫu thuật Nội soi khớp khuỷu,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N211,Phẫu thuật Nội soi khớp khuỷu,Lần,XƯƠNG KHỚP,BHYT,2434500,VND,2024-01-01,,,1
+1,N213,Phẫu thuật nội soi tạo hình mỏm cùng vai,Lần,XƯƠNG KHỚP,TU_CHI_TRA,18000000,VND,2024-01-01,,,1
+1,N213,Phẫu thuật nội soi tạo hình mỏm cùng vai,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N236,Tháo bột,Lần,XƯƠNG KHỚP,TU_CHI_TRA,60000,VND,2024-01-01,,,1
+1,N236,Tháo bột,Lần,XƯƠNG KHỚP,BHYT,60000,VND,2024-01-01,,,1
+1,N238,Phẫu thuật mở tái tạo dây chằng,Lần,XƯƠNG KHỚP,TU_CHI_TRA,9000000,VND,2024-01-01,,,1
+1,N239,Phẫu thuật cắt lọc mô viêm (nốt tophi),Lần,XƯƠNG KHỚP,TU_CHI_TRA,6500000,VND,2024-01-01,,,1
+1,N240,Phẫu thuật thay khớp háng bán phần,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11200000,VND,2024-01-01,,,1
+1,N240,Phẫu thuật thay khớp háng bán phần,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N242,Cắt cụt cẳng chân [trái] [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,7400000,VND,2024-01-01,,,1
+1,N242,Cắt cụt cẳng chân [trái] [gây tê],Lần,XƯƠNG KHỚP,BHYT,3175400,VND,2024-01-01,,,1
+1,N250,Cắt đoạn khớp khuỷu (trái),Lần,XƯƠNG KHỚP,TU_CHI_TRA,8500000,VND,2024-01-01,,,1
+1,N250,Cắt đoạn khớp khuỷu (trái),Lần,XƯƠNG KHỚP,BHYT,3994900,VND,2024-01-01,,,1
+1,N254,Phẫu thuật cắt cụt ngón tay (tính 1 ngón),Lần,XƯƠNG KHỚP,TU_CHI_TRA,8200000,VND,2024-01-01,,,1
+1,N254,Phẫu thuật cắt cụt ngón tay (tính 1 ngón),Lần,XƯƠNG KHỚP,BHYT,3226900,VND,2024-01-01,,,1
+1,N256,"Nắn, bó bột trật khớp háng",Lần,XƯƠNG KHỚP,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,N256,"Nắn, bó bột trật khớp háng",Lần,XƯƠNG KHỚP,BHYT,667000,VND,2024-01-01,,,1
+1,N260,"Nắn, bó bột gãy 1/3 giữa thân xương cánh tay (trái)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,570000,VND,2024-01-01,,,1
+1,N260,"Nắn, bó bột gãy 1/3 giữa thân xương cánh tay (trái)",Lần,XƯƠNG KHỚP,BHYT,372700,VND,2024-01-01,,,1
+1,N264,Bột bothe cao chân trái,Lần,XƯƠNG KHỚP,TU_CHI_TRA,450000,VND,2024-01-01,,,1
+1,N264,Bột bothe cao chân trái,Lần,XƯƠNG KHỚP,BHYT,257000,VND,2024-01-01,,,1
+1,N268,Nắn bó bột cẳng bàn chân (làm nẹp dưới gối) (trái),Lần,XƯƠNG KHỚP,TU_CHI_TRA,500000,VND,2024-01-01,,,1
+1,N268,Nắn bó bột cẳng bàn chân (làm nẹp dưới gối) (trái),Lần,XƯƠNG KHỚP,BHYT,257000,VND,2024-01-01,,,1
+1,N270,Bó bột cẳng bàn tay có nắn (làm nẹp bàn tay) (trái),Lần,XƯƠNG KHỚP,TU_CHI_TRA,348000,VND,2024-01-01,,,1
+1,N270,Bó bột cẳng bàn tay có nắn (làm nẹp bàn tay) (trái),Lần,XƯƠNG KHỚP,BHYT,348000,VND,2024-01-01,,,1
+1,N272,"Bột cẳng bàn tay ôm ngón 1 trái (Nắn, bó bột gãy xương cẳng tay (bột liền))",Lần,XƯƠNG KHỚP,TU_CHI_TRA,348000,VND,2024-01-01,,,1
+1,N272,"Bột cẳng bàn tay ôm ngón 1 trái (Nắn, bó bột gãy xương cẳng tay (bột liền))",Lần,XƯƠNG KHỚP,BHYT,348000,VND,2024-01-01,,,1
+1,N274,Bột cánh bàn tay trái,Lần,XƯƠNG KHỚP,TU_CHI_TRA,412000,VND,2024-01-01,,,1
+1,N274,Bột cánh bàn tay trái,Lần,XƯƠNG KHỚP,BHYT,412000,VND,2024-01-01,,,1
+1,N276,"Bột cánh bàn tay ôm vai trái (Nắn, bó bột xương cánh tay (bột liền))",Lần,XƯƠNG KHỚP,TU_CHI_TRA,450000,VND,2024-01-01,,,1
+1,N276,"Bột cánh bàn tay ôm vai trái (Nắn, bó bột xương cánh tay (bột liền))",Lần,XƯƠNG KHỚP,BHYT,372700,VND,2024-01-01,,,1
+1,N278,Bột đùi bàn chân trái (Bột đùi cẳng bàn chân có kéo nắn),Lần,XƯƠNG KHỚP,TU_CHI_TRA,560000,VND,2024-01-01,,,1
+1,N278,Bột đùi bàn chân trái (Bột đùi cẳng bàn chân có kéo nắn),Lần,XƯƠNG KHỚP,BHYT,372700,VND,2024-01-01,,,1
+1,N280,Bột ống chân trái,Lần,XƯƠNG KHỚP,TU_CHI_TRA,450000,VND,2024-01-01,,,1
+1,N280,Bột ống chân trái,Lần,XƯƠNG KHỚP,BHYT,167000,VND,2024-01-01,,,1
+1,N282,Bột sarmento chân trái,Lần,XƯƠNG KHỚP,TU_CHI_TRA,500000,VND,2024-01-01,,,1
+1,N282,Bột sarmento chân trái,Lần,XƯƠNG KHỚP,BHYT,372700,VND,2024-01-01,,,1
+1,N284,"Nắn, bó bột trật khớp vai (trái)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,1640000,VND,2024-01-01,,,1
+1,N284,"Nắn, bó bột trật khớp vai (trái)",Lần,XƯƠNG KHỚP,BHYT,342000,VND,2024-01-01,,,1
+1,N290,"Nắn, bó bột gãy xương gót (trái)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,960000,VND,2024-01-01,,,1
+1,N290,"Nắn, bó bột gãy xương gót (trái)",Lần,XƯƠNG KHỚP,BHYT,167000,VND,2024-01-01,,,1
+1,N292,"Nắn, bó vỡ xương bánh chè chân trái không có chỉ định mổ",Lần,XƯƠNG KHỚP,TU_CHI_TRA,1060000,VND,2024-01-01,,,1
+1,N292,"Nắn, bó vỡ xương bánh chè chân trái không có chỉ định mổ",Lần,XƯƠNG KHỚP,BHYT,167000,VND,2024-01-01,,,1
+1,N294,Nẹp bột cẳng bàn chân (trái),Lần,XƯƠNG KHỚP,TU_CHI_TRA,300000,VND,2024-01-01,,,1
+1,N294,Nẹp bột cẳng bàn chân (trái),Lần,XƯƠNG KHỚP,BHYT,257000,VND,2024-01-01,,,1
+1,N300,"Nẹp bột cánh bàn tay ôm vai trái (Nẹp bột các loại, không nắn)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,N301,"Nẹp bột cánh bàn tay ôm vai phải (Nẹp bột các loại, không nắn)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,N302,Phẫu thuật nội soi khớp gối tạo dây chằng chéo trước endo-button,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N302,Phẫu thuật nội soi khớp gối tạo dây chằng chéo trước endo-button,Lần,XƯƠNG KHỚP,BHYT,4594500,VND,2024-01-01,,,1
+1,N303,Phẫu thuật nội soi cắt hoạt mạc viêm khớp gối,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12200000,VND,2024-01-01,,,1
+1,N303,Phẫu thuật nội soi cắt hoạt mạc viêm khớp gối,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N304,Phẫu thuật nội soi gỡ dính khớp gối,Lần,XƯƠNG KHỚP,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,N304,Phẫu thuật nội soi gỡ dính khớp gối,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N306,Phẫu thuật nội soi cắt lọc khâu rách chóp xoay qua nội soi khớp vai,Lần,XƯƠNG KHỚP,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,N306,Phẫu thuật nội soi cắt lọc khâu rách chóp xoay qua nội soi khớp vai,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N307,Phẫu thuật nội soi điều trị mất vững khớp vai theo phương pháp Latarjet,Lần,XƯƠNG KHỚP,TU_CHI_TRA,18100000,VND,2024-01-01,,,1
+1,N307,Phẫu thuật nội soi điều trị mất vững khớp vai theo phương pháp Latarjet,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N308,Phẫu thuật nội soi điều trị mất vững khớp vai,Lần,XƯƠNG KHỚP,TU_CHI_TRA,18100000,VND,2024-01-01,,,1
+1,N308,Phẫu thuật nội soi điều trị mất vững khớp vai,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N309,Phẫu thuật nội soi điều trị viêm co rút khớp vai,Lần,XƯƠNG KHỚP,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,N309,Phẫu thuật nội soi điều trị viêm co rút khớp vai,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N310,Phẫu thuật nội soi điều trị viêm khớp vai,Lần,XƯƠNG KHỚP,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,N310,Phẫu thuật nội soi điều trị viêm khớp vai,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N311,Phẫu thuật nội soi tái tạo lại dây chằng chéo trước,Lần,XƯƠNG KHỚP,TU_CHI_TRA,17200000,VND,2024-01-01,,,1
+1,N311,Phẫu thuật nội soi tái tạo lại dây chằng chéo trước,Lần,XƯƠNG KHỚP,BHYT,4594500,VND,2024-01-01,,,1
+1,N312,Phẫu thuật nội soi tái tạo dây chằng chéo sau,Lần,XƯƠNG KHỚP,TU_CHI_TRA,17200000,VND,2024-01-01,,,1
+1,N312,Phẫu thuật nội soi tái tạo dây chằng chéo sau,Lần,XƯƠNG KHỚP,BHYT,4594500,VND,2024-01-01,,,1
+1,N314,"Phẫu thuật nội soi điều trị khớp gối bằng gân đồng loại (nội soi tái tạo dây chằng chéo trước, chéo sau, mổ mở tái tạo dây chằng bên chầy, bên mác)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,18300000,VND,2024-01-01,,,1
+1,N314,"Phẫu thuật nội soi điều trị khớp gối bằng gân đồng loại (nội soi tái tạo dây chằng chéo trước, chéo sau, mổ mở tái tạo dây chằng bên chầy, bên mác)",Lần,XƯƠNG KHỚP,BHYT,4594500,VND,2024-01-01,,,1
+1,N315,Tái tạo dây chằng khớp gối qua nội soi,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12200000,VND,2024-01-01,,,1
+1,N315,Tái tạo dây chằng khớp gối qua nội soi,Lần,XƯƠNG KHỚP,BHYT,4594500,VND,2024-01-01,,,1
+1,N316,Phẫu thuật nội soi tái tạo dây chằng quạ đòn,Lần,XƯƠNG KHỚP,TU_CHI_TRA,18300000,VND,2024-01-01,,,1
+1,N316,Phẫu thuật nội soi tái tạo dây chằng quạ đòn,Lần,XƯƠNG KHỚP,BHYT,4594500,VND,2024-01-01,,,1
+1,N325,Phẫu thuật nội soi cắt hoạt mạc viêm khớp háng,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12200000,VND,2024-01-01,,,1
+1,N325,Phẫu thuật nội soi cắt hoạt mạc viêm khớp háng,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N326,Phẫu thuật nội soi điều trị rách sụn viền ổ cối,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12200000,VND,2024-01-01,,,1
+1,N326,Phẫu thuật nội soi điều trị rách sụn viền ổ cối,Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N347,"Nắn, bó bột gãy 1/3 trên hai xương cẳng chân (trái)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,N347,"Nắn, bó bột gãy 1/3 trên hai xương cẳng chân (trái)",Lần,XƯƠNG KHỚP,BHYT,372700,VND,2024-01-01,,,1
+1,N353,"Nắn, bó bột gãy 1/3 trên thân xương cánh tay (trái)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,N353,"Nắn, bó bột gãy 1/3 trên thân xương cánh tay (trái)",Lần,XƯƠNG KHỚP,BHYT,372700,VND,2024-01-01,,,1
+1,N359,"Nắn, bó bột gãy 1/3 trên xương đùi (trái)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,N359,"Nắn, bó bột gãy 1/3 trên xương đùi (trái)",Lần,XƯƠNG KHỚP,BHYT,659600,VND,2024-01-01,,,1
+1,N364,Phẫu thuật kết hợp xương (KHX) gãy xương bả vai,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N364,Phẫu thuật kết hợp xương (KHX) gãy xương bả vai,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N365,Phẫu thuật KHX gãy cổ xương bả vai,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N365,Phẫu thuật KHX gãy cổ xương bả vai,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N366,Phẫu thuật KHX gãy xương đòn,Lần,XƯƠNG KHỚP,TU_CHI_TRA,9000000,VND,2024-01-01,,,1
+1,N366,Phẫu thuật KHX gãy xương đòn,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N367,Phẫu thuật KHX trật khớp cùng đòn,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N367,Phẫu thuật KHX trật khớp cùng đòn,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N377,Phẫu thuật KHX gãy ròng rọc xương cánh tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,9200000,VND,2024-01-01,,,1
+1,N377,Phẫu thuật KHX gãy ròng rọc xương cánh tay,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N378,Phẫu thuật KHX gãy lồi cầu ngoài xương cánh tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,9200000,VND,2024-01-01,,,1
+1,N378,Phẫu thuật KHX gãy lồi cầu ngoài xương cánh tay,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N379,Phẫu thuật KHX gãy mỏm khuỷu,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N379,Phẫu thuật KHX gãy mỏm khuỷu,Lần,XƯƠNG KHỚP,BHYT,4324900,VND,2024-01-01,,,1
+1,N381,Phẫu thuật KHX gãy Monteggia,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N381,Phẫu thuật KHX gãy Monteggia,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N382,Phẫu thuật KHX gãy đài quay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,9000000,VND,2024-01-01,,,1
+1,N382,Phẫu thuật KHX gãy đài quay,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N383,Phẫu thuật KHX gãy đài quay phức tạp,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N383,Phẫu thuật KHX gãy đài quay phức tạp,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N385,Phẫu thuật KHX gãy xương quay kèm trật khớp quay trụ dưới,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N385,Phẫu thuật KHX gãy xương quay kèm trật khớp quay trụ dưới,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N386,Phẫu thuật KHX gãy phức tạp khớp khuỷu,Lần,XƯƠNG KHỚP,TU_CHI_TRA,16900000,VND,2024-01-01,,,1
+1,N386,Phẫu thuật KHX gãy phức tạp khớp khuỷu,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N387,Phẫu thuật KHX gãy đầu dưới xương quay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N387,Phẫu thuật KHX gãy đầu dưới xương quay,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N388,Phẫu thuật KHX gãy trật khớp cổ tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N388,Phẫu thuật KHX gãy trật khớp cổ tay,Lần,XƯƠNG KHỚP,BHYT,4324900,VND,2024-01-01,,,1
+1,N389,Phẫu thuật KHX gãy chỏm đốt bàn và ngón tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N389,Phẫu thuật KHX gãy chỏm đốt bàn và ngón tay,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N397,Phẫu thuật KHX gãy ổ cối phức tạp,Lần,XƯƠNG KHỚP,TU_CHI_TRA,17100000,VND,2024-01-01,,,1
+1,N397,Phẫu thuật KHX gãy ổ cối phức tạp,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N398,Phẫu thuật KHX gãy bán phần chỏm xương đùi,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12600000,VND,2024-01-01,,,1
+1,N398,Phẫu thuật KHX gãy bán phần chỏm xương đùi,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N400,Phẫu thuật KHX gãy cổ xương đùi,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12600000,VND,2024-01-01,,,1
+1,N400,Phẫu thuật KHX gãy cổ xương đùi,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N403,Phẫu thuật KHX gãy trật cổ xương đùi,Lần,XƯƠNG KHỚP,TU_CHI_TRA,17100000,VND,2024-01-01,,,1
+1,N403,Phẫu thuật KHX gãy trật cổ xương đùi,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N404,Phẫu thuật KHX gãy thân xương đùi,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12600000,VND,2024-01-01,,,1
+1,N404,Phẫu thuật KHX gãy thân xương đùi,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N411,Phẫu thuật KHX gãy bánh chè [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,7700000,VND,2024-01-01,,,1
+1,N411,Phẫu thuật KHX gãy bánh chè [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N412,Phẫu thuật KHX gãy xương bánh chè phức tạp [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N412,Phẫu thuật KHX gãy xương bánh chè phức tạp [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N413,Phẫu thuật KHX gãy mâm chày trong,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N413,Phẫu thuật KHX gãy mâm chày trong,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N434,Phẫu thuật KHX gãy hở độ II trên và liên lồi cầu xương đùi [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N434,Phẫu thuật KHX gãy hở độ II trên và liên lồi cầu xương đùi [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N435,Phẫu thuật KHX gãy hở độ III trên và liên lồi cầu xương đùi [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,15300000,VND,2024-01-01,,,1
+1,N435,Phẫu thuật KHX gãy hở độ III trên và liên lồi cầu xương đùi [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N436,Phẫu thuật KHX gãy hở I thân hai xương cẳng tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N436,Phẫu thuật KHX gãy hở I thân hai xương cẳng tay,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N442,Phẫu thuật KHX gãy hở liên lồi cầu xương cánh tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N442,Phẫu thuật KHX gãy hở liên lồi cầu xương cánh tay,Lần,XƯƠNG KHỚP,BHYT,4324900,VND,2024-01-01,,,1
+1,N446,Phẫu thuật KHX gãy nội khớp đầu dưới xương quay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,8500000,VND,2024-01-01,,,1
+1,N446,Phẫu thuật KHX gãy nội khớp đầu dưới xương quay,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N448,Phẫu thuật kết hợp xương gãy xương sên và trật khớp,Lần,XƯƠNG KHỚP,TU_CHI_TRA,15300000,VND,2024-01-01,,,1
+1,N448,Phẫu thuật kết hợp xương gãy xương sên và trật khớp,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N449,Phẫu thuật kết hợp xương chấn thương Lisfranc và bàn chân giữa [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N449,Phẫu thuật kết hợp xương chấn thương Lisfranc và bàn chân giữa [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N450,Phẫu thuật kết hợp xương gãy xương đốt bàn và đốt ngón chân,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10600000,VND,2024-01-01,,,1
+1,N450,Phẫu thuật kết hợp xương gãy xương đốt bàn và đốt ngón chân,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N451,Phẫu thuật kết hợp xương trật khớp cổ chân [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,10600000,VND,2024-01-01,,,1
+1,N451,Phẫu thuật kết hợp xương trật khớp cổ chân [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N452,Phẫu thuật kết hợp xương trật khớp dưới sên [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,10600000,VND,2024-01-01,,,1
+1,N452,Phẫu thuật kết hợp xương trật khớp dưới sên [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N453,Phẫu thuật kết hợp xương gãy trật khớp cổ chân ở trẻ em [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,10600000,VND,2024-01-01,,,1
+1,N453,Phẫu thuật kết hợp xương gãy trật khớp cổ chân ở trẻ em [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N454,Phẫu thuật kết hợp xương gãy bong sụn tiếp đầu dưới xương cánh tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11600000,VND,2024-01-01,,,1
+1,N454,Phẫu thuật kết hợp xương gãy bong sụn tiếp đầu dưới xương cánh tay,Lần,XƯƠNG KHỚP,BHYT,4324900,VND,2024-01-01,,,1
+1,N455,Phẫu thuật kết hợp xương bằng K.Wire điều trị gãy trên lồi cầu xương cánh tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,8700000,VND,2024-01-01,,,1
+1,N455,Phẫu thuật kết hợp xương bằng K.Wire điều trị gãy trên lồi cầu xương cánh tay,Lần,XƯƠNG KHỚP,BHYT,4324900,VND,2024-01-01,,,1
+1,N456,Phẫu thuật kết hợp xương gãy trên lồi cầu xương cánh tay có tổn thương mạch và thần kinh,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N456,Phẫu thuật kết hợp xương gãy trên lồi cầu xương cánh tay có tổn thương mạch và thần kinh,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N457,Phẫu thuật kết hợp xương gãy lồi cầu ngoài xương cánh tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,8500000,VND,2024-01-01,,,1
+1,N457,Phẫu thuật kết hợp xương gãy lồi cầu ngoài xương cánh tay,Lần,XƯƠNG KHỚP,BHYT,4324900,VND,2024-01-01,,,1
+1,N458,Phẫu thuật kết hợp xương gãy ròng rọc xương cánh tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11600000,VND,2024-01-01,,,1
+1,N458,Phẫu thuật kết hợp xương gãy ròng rọc xương cánh tay,Lần,XƯƠNG KHỚP,BHYT,4324900,VND,2024-01-01,,,1
+1,N459,Phẫu thuật kết hợp xương gãy phức tạp vùng khuỷu,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N459,Phẫu thuật kết hợp xương gãy phức tạp vùng khuỷu,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N460,Phẫu thuật kết hợp xương gãy đài quay (Gãy cổ xương quay),Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N460,Phẫu thuật kết hợp xương gãy đài quay (Gãy cổ xương quay),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N461,Phẫu thuật kết hợp xương gãy 2 xương cẳng tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N461,Phẫu thuật kết hợp xương gãy 2 xương cẳng tay,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N462,Phẫu thuật kết hợp xương gãy đầu dưới xương đùi,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N462,Phẫu thuật kết hợp xương gãy đầu dưới xương đùi,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N463,Phẫu thuật kết hợp xương gãy bong sụn tiếp vùng khớp gối,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N463,Phẫu thuật kết hợp xương gãy bong sụn tiếp vùng khớp gối,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N464,Phẫu thuật kết hợp xương gãy thân xương cẳng chân,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N464,Phẫu thuật kết hợp xương gãy thân xương cẳng chân,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N465,Phẫu thuật kết hợp xương gãy bong sụn tiếp đầu dưới xương chày,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N465,Phẫu thuật kết hợp xương gãy bong sụn tiếp đầu dưới xương chày,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N466,Phẫu thuật kết hợp xương gãy bong sụn vùng cổ xương đùi,Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N466,Phẫu thuật kết hợp xương gãy bong sụn vùng cổ xương đùi,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N467,Phẫu thuật kết hợp xương gãy sụn tăng trưởng ở đầu xương,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N467,Phẫu thuật kết hợp xương gãy sụn tăng trưởng ở đầu xương,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N468,Phẫu thuật kết hợp xương gãy xương bệnh lý,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11900000,VND,2024-01-01,,,1
+1,N468,Phẫu thuật kết hợp xương gãy xương bệnh lý,Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N469,Phẫu thuật Làm cứng khớp ở tư thế chức năng,Lần,XƯƠNG KHỚP,TU_CHI_TRA,11100000,VND,2024-01-01,,,1
+1,N469,Phẫu thuật Làm cứng khớp ở tư thế chức năng,Lần,XƯƠNG KHỚP,BHYT,4002600,VND,2024-01-01,,,1
+1,N470,Cắt u nang bao hoạt dịch,Lần,XƯƠNG KHỚP,TU_CHI_TRA,5900000,VND,2024-01-01,,,1
+1,N470,Cắt u nang bao hoạt dịch,Lần,XƯƠNG KHỚP,BHYT,1456700,VND,2024-01-01,,,1
+1,N471,Chọc dịch khớp,Lần,XƯƠNG KHỚP,TU_CHI_TRA,4500000,VND,2024-01-01,,,1
+1,N471,Chọc dịch khớp,Lần,XƯƠNG KHỚP,BHYT,129600,VND,2024-01-01,,,1
+1,N472,Tiêm gân gấp ngón tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,260000,VND,2024-01-01,,,1
+1,N472,Tiêm gân gấp ngón tay,Lần,XƯƠNG KHỚP,BHYT,104400,VND,2024-01-01,,,1
+1,N473,Tiêm hội chứng đường hầm cổ tay,Lần,XƯƠNG KHỚP,TU_CHI_TRA,260000,VND,2024-01-01,,,1
+1,N473,Tiêm hội chứng đường hầm cổ tay,Lần,XƯƠNG KHỚP,BHYT,104400,VND,2024-01-01,,,1
+1,N527,Phẫu thuật nội soi cắt lọc sụn khớp gối (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,13000000,VND,2024-01-01,,,1
+1,N527,Phẫu thuật nội soi cắt lọc sụn khớp gối (Gây mê),Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N528,Phẫu thuật điều trị đứt gân Achille (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N528,Phẫu thuật điều trị đứt gân Achille (Gây mê),Lần,XƯƠNG KHỚP,BHYT,3302900,VND,2024-01-01,,,1
+1,N529,"Phẫu thuật vi phẫu nối các mạch máu, thần kinh trong nối lại chi dưới bị cắt rời (Gây tê)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,19000000,VND,2024-01-01,,,1
+1,N529,"Phẫu thuật vi phẫu nối các mạch máu, thần kinh trong nối lại chi dưới bị cắt rời (Gây tê)",Lần,XƯƠNG KHỚP,BHYT,7094200,VND,2024-01-01,,,1
+1,N530,Phẫu thuật nội soi khớp cổ chân (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12000000,VND,2024-01-01,,,1
+1,N530,Phẫu thuật nội soi khớp cổ chân (Gây tê),Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N532,Phẫu thuật sửa mỏm cụt chi (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,8600000,VND,2024-01-01,,,1
+1,N532,Phẫu thuật sửa mỏm cụt chi (Gây mê),Lần,XƯƠNG KHỚP,BHYT,3226900,VND,2024-01-01,,,1
+1,N533,Tháo khớp háng (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,11600000,VND,2024-01-01,,,1
+1,N533,Tháo khớp háng (Gây mê),Lần,XƯƠNG KHỚP,BHYT,3994900,VND,2024-01-01,,,1
+1,N534,Rút đinh/tháo phương tiện kết hợp xương (phòng mổ) (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,7900000,VND,2024-01-01,,,1
+1,N534,Rút đinh/tháo phương tiện kết hợp xương (phòng mổ) (Gây mê),Lần,XƯƠNG KHỚP,BHYT,1857900,VND,2024-01-01,,,1
+1,N535,Phẫu thuật mở tái tạo dây chằng (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10100000,VND,2024-01-01,,,1
+1,N536,Phẫu thuật cắt lọc mô viêm (nốt tophi) (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,7600000,VND,2024-01-01,,,1
+1,N563,Phẫu thuật nội soi cắt hoạt mạc viêm khớp hang (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,N563,Phẫu thuật nội soi cắt hoạt mạc viêm khớp hang (Gây mê),Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N564,Phẫu thuật nội soi điều trị rách sụn viền ổ cối (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,13200000,VND,2024-01-01,,,1
+1,N564,Phẫu thuật nội soi điều trị rách sụn viền ổ cối (Gây mê),Lần,XƯƠNG KHỚP,BHYT,3602500,VND,2024-01-01,,,1
+1,N565,Phẫu thuật tái tạo dây chằng vòng (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10800000,VND,2024-01-01,,,1
+1,N566,Phẫu thuật KHX gãy xương đòn (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,7800000,VND,2024-01-01,,,1
+1,N566,Phẫu thuật KHX gãy xương đòn (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N567,Phẫu thuật KHX gãy cánh chậu (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N567,Phẫu thuật KHX gãy cánh chậu (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N568,Phẫu thuật KHX trật khớp cùng chậu (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N568,Phẫu thuật KHX trật khớp cùng chậu (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N569,Phẫu thuật KHX toác khớp mu [trật khớp] [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N569,Phẫu thuật KHX toác khớp mu [trật khớp] [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N570,Phẫu thuật KHX gãy khung chậu – trật khớp mu (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N570,Phẫu thuật KHX gãy khung chậu – trật khớp mu (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N571,Phẫu thuật KHX gãy ổ cối đơn thuần (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10700000,VND,2024-01-01,,,1
+1,N571,Phẫu thuật KHX gãy ổ cối đơn thuần (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N572,Phẫu thuật KHX gãy ổ cối phức tạp (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,15400000,VND,2024-01-01,,,1
+1,N572,Phẫu thuật KHX gãy ổ cối phức tạp (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N573,Phẫu thuật KHX gãy bán phần chỏm xương đùi (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N573,Phẫu thuật KHX gãy bán phần chỏm xương đùi (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N574,Phẫu thuật KHX gãy phức tạp chỏm xương đùi – trật háng (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,15400000,VND,2024-01-01,,,1
+1,N574,Phẫu thuật KHX gãy phức tạp chỏm xương đùi – trật háng (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N575,Phẫu thuật KHX gãy cổ xương đùi (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N575,Phẫu thuật KHX gãy cổ xương đùi (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N576,Phẫu thuật KHX gãy cổ mấu chuyển xương đùi (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N576,Phẫu thuật KHX gãy cổ mấu chuyển xương đùi (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N577,Phẫu thuật KHX gãy liên mấu chuyển xương đùi (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N577,Phẫu thuật KHX gãy liên mấu chuyển xương đùi (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N578,Phẫu thuật KHX gãy trật cổ xương đùi (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,15400000,VND,2024-01-01,,,1
+1,N578,Phẫu thuật KHX gãy trật cổ xương đùi (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N579,Phẫu thuật KHX gãy thân xương đùi (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N579,Phẫu thuật KHX gãy thân xương đùi (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N580,Phẫu thuật KHX gãy trên lồi cầu xương đùi (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N580,Phẫu thuật KHX gãy trên lồi cầu xương đùi (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N581,Phẫu thuật KHX gãy lồi cầu ngoài xương đùi (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10900000,VND,2024-01-01,,,1
+1,N581,Phẫu thuật KHX gãy lồi cầu ngoài xương đùi (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N593,Phẫu thuật KHX gãy thân 2 xương cẳng chân (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N593,Phẫu thuật KHX gãy thân 2 xương cẳng chân (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N594,Phẫu thuật KHX gãy xương mác đơn thuần (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N594,Phẫu thuật KHX gãy xương mác đơn thuần (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N595,Phẫu thuật KHX gãy đầu dưới xương chày (Pilon) (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,16900000,VND,2024-01-01,,,1
+1,N595,Phẫu thuật KHX gãy đầu dưới xương chày (Pilon) (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N596,Phẫu thuật KHX gãy 2 mắt cá cổ chân (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N596,Phẫu thuật KHX gãy 2 mắt cá cổ chân (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N597,Phẫu thuật KHX gãy mắt cá trong (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N597,Phẫu thuật KHX gãy mắt cá trong (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N598,Phẫu thuật KHX gãy mắt cá ngoài (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12100000,VND,2024-01-01,,,1
+1,N598,Phẫu thuật KHX gãy mắt cá ngoài (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N610,Phẫu thuật KHX gãy hở I thân hai xương cẳng tay (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,11100000,VND,2024-01-01,,,1
+1,N610,Phẫu thuật KHX gãy hở I thân hai xương cẳng tay (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N616,Phẫu thuật KHX gãy hở liên lồi cầu xương cánh tay [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,11100000,VND,2024-01-01,,,1
+1,N616,Phẫu thuật KHX gãy hở liên lồi cầu xương cánh tay [gây tê],Lần,XƯƠNG KHỚP,BHYT,3577600,VND,2024-01-01,,,1
+1,N634,Phẫu thuật kết hợp xương gãy 2 xương cẳng tay (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,11100000,VND,2024-01-01,,,1
+1,N634,Phẫu thuật kết hợp xương gãy 2 xương cẳng tay (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N635,Phẫu thuật kết hợp xương gãy đầu dưới xương đùi (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N635,Phẫu thuật kết hợp xương gãy đầu dưới xương đùi (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N636,Phẫu thuật kết hợp xương gãy bong sụn tiếp vùng khớp gối (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N636,Phẫu thuật kết hợp xương gãy bong sụn tiếp vùng khớp gối (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N637,Phẫu thuật kết hợp xương gãy thân xương cẳng chân (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N637,Phẫu thuật kết hợp xương gãy thân xương cẳng chân (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N638,Phẫu thuật kết hợp xương gãy bong sụn tiếp đầu dưới xương chày (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N638,Phẫu thuật kết hợp xương gãy bong sụn tiếp đầu dưới xương chày (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N639,Phẫu thuật kết hợp xương gãy bong sụn vùng cổ xương đùi (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,12300000,VND,2024-01-01,,,1
+1,N639,Phẫu thuật kết hợp xương gãy bong sụn vùng cổ xương đùi (Gây mê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N640,Phẫu thuật kết hợp xương gãy sụn tăng trưởng ở đầu xương (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,11100000,VND,2024-01-01,,,1
+1,N640,Phẫu thuật kết hợp xương gãy sụn tăng trưởng ở đầu xương (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N641,Phẫu thuật kết hợp xương gãy xương bệnh lý (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,11100000,VND,2024-01-01,,,1
+1,N641,Phẫu thuật kết hợp xương gãy xương bệnh lý (Gây tê),Lần,XƯƠNG KHỚP,BHYT,4102500,VND,2024-01-01,,,1
+1,N642,Phẫu thuật điều trị bệnh DE QUER VAIN (phòng mổ) (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,8100000,VND,2024-01-01,,,1
+1,N645,Phẫu thuật Nội soi khớp khuỷu (Gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,10000000,VND,2024-01-01,,,1
+1,N645,Phẫu thuật Nội soi khớp khuỷu (Gây tê),Lần,XƯƠNG KHỚP,BHYT,2434500,VND,2024-01-01,,,1
+1,N647,"Sinh thiết xương ( Sinh thiết hạch, u) (Gây mê)",Lần,XƯƠNG KHỚP,TU_CHI_TRA,6700000,VND,2024-01-01,,,1
+1,N648,Chọc dịch khớp (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,5700000,VND,2024-01-01,,,1
+1,N648,Chọc dịch khớp (Gây mê),Lần,XƯƠNG KHỚP,BHYT,129600,VND,2024-01-01,,,1
+1,N650,Phẫu thuật Sửa sẹo [gây tê],Lần,XƯƠNG KHỚP,TU_CHI_TRA,6900000,VND,2024-01-01,,,1
+1,N650,Phẫu thuật Sửa sẹo [gây tê],Lần,XƯƠNG KHỚP,BHYT,2389900,VND,2024-01-01,,,1
+1,N651,Phẫu thuật Sửa sẹo (Gây mê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,8100000,VND,2024-01-01,,,1
+1,N651,Phẫu thuật Sửa sẹo (Gây mê),Lần,XƯƠNG KHỚP,BHYT,3683600,VND,2024-01-01,,,1
+1,N652,Tiêm khớp vai (Tiêm nong khớp vai),Lần,XƯƠNG KHỚP,TU_CHI_TRA,500000,VND,2024-01-01,,,1
+1,N652,Tiêm khớp vai (Tiêm nong khớp vai),Lần,XƯƠNG KHỚP,BHYT,104400,VND,2024-01-01,,,1
+1,N653,Phẫu thuật nội soi điều trị tổn thương phức hợp sụn sợi tam giác (gây tê),Lần,XƯƠNG KHỚP,TU_CHI_TRA,11800000,VND,2024-01-01,,,1
+1,N653,Phẫu thuật nội soi điều trị tổn thương phức hợp sụn sợi tam giác (gây tê),Lần,XƯƠNG KHỚP,BHYT,4343300,VND,2024-01-01,,,1
+1,Z038,Phẫu thuật điều trị áp xe hậu môn phức tạp [gây tê],Lần,KHÁC,TU_CHI_TRA,7600000,VND,2024-01-01,,,1
+1,Z038,Phẫu thuật điều trị áp xe hậu môn phức tạp [gây tê],Lần,KHÁC,BHYT,2276400,VND,2024-01-01,,,1
+1,Z087,"Chích rạch nhọt, Apxe nhỏ dẫn lưu",Lần,KHÁC,TU_CHI_TRA,550000,VND,2024-01-01,,,1
+1,Z087,"Chích rạch nhọt, Apxe nhỏ dẫn lưu",Lần,KHÁC,BHYT,218500,VND,2024-01-01,,,1
+1,Z088,Rút máu để điều trị,Lần,KHÁC,TU_CHI_TRA,450000,VND,2024-01-01,,,1
+1,Z089,Thông tiểu,Lần,KHÁC,TU_CHI_TRA,220000,VND,2024-01-01,,,1
+1,Z089,Thông tiểu,Lần,KHÁC,BHYT,101800,VND,2024-01-01,,,1
+1,Z114,Kỹ thuật giảm đau bằng thuốc tê-morphinic qua khoang ngoài màng cứng thắt lưng qua bơm tiêm điện,Lần,KHÁC,TU_CHI_TRA,1700000,VND,2024-01-01,,,1
+1,Z120,Gọt chai chân (gọt nốt chai) trên người bệnh đái tháo đường,Lần,KHÁC,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,Z120,Gọt chai chân (gọt nốt chai) trên người bệnh đái tháo đường,Lần,KHÁC,BHYT,292300,VND,2024-01-01,,,1
+1,Z123,Phong bế cơ,Lần,KHÁC,TU_CHI_TRA,350000,VND,2024-01-01,,,1
+1,Z125,Rửa dạ dày cấp cứu,Lần,KHÁC,TU_CHI_TRA,220000,VND,2024-01-01,,,1
+1,Z125,Rửa dạ dày cấp cứu,Lần,KHÁC,BHYT,152000,VND,2024-01-01,,,1
+1,Z127,Rút ống dẫn lưu,Lần,KHÁC,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,Z130,Thay ống dẫn lưu (đặt ống dẫn lưu mới),Lần,KHÁC,TU_CHI_TRA,370000,VND,2024-01-01,,,1
+1,Z131,Thủ thuật chọc hút tủy làm tủy đồ (bao gồm kim chọc tủy nhiều lần),Lần,KHÁC,TU_CHI_TRA,600000,VND,2024-01-01,,,1
+1,Z131,Thủ thuật chọc hút tủy làm tủy đồ (bao gồm kim chọc tủy nhiều lần),Lần,KHÁC,BHYT,549900,VND,2024-01-01,,,1
+1,Z133,Thụt tháo phân,Lần,KHÁC,TU_CHI_TRA,110000,VND,2024-01-01,,,1
+1,Z133,Thụt tháo phân,Lần,KHÁC,BHYT,92400,VND,2024-01-01,,,1
+1,Z170,Hút ổ viêm/ áp xe phần mềm,Lần,KHÁC,TU_CHI_TRA,2010000,VND,2024-01-01,,,1
+1,Z170,Hút ổ viêm/ áp xe phần mềm,Lần,KHÁC,BHYT,126700,VND,2024-01-01,,,1
+1,Z173,Rửa dạ dày,Lần,KHÁC,TU_CHI_TRA,200000,VND,2024-01-01,,,1
+1,Z174,Chọc hút tế bào phần mềm bằng kim nhỏ (1 chỗ),Lần,KHÁC,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,Z174,Chọc hút tế bào phần mềm bằng kim nhỏ (1 chỗ),Lần,KHÁC,BHYT,126700,VND,2024-01-01,,,1
+1,Z177,Đặt catheter tĩnh mạch trung tâm nhiều nòng (2 nòng),Lần,KHÁC,TU_CHI_TRA,1550000,VND,2024-01-01,,,1
+1,Z177,Đặt catheter tĩnh mạch trung tâm nhiều nòng (2 nòng),Lần,KHÁC,BHYT,1158500,VND,2024-01-01,,,1
+1,Z178,Đặt catheter tĩnh mạch trung tâm nhiều nòng (3 nòng),Lần,KHÁC,TU_CHI_TRA,1690000,VND,2024-01-01,,,1
+1,Z178,Đặt catheter tĩnh mạch trung tâm nhiều nòng (3 nòng),Lần,KHÁC,BHYT,1158500,VND,2024-01-01,,,1
+1,Z181,"Thay băng vết thương chiều dài ≤ 15cm - người bệnh nội trú (có thấm dịch, máu trong các tổn thương lóc da. hở da. diện tích trên 6 cm2, chân ống dẫn lưu chảy dịch nhiều)",Lần,KHÁC,TU_CHI_TRA,110000,VND,2024-01-01,,,1
+1,Z181,"Thay băng vết thương chiều dài ≤ 15cm - người bệnh nội trú (có thấm dịch, máu trong các tổn thương lóc da. hở da. diện tích trên 6 cm2, chân ống dẫn lưu chảy dịch nhiều)",Lần,KHÁC,BHYT,64300,VND,2024-01-01,,,1
+1,Z182,"Thay băng vết thương chiều dài trên 15cm đến 30 cm-người bệnh nội trú(vết mổ rò mật,rò tiêu hóa,rò nước tiểu;phẫu thuật mổ lấy thai;sau phẫu thuật nhiếm khuẩn;sau một phẫu thuật có 2 đường mổ trở lên)",Lần,KHÁC,TU_CHI_TRA,150000,VND,2024-01-01,,,1
+1,Z182,"Thay băng vết thương chiều dài trên 15cm đến 30 cm-người bệnh nội trú(vết mổ rò mật,rò tiêu hóa,rò nước tiểu;phẫu thuật mổ lấy thai;sau phẫu thuật nhiếm khuẩn;sau một phẫu thuật có 2 đường mổ trở lên)",Lần,KHÁC,BHYT,89500,VND,2024-01-01,,,1
+1,Z185,Chọc hút/dẫn lưu dịch màng phổi [Đặt ống dẫn lưu khoang MP],Lần,KHÁC,TU_CHI_TRA,1600000,VND,2024-01-01,,,1
+1,Z185,Chọc hút/dẫn lưu dịch màng phổi [Đặt ống dẫn lưu khoang MP],Lần,KHÁC,BHYT,153700,VND,2024-01-01,,,1
+1,Z187,Đặt ống thông dạ dày (ống thông ngắn ngày),Lần,KHÁC,TU_CHI_TRA,180000,VND,2024-01-01,,,1
+1,Z187,Đặt ống thông dạ dày (ống thông ngắn ngày),Lần,KHÁC,BHYT,101800,VND,2024-01-01,,,1
+1,Z188,Đặt ống thông dạ dày (ống thông dài ngày),Lần,KHÁC,TU_CHI_TRA,350000,VND,2024-01-01,,,1
+1,Z188,Đặt ống thông dạ dày (ống thông dài ngày),Lần,KHÁC,BHYT,101800,VND,2024-01-01,,,1
+1,Z200,"Thay băng, cắt chỉ vết khâu da chiều dài từ 30 đến 50 cm (nội trú)",Lần,KHÁC,TU_CHI_TRA,220000,VND,2024-01-01,,,1
+1,Z200,"Thay băng, cắt chỉ vết khâu da chiều dài từ 30 đến 50 cm (nội trú)",Lần,KHÁC,BHYT,121400,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Nội khoa loại 2 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1900000,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Nội khoa loại 2 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,273800,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Ngoại khoa loại 4 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1900000,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Ngoại khoa loại 4 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,286700,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Ngoại khoa loại 3 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1900000,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Ngoại khoa loại 3 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,320700,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Ngoại khoa loại 2 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1900000,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Ngoại khoa loại 2 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,364400,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Ngoại khoa loại 1 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1900000,VND,2024-01-01,,,1
+1,EAAR,Phòng 2 giường- Giường Ngoại khoa loại 1 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,400400,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Nội khoa loại 2 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Nội khoa loại 2 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,273800,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Ngoại khoa loại 4 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Ngoại khoa loại 4 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,286700,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Ngoại khoa loại 3 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Ngoại khoa loại 3 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,320700,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Ngoại khoa loại 2 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Ngoại khoa loại 2 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,364400,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Ngoại khoa loại 1 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,TU_CHI_TRA,1500000,VND,2024-01-01,,,1
+1,EAAS,Phòng 4 giường- Giường Ngoại khoa loại 1 Hạng I,Ngày,NGÀY GIƯỜNG ĐIỀU TRỊ,BHYT,400400,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Nội khoa loại 2 Hạng I - Khoa Phụ - Sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),TU_CHI_TRA,1200000,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Nội khoa loại 2 Hạng I - Khoa Phụ - Sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),BHYT,273800,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Ngoại khoa loại 4 Hạng I - Khoa Phụ sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),TU_CHI_TRA,1200000,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Ngoại khoa loại 4 Hạng I - Khoa Phụ sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),BHYT,286700,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Ngoại khoa loại 3 Hạng I - Khoa Phụ - Sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),TU_CHI_TRA,1200000,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Ngoại khoa loại 3 Hạng I - Khoa Phụ - Sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),BHYT,320700,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Ngoại khoa loại 2 Hạng I - Khoa Phụ - Sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),TU_CHI_TRA,1200000,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Ngoại khoa loại 2 Hạng I - Khoa Phụ - Sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),BHYT,364400,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Ngoại khoa loại 1 Hạng I - Khoa Phụ - Sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),TU_CHI_TRA,1200000,VND,2024-01-01,,,1
+1,DFJS,Giường Khoa Phụ sản- Giường Ngoại khoa loại 1 Hạng I - Khoa Phụ - Sản,Ngày,KHOA PHỤ SẢN (CHU SINH 4B),BHYT,400400,VND,2024-01-01,,,1
+1,DN40,Chiếu đèn điều trị vàng da sơ sinh,Giờ,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,28000,VND,2024-01-01,,,1
+1,DO23,Oxy I (< 2 lít/ phút) [giờ đầu tiên] [gói 1] [Sử dụng bình CCO],Giờ,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,104000,VND,2024-01-01,,,1
+1,DN98,Oxy I (<2 l/p) (giờ tiếp theo) (gói 1),Giờ,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,4000,VND,2024-01-01,,,1
+1,DN99,Oxy II (2-3 l/p) (giờ tiếp theo) (gói 1),Giờ,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,5000,VND,2024-01-01,,,1
+1,DO09,Oxy II (2-3 l/p) (giờ tiếp theo) (gói 2),Giờ,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,5000,VND,2024-01-01,,,1
+1,DO11,Oxy III (3-5 lít/ phút) (giờ tiếp theo) (gói 2),Giờ,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,5500,VND,2024-01-01,,,1
+1,DO03,Oxy IV (5-7 l/p) (giờ tiếp theo) (gói 1),Giờ,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,10000,VND,2024-01-01,,,1
+1,DO05,Oxy V (>7 l/p) (giờ tiếp theo) (gói 1),Giờ,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,15000,VND,2024-01-01,,,1
+1,DH96,Trong TPHCM - Cước xe cấp cứu (Huyện Cần Giờ),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,1300000,VND,2024-01-01,,,1
+1,DH95,Trong TPHCM - Cước xe cấp cứu (Huyện Củ Chi),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,1150000,VND,2024-01-01,,,1
+1,DH90,Trong TPHCM - Cước xe cấp cứu (Quận 1-3-4-6-8-11),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,400000,VND,2024-01-01,,,1
+1,DH91,Trong TPHCM - Cước xe cấp cứu (Quận 2-7-12-Bình Chánh),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,650000,VND,2024-01-01,,,1
+1,DH89,Trong TPHCM - Cước xe cấp cứu (Quận 5; Quận 10),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,300000,VND,2024-01-01,,,1
+1,DH94,Trong TPHCM - Cước xe cấp cứu (Quận 9; Hóc Môn; Nhà Bè; Thủ Đức),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,720000,VND,2024-01-01,,,1
+1,DH93,Trong TPHCM - Cước xe cấp cứu (Quận Bình Tân; Bình Thạnh; Gò Vấp),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,550000,VND,2024-01-01,,,1
+1,DH92,Trong TPHCM - Cước xe cấp cứu (Quận Tân Bình; Tân Phú; Phú Nhuận),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,500000,VND,2024-01-01,,,1
+1,DH99,Ngoài TPHCM - Cước xe cấp cứu có bác sĩ đi kèm (Quãng đường dưới 73 km),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,2900000,VND,2024-01-01,,,1
+1,DHA0,Ngoài TPHCM - Cước xe cấp cứu có bác sĩ đi kèm (Quãng đường từ 73 km trở lên),Km,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,40000,VND,2024-01-01,,,1
+1,DH98,Ngoài TPHCM - Cước xe cấp cứu không có bác sĩ,Km,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,22000,VND,2024-01-01,,,1
+1,DH97,Phụ thu phí bác sĩ đi kèm (Trong TPHCM),Chuyến,DỊCH VỤ Y TẾ KHÁC,TU_CHI_TRA,1000000,VND,2024-01-01,,,1

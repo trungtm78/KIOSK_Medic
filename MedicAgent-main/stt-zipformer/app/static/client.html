@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zipformer STT Demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: system-ui, sans-serif;
+      }
+
+      body {
+        margin: 0;
+        padding: 2rem;
+        display: flex;
+        min-height: 100vh;
+        align-items: center;
+        justify-content: center;
+        background: #f5f5f5;
+      }
+
+      .card {
+        background: #ffffff;
+        border-radius: 16px;
+        box-shadow: 0 20px 45px rgba(15, 23, 42, 0.1);
+        padding: 2.5rem;
+        max-width: 560px;
+        width: 100%;
+        display: grid;
+        gap: 1.5rem;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: 1.75rem;
+        color: #0f172a;
+      }
+
+      p {
+        margin: 0;
+        color: #475569;
+      }
+
+      .controls {
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+      }
+
+      .control-row {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        flex-wrap: wrap;
+      }
+
+      .threshold-control {
+        display: flex;
+        align-items: center;
+        gap: 0.5rem;
+      }
+
+      .threshold-control label {
+        font-weight: 600;
+        color: #0f172a;
+      }
+
+      .threshold-control input[type="range"] {
+        width: 180px;
+      }
+
+      .threshold-control span {
+        font-variant-numeric: tabular-nums;
+        color: #475569;
+      }
+
+      .upload-box {
+        border: 2px dashed #94a3b8;
+        border-radius: 12px;
+        padding: 1.5rem;
+        text-align: center;
+        transition: border-color 0.2s ease;
+        cursor: pointer;
+      }
+
+      .upload-box.dragover {
+        border-color: #2563eb;
+        background: rgba(37, 99, 235, 0.08);
+      }
+
+      label {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.5rem;
+        font-weight: 600;
+        color: #2563eb;
+        cursor: pointer;
+      }
+
+      input[type="file"] {
+        display: none;
+      }
+
+      button {
+        background: linear-gradient(135deg, #2563eb, #1d4ed8);
+        color: #fff;
+        border: none;
+        border-radius: 999px;
+        padding: 0.85rem 1.75rem;
+        font-size: 1rem;
+        font-weight: 600;
+        cursor: pointer;
+        transition: transform 0.1s ease, box-shadow 0.1s ease;
+        box-shadow: 0 12px 24px rgba(37, 99, 235, 0.25);
+      }
+
+      button:disabled {
+        background: #94a3b8;
+        cursor: not-allowed;
+        box-shadow: none;
+      }
+
+      .secondary {
+        background: #e2e8f0;
+        color: #0f172a;
+        box-shadow: none;
+      }
+
+      .secondary:hover {
+        transform: none;
+        box-shadow: none;
+      }
+
+      button:not(:disabled):hover {
+        transform: translateY(-1px);
+        box-shadow: 0 16px 30px rgba(37, 99, 235, 0.35);
+      }
+
+      .status {
+        font-size: 0.95rem;
+        color: #0f172a;
+        min-height: 1.5rem;
+      }
+
+      .result {
+        background: #f1f5f9;
+        border-radius: 12px;
+        padding: 1.25rem;
+        white-space: pre-wrap;
+        font-family: "Courier New", Courier, monospace;
+        color: #1e293b;
+        min-height: 3rem;
+      }
+
+      audio {
+        width: 100%;
+        margin-top: 0.5rem;
+      }
+
+      .hint {
+        font-size: 0.85rem;
+        color: #64748b;
+      }
+
+      @media (max-width: 640px) {
+        body {
+          padding: 1rem;
+          background: #fff;
+        }
+
+        .card {
+          padding: 1.75rem;
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="card">
+      <div>
+        <h1>Zipformer Speech-to-Text</h1>
+        <p>Select a WAV/MP3/OGG audio file and send it to the ONNX Runtime service.</p>
+      </div>
+
+      <div class="controls">
+        <div class="control-row">
+          <button id="micBtn" type="button" class="secondary">Enable Microphone</button>
+          <div class="threshold-control">
+            <label for="threshold">Energy threshold</label>
+            <input id="threshold" type="range" min="1" max="100" value="12" />
+            <span id="thresholdValue">0.012</span>
+          </div>
+        </div>
+        <span class="hint">
+          Segments start when energy rises above the threshold and end after 1 second of silence.
+        </span>
+      </div>
+
+      <div
+        id="dropzone"
+        class="upload-box"
+        onclick="document.getElementById('audioInput').click()"
+      >
+        <label>
+          <span aria-hidden="true">[file]</span>
+          Choose or drop an audio file
+        </label>
+        <input id="audioInput" type="file" accept="audio/*" />
+        <audio id="preview" controls hidden></audio>
+      </div>
+
+      <button id="submitBtn" type="button" disabled>Transcribe</button>
+
+      <div class="status" id="status"></div>
+
+      <div class="result" id="result">Transcription will appear here...</div>
+    </main>
+
+    <script>
+      const input = document.getElementById("audioInput");
+      const dropzone = document.getElementById("dropzone");
+      const preview = document.getElementById("preview");
+      const statusEl = document.getElementById("status");
+      const resultEl = document.getElementById("result");
+      const submitBtn = document.getElementById("submitBtn");
+      const micBtn = document.getElementById("micBtn");
+      const thresholdRange = document.getElementById("threshold");
+      const thresholdValue = document.getElementById("thresholdValue");
+      let fileBlob = null;
+      let currentFileName = "";
+      const defaultResultText = "Transcription will appear here...";
+      resultEl.textContent = defaultResultText;
+      statusEl.textContent = "Idle";
+
+      const SILENCE_DURATION = 1000;
+      let energyThreshold = 0.012;
+      let audioContext;
+      let analyser;
+      let dataArray;
+      let mediaStream;
+      let mediaRecorder;
+      let monitoring = false;
+      let recording = false;
+      let silenceStart = null;
+      let monitorRafId = null;
+      let chunks = [];
+
+      function updateThreshold() {
+        energyThreshold = Number(thresholdRange.value) / 1000;
+        thresholdValue.textContent = energyThreshold.toFixed(3);
+      }
+      thresholdRange.addEventListener("input", updateThreshold);
+      updateThreshold();
+
+      micBtn.addEventListener("click", () => {
+        if (monitoring) {
+          stopMonitoring();
+        } else {
+          startMonitoring();
+        }
+      });
+
+      function handleFile(file) {
+        if (!file) return;
+        console.log("[Zipformer] File selected", {
+          name: file.name,
+          size: file.size,
+          type: file.type,
+        });
+        fileBlob = file;
+        currentFileName = file.name;
+        submitBtn.disabled = false;
+        preview.hidden = false;
+        preview.src = URL.createObjectURL(file);
+        statusEl.textContent = `Selected: ${file.name} (${Math.round(
+          file.size / 1024
+        )} KB)`;
+        resultEl.textContent = "Ready to upload.";
+      }
+
+      input.addEventListener("change", (event) => {
+        const [file] = event.target.files || [];
+        handleFile(file);
+      });
+
+      dropzone.addEventListener("dragover", (event) => {
+        event.preventDefault();
+        dropzone.classList.add("dragover");
+      });
+
+      dropzone.addEventListener("dragleave", () => {
+        dropzone.classList.remove("dragover");
+      });
+
+      dropzone.addEventListener("drop", (event) => {
+        event.preventDefault();
+        dropzone.classList.remove("dragover");
+        const [file] = event.dataTransfer.files || [];
+        handleFile(file);
+      });
+
+      submitBtn.addEventListener("click", async () => {
+        submitCurrentFile(false);
+      });
+
+      function appendResult(text, source) {
+        if (resultEl.textContent === defaultResultText) {
+          resultEl.textContent = "";
+        }
+        const timestamp = new Date().toLocaleTimeString();
+        const entry = `[${timestamp}] ${source}: ${text}`;
+        resultEl.textContent = resultEl.textContent
+          ? `${entry}\n${resultEl.textContent}`.trim()
+          : entry;
+      }
+
+      async function submitCurrentFile(auto = false) {
+        if (!fileBlob) return;
+
+        submitBtn.disabled = true;
+        const filename = currentFileName || `upload-${Date.now()}.webm`;
+
+        try {
+          console.log("[Zipformer] Submitting file", {
+            filename,
+            auto,
+            size: fileBlob.size,
+            type: fileBlob.type,
+          });
+          await transcribe(fileBlob, filename, auto);
+        } catch (error) {
+          const message = error?.message || "Unknown error.";
+          console.error("[Zipformer] Transcription error", error);
+          appendResult(`Error: ${message}`, filename);
+          statusEl.textContent = `Error: ${message}`;
+        } finally {
+          submitBtn.disabled = !fileBlob;
+          if (auto && monitoring) {
+            statusEl.textContent = "Listening for speech...";
+          }
+        }
+      }
+
+      async function transcribe(blob, filename, auto = false) {
+        statusEl.textContent = auto ? "Transcribing automatically..." : "Uploading...";
+        const formData = new FormData();
+        formData.append("file", blob, filename);
+        console.log("[Zipformer] Sending POST /stt-zipformer/transcribe", {
+          filename,
+          auto,
+        });
+        const response = await fetch("/stt-zipformer/transcribe", {
+          method: "POST",
+          body: formData,
+        });
+
+        console.log("[Zipformer] Response received", {
+          status: response.status,
+          ok: response.ok,
+        });
+
+        if (!response.ok) {
+          const detail = await response.json().catch(() => ({}));
+          console.error("[Zipformer] Non-OK response", detail);
+          throw new Error(detail.detail || response.statusText);
+        }
+
+        const data = await response.json();
+        console.log("[Zipformer] Transcription success", {
+          filename,
+          textLength: (data.text || "").length,
+        });
+        appendResult(data.text || "(No text returned)", filename);
+        statusEl.textContent = auto
+          ? monitoring
+            ? "Listening for speech..."
+            : "Done"
+          : "Done";
+      }
+
+      async function startMonitoring() {
+        if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+          statusEl.textContent = "Microphone capture is not supported in this browser.";
+          return;
+        }
+
+        try {
+          mediaStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+          setupAudioProcessing(mediaStream);
+          monitoring = true;
+          console.log("[Zipformer] Microphone monitoring started");
+          micBtn.textContent = "Stop Listening";
+          micBtn.classList.remove("secondary");
+          statusEl.textContent = "Listening for speech...";
+          monitorEnergy();
+        } catch (error) {
+          console.error("[Zipformer] Microphone error", error);
+          statusEl.textContent = `Microphone error: ${error.message}`;
+        }
+      }
+
+      function stopMonitoring() {
+        monitoring = false;
+        console.log("[Zipformer] Microphone monitoring stopped");
+        if (monitorRafId) {
+          cancelAnimationFrame(monitorRafId);
+          monitorRafId = null;
+        }
+        if (mediaRecorder && mediaRecorder.state === "recording") {
+          mediaRecorder.stop();
+        }
+        cleanupStream();
+        micBtn.textContent = "Enable Microphone";
+        micBtn.classList.add("secondary");
+        statusEl.textContent = "Microphone stopped.";
+      }
+
+      function cleanupStream() {
+        if (mediaStream) {
+          mediaStream.getTracks().forEach((track) => track.stop());
+          mediaStream = null;
+        }
+        if (audioContext) {
+          audioContext.close().catch(() => {});
+          audioContext = null;
+        }
+        analyser = null;
+        dataArray = null;
+        mediaRecorder = null;
+        recording = false;
+        silenceStart = null;
+        chunks = [];
+      }
+
+      function setupAudioProcessing(stream) {
+        audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        const source = audioContext.createMediaStreamSource(stream);
+        analyser = audioContext.createAnalyser();
+        analyser.fftSize = 2048;
+        dataArray = new Float32Array(analyser.fftSize);
+        source.connect(analyser);
+
+        if (typeof MediaRecorder === "undefined") {
+          statusEl.textContent = "MediaRecorder API is not available in this browser.";
+          stopMonitoring();
+          return;
+        }
+
+        mediaRecorder = new MediaRecorder(stream);
+        mediaRecorder.ondataavailable = (event) => {
+          if (event.data && event.data.size > 0) {
+            chunks.push(event.data);
+          }
+        };
+        mediaRecorder.onstart = () => {
+          recording = true;
+          chunks = [];
+          silenceStart = null;
+        };
+        mediaRecorder.onstop = () => {
+          recording = false;
+          silenceStart = null;
+          if (!chunks.length) {
+            return;
+          }
+          const blob = new Blob(chunks, {
+            type: mediaRecorder.mimeType || "audio/webm",
+          });
+          const filename = `segment-${new Date()
+            .toISOString()
+            .replace(/[:.]/g, "-")}.webm`;
+          fileBlob = new File([blob], filename, { type: blob.type });
+          currentFileName = fileBlob.name;
+          preview.hidden = false;
+          preview.src = URL.createObjectURL(blob);
+          statusEl.textContent = "Segment captured, transcribing...";
+          submitCurrentFile(true);
+        };
+      }
+
+      function monitorEnergy() {
+        if (!monitoring || !analyser) {
+          return;
+        }
+
+        analyser.getFloatTimeDomainData(dataArray);
+        let sumSquares = 0;
+        for (let i = 0; i < dataArray.length; i += 1) {
+          const sample = dataArray[i];
+          sumSquares += sample * sample;
+        }
+        const rms = Math.sqrt(sumSquares / dataArray.length);
+
+        if (!recording && rms > energyThreshold) {
+          startRecording();
+        } else if (recording) {
+          if (rms < energyThreshold) {
+            if (!silenceStart) {
+              silenceStart = performance.now();
+            } else if (performance.now() - silenceStart > SILENCE_DURATION) {
+              stopRecording();
+            }
+          } else {
+            silenceStart = null;
+          }
+        }
+
+        monitorRafId = requestAnimationFrame(monitorEnergy);
+      }
+
+      function startRecording() {
+        if (!mediaRecorder || recording) {
+          return;
+        }
+        if (mediaRecorder.state === "recording") {
+          console.warn("[Zipformer] startRecording called while already recording");
+          return;
+        }
+        console.log("[Zipformer] Recording started");
+        chunks = [];
+        silenceStart = null;
+        mediaRecorder.start();
+        statusEl.textContent = "Recording segment...";
+      }
+
+      function stopRecording() {
+        if (!mediaRecorder || mediaRecorder.state !== "recording") {
+          return;
+        }
+        console.log("[Zipformer] Recording stopped");
+        mediaRecorder.stop();
+      }
+    </script>
+  </body>
+</html>

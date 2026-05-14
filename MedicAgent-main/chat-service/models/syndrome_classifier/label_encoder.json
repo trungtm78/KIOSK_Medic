@@ -1,0 +1,24 @@
+{
+  "classes": [
+    "abdominal_pain",
+    "acute_visual_loss",
+    "allergic_reaction",
+    "anaphylaxis",
+    "asthma_or_dyspnea",
+    "cardiac_chest_pain",
+    "dysuria",
+    "gastrointestinal_bleeding",
+    "gastrointestinal_infection",
+    "neuropathic_paresthesia",
+    "peptic_ulcer",
+    "poisoning_or_foreign_body",
+    "renal_or_edema",
+    "respiratory_infection",
+    "seizure",
+    "severe_headache",
+    "spine_msk_pain",
+    "stroke",
+    "trauma_skin_wound",
+    "vertigo"
+  ]
+}

@@ -1,0 +1,175 @@
+_format_version: "3.0"
+
+plugins:
+  # Global CORS
+  - name: cors
+    config:
+      origins:
+        - "*"
+      methods:
+        - GET
+        - POST
+        - PUT
+        - PATCH
+        - DELETE
+        - OPTIONS
+      headers:
+        - Accept
+        - Accept-Version
+        - Content-Length
+        - Content-MD5
+        - Content-Type
+        - Date
+        - Authorization
+        - apikey
+        - X-Requested-With
+        - X-Tenant-Id
+        - Idempotency-Key
+        - Last-Event-ID
+      exposed_headers:
+        - X-RateLimit-Limit
+        - X-RateLimit-Remaining
+        - X-RateLimit-Reset
+      credentials: true
+      max_age: 3600
+
+  # Global file logging
+  - name: file-log
+    config:
+      path: /usr/local/kong/logs/requests.log
+
+  # Global rate limiting (per-tenant via consumer)
+  - name: rate-limiting
+    config:
+      second: 50
+      minute: 1000
+      policy: local
+      limit_by: consumer
+      fault_tolerant: true
+
+services:
+  # Tenant A service — routes /openapi/tenant-a/** to main-service
+  - name: tenant-a-service
+    url: http://main-service:8080
+    routes:
+      - name: tenant-a-openapi
+        paths:
+          - /openapi/tenant-a
+        strip_path: true
+        methods: [GET, POST, PUT, PATCH, DELETE, OPTIONS]
+        plugins:
+          - name: key-auth
+          - name: acl
+            config:
+              allow:
+                - tenant-a
+
+  # Tenant B service — routes /openapi/tenant-b/** to main-service
+  - name: tenant-b-service
+    url: http://main-service:8080
+    routes:
+      - name: tenant-b-openapi
+        paths:
+          - /openapi/tenant-b
+        strip_path: true
+        methods: [GET, POST, PUT, PATCH, DELETE, OPTIONS]
+        plugins:
+          - name: key-auth
+          - name: acl
+            config:
+              allow:
+                - tenant-b
+
+  # BFF service: expose /v1/** directly to BFF
+  # - name: bff-service
+  #   url: http://bff:8081
+  #   routes:
+  #     - name: bff-v1
+  #       paths:
+  #         - /v1
+  #       # Keep /v1 prefix so upstream receives the same path
+  #       strip_path: false
+  #       methods: [GET, POST, OPTIONS]
+
+  # Chat service: expose /v1/chat/** to chat-service
+  - name: medicagent-chat-service
+    url: http://medicagent-chat-service:8000
+    routes:
+      - name: chat-service-v1
+        paths:
+          - /v1/chat
+        # Preserve path so chat-service receives the full route
+        strip_path: false
+        methods: [GET, POST, OPTIONS]
+
+  - name: medicagent-core-service-service
+    url: http://medicagent-core-service:8080
+    routes:
+      - name: core-service-v1
+        paths:
+          - /v1/core
+          - /v1/queue
+          - /v1/directory
+          - /v1/info/lookup
+          - /v1/info/prices/lookup
+          - /v1/maps
+          - /knowledge-assets
+        strip_path: false
+        methods: [GET, POST, PUT, PATCH, DELETE, OPTIONS]
+
+  # STT Whisper service: websocket transcription
+  - name: stt-whisper-service
+    url: http://medicagent-sttphowhisper-service:8000
+    routes:
+      - name: stt-whisper
+        paths:
+          - /v1/stt/ws/transcribe
+          - /v1/stt/
+          - /v1/stt
+        strip_path: false
+
+  # Ollama LLM service (CPU)
+  - name: ollama-service
+    url: http://medicagent-ollama:11434
+    routes:
+      - name: ollama-llm
+        paths:
+          - /llm
+        strip_path: true
+        methods: [GET, POST, PUT, PATCH, DELETE, OPTIONS]
+
+  - name: stt-zipformer-service
+    url: http://medicagent-stt-zipformer-service:8000
+    routes:
+     - name: stt-zipformer
+       paths:
+         - /stt-zipformer
+         - /stt-zipformer/transcribe
+       strip_path: false
+       methods: [GET, POST, OPTIONS]
+
+  # Frontend service: forward browser traffic to the React app
+  - name: medicagent-frontend
+    url: http://medicagent_fe:3000
+    routes:
+      - name: frontend-root
+        paths:
+          - /
+        strip_path: true
+        methods: [GET, HEAD, OPTIONS]
+
+# consumers:
+#   - username: tenant-a
+#     custom_id: tenant-a
+#     tags: [tenant:tenant-a]
+#     acls:
+#       - group: tenant-a
+#     keyauth_credentials:
+#       - key: key-tenant-a-demo
+#   - username: tenant-b
+#     custom_id: tenant-b
+#     tags: [tenant:tenant-b]
+#     acls:
+#       - group: tenant-b
+#     keyauth_credentials:
+#       - key: key-tenant-b-demo

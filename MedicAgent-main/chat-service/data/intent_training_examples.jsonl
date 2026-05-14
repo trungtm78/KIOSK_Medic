@@ -1,0 +1,526 @@
+{"text": "tôi muốn tra cứu thông tin", "intent": "info_lookup_generic"}
+{"text": "cho tôi hỏi thông tin chung", "intent": "info_lookup_generic"}
+{"text": "tôi muốn xem thông tin", "intent": "info_lookup_generic"}
+{"text": "tra cứu giúp tôi", "intent": "info_lookup_generic"}
+{"text": "tôi muốn hỏi một số thông tin", "intent": "info_lookup_generic"}
+{"text": "cần xem thông tin bệnh viện", "intent": "info_lookup_generic"}
+{"text": "cho tôi hỏi chút", "intent": "info_lookup_generic"}
+{"text": "tôi cần biết thông tin", "intent": "info_lookup_generic"}
+{"text": "tra cứu nội dung", "intent": "info_lookup_generic"}
+{"text": "tôi muốn hỏi thông tin chính sách", "intent": "info_lookup_generic"}
+{"text": "tra cứu thông tin chung", "intent": "info_lookup_generic"}
+{"text": "cho tôi biết thông tin", "intent": "info_lookup_generic"}
+{"text": "xin hỏi thông tin", "intent": "info_lookup_generic"}
+{"text": "cho tôi xem thông tin", "intent": "info_lookup_generic"}
+{"text": "có thể tra cứu giúp tôi", "intent": "info_lookup_generic"}
+{"text": "tôi cần hỏi một chút", "intent": "info_lookup_generic"}
+{"text": "tôi muốn hỏi", "intent": "info_lookup_generic"}
+{"text": "hỏi thông tin", "intent": "info_lookup_generic"}
+{"text": "tôi muốn biết", "intent": "info_lookup_generic"}
+{"text": "hỏi thông tin chung", "intent": "info_lookup_generic"}
+{"text": "tôi muốn tra cứu", "intent": "info_lookup_generic"}
+{"text": "tra cứu giúp", "intent": "info_lookup_generic"}
+{"text": "tôi cần tư vấn thông tin", "intent": "info_lookup_generic"}
+{"text": "cho tôi hỏi chung", "intent": "info_lookup_generic"}
+{"text": "tôi muốn xem thông tin", "intent": "info_lookup_generic"}
+{"text": "tra cứu giúp thông tin", "intent": "info_lookup_generic"}
+{"text": "tra cứu cho tôi", "intent": "info_lookup_generic"}
+{"text": "tôi muốn hỏi thông tin bất kỳ", "intent": "info_lookup_generic"}
+{"text": "cho tôi tra cứu", "intent": "info_lookup_generic"}
+{"text": "tôi muốn xem thông tin chung", "intent": "info_lookup_generic"}
+{"text": "bạn có thể tra cứu giúp tôi thông tin bệnh viện không", "intent": "info_lookup_generic"}
+{"text": "cho tôi biết hiện có những dịch vụ nào", "intent": "info_lookup_generic"}
+{"text": "tra cứu giúp tôi về các gói khám", "intent": "info_lookup_generic"}
+{"text": "tôi cần xem thông tin dịch vụ khám", "intent": "info_lookup_generic"}
+{"text": "cho tôi xin thông tin tổng quan bệnh viện", "intent": "info_lookup_generic"}
+{"text": "bạn tra giúp tôi các dịch vụ đang mở", "intent": "info_lookup_generic"}
+{"text": "bhyt chi trả thế nào khi khám trái tuyến", "intent": "insurance_policy"}
+{"text": "quy định mới về thông tư 13 là gì", "intent": "insurance_policy"}
+{"text": "cho tôi hỏi nghị định liên quan đến viện phí", "intent": "insurance_policy"}
+{"text": "thủ tục cấp lại thẻ bhyt ra sao", "intent": "insurance_policy"}
+{"text": "điều kiện hưởng bảo hiểm khi sinh", "intent": "insurance_policy"}
+{"text": "thông tin thông tư 39 về giá dịch vụ", "intent": "insurance_policy"}
+{"text": "chính sách thanh toán bhyt nội trú", "intent": "insurance_policy"}
+{"text": "hướng dẫn chuyển tuyến theo luật", "intent": "insurance_policy"}
+{"text": "tôi cần biết quy định khám bhyt ban đầu", "intent": "insurance_policy"}
+{"text": "bhyt có chi trả thuốc này không", "intent": "insurance_policy"}
+{"text": "cho xem faq về quyền lợi bệnh nhân", "intent": "insurance_policy"}
+{"text": "nghị định nào quy định thời gian khám", "intent": "insurance_policy"}
+{"text": "điều kiện để được miễn giảm viện phí", "intent": "insurance_policy"}
+{"text": "thủ tục hưởng bhyt ngoại trú", "intent": "insurance_policy"}
+{"text": "thông tin thanh toán đồng chi trả", "intent": "insurance_policy"}
+{"text": "quy định tạm ứng viện phí bhyt", "intent": "insurance_policy"}
+{"text": "luật nói gì về chuyển viện", "intent": "insurance_policy"}
+{"text": "bhyt chi trả thuốc đặc trị không", "intent": "insurance_policy"}
+{"text": "điều kiện hưởng bảo hiểm khi phẫu thuật", "intent": "insurance_policy"}
+{"text": "hỏi về quyền lợi bhyt tuyến quận", "intent": "insurance_policy"}
+{"text": "thủ tục bảo lãnh viện phí", "intent": "insurance_policy"}
+{"text": "cần giấy tờ gì khi khám bhyt", "intent": "insurance_policy"}
+{"text": "bhyt có áp dụng cho khám vip", "intent": "insurance_policy"}
+{"text": "hạn mức thanh toán bhyt", "intent": "insurance_policy"}
+{"text": "thông tư nào hướng dẫn giá dịch vụ", "intent": "insurance_policy"}
+{"text": "quy trình đổi thẻ bhyt", "intent": "insurance_policy"}
+{"text": "tôi muốn biết luật về khám dịch vụ", "intent": "insurance_policy"}
+{"text": "bhyt chi bao nhiêu cho chụp mri", "intent": "insurance_policy"}
+{"text": "quy định về tái khám bhyt", "intent": "insurance_policy"}
+{"text": "thông tin nghị định 146", "intent": "insurance_policy"}
+{"text": "tôi muốn biết mức hưởng bhyt khi sinh thường", "intent": "insurance_policy"}
+{"text": "bhyt thanh toán bao nhiêu phần trăm cho xét nghiệm máu", "intent": "insurance_policy"}
+{"text": "quy định chuyển tuyến bhyt năm nay thế nào", "intent": "insurance_policy"}
+{"text": "cần giấy tờ gì để được bhyt chi trả 100%", "intent": "insurance_policy"}
+{"text": "thời hạn sử dụng thẻ bhyt được bao lâu", "intent": "insurance_policy"}
+{"text": "bhyt có thanh toán dịch vụ sinh mổ không", "intent": "insurance_policy"}
+{"text": "mức đồng chi trả bhyt nội trú là bao nhiêu", "intent": "insurance_policy"}
+{"text": "bhyt chi bao nhieu phan tram khi kham trai tuyen", "intent": "insurance_policy"}
+{"text": "bao hiem y te ap dung the nao khi di kham trai tuyen", "intent": "insurance_policy"}
+{"text": "toi muon hoi quyen loi bhyt khi kham dich vu", "intent": "insurance_policy"}
+{"text": "bao hiem y te co thanh toan thuoc ngoai danh muc khong", "intent": "insurance_policy"}
+{"text": "bhyt tra bao nhieu cho chi phi nam vien", "intent": "insurance_policy"}
+{"text": "che do bhyt cho phu san sinh mo ra sao", "intent": "insurance_policy"}
+{"text": "bao hiem y te ho tro bao nhieu cho xet nghiem mri", "intent": "insurance_policy"}
+{"text": "the bhyt con hieu luc den khi nao", "intent": "insurance_policy"}
+{"text": "lam lai the bhyt that lac can thu tuc gi", "intent": "insurance_policy"}
+{"text": "bhyt co tra tien thuoc khang sinh khong", "intent": "insurance_policy"}
+{"text": "bao hiem y te co tra dien tim hay khong", "intent": "insurance_policy"}
+{"text": "giá chụp ct vùng cổ bhyt bao nhiêu", "intent": "service_price_lookup"}
+{"text": "chi phí nội soi dạ dày tự trả", "intent": "service_price_lookup"}
+{"text": "khám tổng quát vip giá thế nào", "intent": "service_price_lookup"}
+{"text": "xét nghiệm máu hết nhiêu tiền", "intent": "service_price_lookup"}
+{"text": "chi phí nằm giường dịch vụ một ngày", "intent": "service_price_lookup"}
+{"text": "siêu âm tim giá bao nhiêu", "intent": "service_price_lookup"}
+{"text": "chụp mri cột sống bao nhiêu tiền", "intent": "service_price_lookup"}
+{"text": "bảng giá khám phụ khoa", "intent": "service_price_lookup"}
+{"text": "khám nhi bhyt giá bao nhiêu", "intent": "service_price_lookup"}
+{"text": "chụp ct có cản quang giá dịch vụ", "intent": "service_price_lookup"}
+{"text": "chi phí làm xét nghiệm đường huyết", "intent": "service_price_lookup"}
+{"text": "giá tiêm ngừa ở khu dịch vụ", "intent": "service_price_lookup"}
+{"text": "khám mắt tổng quát bao nhiêu", "intent": "service_price_lookup"}
+{"text": "giá khám tai mũi họng", "intent": "service_price_lookup"}
+{"text": "khám sản dịch vụ giá bao nhiêu", "intent": "service_price_lookup"}
+{"text": "nội soi tai giá bhyt", "intent": "service_price_lookup"}
+{"text": "xét nghiệm covid giá bao nhiêu", "intent": "service_price_lookup"}
+{"text": "chi phí phẫu thuật mắt", "intent": "service_price_lookup"}
+{"text": "giá khám tim mạch", "intent": "service_price_lookup"}
+{"text": "khám sức khỏe doanh nghiệp bao nhiêu", "intent": "service_price_lookup"}
+{"text": "chụp xquang phổi giá bhyt", "intent": "service_price_lookup"}
+{"text": "giá xét nghiệm tổng quát", "intent": "service_price_lookup"}
+{"text": "đo điện tim hết nhiêu", "intent": "service_price_lookup"}
+{"text": "giá khám da liễu", "intent": "service_price_lookup"}
+{"text": "chi phí chụp ct bụng", "intent": "service_price_lookup"}
+{"text": "giá thuốc tiêm ngừa dịch vụ", "intent": "service_price_lookup"}
+{"text": "khám nội tiết tự chi trả", "intent": "service_price_lookup"}
+{"text": "bhyt thanh toán bao nhiêu cho xét nghiệm máu", "intent": "service_price_lookup"}
+{"text": "chi phí test dị ứng", "intent": "service_price_lookup"}
+{"text": "giá chụp tuyến giáp", "intent": "service_price_lookup"}
+{"text": "giá dịch vụ xét nghiệm máu", "intent": "service_price_lookup"}
+{"text": "giá xét nghiệm máu dịch vụ bao nhiêu", "intent": "service_price_lookup"}
+{"text": "bảng giá xét nghiệm máu tổng quát", "intent": "service_price_lookup"}
+{"text": "chi phí xét nghiệm máu hết bao nhiêu", "intent": "service_price_lookup"}
+{"text": "giá xét nghiệm máu tại khoa dịch vụ", "intent": "service_price_lookup"}
+{"text": "xét nghiệm máu giá bao nhiêu một lần", "intent": "service_price_lookup"}
+{"text": "giá dịch vụ xét nghiệm máu cơ bản", "intent": "service_price_lookup"}
+{"text": "giá xét nghiệm máu ở bệnh viện", "intent": "service_price_lookup"}
+{"text": "chi phí gói xét nghiệm máu nâng cao", "intent": "service_price_lookup"}
+{"text": "giá xét nghiệm mỡ máu bao nhiêu", "intent": "service_price_lookup"}
+{"text": "chi phí xét nghiệm sinh hóa tổng quát", "intent": "service_price_lookup"}
+{"text": "giá xét nghiệm hba1c", "intent": "service_price_lookup"}
+{"text": "bảng giá tầm soát ung thư tổng quát", "intent": "service_price_lookup"}
+{"text": "tiêm phòng hpv hết bao nhiêu tiền", "intent": "service_price_lookup"}
+{"text": "chi phí khám tim mạch chuyên sâu", "intent": "service_price_lookup"}
+{"text": "giá gói khám sức khỏe định kỳ", "intent": "service_price_lookup"}
+{"text": "giá xét nghiệm nước tiểu tổng quát", "intent": "service_price_lookup"}
+{"text": "tôi muốn tư vấn khám bệnh", "intent": "triage_request"}
+{"text": "nhờ bác sĩ tư vấn triệu chứng", "intent": "triage_request"}
+{"text": "tôi cần hỏi về sức khỏe", "intent": "triage_request"}
+{"text": "cho tôi tư vấn về triệu chứng", "intent": "triage_request"}
+{"text": "tôi muốn được khám tư vấn", "intent": "triage_request"}
+{"text": "bạn tư vấn bệnh giúp tôi", "intent": "triage_request"}
+{"text": "tôi cần lời khuyên về bệnh", "intent": "triage_request"}
+{"text": "cho tôi hỏi tôi nên khám ở đâu", "intent": "triage_request"}
+{"text": "tôi muốn tư vấn triệu chứng", "intent": "triage_request"}
+{"text": "cần tư vấn về bệnh", "intent": "triage_request"}
+{"text": "nhờ tư vấn y tế", "intent": "triage_request"}
+{"text": "tôi cần được hướng dẫn khám bệnh", "intent": "triage_request"}
+{"text": "tôi muốn hỏi về sức khỏe", "intent": "triage_request"}
+{"text": "tôi có triệu chứng muốn hỏi", "intent": "triage_request"}
+{"text": "tư vấn giúp tôi về bệnh", "intent": "triage_request"}
+{"text": "tôi cần bác sĩ tư vấn", "intent": "triage_request"}
+{"text": "cho tôi hỏi nên khám khoa nào", "intent": "triage_request"}
+{"text": "tôi muốn được đánh giá triệu chứng", "intent": "triage_request"}
+{"text": "tư vấn cho tôi", "intent": "triage_request"}
+{"text": "tôi bị bệnh cần hỏi", "intent": "triage_request"}
+{"text": "cho tôi tư vấn y tế", "intent": "triage_request"}
+{"text": "tôi cần biết nên đi khám đâu", "intent": "triage_request"}
+{"text": "bạn tư vấn giúp tôi", "intent": "triage_request"}
+{"text": "tôi muốn hỏi bác sĩ", "intent": "triage_request"}
+{"text": "cần tư vấn khám bệnh", "intent": "triage_request"}
+{"text": "tôi muốn nói chuyện với bác sĩ", "intent": "triage_request"}
+{"text": "tôi cần hướng dẫn khám", "intent": "triage_request"}
+{"text": "tôi muốn được tư vấn", "intent": "triage_request"}
+{"text": "tư vấn giúp tôi xem nên làm gì", "intent": "triage_request"}
+{"text": "nhờ tư vấn khám bệnh", "intent": "triage_request"}
+{"text": "tôi bị đau đầu kéo dài cần tư vấn", "intent": "triage_request"}
+{"text": "bé nhà tôi sốt cao nên khám ở đâu", "intent": "triage_request"}
+{"text": "tôi ho nhiều muốn hỏi bác sĩ", "intent": "triage_request"}
+{"text": "tôi bị chóng mặt cần tư vấn khám", "intent": "triage_request"}
+{"text": "tôi khó thở muốn được tư vấn", "intent": "triage_request"}
+{"text": "tôi đau bụng âm ỉ xin bác sĩ tư vấn", "intent": "triage_request"}
+{"text": "cho tôi lấy số khám tổng quát", "intent": "issue_ticket"}
+{"text": "tôi muốn đăng ký lấy số khám tai mũi họng", "intent": "issue_ticket"}
+{"text": "nhờ hệ thống cấp số khám nội", "intent": "issue_ticket"}
+{"text": "lấy giúp tôi số thứ tự khám nha khoa", "intent": "issue_ticket"}
+{"text": "tôi cần số khám sản", "intent": "issue_ticket"}
+{"text": "lấy số khám bệnh cho mẹ tôi", "intent": "issue_ticket"}
+{"text": "đăng ký số khám tim mạch", "intent": "issue_ticket"}
+{"text": "tôi cần số xét nghiệm máu", "intent": "issue_ticket"}
+{"text": "cho tôi xin số khám nhi", "intent": "issue_ticket"}
+{"text": "lấy số siêu âm bụng", "intent": "issue_ticket"}
+{"text": "cấp số khám cấp cứu", "intent": "issue_ticket"}
+{"text": "lấy vé khám tai", "intent": "issue_ticket"}
+{"text": "cho tôi số khám mắt", "intent": "issue_ticket"}
+{"text": "đăng ký số khám da liễu", "intent": "issue_ticket"}
+{"text": "tôi muốn số khám phụ khoa", "intent": "issue_ticket"}
+{"text": "cho tôi lấy số khám hô hấp", "intent": "issue_ticket"}
+{"text": "lấy số khám chấn thương chỉnh hình", "intent": "issue_ticket"}
+{"text": "lấy số khám tai", "intent": "issue_ticket"}
+{"text": "tôi cần số khám ngoại", "intent": "issue_ticket"}
+{"text": "cho tôi số khám nội tiết", "intent": "issue_ticket"}
+{"text": "lấy số xét nghiệm nước tiểu", "intent": "issue_ticket"}
+{"text": "cho tôi số khám xương khớp", "intent": "issue_ticket"}
+{"text": "đăng ký số khám bhyt", "intent": "issue_ticket"}
+{"text": "cho tôi số khám dịch vụ", "intent": "issue_ticket"}
+{"text": "tôi muốn xin số khám buổi chiều", "intent": "issue_ticket"}
+{"text": "lấy số khám cho bé", "intent": "issue_ticket"}
+{"text": "cho tôi số khám sớm nhất", "intent": "issue_ticket"}
+{"text": "cấp cho tôi số xét nghiệm đường huyết", "intent": "issue_ticket"}
+{"text": "tôi cần số khám da", "intent": "issue_ticket"}
+{"text": "đăng ký số khám ở phòng 102", "intent": "issue_ticket"}
+{"text": "cho tôi xin số khám buổi chiều", "intent": "issue_ticket"}
+{"text": "đăng ký số khám mắt cho mẹ tôi", "intent": "issue_ticket"}
+{"text": "tôi muốn lấy số chích ngừa", "intent": "issue_ticket"}
+{"text": "lấy giúp tôi số khám dịch vụ", "intent": "issue_ticket"}
+{"text": "đăng ký lượt khám nội tổng quát", "intent": "issue_ticket"}
+{"text": "cho bé nhà tôi một số khám nhi", "intent": "issue_ticket"}
+
+{"text": "đúng rồi", "intent": "confirm_yes"}
+{"text": "vâng", "intent": "confirm_yes"}
+{"text": "chính xác", "intent": "confirm_yes"}
+{"text": "ok làm đi", "intent": "confirm_yes"}
+{"text": "được đó", "intent": "confirm_yes"}
+{"text": "chuẩn", "intent": "confirm_yes"}
+{"text": "đồng ý", "intent": "confirm_yes"}
+{"text": "ừm, đúng", "intent": "confirm_yes"}
+{"text": "phải", "intent": "confirm_yes"}
+{"text": "ok bạn", "intent": "confirm_yes"}
+{"text": "được", "intent": "confirm_yes"}
+{"text": "tiếp tục giúp tôi", "intent": "confirm_yes"}
+{"text": "oke", "intent": "confirm_yes"}
+{"text": "chuẩn luôn", "intent": "confirm_yes"}
+{"text": "đúng như vậy", "intent": "confirm_yes"}
+{"text": "ừ, tiếp đi", "intent": "confirm_yes"}
+{"text": "nhất trí", "intent": "confirm_yes"}
+{"text": "chấp nhận", "intent": "confirm_yes"}
+{"text": "cứ thế nhé", "intent": "confirm_yes"}
+{"text": "chuẩn rồi", "intent": "confirm_yes"}
+{"text": "yes", "intent": "confirm_yes"}
+{"text": "okie", "intent": "confirm_yes"}
+{"text": "được nha", "intent": "confirm_yes"}
+{"text": "chuẩn xác", "intent": "confirm_yes"}
+{"text": "cứ làm", "intent": "confirm_yes"}
+{"text": "đồng ý luôn", "intent": "confirm_yes"}
+{"text": "uh ha", "intent": "confirm_yes"}
+{"text": "đúng đó", "intent": "confirm_yes"}
+{"text": "chính là vậy", "intent": "confirm_yes"}
+{"text": "có", "intent": "confirm_yes"}
+{"text": "đã có", "intent": "confirm_yes"}
+{"text": "đã có rồi", "intent": "confirm_yes"}
+{"text": "đã có sổ rồi", "intent": "confirm_yes"}
+{"text": "có sổ rồi", "intent": "confirm_yes"}
+
+
+
+
+{"text": "không phải", "intent": "confirm_no"}
+{"text": "không cần nữa", "intent": "confirm_no"}
+{"text": "chưa đúng", "intent": "confirm_no"}
+{"text": "dừng lại", "intent": "confirm_no"}
+{"text": "tôi không muốn", "intent": "confirm_no"}
+{"text": "không đâu", "intent": "confirm_no"}
+{"text": "sai rồi", "intent": "confirm_no"}
+{"text": "không đồng ý", "intent": "confirm_no"}
+{"text": "đừng làm", "intent": "confirm_no"}
+{"text": "không cần hỗ trợ", "intent": "confirm_no"}
+{"text": "không", "intent": "confirm_no"}
+{"text": "thôi khỏi", "intent": "confirm_no"}
+{"text": "không đúng", "intent": "confirm_no"}
+{"text": "không đồng ý đâu", "intent": "confirm_no"}
+{"text": "không cần đâu", "intent": "confirm_no"}
+{"text": "không cần tiếp", "intent": "confirm_no"}
+{"text": "không phải vậy", "intent": "confirm_no"}
+{"text": "không giúp nữa", "intent": "confirm_no"}
+{"text": "thôi bỏ qua", "intent": "confirm_no"}
+{"text": "không hứng thú", "intent": "confirm_no"}
+{"text": "tôi từ chối", "intent": "confirm_no"}
+{"text": "không nha", "intent": "confirm_no"}
+{"text": "không đồng ý nhé", "intent": "confirm_no"}
+{"text": "không cần đâu bạn", "intent": "confirm_no"}
+{"text": "không cần thiết", "intent": "confirm_no"}
+{"text": "không làm", "intent": "confirm_no"}
+{"text": "hủy đi", "intent": "confirm_no"}
+{"text": "không hỗ trợ", "intent": "confirm_no"}
+{"text": "thôi dừng", "intent": "confirm_no"}
+{"text": "không cần đâu cảm ơn", "intent": "confirm_no"}
+{"text": "chưa có", "intent": "confirm_no"}
+{"text": "chưa làm", "intent": "confirm_no"}
+
+{"text": "xin chào", "intent": "greeting_farewell"}
+{"text": "chào buổi sáng", "intent": "greeting_farewell"}
+{"text": "chào bạn", "intent": "greeting_farewell"}
+{"text": "hi", "intent": "greeting_farewell"}
+{"text": "tạm biệt", "intent": "greeting_farewell"}
+{"text": "cảm ơn nhé", "intent": "greeting_farewell"}
+{"text": "bye", "intent": "greeting_farewell"}
+{"text": "hẹn gặp lại", "intent": "greeting_farewell"}
+{"text": "chúc bạn một ngày tốt", "intent": "greeting_farewell"}
+{"text": "cảm ơn", "intent": "greeting_farewell"}
+{"text": "goodbye", "intent": "greeting_farewell"}
+{"text": "chào kios", "intent": "greeting_farewell"}
+{"text": "chào buổi chiều", "intent": "greeting_farewell"}
+{"text": "gặp lại sau", "intent": "greeting_farewell"}
+{"text": "cảm ơn nhiều", "intent": "greeting_farewell"}
+{"text": "hello", "intent": "greeting_farewell"}
+{"text": "chào anh", "intent": "greeting_farewell"}
+{"text": "chào em", "intent": "greeting_farewell"}
+{"text": "chúc bạn buổi tối vui", "intent": "greeting_farewell"}
+{"text": "good night", "intent": "greeting_farewell"}
+{"text": "bye bye", "intent": "greeting_farewell"}
+{"text": "tạm biệt bạn", "intent": "greeting_farewell"}
+{"text": "chào buổi trưa", "intent": "greeting_farewell"}
+{"text": "rất vui được gặp", "intent": "greeting_farewell"}
+{"text": "trân trọng", "intent": "greeting_farewell"}
+{"text": "tạm biệt nhé", "intent": "greeting_farewell"}
+{"text": "gởi lời chào", "intent": "greeting_farewell"}
+{"text": "chúc ngủ ngon", "intent": "greeting_farewell"}
+{"text": "cám ơn bạn", "intent": "greeting_farewell"}
+{"text": "rất cảm ơn", "intent": "greeting_farewell"}
+{"text": "bạn tên gì", "intent": "smalltalk"}
+{"text": "hôm nay trời đẹp nhỉ", "intent": "smalltalk"}
+{"text": "bạn có khỏe không", "intent": "smalltalk"}
+{"text": "bạn được tạo ra như thế nào", "intent": "smalltalk"}
+{"text": "thích ăn món gì", "intent": "smalltalk"}
+{"text": "bạn bao nhiêu tuổi", "intent": "smalltalk"}
+{"text": "bạn ở đâu", "intent": "smalltalk"}
+{"text": "kể chuyện cười đi", "intent": "smalltalk"}
+{"text": "bạn có người yêu chưa", "intent": "smalltalk"}
+{"text": "bạn nghĩ gì về bóng đá", "intent": "smalltalk"}
+{"text": "bạn thích nhạc gì", "intent": "smalltalk"}
+{"text": "bạn có biết ai là gì không", "intent": "smalltalk"}
+{"text": "bạn làm việc ở đâu", "intent": "smalltalk"}
+{"text": "bạn có mệt không", "intent": "smalltalk"}
+{"text": "bạn ăn sáng chưa", "intent": "smalltalk"}
+{"text": "bạn thích xem phim gì", "intent": "smalltalk"}
+{"text": "bạn có bạn trai không", "intent": "smalltalk"}
+{"text": "bạn thích du lịch ở đâu", "intent": "smalltalk"}
+{"text": "bạn có thích cà phê", "intent": "smalltalk"}
+{"text": "bạn ghét gì", "intent": "smalltalk"}
+{"text": "bạn học trường nào", "intent": "smalltalk"}
+{"text": "bạn có đi chơi không", "intent": "smalltalk"}
+{"text": "bạn có cảm xúc không", "intent": "smalltalk"}
+{"text": "bạn thích mùa nào", "intent": "smalltalk"}
+{"text": "bạn nghĩ gì về tôi", "intent": "smalltalk"}
+{"text": "bạn làm việc 24/7 à", "intent": "smalltalk"}
+{"text": "bạn có sợ tối không", "intent": "smalltalk"}
+{"text": "bạn biết hát không", "intent": "smalltalk"}
+{"text": "bạn có vui không", "intent": "smalltalk"}
+{"text": "bạn có thích mèo hay chó", "intent": "smalltalk"}
+{"text": "cho tôi gặp nhân viên tư vấn", "intent": "handover_human"}
+{"text": "tôi muốn nói chuyện với bác sĩ", "intent": "handover_human"}
+{"text": "chuyển máy cho người thật", "intent": "handover_human"}
+{"text": "có ai hỗ trợ trực tiếp không", "intent": "handover_human"}
+{"text": "kết nối tôi với lễ tân", "intent": "handover_human"}
+{"text": "tôi muốn gặp điều dưỡng", "intent": "handover_human"}
+{"text": "cho tôi nói chuyện với người trực", "intent": "handover_human"}
+{"text": "tôi cần nhân viên giải đáp", "intent": "handover_human"}
+{"text": "gọi giúp tôi nhân viên", "intent": "handover_human"}
+{"text": "có thể cho tôi gặp người phụ trách", "intent": "handover_human"}
+{"text": "nhờ hỗ trợ viên tư vấn", "intent": "handover_human"}
+{"text": "tôi muốn gặp người thật", "intent": "handover_human"}
+{"text": "cho tôi nói chuyện với nhân viên", "intent": "handover_human"}
+{"text": "tôi cần gặp bác sĩ", "intent": "handover_human"}
+{"text": "chuyển sang người hỗ trợ", "intent": "handover_human"}
+{"text": "kết nối tôi với quầy thông tin", "intent": "handover_human"}
+{"text": "tôi muốn có người hướng dẫn", "intent": "handover_human"}
+{"text": "cho tôi gặp lễ tân", "intent": "handover_human"}
+{"text": "tôi cần tư vấn trực tiếp", "intent": "handover_human"}
+{"text": "tôi muốn gặp y tá", "intent": "handover_human"}
+{"text": "kêu ai đó đến giúp", "intent": "handover_human"}
+{"text": "nhờ chuyển máy cho nhân viên", "intent": "handover_human"}
+{"text": "kết nối với người phụ trách", "intent": "handover_human"}
+{"text": "cho tôi gặp quản lý", "intent": "handover_human"}
+{"text": "tôi muốn trò chuyện với người thật", "intent": "handover_human"}
+{"text": "liên hệ giúp tôi với bác sĩ", "intent": "handover_human"}
+{"text": "nhờ có người tư vấn", "intent": "handover_human"}
+{"text": "tôi muốn gặp người thật nhé", "intent": "handover_human"}
+{"text": "cho tôi nói chuyện với nhân viên phòng khám", "intent": "handover_human"}
+{"text": "tôi cần nói chuyện với người trực", "intent": "handover_human"}
+{"text": "thời gian chờ khám nội là bao lâu", "intent": "wait_time_query"}
+{"text": "hiện có bao nhiêu người trước tôi", "intent": "wait_time_query"}
+{"text": "tôi phải đợi khoảng bao nhiêu phút", "intent": "wait_time_query"}
+{"text": "khoảng mấy giờ tới lượt", "intent": "wait_time_query"}
+{"text": "còn xa không tới số của tôi", "intent": "wait_time_query"}
+{"text": "chờ siêu âm mất lâu không", "intent": "wait_time_query"}
+{"text": "hàng đợi nhi hiện còn nhiều không", "intent": "wait_time_query"}
+{"text": "bao lâu nữa tới lượt khám", "intent": "wait_time_query"}
+{"text": "thời gian đợi xét nghiệm", "intent": "wait_time_query"}
+{"text": "tôi chờ từ nãy giờ bao lâu", "intent": "wait_time_query"}
+{"text": "lượt của tôi khi nào", "intent": "wait_time_query"}
+{"text": "có cách nào giảm thời gian chờ", "intent": "wait_time_query"}
+{"text": "tôi đã đợi 30 phút rồi", "intent": "wait_time_query"}
+{"text": "bao nhiêu người trước tôi", "intent": "wait_time_query"}
+{"text": "còn bao lâu mới tới lượt", "intent": "wait_time_query"}
+{"text": "chờ khám phụ khoa dài không", "intent": "wait_time_query"}
+{"text": "đợi lấy thuốc có lâu không", "intent": "wait_time_query"}
+{"text": "thời gian chờ ở phòng siêu âm", "intent": "wait_time_query"}
+{"text": "tôi muốn biết số thứ tự hiện tại", "intent": "wait_time_query"}
+{"text": "còn bao nhiêu số nữa tới tôi", "intent": "wait_time_query"}
+{"text": "tôi chờ lâu quá", "intent": "wait_time_query"}
+{"text": "thời gian đợi kết quả xét nghiệm", "intent": "wait_time_query"}
+{"text": "đợi khám có lâu không", "intent": "wait_time_query"}
+{"text": "khi nào tới lượt bé nhà tôi", "intent": "wait_time_query"}
+{"text": "tôi muốn biết hàng đợi hiện trạng", "intent": "wait_time_query"}
+{"text": "đợi tiêm ngừa bao lâu", "intent": "wait_time_query"}
+{"text": "bao lâu nữa đến số tôi", "intent": "wait_time_query"}
+{"text": "tôi cần biết thời gian chờ", "intent": "wait_time_query"}
+{"text": "có thể báo thời gian chờ không", "intent": "wait_time_query"}
+{"text": "tôi đã chờ lâu chưa", "intent": "wait_time_query"}
+{"text": "bao lâu nữa bé được gọi vào phòng tiêm", "intent": "wait_time_query"}
+{"text": "cho tôi biết tình trạng hàng đợi khoa sản", "intent": "wait_time_query"}
+{"text": "còn mấy số nữa tới lượt lấy thuốc", "intent": "wait_time_query"}
+{"text": "thời gian đợi siêu âm thai hiện tại là bao lâu", "intent": "wait_time_query"}
+{"text": "phòng xét nghiệm ở đâu", "intent": "kiosk_navigation"}
+{"text": "khu khám nhi nằm tầng mấy", "intent": "kiosk_navigation"}
+{"text": "tôi cần chỉ đường tới nhà vệ sinh", "intent": "kiosk_navigation"}
+{"text": "quầy thu ngân nằm chỗ nào", "intent": "kiosk_navigation"}
+{"text": "tôi tìm thang máy gần nhất", "intent": "kiosk_navigation"}
+{"text": "khu vực lấy thuốc ở đâu", "intent": "kiosk_navigation"}
+{"text": "chỉ giúp tôi tới phòng siêu âm", "intent": "kiosk_navigation"}
+{"text": "tôi muốn biết đường tới khoa nội", "intent": "kiosk_navigation"}
+{"text": "kiosk này đặt chỗ nào", "intent": "kiosk_navigation"}
+{"text": "quầy hướng dẫn ở đâu", "intent": "kiosk_navigation"}
+{"text": "đường tới khoa cấp cứu", "intent": "kiosk_navigation"}
+{"text": "tôi muốn biết khu chờ ở đâu", "intent": "kiosk_navigation"}
+{"text": "tìm phòng tiêm ngừa", "intent": "kiosk_navigation"}
+{"text": "chỉ tôi tới nhà thuốc", "intent": "kiosk_navigation"}
+{"text": "khu khám vip ở đâu", "intent": "kiosk_navigation"}
+{"text": "thang máy nằm chỗ nào", "intent": "kiosk_navigation"}
+{"text": "lối ra sân đỗ xe", "intent": "kiosk_navigation"}
+{"text": "chỉ tôi tới khu lấy số", "intent": "kiosk_navigation"}
+{"text": "tôi cần tìm phòng x-quang", "intent": "kiosk_navigation"}
+{"text": "khu làm thủ tục ở đâu", "intent": "kiosk_navigation"}
+{"text": "hướng dẫn tôi tới phòng xét nghiệm máu", "intent": "kiosk_navigation"}
+{"text": "tôi muốn biết đường tới khoa sản", "intent": "kiosk_navigation"}
+{"text": "quầy dịch vụ khách hàng ở đâu", "intent": "kiosk_navigation"}
+{"text": "lối đi tới khu chụp mri", "intent": "kiosk_navigation"}
+{"text": "phòng khám nội tổng quát nằm đâu", "intent": "kiosk_navigation"}
+{"text": "cho tôi đường tới khu chờ vip", "intent": "kiosk_navigation"}
+{"text": "tôi muốn biết lối ra", "intent": "kiosk_navigation"}
+{"text": "quầy lấy thuốc bhyt ở đâu", "intent": "kiosk_navigation"}
+{"text": "hướng dẫn tôi tới khu tiêm chủng", "intent": "kiosk_navigation"}
+{"text": "tôi cần tìm quầy nộp viện phí", "intent": "kiosk_navigation"}
+{"text": "chỉ đường đến phòng khám hậu sản", "intent": "kiosk_navigation"}
+{"text": "cho tôi biết lối tới khu xét nghiệm sinh hóa", "intent": "kiosk_navigation"}
+{"text": "đường tới phòng cấp cứu nhi", "intent": "kiosk_navigation"}
+{"text": "chỉ đường tới khu lấy kết quả xét nghiệm", "intent": "kiosk_navigation"}
+{"text": "chỉ tôi đến khu b", "intent": "kiosk_navigation"}
+{"text": "đường đi đến khoa chấn thương chỉnh hình", "intent": "kiosk_navigation"}
+{"text": "cho mình lối tới khu vực e", "intent": "kiosk_navigation"}
+{"text": "tôi muốn tìm đường đến khoa chấn khám tổng quát", "intent": "kiosk_navigation"}
+{"text": "tôi muốn kết thúc và bắt đầu lại", "intent": "conversation_end_reset"}
+{"text": "xong rồi, bắt đầu phiên mới", "intent": "conversation_end_reset"}
+{"text": "kết thúc cuộc trò chuyện này", "intent": "conversation_end_reset"}
+{"text": "tôi muốn làm lại từ đầu", "intent": "conversation_end_reset"}
+{"text": "reset hội thoại", "intent": "conversation_end_reset"}
+{"text": "cho tôi quay lại bước đầu", "intent": "conversation_end_reset"}
+{"text": "hủy phiên này và bắt đầu mới", "intent": "conversation_end_reset"}
+{"text": "chúng ta kết thúc ở đây nhé", "intent": "conversation_end_reset"}
+{"text": "tôi muốn nói chuyện lại", "intent": "conversation_end_reset"}
+{"text": "dừng phiên này để khởi động phiên khác", "intent": "conversation_end_reset"}
+{"text": "tôi muốn làm lại quy trình", "intent": "conversation_end_reset"}
+{"text": "bắt đầu lại từ đầu đi", "intent": "conversation_end_reset"}
+{"text": "kết thúc để tôi làm lại", "intent": "conversation_end_reset"}
+{"text": "hủy cuộc trò chuyện và làm lại", "intent": "conversation_end_reset"}
+{"text": "tôi muốn reset flow", "intent": "conversation_end_reset"}
+{"text": "cho tôi bắt đầu ca mới", "intent": "conversation_end_reset"}
+{"text": "dừng và khởi động lại", "intent": "conversation_end_reset"}
+{"text": "tôi muốn quay về ban đầu", "intent": "conversation_end_reset"}
+{"text": "kết thúc giúp tôi", "intent": "conversation_end_reset"}
+{"text": "please reset", "intent": "conversation_end_reset"}
+{"text": "cho tôi khởi động hội thoại mới", "intent": "conversation_end_reset"}
+{"text": "tôi muốn làm lại từ bước 1", "intent": "conversation_end_reset"}
+{"text": "reset toàn bộ giúp tôi", "intent": "conversation_end_reset"}
+{"text": "tôi muốn kết thúc ngay", "intent": "conversation_end_reset"}
+{"text": "tôi muốn đổi sang cuộc mới", "intent": "conversation_end_reset"}
+{"text": "kết thúc để bắt đầu phiên khác", "intent": "conversation_end_reset"}
+{"text": "cho tôi làm lại quy trình", "intent": "conversation_end_reset"}
+{"text": "xong rồi, reset", "intent": "conversation_end_reset"}
+{"text": "tôi muốn khởi động lại", "intent": "conversation_end_reset"}
+{"text": "tôi muốn kết thúc cuộc này", "intent": "conversation_end_reset"}
+{"text": "asdasd", "intent": "fallback_unrecognized"}
+{"text": "??", "intent": "fallback_unrecognized"}
+{"text": "blah blah", "intent": "fallback_unrecognized"}
+{"text": "năm mươi sáu cộng một trừ hai nhân ba", "intent": "fallback_unrecognized"}
+{"text": "#@!", "intent": "fallback_unrecognized"}
+{"text": "không rõ", "intent": "fallback_unrecognized"}
+{"text": "bạn nói tiếng gì", "intent": "fallback_unrecognized"}
+{"text": "không hiểu", "intent": "fallback_unrecognized"}
+{"text": "blah", "intent": "fallback_unrecognized"}
+{"text": "zzzzz", "intent": "fallback_unrecognized"}
+{"text": "---", "intent": "fallback_unrecognized"}
+{"text": "random text", "intent": "fallback_unrecognized"}
+{"text": "???", "intent": "fallback_unrecognized"}
+{"text": "*&^%", "intent": "fallback_unrecognized"}
+{"text": "jgkwq", "intent": "fallback_unrecognized"}
+{"text": "???!!!", "intent": "fallback_unrecognized"}
+{"text": "nói lại đi", "intent": "fallback_unrecognized"}
+{"text": "gibberish", "intent": "fallback_unrecognized"}
+{"text": "abcxyz", "intent": "fallback_unrecognized"}
+{"text": "không hiểu đâu", "intent": "fallback_unrecognized"}
+{"text": "234234", "intent": "fallback_unrecognized"}
+{"text": "??!", "intent": "fallback_unrecognized"}
+{"text": "đang nói gì", "intent": "fallback_unrecognized"}
+{"text": "random random", "intent": "fallback_unrecognized"}
+{"text": "tôi không hiểu", "intent": "fallback_unrecognized"}
+{"text": "blablabla", "intent": "fallback_unrecognized"}
+{"text": "???///", "intent": "fallback_unrecognized"}
+{"text": "nói gì vậy", "intent": "fallback_unrecognized"}
+{"text": "không nghe rõ", "intent": "fallback_unrecognized"}
+{"text": "...", "intent": "fallback_unrecognized"}
+
+{"text": "quy trình khám bhyt ở bệnh viện này như thế nào", "intent": "hospital_workflow"}
+{"text": "cho tôi sơ đồ các bước khám bảo hiểm y tế", "intent": "hospital_workflow"}
+{"text": "đi khám dịch vụ cần thực hiện những bước gì", "intent": "hospital_workflow"}
+{"text": "hướng dẫn quy trình khám ngoại trú từ lúc đăng ký đến nhận thuốc", "intent": "hospital_workflow"}
+{"text": "vui lòng cho biết quy trình khám chữa bệnh tiêu chuẩn", "intent": "hospital_workflow"}
+{"text": "tôi muốn xem sơ đồ quy trình khám bhyt", "intent": "hospital_workflow"}
+{"text": "các bước khám dịch vụ vip gồm những gì", "intent": "hospital_workflow"}
+{"text": "quy trình tiếp nhận bệnh nhân bảo hiểm", "intent": "hospital_workflow"}
+{"text": "quy trình khám tổng quát dịch vụ ra sao", "intent": "hospital_workflow"}
+{"text": "khám ngoại trú theo bhyt gồm bao nhiêu bước", "intent": "hospital_workflow"}
+{"text": "trình tự khám chữa bệnh tại kiosk là gì", "intent": "hospital_workflow"}
+{"text": "cho tôi biết flow khám bảo hiểm từ lúc lấy số", "intent": "hospital_workflow"}
+{"text": "quy trình khám dịch vụ tại bệnh viện 115", "intent": "hospital_workflow"}
+{"text": "xin sơ đồ quy trình khám bệnh nhanh", "intent": "hospital_workflow"}
+{"text": "các bước cần làm khi đến khám lần đầu", "intent": "hospital_workflow"}
+{"text": "quy trình thanh toán ra sao sau khi khám dịch vụ", "intent": "hospital_workflow"}
+{"text": "cho biết lộ trình khám bảo hiểm từ đăng ký đến nhận thuốc", "intent": "hospital_workflow"}
+{"text": "mình muốn xem quy trình khám tái khám bhyt", "intent": "hospital_workflow"}
+{"text": "bệnh viện có thể hiển thị sơ đồ quy trình khám dịch vụ không", "intent": "hospital_workflow"}
+{"text": "quy trình từng bước khi khám cấp cứu có bhyt", "intent": "hospital_workflow"}
+{"text": "thủ tục nhập viện gồm các bước nào", "intent": "hospital_workflow"}
+{"text": "hướng dẫn quy trình nhập viện cho bệnh nhân bhyt", "intent": "hospital_workflow"}
+{"text": "em cần biết thủ tục xuất viện ra sao", "intent": "hospital_workflow"}
+{"text": "cho tôi xem quy trình thanh toán viện phí khi ra viện", "intent": "hospital_workflow"}
+{"text": "các bước chuyển viện từ bệnh viện này sang bệnh viện tuyến trên", "intent": "hospital_workflow"}
+{"text": "thủ tục chuyển viện cần chuẩn bị giấy tờ gì", "intent": "hospital_workflow"}
+{"text": "quy trình thanh toán viện phí nội trú", "intent": "hospital_workflow"}
+{"text": "cách làm thủ tục xuất viện nhanh nhất", "intent": "hospital_workflow"}

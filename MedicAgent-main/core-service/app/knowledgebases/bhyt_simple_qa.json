@@ -1,0 +1,299 @@
+{
+  "metadata": {
+    "doc_id": "BHYT_simple_qa_20",
+    "source_file": "bhyt_simple_qa.md",
+    "title": "Bo cau hoi don gian ve bao hiem y te",
+    "issued_date": "2024-01-01",
+    "version": "1.0"
+  },
+  "chapters": [
+    {
+      "id": "chapter_simple",
+      "label": "Phan don gian",
+      "title": "Cau hoi BHYT co ban",
+      "articles": [
+        {
+          "id": "qa_01",
+          "label": "Cau hoi 1",
+          "title": "Bao hiem y te dung de lam gi?",
+          "paragraphs": [
+            "BHYT la cong cu giup chia se chi phi kham chua benh giua nguoi tham gia va quy bao hiem, giam goi bo tro chi tra khi om dau."
+          ],
+          "keywords": ["muc dich", "chi phi"],
+          "numerical_values": [],
+          "qas": [
+            "BHYT ho tro nguoi tham gia nhu the nao?",
+            "Vi sao nen co the BHYT?"
+          ]
+        },
+        {
+          "id": "qa_02",
+          "label": "Cau hoi 2",
+          "title": "Ai can tham gia BHYT?",
+          "paragraphs": [
+            "Moi cong dan deu duoc khuyen khich tham gia. Nhieu nhom duoc nha nuoc dong thay nhu tre duoi 6 tuoi, nguoi ngheo, dong bao dan toc thieu so."
+          ],
+          "keywords": ["doi tuong", "tham gia"],
+          "numerical_values": [],
+          "qas": [
+            "Tre duoi 6 tuoi co phai dong BHYT khong?",
+            "Co nhung nhom nao duoc nha nuoc dong thay BHYT?"
+          ]
+        },
+        {
+          "id": "qa_03",
+          "label": "Cau hoi 3",
+          "title": "The BHYT co thoi han bao lau?",
+          "paragraphs": [
+            "The BHYT thong thuong co gia tri su dung 12 thang tinh tu ngay co hieu luc in tren the."
+          ],
+          "keywords": ["thoi han", "the"],
+          "numerical_values": [12],
+          "qas": [
+            "The BHYT dung duoc trong bao lau?",
+            "Sau khi het han the BHYT can lam gi?"
+          ]
+        },
+        {
+          "id": "qa_04",
+          "label": "Cau hoi 4",
+          "title": "Lam sao dang ky noi kham chinh?",
+          "paragraphs": [
+            "Nguoi mua the chon co so tuyen quan, huyen, hoac benh vien duoc ghi tren the. Neu muon doi co so can lam don tai co quan BHXH."
+          ],
+          "keywords": ["dang ky", "noi kham"],
+          "numerical_values": [],
+          "qas": [
+            "Dang ky noi kham BHYT o dau?",
+            "Co doi duoc noi kham BHYT khong?"
+          ]
+        },
+        {
+          "id": "qa_05",
+          "label": "Cau hoi 5",
+          "title": "Quen mang the thi duoc giai quyet sao?",
+          "paragraphs": [
+            "Nguoi dien khong co the van duoc cap cuu. Sau do can bo sung the hoac giay hen thay the de duoc huong quyen loi.",
+            "Nhieu co so chap nhan trai giay hen cap lai the."
+          ],
+          "keywords": ["the", "cap cuu"],
+          "numerical_values": [],
+          "qas": [
+            "Quen the BHYT co duoc huong quyen loi khong?",
+            "Mat the BHYT thi lam gi?"
+          ]
+        },
+        {
+          "id": "qa_06",
+          "label": "Cau hoi 6",
+          "title": "BHYT gia dinh dong the nao?",
+          "paragraphs": [
+            "Tam nhan nhan vien BHXH dia phuong thu theo ho gia dinh. Nguoi thu 2 tro di se duoc giam dan ti le, toi da 5 nguoi chung so ho khau."
+          ],
+          "keywords": ["gia dinh", "muc dong"],
+          "numerical_values": [5],
+          "qas": [
+            "Dong BHYT ho gia dinh co giam gia khong?",
+            "Can bao nhieu nguoi trong ho cung tham gia BHYT ho gia dinh?"
+          ]
+        },
+        {
+          "id": "qa_07",
+          "label": "Cau hoi 7",
+          "title": "Sinh vien dong BHYT ra sao?",
+          "paragraphs": [
+            "Sinh vien thuoc nhom bat buoc, nha truong thu va nop cho co quan BHXH. Nhieu truong ho tro mot phan chi phi dong."
+          ],
+          "keywords": ["sinh vien"],
+          "numerical_values": [],
+          "qas": [
+            "Sinh vien co bat buoc dong BHYT khong?",
+            "Nha truong tham gia thu BHYT nhu the nao?"
+          ]
+        },
+        {
+          "id": "qa_08",
+          "label": "Cau hoi 8",
+          "title": "Nguoi lao dong cong ty dong BHYT ra sao?",
+          "paragraphs": [
+            "Doanh nghiep va nguoi lao dong cung dong theo ti le luat dinh. Cong ty tru phan cua nguoi lao dong vao tien luong hang thang."
+          ],
+          "keywords": ["nguoi lao dong", "doanh nghiep"],
+          "numerical_values": [],
+          "qas": [
+            "Cong ty dong bao nhieu phan tram BHYT?",
+            "Khoan BHYT cua nhan vien bi tru vao o dau?"
+          ]
+        },
+        {
+          "id": "qa_09",
+          "label": "Cau hoi 9",
+          "title": "Cap cuu ngoai tuyen duoc thanh toan khong?",
+          "paragraphs": [
+            "Cap cuu duoc huong nhu dung tuyen vi uu tien cuu nguoi. Sau khi on dinh benh vien lam thu tuc gui BHXH de thanh toan."
+          ],
+          "keywords": ["cap cuu", "ngoai tuyen"],
+          "numerical_values": [],
+          "qas": [
+            "Cap cuu o benh vien khong dang ky co duoc thanh toan khong?",
+            "Thu tuc thanh toan cap cuu BHYT la gi?"
+          ]
+        },
+        {
+          "id": "qa_10",
+          "label": "Cau hoi 10",
+          "title": "BHYT thanh toan bao nhieu phan tram chi phi?",
+          "paragraphs": [
+            "Nguoi dung tuyen thuong huong 80 phan tram. Nguoi huong chinh sach xa hoi, nguoi ngheo duoc 95 hoac 100 phan tram tuy nhom."
+          ],
+          "keywords": ["muc huong", "80 phan tram"],
+          "numerical_values": [80, 95, 100],
+          "qas": [
+            "BHYT chi tra bao nhieu phan tram?",
+            "Nhung ai duoc 100 phan tram BHYT?"
+          ]
+        },
+        {
+          "id": "qa_11",
+          "label": "Cau hoi 11",
+          "title": "Thuoc ngoai danh muc co duoc chi tra?",
+          "paragraphs": [
+            "Quy BHYT chi chi tra thuoc co trong danh muc. Thuoc ngoai danh muc nguoi benh tu chi tra hoac xin ho tro khac."
+          ],
+          "keywords": ["thuoc", "danh muc"],
+          "numerical_values": [],
+          "qas": [
+            "BHYT co tra thuoc ngoai danh muc khong?",
+            "Lam sao biet thuoc do nam trong danh muc BHYT?"
+          ]
+        },
+        {
+          "id": "qa_12",
+          "label": "Cau hoi 12",
+          "title": "Kham ngoai tuyen duoc bao nhieu?",
+          "paragraphs": [
+            "Khi tu y di ngoai tuyen khong trong truong hop cap cuu, ty le huong giam con 40 den 60 phan tram tuy tuyen huyen, tinh, trung uong."
+          ],
+          "keywords": ["ngoai tuyen"],
+          "numerical_values": [40, 60],
+          "qas": [
+            "Kham ngoai tuyen thi BHYT tra bao nhieu phan tram?",
+            "Cap cuu ngoai tuyen co bi giam ti le khong?"
+          ]
+        },
+        {
+          "id": "qa_13",
+          "label": "Cau hoi 13",
+          "title": "Co the doi thong tin tren the khong?",
+          "paragraphs": [
+            "Neu sai ho ten, nam sinh, dia chi can nop don doi the tai co quan BHXH hoac qua dich vu cong. The moi se cap trong vai ngay."
+          ],
+          "keywords": ["doi the"],
+          "numerical_values": [],
+          "qas": [
+            "Sai thong tin tren the BHYT thi lam gi?",
+            "Mat bao lau de nhan the BHYT moi?"
+          ]
+        },
+        {
+          "id": "qa_14",
+          "label": "Cau hoi 14",
+          "title": "Co phai chon benh vien kham dinh ky khong?",
+          "paragraphs": [
+            "Nguoi tham gia phai chon co so tuyen theo quy dinh. Chi khi chuyen tuyen hoặc cap cuu moi duoc kham noi khac va van duoc thanh toan."
+          ],
+          "keywords": ["chuyen tuyen", "co so"],
+          "numerical_values": [],
+          "qas": [
+            "Co duoc tu y den benh vien tuyen trung uong kham khong?",
+            "Lam sao de chuyen tuyen duoc quyet toan BHYT?"
+          ]
+        },
+        {
+          "id": "qa_15",
+          "label": "Cau hoi 15",
+          "title": "Tre duoi mot tuoi co phai dong BHYT?",
+          "paragraphs": [
+            "Tre duoi 6 tuoi duoc cap the mien phi tu ngan sach, khong can dong tien. Cha me can nop giay khai sinh hoac giay chung sinh de cap the."
+          ],
+          "keywords": ["tre em", "mien phi"],
+          "numerical_values": [6],
+          "qas": [
+            "Tre so sinh co phai dong BHYT khong?",
+            "Thu tuc cap the BHYT cho tre duoi 6 tuoi la gi?"
+          ]
+        },
+        {
+          "id": "qa_16",
+          "label": "Cau hoi 16",
+          "title": "Nguoi huong tro cap xa hoi co gi dat biet?",
+          "paragraphs": [
+            "Nguoi huong tro cap xa hoi hang thang duoc quyen 100 phan tram chi phi kham chua benh dung tuyen, mot so dich vu con duoc ho tro them."
+          ],
+          "keywords": ["tro cap xa hoi", "100 phan tram"],
+          "numerical_values": [100],
+          "qas": [
+            "Nguoi huong tro cap xa hoi duoc huong ti le BHYT bao nhieu?",
+            "Co can dong them tien khi kham khong?"
+          ]
+        },
+        {
+          "id": "qa_17",
+          "label": "Cau hoi 17",
+          "title": "Khi chuyen tuyen can giay to gi?",
+          "paragraphs": [
+            "Benh vien tuyen truoc phai cap giay gioi thieu chuyen tuyen noi ro ly do. Nguoi benh mang giay nay va the BHYT den noi nhan."
+          ],
+          "keywords": ["chuyen tuyen", "giay gioi thieu"],
+          "numerical_values": [],
+          "qas": [
+            "Muốn chuyen tuyen thi can xin giay gi?",
+            "Khong co giay chuyen tuyen co duoc thanh toan nhu dung tuyen khong?"
+          ]
+        },
+        {
+          "id": "qa_18",
+          "label": "Cau hoi 18",
+          "title": "Di lam xa nha thi dang ky BHYT the nao?",
+          "paragraphs": [
+            "Nguoi lao dong co the chon noi kham theo noi dang o neu co giay tam tru hoac hop dong lao dong tai dia phuong do."
+          ],
+          "keywords": ["tam tru", "noi kham"],
+          "numerical_values": [],
+          "qas": [
+            "Di lam xa co doi noi kham BHYT duoc khong?",
+            "Can gi khi dang ky noi kham BHYT tai noi tam tru?"
+          ]
+        },
+        {
+          "id": "qa_19",
+          "label": "Cau hoi 19",
+          "title": "Bao gio duoc dung the moi sau khi dong?",
+          "paragraphs": [
+            "Nguoi mua BHYT ca nhan thuong duoc cong nhan tu ngay mot thang ke tiep sau khi nop tien du du lieu. The duoc giao truoc ngay co hieu luc."
+          ],
+          "keywords": ["ngay hieu luc"],
+          "numerical_values": [],
+          "qas": [
+            "Dong BHYT xong bao lau thi duoc su dung?",
+            "The BHYT co hieu luc ngay khi dong khong?"
+          ]
+        },
+        {
+          "id": "qa_20",
+          "label": "Cau hoi 20",
+          "title": "Kham dinh ky co duoc BHYT chi tra?",
+          "paragraphs": [
+            "BHYT chi huong khi kham, tri benh theo chi dinh y te. Kham suc khoe dinh ky theo yeu cau doanh nghiep khong nam trong pham vi thanh toan."
+          ],
+          "keywords": ["kham dinh ky"],
+          "numerical_values": [],
+          "qas": [
+            "Di kham suc khoe tong quat co duoc BHYT chi tra khong?",
+            "BHYT chi tra cho truong hop nao?"
+          ]
+        }
+      ]
+    }
+  ]
+}

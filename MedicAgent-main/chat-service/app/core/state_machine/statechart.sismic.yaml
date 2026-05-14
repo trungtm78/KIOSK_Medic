@@ -1,0 +1,137 @@
+statechart:
+  description: '{"metadata": {"version": 1}}'
+  name: chat_service
+  root state:
+
+    initial: ORCHESTRATING
+    name: ROOT
+    states:
+    - {name: END, on entry: session.close; metrics.mark_session_end, type: final}
+    - name: FALLBACK
+      on entry: actions.fallback_suggest
+      transitions:
+      - {action: actions.reset_flow(), event: CANCEL_FLOW, target: ORCHESTRATING}
+      - {action: actions.on_timeout(), event: TIMEOUT, target: END}
+
+
+    - initial: FLOW_TRIAGE.ASK_SYMPTOM  
+      name: FLOW_TRIAGE
+      states:
+      - {name: FLOW_TRIAGE.DONE, type: final}
+      - name: FLOW_TRIAGE.ASK_SYMPTOM
+        on entry: actions.ask_main_symptom()
+        transitions:
+        - {event: USER_MESSAGE, guard: guards.has_triage_suggestions() and guards.triage_confident_gte(0.07),
+           action: actions.prompt_triage_suggestions(), 
+           target: FLOW_ISSUE_TICKET.GATHER.ASK_SERVICE_PACKAGE}
+        - {event: USER_MESSAGE, guard: not guards.has_triage_suggestions() or not guards.triage_confident_gte(0.07),
+            action: actions.ask_main_symptom(), target: FLOW_TRIAGE.ASK_SYMPTOM}
+      - name: FLOW_TRIAGE.SHOW_SUGGESTIONS
+        on entry: actions.show_triage_suggestions()
+        transitions:
+        - {event: USER_MESSAGE, guard: guards.slot_filled('department_id'), target: FLOW_ISSUE_TICKET.GATHER.ASK_SERVICE_PACKAGE}
+        - {event: USER_MESSAGE, guard: not guards.slot_filled('department_id'), target: FLOW_TRIAGE.SHOW_SUGGESTIONS}
+
+      - name: FLOW_TRIAGE.EMERGENCY_HANDLING
+        on entry: actions.handle_emergency()
+        transitions:
+        - {event: TIMEOUT, action: actions.on_timeout(), target: END}
+      transitions:
+      - {action: actions.reset_flow(), event: CANCEL_FLOW, target: ORCHESTRATING}
+      - {action: actions.on_timeout(), event: TIMEOUT, target: END}
+      - {event: RESET_CONVERSATION, action: actions.reset_flow(), target: ORCHESTRATING}
+
+
+    - initial: FLOW_ISSUE_TICKET.ASK_HEALTH_BOOK
+      name: FLOW_ISSUE_TICKET
+      states:
+      - {name: FLOW_ISSUE_TICKET.DONE, type: final}
+      - name: FLOW_ISSUE_TICKET.ASK_HEALTH_BOOK
+        on entry: actions.ask_personal_health_book()
+        transitions:
+        - {action: actions.mark_health_book_present(), event: USER_MESSAGE, guard: 
+            guards.is_affirm(), target: FLOW_ISSUE_TICKET.GATHER}
+        - {event: USER_MESSAGE, guard: 
+            guards.is_deny(), target: FLOW_ISSUE_TICKET.ASK_HEALTH_BOOK.WARN_NO_HEALTH_BOOK}
+        - {action: actions.ask_personal_health_book(), event: USER_MESSAGE, guard: 
+            not guards.is_affirm() and not guards.is_deny(), target: FLOW_ISSUE_TICKET.ASK_HEALTH_BOOK}
+      - name: FLOW_ISSUE_TICKET.ASK_HEALTH_BOOK.WARN_NO_HEALTH_BOOK
+        on entry: actions.require_health_book_first()
+        transitions:
+        - {event: CONFIRM_YES, target: ORCHESTRATING}
+      - name: FLOW_ISSUE_TICKET.CONFIRM
+        on entry: actions.create_ticket()
+        transitions:
+        - {event: CONFIRM_YES, target: FLOW_ISSUE_TICKET.DONE}
+        - {event: CONFIRM_NO, action: actions.reset_flow(),  target: ORCHESTRATING}
+      - name: FLOW_ISSUE_TICKET.GATHER
+        initial: FLOW_ISSUE_TICKET.GATHER.ASK_SERVICE_PACKAGE
+        states:
+        - name: FLOW_ISSUE_TICKET.GATHER.ASK_SERVICE_PACKAGE
+          on entry: actions.ask_slot_service_package()
+          transitions:
+          - {event: USER_MESSAGE, guard:  guards.slot_filled('service_type') and guards.slot_filled('department_id'),
+             target: FLOW_ISSUE_TICKET.CONFIRM}
+          - {event: USER_MESSAGE, guard: guards.slot_filled('service_type') and not guards.slot_filled('department_id'), 
+             target: FLOW_ISSUE_TICKET.GATHER.ASK_DEPARTMENT}
+          - {event: USER_MESSAGE, guard: not guards.slot_filled('service_type'), action: actions.ask_slot_service_package(), 
+             target: FLOW_ISSUE_TICKET.GATHER.ASK_SERVICE_PACKAGE}
+      - name: FLOW_ISSUE_TICKET.GATHER.ASK_DEPARTMENT
+        on entry: actions.ask_slot_department()
+        transitions:
+        - {event: USER_MESSAGE, guard: guards.slot_filled('service_type') and guards.slot_filled('department_id'), 
+           action: actions.confirm_slots(), target: FLOW_ISSUE_TICKET.CONFIRM}
+        - {event: USER_MESSAGE, guard: not guards.slot_filled('service_type'), target: FLOW_ISSUE_TICKET.GATHER.ASK_SERVICE_PACKAGE}
+        - {action: actions.ask_slot_department(), event: USER_MESSAGE, guard: not guards.slot_filled('department_id'), target: FLOW_ISSUE_TICKET.GATHER.ASK_DEPARTMENT}
+      transitions:
+      - {action: actions.reset_flow(), event: CANCEL_FLOW, target: ORCHESTRATING}
+      - {action: actions.on_timeout(), event: TIMEOUT, target: END}
+      - {event: RESET_CONVERSATION, action: actions.reset_flow(), target: ORCHESTRATING}
+
+
+    - initial: FLOW_INFO_LOOKUP.EVALUATE
+      name: FLOW_INFO_LOOKUP
+      states:
+      - {name: FLOW_INFO_LOOKUP.DONE, type: final}
+      - name: FLOW_INFO_LOOKUP.EVALUATE
+        transitions:
+        - {guard: guards.info_topic_known(), action: actions.prepare_info_lookup(), target: FLOW_INFO_LOOKUP.CALL_LOOKUP}
+        - {guard: not guards.info_topic_known(), target: FLOW_INFO_LOOKUP.ASK_TOPIC}
+      - name: FLOW_INFO_LOOKUP.ASK_TOPIC
+        on entry: actions.ask_info_topic()
+        transitions:
+        - {event: completion, guard: guards.is_deny(), target: FLOW_INFO_LOOKUP.DONE}
+        - {event: USER_MESSAGE, guard: guards.info_topic_known() and not guards.is_deny(), action: actions.prepare_info_lookup(), target: FLOW_INFO_LOOKUP.CALL_LOOKUP}
+        - {event: USER_MESSAGE, guard: not guards.info_topic_known() and not guards.is_deny(), target: FLOW_INFO_LOOKUP.ASK_TOPIC}
+      - name: FLOW_INFO_LOOKUP.CALL_LOOKUP
+        on entry: actions.answer_info_lookup()
+        transitions:
+        - {target: FLOW_INFO_LOOKUP.ASK_TOPIC}
+        on exit: |
+          actions.clear_info_topic()
+          actions.ask_more_info()
+      transitions:
+      - {event: completion, action: actions.finish_info_lookup(), target: END}
+      - {action: actions.reset_flow(), event: CANCEL_FLOW, target: ORCHESTRATING}
+      - {action: actions.on_timeout(), event: TIMEOUT, target: END}
+      - {event: RESET_CONVERSATION, action: actions.reset_flow(), target: ORCHESTRATING}
+
+
+    - name: ORCHESTRATING
+      on entry: actions.prompt_orchestrating_hint
+      transitions:
+      - {action: actions.init_flow('issue_ticket'), event: USER_MESSAGE, guard: 
+          guards.intent_is('issue_ticket') and guards.confidence_gte(0.6), 
+          target: FLOW_ISSUE_TICKET}
+      - {action: actions.init_flow('triage'), event: USER_MESSAGE, guard: 
+          guards.intent_is('triage') and guards.confidence_gte(0.6), target: 
+          FLOW_TRIAGE}
+      - {action: actions.init_flow('info_lookup'), event: USER_MESSAGE, guard: 
+          guards.intent_is('faq') and guards.confidence_gte(0.45), target: FLOW_INFO_LOOKUP}
+      - {action: actions.reset_flow(), event: CANCEL_FLOW, target: ORCHESTRATING}
+      - {action: actions.on_timeout(), event: TIMEOUT, target: END}
+      - {action: actions.reset_flow(), event: RESET_CONVERSATION, target: ORCHESTRATING}
+    - name: START
+      on entry: session.init; metrics.mark_session_start
+      transitions:
+      - {event: USER_MESSAGE, target: ORCHESTRATING}

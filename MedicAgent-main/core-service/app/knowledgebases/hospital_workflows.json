@@ -1,0 +1,205 @@
+{
+  "metadata": {
+    "doc_id": "hospital_workflows_v1",
+    "source_file": "compiled_manual.xlsx",
+    "title": "Quy trình nghiệp vụ bệnh viện (tham khảo Bệnh viện 115)",
+    "issued_date": "2024-09-01",
+    "version": "1.0"
+  },
+  "chapters": [
+    {
+      "id": "chapter_outpatient",
+      "label": "Quy trình khám chữa bệnh",
+      "title": "Quy trình tiếp nhận và khám ngoại trú",
+      "articles": [
+        {
+          "id": "workflow_outpatient",
+          "label": "Quy trình 1",
+          "title": "Quy trình khám bệnh ngoại trú đầy đủ",
+          "keywords": [
+            "quy trình khám bệnh",
+            "quy trinh ngoai tru",
+            "luong tiep nhan",
+            "thu tuc kham",
+            "outpatient workflow"
+          ],
+          "qas": [
+            "Quy trình khám bệnh ngoại trú tại bệnh viện gồm những bước nào?",
+            "Khách đến khám lần đầu cần chuẩn bị giấy tờ gì và đi qua các bước nào?"
+          ],
+          "paragraphs": [
+            {
+              "text": "Quy trình khám BHYT: lấy số thứ tự, đo sinh hiệu, bác sĩ khám, đóng phí cận lâm sàng, thực hiện xét nghiệm, khám lại hoặc nhập viện, kê toa, thanh toán và nhận thuốc.",
+              "qas": [
+                "Quy trình khám BHYT gồm những bước nào?"
+              ]
+            }
+          ],
+          "flowchart": {
+            "id": "workflow_outpatient",
+            "title": "Quy trình khám bệnh BHYT",
+            "description": "Vòng đời khám BHYT: lấy số, đo sinh hiệu, khám, làm cận lâm sàng, đóng phí chênh lệch, khám lại, kê toa và nhận thuốc.",
+            "image_url": "https://27.74.243.55:7443/knowledge-assets/hospital1/quytrinh1.jpg",
+            "steps": [
+              {
+                "id": "lay_so",
+                "title": "Lấy số thứ tự",
+                "description": "Quét CCCD/thẻ BHYT tại kiosk hoặc quầy để nhận số khám và phiếu tiếp nhận.",
+                "documents": ["CCCD/CMND", "Thẻ BHYT", "Giấy hẹn khám (nếu có)"]
+              },
+              {
+                "id": "do_sinh_hieu",
+                "title": "Điều dưỡng đo mạch, huyết áp",
+                "description": "Điều dưỡng đo sinh hiệu, ghi nhận triệu chứng ban đầu và hướng dẫn quy trình."
+              },
+              {
+                "id": "kham_bs_lan1",
+                "title": "Bác sĩ khám bệnh",
+                "description": "Khám lâm sàng lần đầu, chỉ định cận lâm sàng hoặc yêu cầu nhập viện nếu cần."
+              },
+              {
+                "id": "dong_phi_cls",
+                "title": "Đóng phí chênh lệch cận lâm sàng",
+                "description": "Thanh toán phần chi phí ngoài phạm vi BHYT trước khi thực hiện xét nghiệm, chẩn đoán hình ảnh.",
+                "documents": ["Phiếu chỉ định", "Thẻ BHYT"]
+              },
+              {
+                "id": "thuc_hien_cls",
+                "title": "Xét nghiệm, CT, MRI, nội soi…",
+                "description": "Thực hiện các xét nghiệm được chỉ định, trả kết quả về cho bác sĩ.",
+                "note": "Giữ phiếu thu, hóa đơn, kết quả xét nghiệm khi quay lại phòng khám."
+              },
+              {
+                "id": "nhap_vien_hoac_kham_lai",
+                "title": "Nhập viện / Bác sĩ khám lại",
+                "description": "Bác sĩ đọc kết quả cận lâm sàng, quyết định nhập viện hay tiếp tục điều trị ngoại trú."
+              },
+              {
+                "id": "ke_toa",
+                "title": "Kê toa thuốc",
+                "description": "Bác sĩ kê toa, dặn dò chăm sóc, hẹn tái khám nếu cần."
+              },
+              {
+                "id": "quyet_toan",
+                "title": "Thanh toán chi phí khám",
+                "description": "Quyết toán chi phí còn lại theo chế độ BHYT.",
+                "documents": ["Biên lai thu tiền", "Thẻ BHYT"]
+              },
+              {
+                "id": "lanh_thuoc",
+                "title": "Nhận thuốc",
+                "description": "Mang toa đến nhà thuốc bệnh viện để nhận thuốc và tư vấn sử dụng.",
+                "documents": ["Toa thuốc", "Biên lai"]
+              }
+            ],
+            "edges": [
+              ["lay_so", "do_sinh_hieu"],
+              ["do_sinh_hieu", "kham_bs_lan1"],
+              ["kham_bs_lan1", "dong_phi_cls"],
+              ["dong_phi_cls", "thuc_hien_cls"],
+              ["thuc_hien_cls", "nhap_vien_hoac_kham_lai"],
+              ["nhap_vien_hoac_kham_lai", "ke_toa"],
+              ["ke_toa", "quyet_toan"],
+              ["quyet_toan", "lanh_thuoc"]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "chapter_administrative",
+      "label": "Quy trình nghiệp vụ khác",
+      "title": "Thanh toán viện phí và ra viện",
+      "articles": [
+        {
+          "id": "workflow_discharge",
+          "label": "Quy trình 2",
+          "title": "Thanh toán viện phí – nhận thuốc ra viện",
+          "keywords": [
+            "quy trinh ra vien",
+            "thanh toan vien phi",
+            "nghiem thu ho so",
+            "xac nhan bhyt"
+          ],
+          "qas": [
+            "Làm sao để hoàn tất thủ tục thanh toán viện phí sau điều trị?",
+            "Các bước ra viện gồm những gì?"
+          ],
+          "paragraphs": [
+            {
+              "text": "Quy trình khám dịch vụ: lấy số ưu tiên, điều dưỡng đo sinh hiệu, bác sĩ khám, đóng phí cận lâm sàng, thực hiện xét nghiệm, bác sĩ khám lại, kê toa, thanh toán chi phí và mua thuốc.",
+              "qas": [
+                "Quy trình khám dịch vụ gồm những bước nào?"
+              ]
+            }
+          ],
+          "flowchart": {
+            "id": "workflow_discharge",
+            "title": "Quy trình khám bệnh dịch vụ",
+            "description": "Lấy số ưu tiên, điều dưỡng đo sinh hiệu, bác sĩ khám, làm cận lâm sàng, đóng phí, kê toa, thanh toán và nhận thuốc/mua thêm nếu cần.",
+            "image_url": "https://27.74.243.55:7443/knowledge-assets/hospital_1/quytrinh2.jpg",
+            "steps": [
+              {
+                "id": "dv_layso",
+                "title": "Lấy số thứ tự",
+                "description": "Đăng ký gói dịch vụ hoặc VIP tại quầy/kiosk, nhận số và hóa đơn tạm ứng." ,
+                "documents": ["CCCD/CMND"]
+              },
+              {
+                "id": "dv_sinhhieu",
+                "title": "Điều dưỡng đo mạch, huyết áp",
+                "description": "Điều dưỡng đo sinh hiệu và hướng dẫn đến phòng khám." 
+              },
+              {
+                "id": "dv_bs_kham",
+                "title": "Bác sĩ khám",
+                "description": "Khám lâm sàng, yêu cầu cận lâm sàng nếu cần." 
+              },
+              {
+                "id": "dv_dongphi_cls",
+                "title": "Đóng phí cận lâm sàng",
+                "description": "Thanh toán chi phí xét nghiệm/siêu âm/CT/MRI...", 
+                "documents": ["Phiếu chỉ định", "Hóa đơn"]
+              },
+              {
+                "id": "dv_thuchien_cls",
+                "title": "Xét nghiệm, siêu âm, X-Quang...",
+                "description": "Thực hiện các dịch vụ được chỉ định, kết quả trả nhanh cho bác sĩ." 
+              },
+              {
+                "id": "dv_kham_lai",
+                "title": "Bác sĩ khám lại",
+                "description": "Nhận kết quả, quyết định nhập viện hoặc kê toa." 
+              },
+              {
+                "id": "dv_ke_toa",
+                "title": "Kê toa thuốc",
+                "description": "Bác sĩ kê toa, dặn dò và hẹn tái khám." 
+              },
+              {
+                "id": "dv_thanh_toan",
+                "title": "Thanh toán chi phí khám",
+                "description": "Đối chiếu chi phí thực tế, hoàn hoặc bù phần chênh lệch." 
+              },
+              {
+                "id": "dv_nhan_thuoc",
+                "title": "Mua/nhận thuốc",
+                "description": "Đến nhà thuốc dịch vụ nhận thuốc theo toa hoặc mua thêm nếu cần." 
+              }
+            ],
+            "edges": [
+              ["dv_layso", "dv_sinhhieu"],
+              ["dv_sinhhieu", "dv_bs_kham"],
+              ["dv_bs_kham", "dv_dongphi_cls"],
+              ["dv_dongphi_cls", "dv_thuchien_cls"],
+              ["dv_thuchien_cls", "dv_kham_lai"],
+              ["dv_kham_lai", "dv_ke_toa"],
+              ["dv_ke_toa", "dv_thanh_toan"],
+              ["dv_thanh_toan", "dv_nhan_thuoc"]
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

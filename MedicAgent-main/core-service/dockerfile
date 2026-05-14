@@ -1,0 +1,28 @@
+# syntax=docker/dockerfile:1
+
+FROM python:3.11-slim
+
+WORKDIR /app
+
+COPY requirements.txt .
+
+RUN apt-get update && apt-get install -y --no-install-recommends curl ca-certificates tar unzip \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Install Qdrant binary
+RUN curl -L https://github.com/qdrant/qdrant/releases/download/v1.8.2/qdrant-x86_64-unknown-linux-gnu.tar.gz -o /tmp/qdrant.tar.gz \
+    && tar -xzf /tmp/qdrant.tar.gz -C /usr/local/bin qdrant \
+    && chmod +x /usr/local/bin/qdrant \
+    && rm -f /tmp/qdrant.tar.gz
+
+COPY . .
+
+RUN chmod +x /app/start.sh
+
+EXPOSE 8080 6333
+
+ENV PYTHONUNBUFFERED=1
+
+CMD ["/app/start.sh"]

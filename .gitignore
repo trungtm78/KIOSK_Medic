@@ -1,0 +1,105 @@
+# ============================================================
+# Secrets — NEVER COMMIT
+# ============================================================
+.env
+.env.local
+.env.*.local
+*.env
+!.env.example
+!.env.*.example
+
+# ============================================================
+# Python
+# ============================================================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ============================================================
+# Node / Next.js
+# ============================================================
+node_modules/
+.next/
+out/
+build/
+dist/
+.turbo/
+.swc/
+*.tsbuildinfo
+next-env.d.ts
+
+# ============================================================
+# Logs
+# ============================================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ============================================================
+# OS / Editor
+# ============================================================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# Model caches & large binaries
+# ============================================================
+model_cache/
+*.bin
+*.onnx
+*.safetensors
+*.pt
+*.pth
+*.joblib
+
+# Allow specific model artifacts (chat-service intent/syndrome classifiers)
+!MedicAgent-main/chat-service/models/**/*.joblib
+!MedicAgent-main/chat-service/models/**/*.onnx
+!MedicAgent-main/chat-service/models/**/config.json
+!MedicAgent-main/chat-service/models/**/label_encoder.json
+
+# ============================================================
+# Data / cache directories
+# ============================================================
+MedicAgent-main/core-service/data/indexes/
+MedicAgent-main/data/dump/
+MedicAgent-main/gateway/logs/
+
+# ============================================================
+# Test artifacts
+# ============================================================
+coverage/
+.coverage
+htmlcov/
+*.cover
+
+# ============================================================
+# Docker
+# ============================================================
+*.pid
+
+# ============================================================
+# Local-only files
+# ============================================================
+*.bak
+*.old
+*.orig
+.tmp/
+tmp/

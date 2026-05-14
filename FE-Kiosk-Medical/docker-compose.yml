@@ -1,0 +1,17 @@
+services:
+  medicagent_fe:
+    container_name: medicagent_fe
+    build:
+      context: .
+    env_file:
+      - .env
+    ports:
+      - "8010:3000"
+    restart: unless-stopped
+    networks:
+      - medicagent
+
+networks:
+  medicagent:
+    name: medicagent_default
+    external: true
