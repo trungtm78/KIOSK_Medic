@@ -285,8 +285,29 @@ export const KioskProvider = ({ children }: { children: ReactNode }) => {
     setTicket(null);
     setupEventSource(newConvId);
     startListening();
-    setTimeout(() => sendChatMessage("xin chào"), 500);
-  }, [setupEventSource, startListening, sendChatMessage]);
+    // P2.3 / Codex #16 fix: previously called sendChatMessage("xin chào")
+    // which closed over stale conversationId (still null from useState init).
+    // Now POST directly with newConvId.
+    setTimeout(() => {
+      void fetch(`${CHAT_API_BASE}/${newConvId}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "X-Tenant-Id": TENANT_ID,
+          "Idempotency-Key": crypto.randomUUID(),
+        },
+        body: JSON.stringify({
+          role: "user",
+          content: "xin chào",
+          attachments: [{}],
+          stream: true,
+          options: {},
+        }),
+      }).catch((err) => {
+        console.error("[KioskProvider] startSession initial message failed:", err);
+      });
+    }, 500);
+  }, [setupEventSource, startListening]);
 
   const stopSession = useCallback(() => {
     stopListening();

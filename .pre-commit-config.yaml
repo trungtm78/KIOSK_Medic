@@ -1,0 +1,44 @@
+# P1.6 - Pre-commit hooks for Kiosk Medic.
+# Codex #21 advice: gradual rollout. Start with safe auto-fix rules
+# (formatting + import sort + obvious bugs). Stricter rules
+# (no-explicit-any, no-console) enable AFTER call sites migrate.
+#
+# Install:  pip install pre-commit && pre-commit install
+# Run all:  pre-commit run --all-files
+# Skip:     git commit --no-verify (use sparingly)
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+        args: ["--maxkb=1024"]
+      - id: detect-private-key
+      - id: check-merge-conflict
+
+  # Python: Ruff handles linting + formatting (replaces black + flake8 + isort)
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.7.4
+    hooks:
+      - id: ruff
+        name: ruff (auto-fix safe rules only - E, F, I, UP)
+        args: [--fix, --exit-non-zero-on-fix]
+      - id: ruff-format
+        name: ruff-format
+
+  # Frontend: Prettier for TS/TSX/JSON/Markdown
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.1.0
+    hooks:
+      - id: prettier
+        types_or: [javascript, jsx, ts, tsx, json, markdown, yaml]
+        exclude: |
+          (?x)^(
+            FE-Kiosk-Medical/package-lock\.json|
+            MedicAgent-main/.*models/.*\.json|
+            .*/\.next/.*
+          )$

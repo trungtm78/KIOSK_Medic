@@ -1,0 +1,45 @@
+# P1.6 - Ruff configuration for backend Python services.
+# Codex #21 gradual rollout: start with safe auto-fix rules,
+# add B/SIM after call sites clean up.
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+# Excluded paths (generated, vendor, model artifacts)
+exclude = [
+    ".venv",
+    "venv",
+    "__pycache__",
+    "*.pyc",
+    "data/indexes",
+    "models",
+    "alembic/versions",
+]
+
+[tool.ruff.lint]
+# Phase 1 (current): auto-fixable safe rules
+# - E: pycodestyle errors
+# - F: pyflakes (unused imports, undefined names)
+# - I: isort (import sorting)
+# - UP: pyupgrade (syntax modernization)
+select = ["E", "F", "I", "UP"]
+
+# Future phases (enable after call sites are clean):
+# - B: bugbear (likely bugs - mutable default args, broad except)
+# - SIM: simplify (refactor opportunities)
+# - N: naming conventions
+# - ARG: unused arguments
+
+ignore = [
+    "E501",  # line too long - handled by formatter
+    "UP007", # `Optional[X]` style still valid in 3.11
+]
+
+[tool.ruff.lint.isort]
+known-first-party = ["app"]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+line-ending = "auto"
