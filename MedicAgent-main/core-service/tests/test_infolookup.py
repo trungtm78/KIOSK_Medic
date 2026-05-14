@@ -3,6 +3,8 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
+import pytest
+
 
 def _ensure_app_on_path() -> None:
     root = Path(__file__).resolve().parents[1]
@@ -10,6 +12,11 @@ def _ensure_app_on_path() -> None:
         sys.path.append(str(root))
 
 
+@pytest.mark.skip(
+    reason="Integration test - requires Qdrant with embedded knowledgebase. "
+    "Run manually after `docker compose up qdrant` and first /v1/info/lookup call "
+    "to populate embeddings. Will be re-enabled in P3 with proper integration setup."
+)
 def test_lookup_returns_snippet_for_insurance_policy():
     _ensure_app_on_path()
     from app.infolookup.schemas import InfoLookupRequest
