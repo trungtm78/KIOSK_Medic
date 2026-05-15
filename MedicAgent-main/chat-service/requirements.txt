@@ -5,7 +5,7 @@ cachetools==5.3.3
 sismic==1.6.10
 SQLAlchemy==2.0.44
 pymysql==1.1.0
-cryptography
+cryptography==43.0.1
 requests==2.32.3
 numpy==1.26.4
 torch==2.1.2

@@ -1,13 +1,15 @@
 from fastapi import FastAPI, Request, Depends
+from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
 from sqlmodel import SQLModel, Session, select
 from pathlib import Path
 
-from .models import Tenant, TenantFeature, TenantQuota, Role, Permission, RolePermission
-from .seed import seed_initial_data
-from .routers import api_v1
+from .core.cors import parse_cors_origins
 from .core.db import engine, get_session
+from .models import Tenant, TenantFeature, TenantQuota, Role, Permission, RolePermission
+from .routers import api_v1
+from .seed import seed_initial_data
 
 
 TEMPLATES_DIR = Path(__file__).resolve().parent / "templates"
@@ -16,6 +18,14 @@ templates = Jinja2Templates(directory=str(TEMPLATES_DIR))
 
 def create_app() -> FastAPI:
     app = FastAPI(title="Admin Service", version="0.1.0")
+
+    app.add_middleware(
+        CORSMiddleware,
+        allow_origins=parse_cors_origins(),
+        allow_credentials=True,
+        allow_methods=["*"],
+        allow_headers=["*"],
+    )
 
     @app.on_event("startup")
     def _on_startup() -> None:

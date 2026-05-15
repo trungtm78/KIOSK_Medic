@@ -96,6 +96,13 @@ htmlcov/
 *.pid
 
 # ============================================================
+# gstack local data (security reports, brain sync, learnings)
+# Security reports contain finding evidence + attack scenarios -
+# never commit to public repo.
+# ============================================================
+.gstack/
+
+# ============================================================
 # Local-only files
 # ============================================================
 *.bak
