@@ -31,7 +31,13 @@ def create_app() -> FastAPI:
         allow_headers=["*"],
     )
     app.include_router(chat_router, prefix="/v1")
-    app.include_router(debug_router, prefix="/v1")
+
+    # Finding #7 (CSO audit) - debug router env-gated.
+    # Production exposes destructive endpoints (DELETE /v1/debug/conversations)
+    # unauthenticated. Only register in non-production environments.
+    if os.getenv("APP_ENV", "development").lower() != "production":
+        app.include_router(debug_router, prefix="/v1")
+
     return app
 
 
