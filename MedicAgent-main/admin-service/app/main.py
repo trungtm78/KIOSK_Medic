@@ -42,7 +42,11 @@ def create_app() -> FastAPI:
             seed_initial_data(s)
 
     # API routers
-    app.include_router(api_v1.router, prefix="/v1", tags=["v1"]) 
+    app.include_router(api_v1.router, prefix="/v1", tags=["v1"])
+
+    # W4.7 - Kiosk token management (CSO Finding #2)
+    from .routers import kiosks
+    app.include_router(kiosks.router, prefix="/v1", tags=["kiosks"])
 
     # Simple web views
     @app.get("/", response_class=HTMLResponse)

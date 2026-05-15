@@ -35,6 +35,7 @@ interface ApiConfig {
   mapBase: string;
   ttsUrl: string;
   tenantId: string;
+  kioskToken: string;
 }
 
 const _DEFAULT_CONFIG: ApiConfig = {
@@ -43,6 +44,8 @@ const _DEFAULT_CONFIG: ApiConfig = {
   ttsUrl:
     process.env.TTS_API_URL || "https://medicagent.cybertech.com.vn/tts",
   tenantId: "1",
+  // CSO Finding #2 fix - per-kiosk auth token from env (configured at deploy)
+  kioskToken: process.env.NEXT_PUBLIC_KIOSK_TOKEN || "",
 };
 
 let _config: ApiConfig = { ..._DEFAULT_CONFIG };
@@ -52,11 +55,15 @@ export function configureApi(overrides?: Partial<ApiConfig>) {
 }
 
 function _headers(extra?: Record<string, string>): Record<string, string> {
-  return {
+  const headers: Record<string, string> = {
     "Content-Type": "application/json",
     "X-Tenant-Id": _config.tenantId,
     ...(extra ?? {}),
   };
+  if (_config.kioskToken) {
+    headers["X-Kiosk-Token"] = _config.kioskToken;
+  }
+  return headers;
 }
 
 async function _jsonRequest<T>(
