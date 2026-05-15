@@ -6,7 +6,7 @@ from sqlmodel import SQLModel, Session, select
 from pathlib import Path
 
 from .core.cors import parse_cors_origins
-from .core.db import engine, get_session
+from .core.db import get_engine, get_session
 from .models import (
     KioskToken,
     Permission,
@@ -37,8 +37,13 @@ def create_app() -> FastAPI:
 
     @app.on_event("startup")
     def _on_startup() -> None:
-        SQLModel.metadata.create_all(engine)
-        with Session(engine) as s:
+        # QA Bug #5 fix: use real Engine directly, not _LazyEngineProxy.
+        # The proxy's __getattr__ caused QueuePool overflow on MySQL because
+        # each attribute access could trigger new pool checkouts in some
+        # SQLAlchemy internal paths.
+        real_engine = get_engine()
+        SQLModel.metadata.create_all(real_engine)
+        with Session(real_engine) as s:
             seed_initial_data(s)
 
     # API routers
