@@ -7,7 +7,15 @@ from pathlib import Path
 
 from .core.cors import parse_cors_origins
 from .core.db import engine, get_session
-from .models import Tenant, TenantFeature, TenantQuota, Role, Permission, RolePermission
+from .models import (
+    KioskToken,
+    Permission,
+    Role,
+    RolePermission,
+    Tenant,
+    TenantFeature,
+    TenantQuota,
+)
 from .routers import api_v1
 from .seed import seed_initial_data
 
