@@ -7,6 +7,11 @@ RUN pip install --no-cache-dir -r /app/requirements.txt
 
 COPY app /app/app
 
+# CSO Finding #5 - run as non-root user
+RUN groupadd -r app && useradd -r -g app -d /app -s /bin/false appuser \
+    && chown -R appuser:app /app
+USER appuser
+
 EXPOSE 8090
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8090"]
 

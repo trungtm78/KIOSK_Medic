@@ -41,6 +41,12 @@ RUN pip install --no-cache-dir --upgrade pip \
 COPY app ./app
 COPY testclient ./testclient
 
+# CSO Finding #5 - run as non-root user
+RUN groupadd -r app && useradd -r -g app -d /app -s /bin/false appuser \
+    && mkdir -p /app/.cache \
+    && chown -R appuser:app /app
+USER appuser
+
 EXPOSE 8000
 
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

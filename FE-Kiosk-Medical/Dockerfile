@@ -31,6 +31,11 @@ COPY --from=builder /app/package*.json ./
 # Cài các dependency cần thiết cho production
 RUN npm install --omit=dev
 
+# CSO Finding #5 - run as non-root user (Alpine syntax)
+RUN addgroup -S app && adduser -S -G app -h /app -s /sbin/nologin appuser \
+    && chown -R appuser:app /app
+USER appuser
+
 # Expose cổng chạy app
 EXPOSE 3000
 
